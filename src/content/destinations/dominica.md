@@ -2,7 +2,7 @@
 title: "Dominica"
 country: "Dominica"
 region: "Caribbean"
-summary: "Dominica in Dominica belongs on a beautiful-places list for its rainforest and waterfalls character, memorable scenery, and strong sense of place."
+summary: "The Caribbean's nature island rises in volcanoes, rainforest, boiling lakes, whale water, and waterfall trails without resort gloss."
 mainImage: "https://inaturalist-open-data.s3.amazonaws.com/photos/340681326/original.jpg"
 imageAlt: "Dominica in Dominica"
 imageCredit: "Setophaga dominica dominica by fishkeeper (BY 4.0) via Openverse"

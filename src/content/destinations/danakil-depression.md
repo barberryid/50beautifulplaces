@@ -2,7 +2,7 @@
 title: "Danakil Depression"
 country: "Ethiopia"
 region: "Africa"
-summary: "Danakil Depression in Ethiopia belongs on a beautiful-places list for its desert and geology character, memorable scenery, and strong sense of place."
+summary: "A volcanic rift below sea level where salt caravans, sulphur springs, lava, and Afar desert camps feel almost extraterrestrial."
 mainImage: "https://upload.wikimedia.org/wikipedia/commons/4/48/Volcano_eruption_at_the_Danakil_depression%2C_Ethiopia..jpg"
 imageAlt: "Danakil Depression in Ethiopia"
 imageCredit: "Volcano eruption at the Danakil depression, Ethiopia. by Iany 1958 (BY SA 4.0) via Openverse"

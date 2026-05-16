@@ -2,7 +2,7 @@
 title: "Boracay"
 country: "Philippines"
 region: "Asia"
-summary: "Boracay in Philippines belongs on a beautiful-places list for its beach and islands character, memorable scenery, and strong sense of place."
+summary: "Four kilometres of powder-white sand face west into blazing sunsets, with paraw sails, reef water, and island energy after dark."
 mainImage: "https://live.staticflickr.com/65535/52568926928_ab1141767a_b.jpg"
 imageAlt: "Boracay in Philippines"
 imageCredit: "Punta Bunga Cove, Boracay, Philippines by . Ray in Manila (BY 2.0) via Openverse"

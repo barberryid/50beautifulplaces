@@ -2,7 +2,7 @@
 title: "Annapurna"
 country: "Nepal"
 region: "Asia"
-summary: "Annapurna in Nepal belongs on a beautiful-places list for its mountains and trekking character, memorable scenery, and strong sense of place."
+summary: "Village trails climb from rice terraces to glacier amphitheatres beneath some of the Himalaya's most overwhelming peaks."
 mainImage: "https://live.staticflickr.com/2643/3723428699_690461a10c.jpg"
 imageAlt: "Annapurna in Nepal"
 imageCredit: "Annapurna, Nepal by Richie 33 (BY 2.0) via Openverse"

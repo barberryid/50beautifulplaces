@@ -2,7 +2,7 @@
 title: "Arniston"
 country: "South Africa"
 region: "Africa"
-summary: "Arniston in South Africa belongs on a beautiful-places list for its coast and villages character, memorable scenery, and strong sense of place."
+summary: "A whitewashed fishing village near Africa's southern tip, with sea caves, whale cliffs, and salt-bright Cape coast silence."
 mainImage: "https://live.staticflickr.com/4095/4798394148_7928ee1d03_b.jpg"
 imageAlt: "Arniston in South Africa"
 imageCredit: "Arniston, South Africa by Haphazard Traveler (BY ND 2.0) via Openverse"

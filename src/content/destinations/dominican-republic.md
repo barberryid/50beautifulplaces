@@ -2,7 +2,7 @@
 title: "Dominican Republic"
 country: "Dominican Republic"
 region: "Caribbean"
-summary: "Dominican Republic in Dominican Republic belongs on a beautiful-places list for its beach and islands character, memorable scenery, and strong sense of place."
+summary: "Beyond Punta Cana, Hispaniola opens into colonial streets, whale bays, kite beaches, mountain forests, and the Caribbean's highest peak."
 mainImage: "https://live.staticflickr.com/2514/3897251229_3d848d22fe_b.jpg"
 imageAlt: "Dominican Republic in Dominican Republic"
 imageCredit: "Excellence Punta Cana by tedmurphy (BY 2.0) via Openverse"

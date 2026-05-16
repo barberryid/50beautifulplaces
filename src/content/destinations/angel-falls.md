@@ -2,7 +2,7 @@
 title: "Angel Falls"
 country: "Venezuela"
 region: "South America"
-summary: "Angel Falls in Venezuela belongs on a beautiful-places list for its waterfalls and jungle character, memorable scenery, and strong sense of place."
+summary: "A 979-metre waterfall drops from a lost-world tepui into rainforest, reached by canoe through Canaima's storm-lit rivers."
 mainImage: "https://live.staticflickr.com/3184/2646362424_23eeec57fa_b.jpg"
 imageAlt: "Angel Falls in Venezuela"
 imageCredit: "Salto Angel (Angel Falls) Venezuela by benedict.adam (BY 2.0) via Openverse"

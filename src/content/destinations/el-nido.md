@@ -2,7 +2,7 @@
 title: "El Nido"
 country: "Philippines"
 region: "Asia"
-summary: "El Nido in Philippines belongs on a beautiful-places list for its islands and lagoons character, memorable scenery, and strong sense of place."
+summary: "Bacuit Bay is a maze of limestone towers, secret lagoons, reef shallows, and white beaches made for boat days."
 mainImage: "https://live.staticflickr.com/8345/8175106370_cbd2abd513.jpg"
 imageAlt: "El Nido in Philippines"
 imageCredit: "El Nido, Philippines by Eardex.com (BY 2.0) via Openverse"

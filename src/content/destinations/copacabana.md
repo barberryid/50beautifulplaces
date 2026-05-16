@@ -2,7 +2,7 @@
 title: "Copacabana"
 country: "Brazil"
 region: "South America"
-summary: "Copacabana in Brazil belongs on a beautiful-places list for its beach and cities character, memorable scenery, and strong sense of place."
+summary: "Rio's legendary urban beach pulses between granite headlands, samba nights, mosaic promenades, football, surf, and Sugarloaf views."
 mainImage: "https://live.staticflickr.com/3447/3741021128_a89ce51781_b.jpg"
 imageAlt: "Copacabana Beach in Rio de Janeiro, Brazil"
 imageCredit: "Copacabana Beach - Rio de Janeiro by Christian Haugen (BY 2.0) via Openverse"

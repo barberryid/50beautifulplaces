@@ -2,7 +2,7 @@
 title: "Denali National Park"
 country: "USA"
 region: "North America"
-summary: "Denali National Park in USA belongs on a beautiful-places list for its mountains and wildlife character, memorable scenery, and strong sense of place."
+summary: "One road enters an immense Alaskan wilderness of grizzlies, caribou, tundra, glaciers, and North America's highest mountain."
 mainImage: "https://live.staticflickr.com/7003/6808653877_fe55ee641a_b.jpg"
 imageAlt: "Denali National Park in USA"
 imageCredit: "Climbers land on a glacier in Denali National Park & Preserve by AlaskaNPS (BY 2.0) via Openverse"
