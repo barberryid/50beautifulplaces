@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="About 50 Beautiful Places"
+  description="Learn about the editorial approach behind 50 Beautiful Places, a lightweight travel inspiration site built with Astro."
+>
+  <section class="page-hero compact">
+    <p class="eyebrow">About the project</p>
+    <h1>A calm, maintainable travel guide library.</h1>
+    <p>
+      50 Beautiful Places is structured for image-led destination stories with practical notes,
+      clean metadata, static pages, and a publishing workflow that respects Netlify build minutes.
+    </p>
+  </section>
+
+  <section class="section-narrow prose">
+    <h2>Editorial approach</h2>
+    <p>
+      The site favors concise guides that help readers decide where to go and what kind of trip a place rewards.
+      New destinations can be added as Markdown files in the Astro content collection.
+    </p>
+    <h2>Publishing approach</h2>
+    <p>
+      During heavy iteration, build and preview locally before using Netlify CLI previews. Push stable grouped commits
+      to GitHub when the work is ready for an automatic Netlify production build.
+    </p>
+  </section>
+</BaseLayout>

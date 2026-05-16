@@ -1,0 +1,28 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  country: string;
+  region: string;
+  summary: string;
+  image: string;
+  alt: string;
+  tags: string[];
+}
+
+const { href, title, country, region, summary, image, alt, tags } = Astro.props;
+---
+
+<article class="destination-card">
+  <a href={href} aria-label={`Read the ${title} guide`}>
+    <img src={image} alt={alt} loading="lazy" />
+    <div class="card-body">
+      <p class="eyebrow">{region} / {country}</p>
+      <h3>{title}</h3>
+      <p>{summary}</p>
+      <div class="tag-row" aria-label="Destination tags">
+        {tags.slice(0, 3).map((tag) => <span>{tag}</span>)}
+      </div>
+    </div>
+  </a>
+</article>

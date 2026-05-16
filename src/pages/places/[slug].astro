@@ -1,0 +1,47 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const destinations = await getCollection("destinations");
+  return destinations.map((place) => ({
+    params: { slug: place.id },
+    props: { place }
+  }));
+}
+
+const { place } = Astro.props;
+const { Content } = await render(place);
+---
+
+<BaseLayout title={place.data.seoTitle} description={place.data.seoDescription} image={place.data.mainImage}>
+  <article class="guide">
+    <header class="guide-hero">
+      <img src={place.data.mainImage} alt={place.data.imageAlt} />
+      <div>
+        <p class="eyebrow">{place.data.region} / {place.data.country}</p>
+        <h1>{place.data.title}</h1>
+        <p>{place.data.summary}</p>
+      </div>
+    </header>
+
+    <section class="guide-facts" aria-label="Destination facts">
+      <div>
+        <span>Best time</span>
+        <strong>{place.data.bestTime}</strong>
+      </div>
+      <div>
+        <span>Suggested duration</span>
+        <strong>{place.data.duration}</strong>
+      </div>
+      <div>
+        <span>Travel style</span>
+        <strong>{place.data.tags.join(", ")}</strong>
+      </div>
+    </section>
+
+    <div class="guide-content">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

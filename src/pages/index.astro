@@ -1,0 +1,72 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import DestinationCard from "../components/DestinationCard.astro";
+
+const destinations = await getCollection("destinations");
+const featured = destinations.filter((place) => place.data.featured);
+const regions = [...new Set(destinations.map((place) => place.data.region))].sort();
+const hero = featured[0];
+---
+
+<BaseLayout
+  title="50 Beautiful Places"
+  description="A fast, image-led travel inspiration site for discovering beautiful places, scenic routes, and practical destination notes."
+  image={hero.data.mainImage}
+>
+  <section class="hero">
+    <img src={hero.data.mainImage} alt={hero.data.imageAlt} />
+    <div class="hero-content">
+      <p class="eyebrow">Curated travel inspiration</p>
+      <h1>50 Beautiful Places</h1>
+      <p>Field-guide style stories for landscapes worth planning a trip around: coastlines, mountain lakes, forests, villages, deserts, and long roads.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="/places/">Explore places</a>
+        <a class="button secondary" href="#featured">Featured guides</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro section-narrow">
+    <p class="eyebrow">Modern travel guides</p>
+    <h2>Built for dreaming first, planning second.</h2>
+    <p>
+      Each guide keeps the essentials close: why the place is beautiful, when to go,
+      how long to stay, and what to know before you commit the miles.
+    </p>
+  </section>
+
+  <section class="section" id="featured">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Featured destinations</p>
+        <h2>Start with the places that stay with you.</h2>
+      </div>
+      <a href="/places/">View all</a>
+    </div>
+    <div class="destination-grid">
+      {featured.map((place) => (
+        <DestinationCard
+          href={`/places/${place.id}/`}
+          title={place.data.title}
+          country={place.data.country}
+          region={place.data.region}
+          summary={place.data.summary}
+          image={place.data.mainImage}
+          alt={place.data.imageAlt}
+          tags={place.data.tags}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="region-band">
+    <div>
+      <p class="eyebrow">Browse by region</p>
+      <h2>Find a landscape that matches the trip.</h2>
+    </div>
+    <div class="region-list">
+      {regions.map((region) => <a href={`/places/?region=${encodeURIComponent(region)}`}>{region}</a>)}
+    </div>
+  </section>
+</BaseLayout>

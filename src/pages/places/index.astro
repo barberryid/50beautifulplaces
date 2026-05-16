@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import DestinationCard from "../../components/DestinationCard.astro";
+
+const destinations = (await getCollection("destinations")).sort((a, b) => a.data.title.localeCompare(b.data.title));
+const regions = [...new Set(destinations.map((place) => place.data.region))].sort();
+---
+
+<BaseLayout
+  title="Beautiful Places Travel Guides"
+  description="Browse destination guides for scenic places around the world, organized for inspiration and practical trip planning."
+  image={destinations[0].data.mainImage}
+>
+  <section class="page-hero compact">
+    <p class="eyebrow">Destination library</p>
+    <h1>Explore beautiful places</h1>
+    <p>Use this library as the maintainable home for new travel guides, grouped by region, theme, and trip style.</p>
+  </section>
+
+  <section class="filter-strip" aria-label="Regions">
+    <a href="/places/">All</a>
+    {regions.map((region) => <a href={`/places/?region=${encodeURIComponent(region)}`}>{region}</a>)}
+  </section>
+
+  <section class="section">
+    <div class="destination-grid">
+      {destinations.map((place) => (
+        <DestinationCard
+          href={`/places/${place.id}/`}
+          title={place.data.title}
+          country={place.data.country}
+          region={place.data.region}
+          summary={place.data.summary}
+          image={place.data.mainImage}
+          alt={place.data.imageAlt}
+          tags={place.data.tags}
+        />
+      ))}
+    </div>
+  </section>
+</BaseLayout>
