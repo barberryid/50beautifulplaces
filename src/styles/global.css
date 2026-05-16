@@ -595,14 +595,16 @@ p {
 }
 
 .recommendation-grid,
-.best-choice-grid {
+.best-choice-grid,
+.insight-grid {
   display: grid;
   gap: 1rem;
   margin: 1.25rem 0;
 }
 
 .recommendation-grid section,
-.best-choice-grid section {
+.best-choice-grid section,
+.insight-grid section {
   border-left: 4px solid var(--clay);
   background: var(--surface);
   padding: 1rem;
