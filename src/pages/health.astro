@@ -1,0 +1,129 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const waterTools = [
+  ["LARQ Bottle Flip Top", "Chlorine taste/odor and some chemical filtration, depending on the installed filter."],
+  ["LARQ Bottle PureVis", "UV-C treatment for microbes; pair with a compatible filter if you also want chlorine or lead reduction."],
+  ["LifeStraw Go Series", "Useful for bacteria and parasites; check the exact model for pore size, virus protection, and chemical claims."],
+  ["Brita Premium Filtering Water Bottle", "Primarily a taste and chlorine-reduction bottle, not a travel purifier for untreated water."],
+  ["Waatr PureMax 4D", "Marketed as broad protection; verify current independent certifications before relying on it."],
+  ["Grayl", "Designed as a purifier for bacteria, viruses, protozoa, particulates, and some chemicals; confirm model-specific certifications."],
+  ["SteriPEN", "UV treatment for clear water; targets bacteria, viruses, and protozoa but does not remove chemicals or sediment."],
+  ["LARQ PureVis 2", "Combines filtration and UV-C features; verify current filter and UV specifications before travel."]
+];
+---
+
+<BaseLayout
+  title="Travel Health"
+  description="Practical travel-health notes on traveler's diarrhea, food and water hygiene, and water-filter options for destination planning."
+  image="https://upload.wikimedia.org/wikipedia/commons/9/9a/Hand_wash_soap.jpg"
+>
+  <section class="page-hero compact">
+    <p class="eyebrow">Travel health</p>
+    <h1>Stay well enough to enjoy the trip.</h1>
+    <p>
+      A practical guide to traveler's diarrhea, food and water hygiene, and choosing water-treatment tools for different kinds of trips.
+    </p>
+  </section>
+
+  <section class="health-layout section">
+    <article class="health-article">
+      <aside class="health-note">
+        This page is general travel-health information, not medical advice. For personal risks, medicines, vaccines, pregnancy, immune conditions, or persistent symptoms, talk with a qualified clinician or travel-medicine clinic.
+      </aside>
+
+      <h2>Traveler's Diarrhea</h2>
+      <p>
+        Traveler's diarrhea is one of the most common travel-related illnesses. It usually comes from eating or drinking something contaminated with bacteria, viruses, or parasites, especially in places where water treatment, sanitation, or food-handling standards differ from what your body is used to.
+      </p>
+
+      <div class="health-cards">
+        <div>
+          <strong>Bacteria</strong>
+          <p>Bacteria cause many cases. Enterotoxigenic <em>E. coli</em> is a frequent culprit, and contamination can happen during food production, preparation, storage, or serving.</p>
+        </div>
+        <div>
+          <strong>Viruses</strong>
+          <p>Norovirus, rotavirus, and related viruses can spread through contaminated food, water, surfaces, or infected food handlers.</p>
+        </div>
+        <div>
+          <strong>Parasites</strong>
+          <p>Giardia, Cryptosporidium, and other protozoa can cause longer-lasting symptoms and are often linked to unsafe or inadequately treated water.</p>
+        </div>
+      </div>
+
+      <figure class="health-image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Hand_wash_soap.jpg" alt="Soap used for hand washing" loading="lazy" />
+        <figcaption>
+          Hand wash soap by Akshaya govindasamy, CC BY-SA 4.0 via Openverse.
+          <a href="https://commons.wikimedia.org/w/index.php?curid=114078191" rel="noopener noreferrer">Source</a>
+        </figcaption>
+      </figure>
+
+      <h2>How Contamination Happens</h2>
+      <p>
+        The usual pathway is fecal contamination reaching food or water. Sewage can contaminate crops or water sources, untreated water can carry organisms, and poor hand hygiene can transfer germs even when the original food was safe.
+      </p>
+      <p>
+        Hands matter. A food handler who does not wash properly after using the restroom can contaminate a meal. Travelers can also contaminate their own food by eating with unwashed hands after transit, markets, bathrooms, shared surfaces, or handling money.
+      </p>
+
+      <h2>Key Prevention Habits</h2>
+      <ul class="health-list">
+        <li>Wash hands thoroughly with soap and water, especially before eating or preparing food.</li>
+        <li>When soap and water are not available, use an alcohol-based hand sanitizer with at least 60% alcohol, then wash properly when you can.</li>
+        <li>Choose busy, clean-looking food places where hot food is served hot and turnover is high.</li>
+        <li>Be cautious with ice, raw produce washed in unsafe water, unpasteurized dairy, and food that has been sitting out.</li>
+        <li>Use bottled, boiled, filtered, disinfected, or otherwise reliably treated drinking water where tap water is not considered safe.</li>
+      </ul>
+
+      <h2>Travel Water Filters: An Overview</h2>
+      <p>
+        Water treatment is not one-size-fits-all. In a city where the water is already disinfected, you may only care about taste, chlorine, or lead. In rural areas, wilderness settings, or destinations with unreliable treatment, you may need protection against bacteria, viruses, and parasites too.
+      </p>
+
+      <div class="health-checklist" aria-label="Common things travelers try to reduce or treat in water">
+        <span>Chlorine taste/odor</span>
+        <span>Lead or metals</span>
+        <span>Bacteria</span>
+        <span>Viruses</span>
+        <span>Parasites</span>
+      </div>
+
+      <figure class="health-image">
+        <img src="https://live.staticflickr.com/5548/9563929331_c8dda19fcc_b.jpg" alt="Water bottle filling station on a hiking trail" loading="lazy" />
+        <figcaption>
+          Water bottle filling station by Grand Canyon NPS, CC BY 2.0 via Openverse.
+          <a href="https://www.flickr.com/photos/50693818@N08/9563929331" rel="noopener noreferrer">Source</a>
+        </figcaption>
+      </figure>
+
+      <h2>Filter and Purifier Options to Compare</h2>
+      <p>
+        Use this list as a buying checklist, not a certification chart. Product specifications change, and different models from the same brand can do different things. Before relying on any product, check the current manufacturer claims, independent certifications such as NSF/ANSI where relevant, replacement cartridge rules, and whether the device treats viruses.
+      </p>
+
+      <div class="tool-table">
+        {waterTools.map(([name, note]) => (
+          <div>
+            <strong>{name}</strong>
+            <p>{note}</p>
+          </div>
+        ))}
+      </div>
+
+      <h2>Simple Rule of Thumb</h2>
+      <p>
+        Filters physically remove some contaminants; disinfectants and UV devices inactivate germs; activated carbon can improve taste and reduce some chemicals. No single method is perfect for every water source. For higher-risk water, combine methods or choose a purifier designed for the specific threat.
+      </p>
+
+      <h2>Sources</h2>
+      <ul class="source-list">
+        <li><a href="https://wwwnc.cdc.gov/travel/page/travelers-diarrhea.htm" rel="noopener noreferrer">CDC Travelers' Diarrhea</a></li>
+        <li><a href="https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html" rel="noopener noreferrer">CDC Yellow Book: Travelers' Diarrhea</a></li>
+        <li><a href="https://wwwnc.cdc.gov/travel/page/water-disinfection" rel="noopener noreferrer">CDC: Avoid Contaminated Water During Travel</a></li>
+        <li><a href="https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html" rel="noopener noreferrer">CDC: Water Treatment When Hiking, Camping, or Traveling</a></li>
+      </ul>
+    </article>
+  </section>
+</BaseLayout>
