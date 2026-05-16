@@ -5,6 +5,8 @@ region: "North America"
 summary: "Olympic National Park in Washington State, USA belongs on a beautiful-places list for its forest and coast character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Olympic%20National%20Park%20Washington%20State%2C%20USA%20Forest%20travel%20landscape"
 imageAlt: "Olympic National Park travel landscape in Washington State, USA"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Olympic%20National%20Park%20Washington%20State%2C%20USA%20Forest%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Forest","Coast","Mountains"]

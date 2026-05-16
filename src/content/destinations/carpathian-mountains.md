@@ -5,6 +5,8 @@ region: "Europe"
 summary: "Carpathian Mountains in Romania belongs on a beautiful-places list for its mountains and forest character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Carpathian%20Mountains%20Romania%20Mountains%20travel%20landscape"
 imageAlt: "Carpathian Mountains travel landscape in Romania"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Carpathian%20Mountains%20Romania%20Mountains%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Mountains","Forest","Villages"]

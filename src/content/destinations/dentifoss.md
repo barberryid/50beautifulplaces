@@ -5,6 +5,8 @@ region: "Europe"
 summary: "Dentifoss in Iceland belongs on a beautiful-places list for its waterfalls and geology character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Dentifoss%20Iceland%20Waterfalls%20travel%20landscape"
 imageAlt: "Dentifoss travel landscape in Iceland"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Dentifoss%20Iceland%20Waterfalls%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Waterfalls","Geology","Nature"]

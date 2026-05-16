@@ -5,6 +5,8 @@ region: "Oceania"
 summary: "Tonga in Tonga belongs on a beautiful-places list for its islands and ocean character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Tonga%20Tonga%20Islands%20travel%20landscape"
 imageAlt: "Tonga travel landscape in Tonga"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Tonga%20Tonga%20Islands%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Islands","Ocean","Culture"]

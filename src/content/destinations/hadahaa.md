@@ -5,6 +5,8 @@ region: "Asia"
 summary: "Hadahaa in Maldives belongs on a beautiful-places list for its islands and reef character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Hadahaa%20Maldives%20Islands%20travel%20landscape"
 imageAlt: "Hadahaa travel landscape in Maldives"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Hadahaa%20Maldives%20Islands%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Islands","Reef","Luxury"]

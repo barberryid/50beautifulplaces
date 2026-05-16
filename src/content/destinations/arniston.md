@@ -5,6 +5,8 @@ region: "Africa"
 summary: "Arniston in South Africa belongs on a beautiful-places list for its coast and villages character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Arniston%20South%20Africa%20Coast%20travel%20landscape"
 imageAlt: "Arniston travel landscape in South Africa"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Arniston%20South%20Africa%20Coast%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Coast","Villages","Beach"]

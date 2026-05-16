@@ -5,6 +5,8 @@ region: "Africa"
 summary: "Djanet in Algeria belongs on a beautiful-places list for its desert and rock art character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Djanet%20Algeria%20Desert%20travel%20landscape"
 imageAlt: "Djanet travel landscape in Algeria"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Djanet%20Algeria%20Desert%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Desert","Rock art","Expedition"]

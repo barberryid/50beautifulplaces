@@ -5,6 +5,8 @@ region: "Asia"
 summary: "Fairy Meadows in Pakistan belongs on a beautiful-places list for its mountains and trekking character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Fairy%20Meadows%20Pakistan%20Mountains%20travel%20landscape"
 imageAlt: "Fairy Meadows travel landscape in Pakistan"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Fairy%20Meadows%20Pakistan%20Mountains%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Mountains","Trekking","Views"]

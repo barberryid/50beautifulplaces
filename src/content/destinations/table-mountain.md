@@ -5,6 +5,8 @@ region: "Africa"
 summary: "Table Mountain in Cape Town, South Africa belongs on a beautiful-places list for its mountains and cities character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Table%20Mountain%20Cape%20Town%2C%20South%20Africa%20Mountains%20travel%20landscape"
 imageAlt: "Table Mountain travel landscape in Cape Town, South Africa"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Table%20Mountain%20Cape%20Town%2C%20South%20Africa%20Mountains%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Mountains","Cities","Views"]

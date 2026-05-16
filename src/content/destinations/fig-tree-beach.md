@@ -5,6 +5,8 @@ region: "Europe"
 summary: "Fig Tree Beach in Cyprus belongs on a beautiful-places list for its beach and swimming character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Fig%20Tree%20Beach%20Cyprus%20Beach%20travel%20landscape"
 imageAlt: "Fig Tree Beach travel landscape in Cyprus"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Fig%20Tree%20Beach%20Cyprus%20Beach%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Beach","Swimming","Family"]

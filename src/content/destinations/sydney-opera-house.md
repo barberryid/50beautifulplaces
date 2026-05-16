@@ -5,6 +5,8 @@ region: "Oceania"
 summary: "Sydney Opera House in Australia belongs on a beautiful-places list for its architecture and harbor character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Sydney%20Opera%20House%20Australia%20Architecture%20travel%20landscape"
 imageAlt: "Sydney Opera House travel landscape in Australia"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Sydney%20Opera%20House%20Australia%20Architecture%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Architecture","Harbor","Cities"]

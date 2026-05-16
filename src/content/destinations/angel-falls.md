@@ -5,6 +5,8 @@ region: "South America"
 summary: "Angel Falls in Venezuela belongs on a beautiful-places list for its waterfalls and jungle character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Angel%20Falls%20Venezuela%20Waterfalls%20travel%20landscape"
 imageAlt: "Angel Falls travel landscape in Venezuela"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Angel%20Falls%20Venezuela%20Waterfalls%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Waterfalls","Jungle","Adventure"]

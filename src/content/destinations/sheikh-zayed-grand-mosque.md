@@ -5,6 +5,8 @@ region: "Middle East"
 summary: "Sheikh Zayed Grand Mosque in United Arab Emirates belongs on a beautiful-places list for its architecture and culture character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Sheikh%20Zayed%20Grand%20Mosque%20United%20Arab%20Emirates%20Architecture%20travel%20landscape"
 imageAlt: "Sheikh Zayed Grand Mosque travel landscape in United Arab Emirates"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Sheikh%20Zayed%20Grand%20Mosque%20United%20Arab%20Emirates%20Architecture%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Architecture","Culture","Landmark"]

@@ -5,6 +5,8 @@ region: "Caribbean"
 summary: "Hundred step beach in Trinidad & Tobago belongs on a beautiful-places list for its beach and coast character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Hundred%20step%20beach%20Trinidad%20%26%20Tobago%20Beach%20travel%20landscape"
 imageAlt: "Hundred step beach travel landscape in Trinidad & Tobago"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Hundred%20step%20beach%20Trinidad%20%26%20Tobago%20Beach%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Beach","Coast","Local escape"]

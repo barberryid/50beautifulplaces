@@ -5,6 +5,8 @@ region: "Asia"
 summary: "Taj Mahal in India belongs on a beautiful-places list for its architecture and history character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Taj%20Mahal%20India%20Architecture%20travel%20landscape"
 imageAlt: "Taj Mahal travel landscape in India"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Taj%20Mahal%20India%20Architecture%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Architecture","History","Landmark"]

@@ -5,6 +5,8 @@ region: "Africa"
 summary: "Anse Source d'Argent in Seychelles belongs on a beautiful-places list for its beach and islands character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Anse%20Source%20d'Argent%20Seychelles%20Beach%20travel%20landscape"
 imageAlt: "Anse Source d'Argent travel landscape in Seychelles"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Anse%20Source%20d'Argent%20Seychelles%20Beach%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Beach","Islands","Photography"]

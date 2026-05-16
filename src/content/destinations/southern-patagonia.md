@@ -5,6 +5,8 @@ region: "South America"
 summary: "Southern Patagonia in Chile and Argentina belongs on a beautiful-places list for its mountains and glaciers character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Southern%20Patagonia%20Chile%20and%20Argentina%20Mountains%20travel%20landscape"
 imageAlt: "Southern Patagonia travel landscape in Chile and Argentina"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Southern%20Patagonia%20Chile%20and%20Argentina%20Mountains%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Mountains","Glaciers","Wilderness"]

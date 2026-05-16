@@ -77,6 +77,8 @@ region: "Continent or region"
 summary: "Short destination summary."
 mainImage: "https://example.com/image.jpg"
 imageAlt: "Descriptive image alt text"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/example"
 bestTime: "Best months or season"
 duration: "Suggested trip length"
 tags: ["Hiking", "Coast", "Culture"]
@@ -87,6 +89,10 @@ seoDescription: "Concise SEO description for the destination page."
 ```
 
 Then write the guide body in Markdown. The site automatically creates a page at `/places/file-name/`.
+
+## Image Licensing
+
+The seeded destination images use Unsplash free image searches. Unsplash images can be used for free for commercial and non-commercial purposes without permission, though attribution is appreciated. Avoid Unsplash+ or paid stock images unless the licensing is reviewed separately.
 
 ## Git Workflow
 

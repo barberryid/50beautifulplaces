@@ -5,6 +5,8 @@ region: "Europe"
 summary: "Florence in Italy belongs on a beautiful-places list for its art and architecture character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Florence%20Italy%20Art%20travel%20landscape"
 imageAlt: "Florence travel landscape in Italy"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Florence%20Italy%20Art%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Art","Architecture","Cities"]

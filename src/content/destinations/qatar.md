@@ -5,6 +5,8 @@ region: "Middle East"
 summary: "Qatar in Qatar belongs on a beautiful-places list for its desert and architecture character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Qatar%20Qatar%20Desert%20travel%20landscape"
 imageAlt: "Qatar travel landscape in Qatar"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Qatar%20Qatar%20Desert%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Desert","Architecture","Culture"]

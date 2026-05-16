@@ -5,6 +5,8 @@ region: "Middle East"
 summary: "Naqsh-e Jahan Square in Isfahan, Iran belongs on a beautiful-places list for its architecture and culture character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Naqsh-e%20Jahan%20Square%20Isfahan%2C%20Iran%20Architecture%20travel%20landscape"
 imageAlt: "Naqsh-e Jahan Square travel landscape in Isfahan, Iran"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Naqsh-e%20Jahan%20Square%20Isfahan%2C%20Iran%20Architecture%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Architecture","Culture","History"]

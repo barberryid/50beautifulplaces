@@ -5,6 +5,8 @@ region: "Europe"
 summary: "Santorini in Greece belongs on a beautiful-places list for its islands and villages character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Santorini%20Greece%20Islands%20travel%20landscape"
 imageAlt: "Santorini travel landscape in Greece"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Santorini%20Greece%20Islands%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Islands","Villages","Coast"]

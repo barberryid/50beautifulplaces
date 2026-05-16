@@ -5,6 +5,8 @@ region: "Africa"
 summary: "Ngorongoro Crater in Tanzania belongs on a beautiful-places list for its wildlife and safari character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Ngorongoro%20Crater%20Tanzania%20Wildlife%20travel%20landscape"
 imageAlt: "Ngorongoro Crater travel landscape in Tanzania"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Ngorongoro%20Crater%20Tanzania%20Wildlife%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Wildlife","Safari","Landscape"]

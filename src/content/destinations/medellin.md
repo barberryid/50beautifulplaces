@@ -5,6 +5,8 @@ region: "South America"
 summary: "Medellin in Colombia belongs on a beautiful-places list for its cities and mountains character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Medellin%20Colombia%20Cities%20travel%20landscape"
 imageAlt: "Medellin travel landscape in Colombia"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Medellin%20Colombia%20Cities%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Cities","Mountains","Culture"]

@@ -5,6 +5,8 @@ region: "Africa"
 summary: "Etosha in Namibia belongs on a beautiful-places list for its wildlife and desert character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Etosha%20Namibia%20Wildlife%20travel%20landscape"
 imageAlt: "Etosha travel landscape in Namibia"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Etosha%20Namibia%20Wildlife%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Wildlife","Desert","Safari"]

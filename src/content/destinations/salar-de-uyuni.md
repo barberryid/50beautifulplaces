@@ -5,6 +5,8 @@ region: "South America"
 summary: "Salar de Uyuni in Bolivia belongs on a beautiful-places list for its salt flats and photography character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Salar%20de%20Uyuni%20Bolivia%20Salt%20flats%20travel%20landscape"
 imageAlt: "Salar de Uyuni travel landscape in Bolivia"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Salar%20de%20Uyuni%20Bolivia%20Salt%20flats%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Salt flats","Photography","Road trip"]

@@ -5,6 +5,8 @@ region: "Caribbean"
 summary: "Dominican Republic in Dominican Republic belongs on a beautiful-places list for its beach and islands character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Dominican%20Republic%20Dominican%20Republic%20Beach%20travel%20landscape"
 imageAlt: "Dominican Republic travel landscape in Dominican Republic"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Dominican%20Republic%20Dominican%20Republic%20Beach%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Beach","Islands","Culture"]

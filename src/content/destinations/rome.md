@@ -5,6 +5,8 @@ region: "Europe"
 summary: "Rome in Italy belongs on a beautiful-places list for its cities and history character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Rome%20Italy%20Cities%20travel%20landscape"
 imageAlt: "Rome travel landscape in Italy"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Rome%20Italy%20Cities%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Cities","History","Architecture"]

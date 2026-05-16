@@ -5,6 +5,8 @@ region: "Europe"
 summary: "Kölner Dom in Germany belongs on a beautiful-places list for its architecture and cathedral character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?K%C3%B6lner%20Dom%20Germany%20Architecture%20travel%20landscape"
 imageAlt: "Kölner Dom travel landscape in Germany"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/K%C3%B6lner%20Dom%20Germany%20Architecture%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Architecture","Cathedral","Cities"]

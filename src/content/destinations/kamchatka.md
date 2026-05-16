@@ -5,6 +5,8 @@ region: "Asia"
 summary: "Kamchatka in Russia belongs on a beautiful-places list for its volcanoes and wilderness character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Kamchatka%20Russia%20Volcanoes%20travel%20landscape"
 imageAlt: "Kamchatka travel landscape in Russia"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Kamchatka%20Russia%20Volcanoes%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Volcanoes","Wilderness","Hot springs"]

@@ -5,6 +5,8 @@ region: "Asia"
 summary: "Registan in Usbekistan belongs on a beautiful-places list for its architecture and history character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Registan%20Usbekistan%20Architecture%20travel%20landscape"
 imageAlt: "Registan travel landscape in Usbekistan"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Registan%20Usbekistan%20Architecture%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Architecture","History","Silk Road"]

@@ -99,7 +99,9 @@ await mkdir(destinationDir, { recursive: true });
 
 for (const [title, country, region, tags] of places) {
   const slug = slugify(title);
-  const mainImage = `https://source.unsplash.com/1600x1100/?${imageQuery(title, country, tags)}`;
+  const imageSearch = `${title} ${country} ${tags[0]} travel landscape`;
+  const mainImage = `https://source.unsplash.com/1600x1100/?${encodeURIComponent(imageSearch)}`;
+  const imageCreditUrl = `https://unsplash.com/s/photos/${encodeURIComponent(imageSearch)}`;
   const featured = featuredNames.has(title);
   const content = `---
 title: "${title.replaceAll('"', '\\"')}"
@@ -108,6 +110,8 @@ region: "${region}"
 summary: "${descriptionFor(title, country, tags)}"
 mainImage: "${mainImage}"
 imageAlt: "${title} travel landscape in ${country}"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "${imageCreditUrl}"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ${JSON.stringify(tags)}

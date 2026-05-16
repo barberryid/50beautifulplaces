@@ -17,7 +17,12 @@ const { Content } = await render(place);
 <BaseLayout title={place.data.seoTitle} description={place.data.seoDescription} image={place.data.mainImage}>
   <article class="guide">
     <header class="guide-hero">
-      <img src={place.data.mainImage} alt={place.data.imageAlt} />
+      <figure>
+        <img src={place.data.mainImage} alt={place.data.imageAlt} />
+        <figcaption>
+          <a href={place.data.imageCreditUrl} rel="noopener noreferrer">{place.data.imageCredit}</a>
+        </figcaption>
+      </figure>
       <div>
         <p class="eyebrow">{place.data.region} / {place.data.country}</p>
         <h1>{place.data.title}</h1>

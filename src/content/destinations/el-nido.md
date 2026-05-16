@@ -5,6 +5,8 @@ region: "Asia"
 summary: "El Nido in Philippines belongs on a beautiful-places list for its islands and lagoons character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?El%20Nido%20Philippines%20Islands%20travel%20landscape"
 imageAlt: "El Nido travel landscape in Philippines"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/El%20Nido%20Philippines%20Islands%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Islands","Lagoons","Beach"]

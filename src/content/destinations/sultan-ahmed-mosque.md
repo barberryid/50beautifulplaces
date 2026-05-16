@@ -5,6 +5,8 @@ region: "Middle East"
 summary: "Sultan Ahmed Mosque in Istanbul, Turkey belongs on a beautiful-places list for its architecture and culture character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Sultan%20Ahmed%20Mosque%20Istanbul%2C%20Turkey%20Architecture%20travel%20landscape"
 imageAlt: "Sultan Ahmed Mosque travel landscape in Istanbul, Turkey"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Sultan%20Ahmed%20Mosque%20Istanbul%2C%20Turkey%20Architecture%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Architecture","Culture","Landmark"]

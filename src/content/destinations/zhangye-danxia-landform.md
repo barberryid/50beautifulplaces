@@ -5,6 +5,8 @@ region: "Asia"
 summary: "Zhangye Danxia Landform in China belongs on a beautiful-places list for its geology and color character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Zhangye%20Danxia%20Landform%20China%20Geology%20travel%20landscape"
 imageAlt: "Zhangye Danxia Landform travel landscape in China"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Zhangye%20Danxia%20Landform%20China%20Geology%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Geology","Color","Landscape"]

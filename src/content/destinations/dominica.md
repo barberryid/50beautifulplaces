@@ -5,6 +5,8 @@ region: "Caribbean"
 summary: "Dominica in Dominica belongs on a beautiful-places list for its rainforest and waterfalls character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Dominica%20Dominica%20Rainforest%20travel%20landscape"
 imageAlt: "Dominica travel landscape in Dominica"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Dominica%20Dominica%20Rainforest%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Rainforest","Waterfalls","Islands"]

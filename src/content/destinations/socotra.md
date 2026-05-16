@@ -5,6 +5,8 @@ region: "Middle East"
 summary: "Socotra in Yemen belongs on a beautiful-places list for its islands and wildlife character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Socotra%20Yemen%20Islands%20travel%20landscape"
 imageAlt: "Socotra travel landscape in Yemen"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Socotra%20Yemen%20Islands%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Islands","Wildlife","Remote"]

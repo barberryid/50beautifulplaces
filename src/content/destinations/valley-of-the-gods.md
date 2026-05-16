@@ -5,6 +5,8 @@ region: "North America"
 summary: "Valley of the Gods in Utah, USA belongs on a beautiful-places list for its desert and road trip character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Valley%20of%20the%20Gods%20Utah%2C%20USA%20Desert%20travel%20landscape"
 imageAlt: "Valley of the Gods travel landscape in Utah, USA"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Valley%20of%20the%20Gods%20Utah%2C%20USA%20Desert%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Desert","Road trip","Canyons"]

@@ -5,6 +5,8 @@ region: "Africa"
 summary: "Victoria Falls in Zambia and Zimbabwe belongs on a beautiful-places list for its waterfalls and nature character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Victoria%20Falls%20Zambia%20and%20Zimbabwe%20Waterfalls%20travel%20landscape"
 imageAlt: "Victoria Falls travel landscape in Zambia and Zimbabwe"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Victoria%20Falls%20Zambia%20and%20Zimbabwe%20Waterfalls%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Waterfalls","Nature","Adventure"]

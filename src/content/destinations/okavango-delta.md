@@ -5,6 +5,8 @@ region: "Africa"
 summary: "Okavango Delta in Botswana belongs on a beautiful-places list for its wildlife and wetlands character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Okavango%20Delta%20Botswana%20Wildlife%20travel%20landscape"
 imageAlt: "Okavango Delta travel landscape in Botswana"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Okavango%20Delta%20Botswana%20Wildlife%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Wildlife","Wetlands","Safari"]

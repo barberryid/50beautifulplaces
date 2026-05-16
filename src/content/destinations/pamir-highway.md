@@ -5,6 +5,8 @@ region: "Asia"
 summary: "Pamir Highway in Tadjikistan belongs on a beautiful-places list for its road trip and mountains character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Pamir%20Highway%20Tadjikistan%20Road%20trip%20travel%20landscape"
 imageAlt: "Pamir Highway travel landscape in Tadjikistan"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Pamir%20Highway%20Tadjikistan%20Road%20trip%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Road trip","Mountains","Remote"]

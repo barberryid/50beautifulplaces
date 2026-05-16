@@ -5,6 +5,8 @@ region: "Asia"
 summary: "Koh Yao Noi in Thailand belongs on a beautiful-places list for its islands and local life character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Koh%20Yao%20Noi%20Thailand%20Islands%20travel%20landscape"
 imageAlt: "Koh Yao Noi travel landscape in Thailand"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Koh%20Yao%20Noi%20Thailand%20Islands%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Islands","Local life","Beach"]

@@ -5,6 +5,8 @@ region: "Africa"
 summary: "Chefchaouen in Morocco belongs on a beautiful-places list for its cities and color character, memorable scenery, and strong sense of place."
 mainImage: "https://source.unsplash.com/1600x1100/?Chefchaouen%20Morocco%20Cities%20travel%20landscape"
 imageAlt: "Chefchaouen travel landscape in Morocco"
+imageCredit: "Free image via Unsplash"
+imageCreditUrl: "https://unsplash.com/s/photos/Chefchaouen%20Morocco%20Cities%20travel%20landscape"
 bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
 duration: "2 to 5 days"
 tags: ["Cities","Color","Culture"]
