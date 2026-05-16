@@ -2,7 +2,7 @@
 title: "Saint Petersburg"
 country: "Russia"
 region: "Europe"
-summary: "Saint Petersburg in Russia belongs on a beautiful-places list for its cities and architecture character, memorable scenery, and strong sense of place."
+summary: "Imperial canals, pastel palaces, vast museums, and northern light give Russia's old capital a dramatic, melancholy grandeur."
 mainImage: "https://live.staticflickr.com/65535/49669484811_cef5aca5f6_b.jpg"
 imageAlt: "Saint Petersburg in Russia"
 imageCredit: "Saint Petersburg, Russia by szeke (BY SA 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Saint Petersburg in Russia with quick travel notes, be
 
 ## Why It Is Beautiful
 
-Saint Petersburg in Russia belongs on a beautiful-places list for its cities and architecture character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Imperial canals, pastel palaces, vast museums, and northern light give Russia's old capital a dramatic, melancholy grandeur. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

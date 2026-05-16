@@ -2,7 +2,7 @@
 title: "Chefchaouen"
 country: "Morocco"
 region: "Africa"
-summary: "Chefchaouen in Morocco belongs on a beautiful-places list for its cities and color character, memorable scenery, and strong sense of place."
+summary: "Blue lanes climb through the Rif Mountains, where morning light, tiled doorways, and quiet rooftops make Morocco feel hushed."
 mainImage: "https://live.staticflickr.com/65535/49319209351_f078640de9_b.jpg"
 imageAlt: "Chefchaouen in Morocco"
 imageCredit: "Blue City, Chefchaouene, Morocco， 摩洛哥 - Explore by cattan2011 (BY 2.0) via Openverse"

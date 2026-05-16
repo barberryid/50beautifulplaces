@@ -2,7 +2,7 @@
 title: "Dettifoss"
 country: "Iceland"
 region: "Europe"
-summary: "Dettifoss in Iceland belongs on a beautiful-places list for its waterfalls and geology character, memorable scenery, and strong sense of place."
+summary: "A glacial river hurls itself into a basalt canyon with a force you feel in your chest before you reach the edge."
 mainImage: "https://live.staticflickr.com/3851/15082529060_1dbd729ab3_b.jpg"
 imageAlt: "Dettifoss in Iceland"
 imageCredit: "Iceland by NASA Goddard Photo and Video (BY 2.0) via Openverse"

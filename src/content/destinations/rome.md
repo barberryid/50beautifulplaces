@@ -2,7 +2,7 @@
 title: "Rome"
 country: "Italy"
 region: "Europe"
-summary: "Rome in Italy belongs on a beautiful-places list for its cities and history character, memorable scenery, and strong sense of place."
+summary: "Ancient ruins, baroque fountains, sun-baked piazzas, and layered street life make Rome feel endlessly inhabited by history."
 mainImage: "https://live.staticflickr.com/4080/4819936081_5b24d10bc7_m.jpg"
 imageAlt: "Rome in Italy"
 imageCredit: "Rome, Italy by melenama (BY SA 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Rome in Italy with quick travel notes, best-time guida
 
 ## Why It Is Beautiful
 
-Rome in Italy belongs on a beautiful-places list for its cities and history character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Ancient ruins, baroque fountains, sun-baked piazzas, and layered street life make Rome feel endlessly inhabited by history. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

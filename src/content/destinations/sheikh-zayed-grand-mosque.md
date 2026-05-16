@@ -2,7 +2,7 @@
 title: "Sheikh Zayed Grand Mosque"
 country: "United Arab Emirates"
 region: "Middle East"
-summary: "Sheikh Zayed Grand Mosque in United Arab Emirates belongs on a beautiful-places list for its architecture and culture character, memorable scenery, and strong sense of place."
+summary: "Marble courtyards, domes, columns, and reflective pools make Abu Dhabi's great mosque glow with serene scale."
 mainImage: "https://live.staticflickr.com/7202/6887392973_0520eb6fef_b.jpg"
 imageAlt: "Sheikh Zayed Grand Mosque in United Arab Emirates"
 imageCredit: "Sheikh Zayed Grand Mosque more photos plz visit http://goo.gl/nm6JK by :: Suwaif :: (BY SA 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Sheikh Zayed Grand Mosque in United Arab Emirates with
 
 ## Why It Is Beautiful
 
-Sheikh Zayed Grand Mosque in United Arab Emirates belongs on a beautiful-places list for its architecture and culture character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Marble courtyards, domes, columns, and reflective pools make Abu Dhabi's great mosque glow with serene scale. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

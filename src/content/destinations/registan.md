@@ -2,7 +2,7 @@
 title: "Registan"
 country: "Usbekistan"
 region: "Asia"
-summary: "Registan in Usbekistan belongs on a beautiful-places list for its architecture and history character, memorable scenery, and strong sense of place."
+summary: "Samarkand's tiled madrasas rise around a monumental square where Silk Road history still feels theatrical and alive."
 mainImage: "https://live.staticflickr.com/3763/10101083795_ef75430e4c_b.jpg"
 imageAlt: "Registan in Usbekistan"
 imageCredit: "Wedding in Samarkand, Uzbekistan by stefan_fotos (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Registan in Usbekistan with quick travel notes, best-t
 
 ## Why It Is Beautiful
 
-Registan in Usbekistan belongs on a beautiful-places list for its architecture and history character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Samarkand's tiled madrasas rise around a monumental square where Silk Road history still feels theatrical and alive. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

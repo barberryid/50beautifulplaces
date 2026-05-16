@@ -2,7 +2,7 @@
 title: "Venice"
 country: "Italy"
 region: "Europe"
-summary: "Venice in Italy belongs on a beautiful-places list for its canals and culture character, memorable scenery, and strong sense of place."
+summary: "Canals, palaces, stone bridges, and lagoon light make Venice feel like a city floating between history and dream."
 mainImage: "https://live.staticflickr.com/4879/45375213674_835988f105_b.jpg"
 imageAlt: "Venice in Italy"
 imageCredit: "Campo San Barnaba, Venice, Italy by Kristoffer Trolle (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Venice in Italy with quick travel notes, best-time gui
 
 ## Why It Is Beautiful
 
-Venice in Italy belongs on a beautiful-places list for its canals and culture character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Canals, palaces, stone bridges, and lagoon light make Venice feel like a city floating between history and dream. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

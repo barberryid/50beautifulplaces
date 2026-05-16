@@ -2,7 +2,7 @@
 title: "Avenue of the Baobabs"
 country: "Madagascar"
 region: "Africa"
-summary: "Avenue of the Baobabs in Madagascar belongs on a beautiful-places list for its trees and road trip character, memorable scenery, and strong sense of place."
+summary: "Ancient baobabs rise like living towers from a dusty Madagascar road, turning sunset into a prehistoric silhouette."
 mainImage: "https://live.staticflickr.com/12/18874559_93a481434e_b.jpg"
 imageAlt: "Avenue of the Baobabs in Madagascar"
 imageCredit: "pat1_14_11a-lg by plizzba (BY SA 2.0) via Openverse"

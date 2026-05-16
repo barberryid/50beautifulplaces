@@ -2,7 +2,7 @@
 title: "Santorini"
 country: "Greece"
 region: "Europe"
-summary: "Santorini in Greece belongs on a beautiful-places list for its islands and villages character, memorable scenery, and strong sense of place."
+summary: "White villages cling to a volcanic caldera above Aegean blue, with sunset light turning the cliffs almost unreal."
 mainImage: "https://live.staticflickr.com/4546/38376823641_2f2dfc0c8c_b.jpg"
 imageAlt: "Santorini in Greece"
 imageCredit: "Santorini, Greece by szeke (BY SA 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Santorini in Greece with quick travel notes, best-time
 
 ## Why It Is Beautiful
 
-Santorini in Greece belongs on a beautiful-places list for its islands and villages character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+White villages cling to a volcanic caldera above Aegean blue, with sunset light turning the cliffs almost unreal. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

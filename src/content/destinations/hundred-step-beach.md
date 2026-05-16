@@ -2,7 +2,7 @@
 title: "Hundred step beach"
 country: "Trinidad & Tobago"
 region: "Caribbean"
-summary: "Hundred step beach in Trinidad & Tobago belongs on a beautiful-places list for its beach and coast character, memorable scenery, and strong sense of place."
+summary: "A quiet Trinidad and Tobago escape where the reward is surf, sand, and the feeling of finding a coast before the crowd."
 mainImage: "https://live.staticflickr.com/7342/27118053382_2de32ea9d6_b.jpg"
 imageAlt: "Hundred step beach in Trinidad & Tobago"
 imageCredit: "Bowling Ball Beach, Mendocino County, California by Bob Dass (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Hundred step beach in Trinidad & Tobago with quick tra
 
 ## Why It Is Beautiful
 
-Hundred step beach in Trinidad & Tobago belongs on a beautiful-places list for its beach and coast character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+A quiet Trinidad and Tobago escape where the reward is surf, sand, and the feeling of finding a coast before the crowd. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

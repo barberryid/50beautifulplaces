@@ -2,7 +2,7 @@
 title: "Southern Patagonia"
 country: "Chile and Argentina"
 region: "South America"
-summary: "Southern Patagonia in Chile and Argentina belongs on a beautiful-places list for its mountains and glaciers character, memorable scenery, and strong sense of place."
+summary: "Glaciers, granite towers, blue lakes, and ferocious wind give the far south a raw end-of-the-world beauty."
 mainImage: "https://live.staticflickr.com/7372/8754152916_6240747448_b.jpg"
 imageAlt: "Southern Patagonia in Chile and Argentina"
 imageCredit: "Perito Moreno Glacier, Argentina by Dimitry B (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Southern Patagonia in Chile and Argentina with quick t
 
 ## Why It Is Beautiful
 
-Southern Patagonia in Chile and Argentina belongs on a beautiful-places list for its mountains and glaciers character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Glaciers, granite towers, blue lakes, and ferocious wind give the far south a raw end-of-the-world beauty. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

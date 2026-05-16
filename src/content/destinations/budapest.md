@@ -2,7 +2,7 @@
 title: "Budapest"
 country: "Hungary"
 region: "Europe"
-summary: "Budapest in Hungary belongs on a beautiful-places list for its cities and architecture character, memorable scenery, and strong sense of place."
+summary: "The Danube splits a city of glowing bridges, thermal baths, grand cafes, ruin bars, and castle-lit evening walks."
 mainImage: "https://live.staticflickr.com/7400/11651643606_32aa62691b_b.jpg"
 imageAlt: "Budapest in Hungary"
 imageCredit: "Vajdahunyad Castle, Budapest, Hungary by Night by Cost3l (BY 2.0) via Openverse"

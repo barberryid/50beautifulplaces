@@ -2,7 +2,7 @@
 title: "Fitz Roy"
 country: "Argentina"
 region: "South America"
-summary: "Fitz Roy in Argentina belongs on a beautiful-places list for its mountains and trekking character, memorable scenery, and strong sense of place."
+summary: "Jagged granite spires explode above Patagonian lakes and wind-scoured trails, especially electric at first light."
 mainImage: "https://live.staticflickr.com/3544/3502143380_e80d47e4d2_b.jpg"
 imageAlt: "Fitz Roy in Argentina"
 imageCredit: "CHALTEN ( FITZ ROY ) ARGENTINA by R I O M A N S O (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Fitz Roy in Argentina with quick travel notes, best-ti
 
 ## Why It Is Beautiful
 
-Fitz Roy in Argentina belongs on a beautiful-places list for its mountains and trekking character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Jagged granite spires explode above Patagonian lakes and wind-scoured trails, especially electric at first light. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

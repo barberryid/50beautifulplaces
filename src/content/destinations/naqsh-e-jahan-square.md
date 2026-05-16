@@ -2,7 +2,7 @@
 title: "Naqsh-e Jahan Square"
 country: "Isfahan, Iran"
 region: "Middle East"
-summary: "Naqsh-e Jahan Square in Isfahan, Iran belongs on a beautiful-places list for its architecture and culture character, memorable scenery, and strong sense of place."
+summary: "Isfahan's great square gathers turquoise domes, arcades, mosques, and palace facades into one of the world's grandest urban rooms."
 mainImage: "https://live.staticflickr.com/51/152719503_9346cdc10f.jpg"
 imageAlt: "Naqsh-e Jahan Square in Isfahan, Iran"
 imageCredit: "Isfahan/ Ali Qapu Palace by HORIZON (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Naqsh-e Jahan Square in Isfahan, Iran with quick trave
 
 ## Why It Is Beautiful
 
-Naqsh-e Jahan Square in Isfahan, Iran belongs on a beautiful-places list for its architecture and culture character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Isfahan's great square gathers turquoise domes, arcades, mosques, and palace facades into one of the world's grandest urban rooms. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

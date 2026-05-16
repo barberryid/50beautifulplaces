@@ -2,7 +2,7 @@
 title: "Olympic National Park"
 country: "Washington State, USA"
 region: "North America"
-summary: "Olympic National Park in Washington State, USA belongs on a beautiful-places list for its forest and coast character, memorable scenery, and strong sense of place."
+summary: "Rainforest, glacier peaks, moss valleys, driftwood beaches, and stormy Pacific edges all collide in one Washington wilderness."
 mainImage: "https://live.staticflickr.com/6150/5998372677_ef2f7dc553_b.jpg"
 imageAlt: "Olympic National Park in Washington State, USA"
 imageCredit: "Olympic National Park - Hall of Mosses by j.o.h.n. walker (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Olympic National Park in Washington State, USA with qu
 
 ## Why It Is Beautiful
 
-Olympic National Park in Washington State, USA belongs on a beautiful-places list for its forest and coast character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Rainforest, glacier peaks, moss valleys, driftwood beaches, and stormy Pacific edges all collide in one Washington wilderness. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

@@ -2,7 +2,7 @@
 title: "Socotra"
 country: "Yemen"
 region: "Middle East"
-summary: "Socotra in Yemen belongs on a beautiful-places list for its islands and wildlife character, memorable scenery, and strong sense of place."
+summary: "Dragon's blood trees, empty beaches, alien limestone, and remote Arabian Sea isolation make Socotra feel biologically impossible."
 mainImage: "https://live.staticflickr.com/7604/16243813274_1fd2fa7012_b.jpg"
 imageAlt: "Socotra in Yemen"
 imageCredit: "Haggier Mountains, Socotra, Yemen by valerian.guillot (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Socotra in Yemen with quick travel notes, best-time gu
 
 ## Why It Is Beautiful
 
-Socotra in Yemen belongs on a beautiful-places list for its islands and wildlife character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Dragon's blood trees, empty beaches, alien limestone, and remote Arabian Sea isolation make Socotra feel biologically impossible. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

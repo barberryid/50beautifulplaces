@@ -2,7 +2,7 @@
 title: "Salar de Uyuni"
 country: "Bolivia"
 region: "South America"
-summary: "Salar de Uyuni in Bolivia belongs on a beautiful-places list for its salt flats and photography character, memorable scenery, and strong sense of place."
+summary: "Bolivia's salt flats become a white infinity by day and a mirror of sky after rain, stretching beyond belief."
 mainImage: "https://live.staticflickr.com/3926/14630608277_54c8a334c1_b.jpg"
 imageAlt: "Salar de Uyuni in Bolivia"
 imageCredit: "Isla Incahuasi, Salar de Uyuni, Bolivia by Dimitry B (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Salar de Uyuni in Bolivia with quick travel notes, bes
 
 ## Why It Is Beautiful
 
-Salar de Uyuni in Bolivia belongs on a beautiful-places list for its salt flats and photography character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Bolivia's salt flats become a white infinity by day and a mirror of sky after rain, stretching beyond belief. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

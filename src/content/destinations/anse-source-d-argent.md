@@ -2,7 +2,7 @@
 title: "Anse Source d'Argent"
 country: "Seychelles"
 region: "Africa"
-summary: "Anse Source d'Argent in Seychelles belongs on a beautiful-places list for its beach and islands character, memorable scenery, and strong sense of place."
+summary: "Shallow turquoise water curls around rose-grey granite boulders on La Digue's dreamiest, slowest, most photographed shore."
 mainImage: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Aerial_of_the_most_beautiful_beach_in_the_world_Anse_Source_d%27Argent_Seychelles_%2839587410162%29.jpg"
 imageAlt: "Anse Source d'Argent in Seychelles"
 imageCredit: "Aerial of the most beautiful beach in the world Anse Source d'Argent Seychelles (39587410162) by dronepicr (BY 2.0) via Openverse"

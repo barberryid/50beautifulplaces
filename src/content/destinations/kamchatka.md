@@ -2,7 +2,7 @@
 title: "Kamchatka"
 country: "Russia"
 region: "Asia"
-summary: "Kamchatka in Russia belongs on a beautiful-places list for its volcanoes and wilderness character, memorable scenery, and strong sense of place."
+summary: "Volcanoes, hot springs, bear country, and Pacific wilderness make Kamchatka one of Earth's last big raw edges."
 mainImage: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Cepphus_columba_columba%2C_Avachinskiy_Zaliv%2C_Kamchatka%2C_Russia_1.jpg"
 imageAlt: "Kamchatka in Russia"
 imageCredit: "Cepphus columba columba, Avachinskiy Zaliv, Kamchatka, Russia 1 by valerkov (BY 4.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Kamchatka in Russia with quick travel notes, best-time
 
 ## Why It Is Beautiful
 
-Kamchatka in Russia belongs on a beautiful-places list for its volcanoes and wilderness character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Volcanoes, hot springs, bear country, and Pacific wilderness make Kamchatka one of Earth's last big raw edges. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

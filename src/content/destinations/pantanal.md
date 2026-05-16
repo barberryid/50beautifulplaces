@@ -2,7 +2,7 @@
 title: "Pantanal"
 country: "Brazil"
 region: "South America"
-summary: "Pantanal in Brazil belongs on a beautiful-places list for its wildlife and wetlands character, memorable scenery, and strong sense of place."
+summary: "Brazil's great wetland turns wildlife watching into a daily spectacle of jaguars, caimans, capybaras, birds, and open sky."
 mainImage: "https://live.staticflickr.com/90/281632834_98495709b5_m.jpg"
 imageAlt: "Pantanal in Brazil"
 imageCredit: "Paraguay River, Pantanal, Brazil. by thejourney1972 (South America addicted) (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Pantanal in Brazil with quick travel notes, best-time 
 
 ## Why It Is Beautiful
 
-Pantanal in Brazil belongs on a beautiful-places list for its wildlife and wetlands character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Brazil's great wetland turns wildlife watching into a daily spectacle of jaguars, caimans, capybaras, birds, and open sky. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

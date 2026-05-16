@@ -2,7 +2,7 @@
 title: "Sultan Ahmed Mosque"
 country: "Istanbul, Turkey"
 region: "Middle East"
-summary: "Sultan Ahmed Mosque in Istanbul, Turkey belongs on a beautiful-places list for its architecture and culture character, memorable scenery, and strong sense of place."
+summary: "Istanbul's Blue Mosque gathers domes, minarets, Iznik tiles, and call-to-prayer atmosphere across from Hagia Sophia."
 mainImage: "https://upload.wikimedia.org/wikipedia/commons/5/56/Sultan_Ahmed_Mosque_Istanbul_Turkey_retouched.jpg"
 imageAlt: "Sultan Ahmed Mosque in Istanbul, Turkey"
 imageCredit: "Sultan Ahmed Mosque Istanbul Turkey retouched by Dersaadet (BY SA 3.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Sultan Ahmed Mosque in Istanbul, Turkey with quick tra
 
 ## Why It Is Beautiful
 
-Sultan Ahmed Mosque in Istanbul, Turkey belongs on a beautiful-places list for its architecture and culture character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Istanbul's Blue Mosque gathers domes, minarets, Iznik tiles, and call-to-prayer atmosphere across from Hagia Sophia. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

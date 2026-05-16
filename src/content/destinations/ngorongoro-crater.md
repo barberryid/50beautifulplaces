@@ -2,7 +2,7 @@
 title: "Ngorongoro Crater"
 country: "Tanzania"
 region: "Africa"
-summary: "Ngorongoro Crater in Tanzania belongs on a beautiful-places list for its wildlife and safari character, memorable scenery, and strong sense of place."
+summary: "A collapsed volcanic world shelters lions, elephants, flamingos, and grassland drama inside one immense Tanzanian bowl."
 mainImage: "https://live.staticflickr.com/2545/4085295155_915020311d_b.jpg"
 imageAlt: "Ngorongoro Crater in Tanzania"
 imageCredit: "The Ngorongoro Crater, Tanzania by epcp (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Ngorongoro Crater in Tanzania with quick travel notes,
 
 ## Why It Is Beautiful
 
-Ngorongoro Crater in Tanzania belongs on a beautiful-places list for its wildlife and safari character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+A collapsed volcanic world shelters lions, elephants, flamingos, and grassland drama inside one immense Tanzanian bowl. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

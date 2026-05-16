@@ -2,7 +2,7 @@
 title: "Chinguetti"
 country: "Mauritania"
 region: "Africa"
-summary: "Chinguetti in Mauritania belongs on a beautiful-places list for its desert and history character, memorable scenery, and strong sense of place."
+summary: "A sand-blown Saharan library town where stone lanes, old manuscripts, and encroaching dunes hold the memory of caravan routes."
 mainImage: "https://live.staticflickr.com/7857/31815650887_f687071d62_b.jpg"
 imageAlt: "Chinguetti in Mauritania"
 imageCredit: "Astronomy manuscripts of Chinguetti, Mauritania by valerian.guillot (PDM 1.0) via Openverse"

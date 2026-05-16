@@ -2,7 +2,7 @@
 title: "Zhangye Danxia Landform"
 country: "China"
 region: "Asia"
-summary: "Zhangye Danxia Landform in China belongs on a beautiful-places list for its geology and color character, memorable scenery, and strong sense of place."
+summary: "China's rainbow mountains ripple in bands of red, gold, and green, like geology painted at impossible scale."
 mainImage: "https://live.staticflickr.com/2482/4061653954_50f94be31e_b.jpg"
 imageAlt: "Zhangye Danxia Landform in China"
 imageCredit: "China 2009 by gudi&cris (BY ND 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Zhangye Danxia Landform in China with quick travel not
 
 ## Why It Is Beautiful
 
-Zhangye Danxia Landform in China belongs on a beautiful-places list for its geology and color character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+China's rainbow mountains ripple in bands of red, gold, and green, like geology painted at impossible scale. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

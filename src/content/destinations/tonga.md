@@ -2,7 +2,7 @@
 title: "Tonga"
 country: "Tonga"
 region: "Oceania"
-summary: "Tonga in Tonga belongs on a beautiful-places list for its islands and ocean character, memorable scenery, and strong sense of place."
+summary: "South Pacific islands of limestone caves, blue water, whale encounters, and Polynesian calm spread far beyond the usual routes."
 mainImage: "https://upload.wikimedia.org/wikipedia/commons/7/70/HKBP_Tonga_Tonga%2C_Res._Pangaribuan_Tonga.jpg"
 imageAlt: "Tonga in Tonga"
 imageCredit: "File:HKBP Tonga Tonga, Res. Pangaribuan Tonga.jpg by Christian Advs Sltg (BY SA 4.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Tonga in Tonga with quick travel notes, best-time guid
 
 ## Why It Is Beautiful
 
-Tonga in Tonga belongs on a beautiful-places list for its islands and ocean character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+South Pacific islands of limestone caves, blue water, whale encounters, and Polynesian calm spread far beyond the usual routes. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

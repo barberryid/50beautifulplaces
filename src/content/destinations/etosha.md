@@ -2,7 +2,7 @@
 title: "Etosha"
 country: "Namibia"
 region: "Africa"
-summary: "Etosha in Namibia belongs on a beautiful-places list for its wildlife and desert character, memorable scenery, and strong sense of place."
+summary: "Wildlife gathers at waterholes on the edge of a vast white pan, turning Namibia's dry season into theatre."
 mainImage: "https://live.staticflickr.com/7299/12598561425_54c503ef0f_b.jpg"
 imageAlt: "Etosha in Namibia"
 imageCredit: "Springbok, Etosha, Namibia by CarolineG2011 (BY SA 2.0) via Openverse"

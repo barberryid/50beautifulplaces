@@ -2,7 +2,7 @@
 title: "Sydney Opera House"
 country: "Australia"
 region: "Oceania"
-summary: "Sydney Opera House in Australia belongs on a beautiful-places list for its architecture and harbor character, memorable scenery, and strong sense of place."
+summary: "White sails rise over Sydney Harbour, turning a working performance hall into one of the world's great waterfront icons."
 mainImage: "https://live.staticflickr.com/7353/11004245713_626561c56d_b.jpg"
 imageAlt: "Sydney Opera House in Australia"
 imageCredit: "The Sydney Opera House. Australia. by Bernard Spragg (CC0 1.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Sydney Opera House in Australia with quick travel note
 
 ## Why It Is Beautiful
 
-Sydney Opera House in Australia belongs on a beautiful-places list for its architecture and harbor character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+White sails rise over Sydney Harbour, turning a working performance hall into one of the world's great waterfront icons. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

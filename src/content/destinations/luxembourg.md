@@ -2,7 +2,7 @@
 title: "Luxembourg"
 country: "Luxembourg"
 region: "Europe"
-summary: "Luxembourg in Luxembourg belongs on a beautiful-places list for its culture and castles character, memorable scenery, and strong sense of place."
+summary: "Fortress cliffs, old bridges, forested valleys, and compact European elegance make tiny Luxembourg feel far larger than its map."
 mainImage: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Stade_de_Luxembourg%2C_Luxembourg_vs_Azebaidjan_2021-09-01_%28101%29.jpg"
 imageAlt: "Luxembourg in Luxembourg"
 imageCredit: "Stade de Luxembourg, Luxembourg vs Azebaidjan 2021-09-01 (101) by GilPe (BY SA 4.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Luxembourg in Luxembourg with quick travel notes, best
 
 ## Why It Is Beautiful
 
-Luxembourg in Luxembourg belongs on a beautiful-places list for its culture and castles character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Fortress cliffs, old bridges, forested valleys, and compact European elegance make tiny Luxembourg feel far larger than its map. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

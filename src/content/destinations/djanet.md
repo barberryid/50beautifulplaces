@@ -2,7 +2,7 @@
 title: "Djanet"
 country: "Algeria"
 region: "Africa"
-summary: "Djanet in Algeria belongs on a beautiful-places list for its desert and rock art character, memorable scenery, and strong sense of place."
+summary: "Tuareg desert camps, rock arches, prehistoric art, and star-heavy Sahara nights make Djanet feel like another planet."
 mainImage: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Djanet-Algeria.jpg"
 imageAlt: "Djanet in Algeria"
 imageCredit: "Djanet-Algeria by Gruban / Patrick Gruban from Munich, Germany (BY SA 2.0) via Openverse"

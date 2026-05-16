@@ -2,7 +2,7 @@
 title: "Taj Mahal"
 country: "India"
 region: "Asia"
-summary: "Taj Mahal in India belongs on a beautiful-places list for its architecture and history character, memorable scenery, and strong sense of place."
+summary: "White marble, river mist, perfect symmetry, and changing light make the Taj Mahal feel both intimate and monumental."
 mainImage: "https://live.staticflickr.com/3485/4571409361_90d7df5417_m.jpg"
 imageAlt: "Taj Mahal in India"
 imageCredit: "Taj Mahal India bioenergy by GreenRon (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Taj Mahal in India with quick travel notes, best-time 
 
 ## Why It Is Beautiful
 
-Taj Mahal in India belongs on a beautiful-places list for its architecture and history character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+White marble, river mist, perfect symmetry, and changing light make the Taj Mahal feel both intimate and monumental. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

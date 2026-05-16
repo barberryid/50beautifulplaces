@@ -2,7 +2,7 @@
 title: "Victoria Falls"
 country: "Zambia and Zimbabwe"
 region: "Africa"
-summary: "Victoria Falls in Zambia and Zimbabwe belongs on a beautiful-places list for its waterfalls and nature character, memorable scenery, and strong sense of place."
+summary: "The Zambezi drops into a roaring chasm of spray, rainbows, and thunder you hear long before you see it."
 mainImage: "https://live.staticflickr.com/3853/14532921781_af4da7a134_b.jpg"
 imageAlt: "Victoria Falls in Zambia and Zimbabwe"
 imageCredit: "4Y1A1412 Victoria Falls, Zimbabwe by Ninara (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Victoria Falls in Zambia and Zimbabwe with quick trave
 
 ## Why It Is Beautiful
 
-Victoria Falls in Zambia and Zimbabwe belongs on a beautiful-places list for its waterfalls and nature character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+The Zambezi drops into a roaring chasm of spray, rainbows, and thunder you hear long before you see it. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

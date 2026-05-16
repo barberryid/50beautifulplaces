@@ -2,7 +2,7 @@
 title: "Mittenwald"
 country: "Germany"
 region: "Europe"
-summary: "Mittenwald in Germany belongs on a beautiful-places list for its villages and mountains character, memorable scenery, and strong sense of place."
+summary: "Painted Bavarian houses sit below Alpine walls, with violin-making history, mountain trails, and storybook streets in every direction."
 mainImage: "https://live.staticflickr.com/53/142635655_113e3ec5fe_b.jpg"
 imageAlt: "Mittenwald in Germany"
 imageCredit: "Mittenwald, Germany, 1963 by In Memoriam: PhillipC (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Mittenwald in Germany with quick travel notes, best-ti
 
 ## Why It Is Beautiful
 
-Mittenwald in Germany belongs on a beautiful-places list for its villages and mountains character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Painted Bavarian houses sit below Alpine walls, with violin-making history, mountain trails, and storybook streets in every direction. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

@@ -2,7 +2,7 @@
 title: "Yankikala Canyon"
 country: "Turkmenistan"
 region: "Asia"
-summary: "Yankikala Canyon in Turkmenistan belongs on a beautiful-places list for its canyons and desert character, memorable scenery, and strong sense of place."
+summary: "Red, white, and pink canyon walls blaze in the Turkmen desert, especially when low sun turns the cliffs molten."
 mainImage: "https://live.staticflickr.com/6076/6086388919_54327d6e8c_b.jpg"
 imageAlt: "Yankikala Canyon in Turkmenistan"
 imageCredit: "Central Asia 096 by rapidtravelchai (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Yankikala Canyon in Turkmenistan with quick travel not
 
 ## Why It Is Beautiful
 
-Yankikala Canyon in Turkmenistan belongs on a beautiful-places list for its canyons and desert character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Red, white, and pink canyon walls blaze in the Turkmen desert, especially when low sun turns the cliffs molten. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

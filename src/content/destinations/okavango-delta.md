@@ -2,7 +2,7 @@
 title: "Okavango Delta"
 country: "Botswana"
 region: "Africa"
-summary: "Okavango Delta in Botswana belongs on a beautiful-places list for its wildlife and wetlands character, memorable scenery, and strong sense of place."
+summary: "Floodwater spreads into desert and becomes a maze of reeds, channels, elephants, mokoros, and impossible green life."
 mainImage: "https://live.staticflickr.com/3163/2675181510_64f44a8c29_b.jpg"
 imageAlt: "Okavango Delta in Botswana"
 imageCredit: "Okavango Delta, Botswana by Sara&Joachim (BY SA 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Okavango Delta in Botswana with quick travel notes, be
 
 ## Why It Is Beautiful
 
-Okavango Delta in Botswana belongs on a beautiful-places list for its wildlife and wetlands character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Floodwater spreads into desert and becomes a maze of reeds, channels, elephants, mokoros, and impossible green life. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

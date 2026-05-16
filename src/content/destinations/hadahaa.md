@@ -2,7 +2,7 @@
 title: "Hadahaa"
 country: "Maldives"
 region: "Asia"
-summary: "Hadahaa in Maldives belongs on a beautiful-places list for its islands and reef character, memorable scenery, and strong sense of place."
+summary: "A tiny Maldives island wrapped in reef water, where the horizon, lagoon, and house reef do almost all the talking."
 mainImage: "https://live.staticflickr.com/1872/44105197182_4a6950031a_b.jpg"
 imageAlt: "Hadahaa in Maldives"
 imageCredit: "Park Hyatt Hadahaa Maldives by Ben & Gab (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Hadahaa in Maldives with quick travel notes, best-time
 
 ## Why It Is Beautiful
 
-Hadahaa in Maldives belongs on a beautiful-places list for its islands and reef character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+A tiny Maldives island wrapped in reef water, where the horizon, lagoon, and house reef do almost all the talking. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

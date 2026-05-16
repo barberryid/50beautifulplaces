@@ -2,7 +2,7 @@
 title: "Florence"
 country: "Italy"
 region: "Europe"
-summary: "Florence in Italy belongs on a beautiful-places list for its art and architecture character, memorable scenery, and strong sense of place."
+summary: "Renaissance domes, river bridges, marble churches, and honeyed evening streets make Florence feel like art turned into a city."
 mainImage: "https://live.staticflickr.com/3924/15132972770_20356f0b77_b.jpg"
 imageAlt: "Florence in Italy"
 imageCredit: "Florence, Italy by Lex Kravetski (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Florence in Italy with quick travel notes, best-time g
 
 ## Why It Is Beautiful
 
-Florence in Italy belongs on a beautiful-places list for its art and architecture character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Renaissance domes, river bridges, marble churches, and honeyed evening streets make Florence feel like art turned into a city. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

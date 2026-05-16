@@ -2,7 +2,7 @@
 title: "Qatar"
 country: "Qatar"
 region: "Middle East"
-summary: "Qatar in Qatar belongs on a beautiful-places list for its desert and architecture character, memorable scenery, and strong sense of place."
+summary: "Desert dunes, sculptural museums, souqs, mangroves, and a futuristic skyline meet on a compact Gulf peninsula."
 mainImage: "https://live.staticflickr.com/3823/11434184726_3aacbaeaed.jpg"
 imageAlt: "Qatar in Qatar"
 imageCredit: "Facebook page surfcasting QATAR #qatar#doha#sealine#sea#surf#surfcasting#fish#fishing#instaqatar #instadoha #instasealine#instasurf#instasurfcasting#pecheur#pecher#peche#صيد#مصيد#صيادون#قطر#الدوحة#سيلاين#سيلين#بحر#سنارة#صنارة#صيد# by D@LY3D (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Qatar in Qatar with quick travel notes, best-time guid
 
 ## Why It Is Beautiful
 
-Qatar in Qatar belongs on a beautiful-places list for its desert and architecture character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Desert dunes, sculptural museums, souqs, mangroves, and a futuristic skyline meet on a compact Gulf peninsula. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

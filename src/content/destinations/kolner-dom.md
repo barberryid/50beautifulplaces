@@ -2,7 +2,7 @@
 title: "Kölner Dom"
 country: "Germany"
 region: "Europe"
-summary: "Kölner Dom in Germany belongs on a beautiful-places list for its architecture and cathedral character, memorable scenery, and strong sense of place."
+summary: "Cologne's cathedral rises like black lace over the Rhine, a Gothic landmark that still startles from every angle."
 mainImage: "https://live.staticflickr.com/2252/2109719556_ca30da595c_b.jpg"
 imageAlt: "Kölner Dom in Germany"
 imageCredit: "The Dom Cathedral (Kölner Dom) in Cologne, Germany WWII, May 10th, 1945. 'Trolley Missions'...Kölner Dom in Köln, Deutschland WWII, 10. Mai 1945. 'Trolley-Missionen' by David C. Foster (BY ND 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Kölner Dom in Germany with quick travel notes, best-t
 
 ## Why It Is Beautiful
 
-Kölner Dom in Germany belongs on a beautiful-places list for its architecture and cathedral character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Cologne's cathedral rises like black lace over the Rhine, a Gothic landmark that still startles from every angle. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

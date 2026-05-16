@@ -2,7 +2,7 @@
 title: "Fairy Meadows"
 country: "Pakistan"
 region: "Asia"
-summary: "Fairy Meadows in Pakistan belongs on a beautiful-places list for its mountains and trekking character, memorable scenery, and strong sense of place."
+summary: "A green Himalayan meadow opens to the colossal face of Nanga Parbat after a road-and-trail approach you never forget."
 mainImage: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Fairy_Meadows%2C_Pakistan.jpg"
 imageAlt: "Fairy Meadows in Pakistan"
 imageCredit: "Fairy Meadows, Pakistan by M.Awais (BY SA 4.0) via Openverse"

@@ -2,7 +2,7 @@
 title: "Whitehaven Beach"
 country: "Australia"
 region: "Oceania"
-summary: "Whitehaven Beach in Australia belongs on a beautiful-places list for its beach and islands character, memorable scenery, and strong sense of place."
+summary: "Silica sand swirls through turquoise shallows in the Whitsundays, creating one of Australia's most dazzling shorelines."
 mainImage: "https://live.staticflickr.com/1152/705748182_7abc4fe8f0.jpg"
 imageAlt: "Whitehaven Beach in Australia"
 imageCredit: "Whitehaven Beach, Australia by kevgibbo (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Whitehaven Beach in Australia with quick travel notes,
 
 ## Why It Is Beautiful
 
-Whitehaven Beach in Australia belongs on a beautiful-places list for its beach and islands character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Silica sand swirls through turquoise shallows in the Whitsundays, creating one of Australia's most dazzling shorelines. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

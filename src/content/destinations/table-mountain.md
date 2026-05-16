@@ -2,7 +2,7 @@
 title: "Table Mountain"
 country: "Cape Town, South Africa"
 region: "Africa"
-summary: "Table Mountain in Cape Town, South Africa belongs on a beautiful-places list for its mountains and cities character, memorable scenery, and strong sense of place."
+summary: "Cape Town unfolds below a flat-topped mountain of cliffs, cloud, fynbos, ocean, and sunset city views."
 mainImage: "https://live.staticflickr.com/2847/13634538464_c80467ce44_b.jpg"
 imageAlt: "Table Mountain in Cape Town, South Africa"
 imageCredit: "Sunset from Table Mountain - Cape Town, South Africa by atlanticstorm (Christopher_Griner) (BY 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Table Mountain in Cape Town, South Africa with quick t
 
 ## Why It Is Beautiful
 
-Table Mountain in Cape Town, South Africa belongs on a beautiful-places list for its mountains and cities character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Cape Town unfolds below a flat-topped mountain of cliffs, cloud, fynbos, ocean, and sunset city views. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

@@ -2,7 +2,7 @@
 title: "Medellin"
 country: "Colombia"
 region: "South America"
-summary: "Medellin in Colombia belongs on a beautiful-places list for its cities and mountains character, memorable scenery, and strong sense of place."
+summary: "A mountain-ringed city of cable cars, spring weather, public art, and restless reinvention high in Colombia's Aburra Valley."
 mainImage: "https://live.staticflickr.com/1675/24417172916_d82e8a75e0_b.jpg"
 imageAlt: "Medellin in Colombia"
 imageCredit: "Medellin, Colombia by szeke (BY SA 2.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Medellin in Colombia with quick travel notes, best-tim
 
 ## Why It Is Beautiful
 
-Medellin in Colombia belongs on a beautiful-places list for its cities and mountains character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+A mountain-ringed city of cable cars, spring weather, public art, and restless reinvention high in Colombia's Aburra Valley. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 

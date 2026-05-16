@@ -2,7 +2,7 @@
 title: "Carpathian Mountains"
 country: "Romania"
 region: "Europe"
-summary: "Carpathian Mountains in Romania belongs on a beautiful-places list for its mountains and forest character, memorable scenery, and strong sense of place."
+summary: "Romania's wild mountain spine folds castles, bear forests, shepherd ridges, and sharp limestone trails into one cinematic escape."
 mainImage: "https://live.staticflickr.com/4403/36831093712_81e9142310_b.jpg"
 imageAlt: "Southern Carpathians mountain landscape in Romania"
 imageCredit: "Southern Carpathians, Piatra Craiului - Romania - Landscape photography by Giuseppe Milo (BY 2.0) via Openverse"

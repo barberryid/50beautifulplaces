@@ -2,7 +2,7 @@
 title: "Pamir Highway"
 country: "Tadjikistan"
 region: "Asia"
-summary: "Pamir Highway in Tadjikistan belongs on a beautiful-places list for its road trip and mountains character, memorable scenery, and strong sense of place."
+summary: "One of the world's great high roads crosses lunar plateaus, Afghan-border valleys, and mountain silence in Tajikistan."
 mainImage: "https://upload.wikimedia.org/wikipedia/commons/2/20/Border_Pamir_highway_China.jpg"
 imageAlt: "Pamir Highway in Tadjikistan"
 imageCredit: "Border Pamir highway China by Vicartb (CC0 1.0) via Openverse"
@@ -22,7 +22,7 @@ seoDescription: "Discover Pamir Highway in Tadjikistan with quick travel notes, 
 
 ## Why It Is Beautiful
 
-Pamir Highway in Tadjikistan belongs on a beautiful-places list for its road trip and mountains character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+One of the world's great high roads crosses lunar plateaus, Afghan-border valleys, and mountain silence in Tajikistan. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
 ## Practical Travel Notes
 
