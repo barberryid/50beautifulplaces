@@ -19,8 +19,10 @@ const regions = [...new Set(destinations.map((place) => place.data.region))].sor
   </section>
 
   <section class="filter-strip" aria-label="Regions">
-    <a href="/places/">All</a>
-    {regions.map((region) => <a href={`/places/?region=${encodeURIComponent(region)}`}>{region}</a>)}
+    <a href="/places/" data-region-filter="all">All</a>
+    {regions.map((region) => (
+      <a href={`/places/?region=${encodeURIComponent(region)}`} data-region-filter={region}>{region}</a>
+    ))}
   </section>
 
   <section class="section">
@@ -39,4 +41,22 @@ const regions = [...new Set(destinations.map((place) => place.data.region))].sor
       ))}
     </div>
   </section>
+
+  <script>
+    const activeRegion = new URLSearchParams(window.location.search).get("region");
+    const cards = document.querySelectorAll("[data-region]");
+    const filters = document.querySelectorAll("[data-region-filter]");
+
+    cards.forEach((card) => {
+      card.toggleAttribute("hidden", Boolean(activeRegion) && card.getAttribute("data-region") !== activeRegion);
+    });
+
+    filters.forEach((filter) => {
+      const filterRegion = filter.getAttribute("data-region-filter");
+      const isAll = filterRegion === "all";
+      if ((isAll && !activeRegion) || filterRegion === activeRegion) {
+        filter.setAttribute("aria-current", "page");
+      }
+    });
+  </script>
 </BaseLayout>

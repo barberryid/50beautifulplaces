@@ -256,6 +256,10 @@ p {
   box-shadow: var(--shadow);
 }
 
+.destination-card[hidden] {
+  display: none;
+}
+
 .destination-card a {
   display: grid;
   height: 100%;
@@ -305,6 +309,12 @@ p {
   border-radius: 999px;
   padding: 0.55rem 0.8rem;
   background: var(--surface);
+}
+
+.filter-strip a[aria-current="page"] {
+  border-color: var(--forest);
+  background: var(--forest);
+  color: var(--paper);
 }
 
 .page-hero.compact {

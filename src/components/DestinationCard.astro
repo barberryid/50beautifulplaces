@@ -13,7 +13,7 @@ interface Props {
 const { href, title, country, region, summary, image, alt, tags } = Astro.props;
 ---
 
-<article class="destination-card">
+<article class="destination-card" data-region={region}>
   <a href={href} aria-label={`Read the ${title} guide`}>
     <img src={image} alt={alt} loading="lazy" />
     <div class="card-body">
