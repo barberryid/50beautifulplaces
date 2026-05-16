@@ -21,6 +21,12 @@ const { Content } = await render(place);
         <img src={place.data.mainImage} alt={place.data.imageAlt} />
         <figcaption>
           <a href={place.data.imageCreditUrl} rel="noopener noreferrer">{place.data.imageCredit}</a>
+          {place.data.imageLicenseUrl && (
+            <>
+              {" "}
+              <a href={place.data.imageLicenseUrl} rel="noopener noreferrer">License</a>
+            </>
+          )}
         </figcaption>
       </figure>
       <div>

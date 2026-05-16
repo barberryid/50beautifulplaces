@@ -12,6 +12,7 @@ const destinations = defineCollection({
     imageAlt: z.string(),
     imageCredit: z.string(),
     imageCreditUrl: z.string().url(),
+    imageLicenseUrl: z.string().url().optional(),
     bestTime: z.string(),
     duration: z.string(),
     tags: z.array(z.string()),

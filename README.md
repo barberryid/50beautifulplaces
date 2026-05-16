@@ -79,6 +79,7 @@ mainImage: "https://example.com/image.jpg"
 imageAlt: "Descriptive image alt text"
 imageCredit: "Free image via Unsplash"
 imageCreditUrl: "https://unsplash.com/s/photos/example"
+imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
 bestTime: "Best months or season"
 duration: "Suggested trip length"
 tags: ["Hiking", "Coast", "Culture"]
@@ -92,7 +93,7 @@ Then write the guide body in Markdown. The site automatically creates a page at 
 
 ## Image Licensing
 
-The seeded destination images use Unsplash free image searches. Unsplash images can be used for free for commercial and non-commercial purposes without permission, though attribution is appreciated. Avoid Unsplash+ or paid stock images unless the licensing is reviewed separately.
+Destination images should use stable image file URLs from free sources with no licensing cost. The current image updater uses Openverse results filtered for commercial use, which generally means Creative Commons or public-domain media. Keep attribution and license links with each image, and verify licenses before treating a page as final editorial content.
 
 ## Git Workflow
 
