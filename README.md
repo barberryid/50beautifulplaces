@@ -80,6 +80,10 @@ imageAlt: "Descriptive image alt text"
 imageCredit: "Free image via Unsplash"
 imageCreditUrl: "https://unsplash.com/s/photos/example"
 imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
+hotelName: "Hotels rated 8+ near Destination Name"
+hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Destination&nflt=review_score%3D80"
+hotelRating: "8+ guest review score on Booking.com"
+hotelNote: "Booking.com opens with an 8+ review-score filter."
 bestTime: "Best months or season"
 duration: "Suggested trip length"
 tags: ["Hiking", "Coast", "Culture"]
@@ -94,6 +98,10 @@ Then write the guide body in Markdown. The site automatically creates a page at 
 ## Image Licensing
 
 Destination images should use stable image file URLs from free sources with no licensing cost. The current image updater uses Openverse results filtered for commercial use, which generally means Creative Commons or public-domain media. Keep attribution and license links with each image, and verify licenses before treating a page as final editorial content.
+
+## Booking.com Hotel Links
+
+Destination pages include Booking.com search links filtered for 8+ guest review scores. Booking.com hotel photos, current prices, availability, and live ratings remain on Booking.com; do not hotlink or copy Booking.com hotel images into this static site unless you have explicit permission or an approved partner/API integration.
 
 ## Git Workflow
 

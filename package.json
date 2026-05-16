@@ -8,7 +8,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "seed:destinations": "node scripts/seed-destinations.mjs",
-    "images:openverse": "node scripts/fetch-openverse-images.mjs"
+    "images:openverse": "node scripts/fetch-openverse-images.mjs",
+    "hotels:booking": "node scripts/add-booking-hotel-links.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",

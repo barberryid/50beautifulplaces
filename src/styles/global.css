@@ -398,6 +398,38 @@ p {
   width: min(720px, 100%);
 }
 
+.hotel-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.25rem;
+  align-items: center;
+  margin-top: 2rem;
+  border-block: 1px solid var(--line);
+  padding: 1.5rem 0;
+}
+
+.hotel-panel h2 {
+  max-width: none;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.hotel-panel p:not(.eyebrow) {
+  max-width: 48rem;
+  color: var(--muted);
+}
+
+.hotel-rating {
+  margin-top: 0.75rem;
+  color: var(--forest);
+  font-weight: 900;
+}
+
+.hotel-button {
+  margin-top: 0;
+  background: var(--clay);
+  color: #fffaf0;
+}
+
 .guide-content {
   margin-top: 2.5rem;
 }
@@ -438,6 +470,7 @@ p {
   .site-footer,
   .section-heading,
   .region-band,
+  .hotel-panel,
   .guide-hero {
     grid-template-columns: 1fr;
   }

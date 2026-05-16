@@ -51,6 +51,18 @@ const { Content } = await render(place);
       </div>
     </section>
 
+    <section class="hotel-panel" aria-labelledby="hotel-heading">
+      <div>
+        <p class="eyebrow">Where to stay</p>
+        <h2 id="hotel-heading">{place.data.hotelName}</h2>
+        <p>{place.data.hotelNote}</p>
+        <p class="hotel-rating">{place.data.hotelRating}</p>
+      </div>
+      <a class="button hotel-button" href={place.data.hotelBookingUrl} target="_blank" rel="noopener noreferrer">
+        View on Booking.com
+      </a>
+    </section>
+
     <div class="guide-content">
       <Content />
     </div>
