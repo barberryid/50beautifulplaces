@@ -20,10 +20,76 @@ seoTitle: "Angel Falls Travel Guide"
 seoDescription: "Discover Angel Falls in Venezuela with quick travel notes, best-time guidance, highlights, and planning context."
 ---
 
+_A country guide built around the world’s tallest uninterrupted waterfall and the tepuis of the Gran Sabana._
+
 ## Why It Is Beautiful
 
-Angel Falls in Venezuela belongs on a beautiful-places list for its waterfalls and jungle character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Angel Falls (Salto Ángel, locally Kerepakupai Merú) plunges 979 metres off the side of Auyán-tepui, the second-largest of Venezuela’s flat-topped sandstone plateaus. The setting is the bigger story: Canaima National Park is roughly the size of Belgium, a green carpet of rainforest punctuated by tepuis that look as if continents were cut out and lifted into the sky. Roraima, the most famous tepui, sits further east near Santa Elena de Uairén and is climbable on a 6–7 day trek.
 
 ## Practical Travel Notes
 
-Use this page as the planning shell for the full guide. Add transport details, seasonal cautions, entry requirements, neighborhood or base recommendations, and current local advice before publishing a finished itinerary.
+### When to go
+
+June–November (rainy season): The falls run at full force — this is when most travellers come.
+
+December–April (dry season): River levels drop and Angel Falls can thin to a mist. Tepui hiking on Roraima is more comfortable but Angel Falls boat access from Canaima village may be limited.
+
+Sweet spot: Late June, July and August. The cataract is full, river journeys are still feasible, and skies clear between storms.
+
+### Getting there
+
+The standard route is a flight from Caracas (CCS) or Ciudad Bolívar to Canaima airstrip, then a motorised dug-out canoe (curiara) journey of 4–6 hours up the Río Carrao and Río Churun to a camp near the base. A morning hike leads to the Ratoncito viewpoint. Most camps offer hammocks under thatch; lodges (Waku, Tapui, Bernal, Ucaima) are within walking distance of the airstrip.
+
+There is no legal land crossing from Venezuela to Guyana — if you are combining countries, fly Caracas–Georgetown or route via Boa Vista in Brazil (Santa Elena de Uairén ↔ Lethem). Inside Venezuela the practical pairing is Caracas → Canaima → Ciudad Bolívar → Gran Sabana / Roraima trek.
+
+### Entry: the 2026 e-visa
+
+Venezuela launched an electronic tourist visa in 2026. It is currently free, valid one year multiple-entry, and applied for online via the Ministry of Foreign Affairs portal. Key points from travellers who tested the system in April 2026:
+
+Apply from a desktop browser — the mobile site is buggy.
+
+Upload six documents: passport copy, ID photo on white, completed Word application form, confirmed flight reservation, confirmed hotel booking, and proof of funds (recent bank statement).
+
+Approval times vary from a few hours to about ten days. Apply 2–4 weeks before travel.
+
+Save the approval PDF and bring a printed copy — airline check-in desks ask to see it.
+
+### On the ground
+
+Money: Bring USD cash. The black-market (parallel) rate is significantly better than the official rate; hotels and tour operators will exchange. Card use is unreliable.
+
+SIM/Internet: Coverage in Canaima is patchy at best — plan to be offline. Pick up a Movistar or Digitel SIM in Caracas; an Airalo eSIM is a usable backup.
+
+Safety: Caracas requires the usual big-city caution — use airport-arranged transfers and stay in Altamira or La Castellana (e.g. Renaissance Caracas La Castellana, JW Marriott). Canaima itself is calm; Gran Sabana road trips are best with a local driver.
+
+Language: English is uncommon outside hotels. Basic Spanish helps enormously.
+
+### Two-week shape
+
+Days 1–2 — Caracas: arrive, recover, light sightseeing.
+
+Days 3–5 — Canaima and Angel Falls overnight river trip.
+
+Days 6–7 — Ciudad Bolívar and Orinoco riverfront.
+
+Days 8–13 — Gran Sabana and Roraima tepui trek from Santa Elena (6–7 days with guide).
+
+Day 14 — Fly out via Caracas; if extending, hop overland to Boa Vista, Brazil.
+
+### Trusted contacts from the archive
+
+Roraima Air — Angel Falls overflights and Kaieteur Falls add-ons across the border in Guyana, based at Roraima Residence Inn.
+
+Wilderness Explorers — longer Gran Sabana and cross-border programmes, responsive operator.
+
+Lupine Travel and Travel the Guianas — multi-country South-American itineraries that wrap in Angel Falls.
+
+### Practical tips
+
+Light hikers, fast-drying clothes, dry bag and 30L pack for the canoe trip. The river soaks everything.
+
+Bring a head torch — camp lighting is minimal and the walk to Ratoncito viewpoint often starts before dawn.
+
+Yellow fever vaccination is required by several neighbouring countries (Colombia, Brazil, Panama). Get a printed International Certificate.
+
+Keep digital and paper copies of e-visa, passport and onward ticket. Airline staff in Bogotá and Panama still ask for them.

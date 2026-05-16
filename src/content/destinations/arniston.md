@@ -20,10 +20,68 @@ seoTitle: "Arniston Travel Guide"
 seoDescription: "Discover Arniston in South Africa with quick travel notes, best-time guidance, highlights, and planning context."
 ---
 
+_Country guide framed around a quiet whitewashed fishing village on the Cape Agulhas coast._
+
 ## Why It Is Beautiful
 
-Arniston in South Africa belongs on a beautiful-places list for its coast and villages character, memorable scenery, and strong sense of place. It is the kind of place that rewards slow looking, early starts, and enough time to move beyond the obvious viewpoint.
+Arniston (officially Waenhuiskrans) sits two and a half hours south-east of Cape Town, past the wheat-fields of the Overberg, almost at the southern tip of Africa. The village is built around a 200-year-old fishing community at Kassiesbaai — limewashed cottages, no chain stores, southern right whales offshore between June and November. It is a perfect first or last stop on a Cape road trip.
 
 ## Practical Travel Notes
 
-Use this page as the planning shell for the full guide. Add transport details, seasonal cautions, entry requirements, neighborhood or base recommendations, and current local advice before publishing a finished itinerary.
+### When to go
+
+December–March: warm, dry, busy. Beach weather.
+
+April–May and September–November: shoulder season, cool mornings, fewer cars on the Garden Route, whale season starts.
+
+June–August: damp and cool but the southern right whales are calving — Hermanus and De Hoop nearby are the best land-based whale watching in the world.
+
+### Getting to Arniston
+
+The only practical way is to fly to Cape Town (CPT) and drive. Avis, Europcar and Hertz are the most widely recommended chains — Woodford (woodford.co.za) is the local alternative that gets good reviews. From Cape Town take the N2 east to Caledon, then south on the R316 through Bredasdorp. The drive is around 220 km, two and a half to three hours.
+
+### Where to stay near Arniston
+
+Arniston Spa Hotel — the only hotel of note, cliff-edge rooms over the breakers.
+
+Self-catering cottages in Kassiesbaai or the new village — plentiful on Airbnb and TravelGround.
+
+De Hoop Collection (40 minutes north-east) — inside the reserve, the best whale-watching base of all.
+
+### What to do
+
+Walk into the Waenhuiskrans cave on a low tide — named because a wagon and oxen could supposedly turn inside.
+
+Drive 30 minutes to Cape Agulhas — the actual southernmost point of Africa, where the Atlantic and Indian Oceans meet (and the candy-striped lighthouse).
+
+Day trip into De Hoop Nature Reserve for whale-watching from the cliffs at Koppie Alleen.
+
+Eat seafood at Willeen’s in Kassiesbaai — traditional Cape Malay-influenced fish and curries in a fishermen’s cottage.
+
+### Where Arniston fits in a South Africa trip
+
+Most travellers anchor a South Africa trip on Cape Town and Kruger, with Lesotho/Eswatini and the Garden Route stitched between. A useful skeleton drawn from trip reports in the archive:
+
+Cape Town (3–4 days): Table Mountain, V&A Waterfront, day trips to the Cape Peninsula and Stellenbosch/Franschhoek wine country. Greyhound Premium buses are the recommended option if you don’t want to drive long legs.
+
+Overberg and Cape Agulhas (2–3 days): Hermanus, Arniston, De Hoop.
+
+Garden Route (3–4 days): Mossel Bay, Knysna, Plettenberg Bay, Tsitsikamma.
+
+Optional Lesotho/Eswatini loop (5–7 days): land-borders are easy; Semonkong Lodge (Lesotho) and Mlilwane (Eswatini) are repeat-traveller favourites.
+
+Kruger or Sabi Sand (4–5 days): self-drive from Johannesburg, fly-in to a private camp, or budget-friendly Kruger Park Hostel + JSL Transport.
+
+### Practical tips from the archive
+
+Money: ZAR is accepted in Lesotho and Eswatini one-for-one, but their notes will not always be accepted on return into South Africa — spend them on exit.
+
+SIM: Vodacom prepaid at OR Tambo or CPT airport — doesn’t roam into Lesotho/Eswatini, so buy a local SIM at those borders.
+
+Driving: Left-hand drive, distances large, fuel widely available. Most rentals are 2WD sedans and are fine for paved Overberg and Garden Route routes; only Lesotho mountain passes might justify higher clearance.
+
+Safety: Cape Town is fine in tourist areas; do not walk the city centre at night and ignore strangers offering "help" at ATMs. Johannesburg layovers are best spent at Sunrock Guesthouse near OR Tambo.
+
+Visa: Most Western passports get a 90-day visa on arrival. South Africa launched an Electronic Travel Authorisation (ETA) trial in 2024 — check before you fly.
+
+Drivers in Joburg: Robert Wilson (+27 82 850 8844) and Piet Nel (Sunstreak Tours, +27 82 477 9323) come recommended in the archive.
