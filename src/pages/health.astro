@@ -1,15 +1,49 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const waterTools = [
-  ["LARQ Bottle Flip Top", "Chlorine taste/odor and some chemical filtration, depending on the installed filter."],
-  ["LARQ Bottle PureVis", "UV-C treatment for microbes; pair with a compatible filter if you also want chlorine or lead reduction."],
-  ["LifeStraw Go Series", "Useful for bacteria and parasites; check the exact model for pore size, virus protection, and chemical claims."],
-  ["Brita Premium Filtering Water Bottle", "Primarily a taste and chlorine-reduction bottle, not a travel purifier for untreated water."],
-  ["Waatr PureMax 4D", "Marketed as broad protection; verify current independent certifications before relying on it."],
-  ["Grayl", "Designed as a purifier for bacteria, viruses, protozoa, particulates, and some chemicals; confirm model-specific certifications."],
-  ["SteriPEN", "UV treatment for clear water; targets bacteria, viruses, and protozoa but does not remove chemicals or sediment."],
-  ["LARQ PureVis 2", "Combines filtration and UV-C features; verify current filter and UV specifications before travel."]
+const productCards = [
+  {
+    name: "Brita Premium Filtering Bottle",
+    image: "https://images.ctfassets.net/bugnyha6so6z/1YVIB2XzFEz5scDhNpPuNo/b1fcea76e64839962fe5bb302e1febce/PDP_-_bottle_-_stainless_-_20oz_-_glacier_1x.webp?fm=webp&q=85&w=1200",
+    source: "https://www.brita.com/products/stainless-steel-filtering-water-bottle-20oz/",
+    bestFor: "City tap water",
+    note: "Good for taste and chlorine odor; not a purifier for untreated water."
+  },
+  {
+    name: "LARQ Bottle Filtered",
+    image: "https://images.squarespace-cdn.com/content/v1/52fd3214e4b072f887f33dd9/1633726416884-NH0H0E8IDXC5XLDHI18F/LARQ%2BBottle%2BFiltered_MDW_GW_03A%2Bcopy2.jpg",
+    source: "https://www.impelstudio.com/larq-filter-bottle",
+    bestFor: "Urban travel",
+    note: "A sleek filtered bottle for treated tap water, hotels, airports, and taste improvement."
+  },
+  {
+    name: "LARQ PureVis 2",
+    image: "https://images.squarespace-cdn.com/content/v1/52fd3214e4b072f887f33dd9/1715801814227-V3L0XC0NDGCKD123HGIL/SELECTS-34.jpg",
+    source: "https://www.impelstudio.com/larq-pure-vis-2-water-bottle",
+    bestFor: "Premium travel bottle",
+    note: "Combines filtration features with UV-C; verify the exact cap/filter setup before relying on it."
+  },
+  {
+    name: "LifeStraw Go Series",
+    image: "https://www.halfmoonoutfitters.com/cdn/shop/files/LifeStraw-Go_aegean_1000x_de23d938-f431-42a2-9bca-a7edef7f278e.jpg?v=1713873462",
+    source: "https://www.lifestrawgoseries.com/",
+    bestFor: "Hiking and backpacking",
+    note: "Strong for bacteria and protozoa; not designed as virus protection."
+  },
+  {
+    name: "Grayl GeoPress / UltraPress",
+    image: "https://grayl.com/cdn/shop/files/GEO_BALI_BLUE_STD_1800px_61db9ee3-9d6c-46d8-9d82-51bff7764d9c.png?v=1761956422",
+    source: "https://grayl.com/products/geopress-purifier-camo-black",
+    bestFor: "Serious international travel",
+    note: "A true purifier category option covering viruses, bacteria, and protozoa."
+  },
+  {
+    name: "SteriPEN Ultra",
+    image: "https://s3.amazonaws.com/activejunky-cdn/aj-content/steripenultra1.jpg",
+    source: "https://www.katadyngroup.com/Downloads/steripen/factsheets/ULT-MP-EFG_Steripen%20Ultra_en.pdf",
+    bestFor: "UV treatment for clear water",
+    note: "Lightweight UV purifier; does not remove sediment, metals, chemicals, or improve taste."
+  }
 ];
 ---
 
@@ -77,17 +111,52 @@ const waterTools = [
         <li>Use bottled, boiled, filtered, disinfected, or otherwise reliably treated drinking water where tap water is not considered safe.</li>
       </ul>
 
-      <h2>Travel Water Filters: An Overview</h2>
+      <h2>Travel Water Filters and Purifiers: Choosing the Right Bottle</h2>
       <p>
-        Water treatment is not one-size-fits-all. In a city where the water is already disinfected, you may only care about taste, chlorine, or lead. In rural areas, wilderness settings, or destinations with unreliable treatment, you may need protection against bacteria, viruses, and parasites too.
+        Water treatment is not one-size-fits-all. In a modern city with treated tap water, you may only care about improving taste or reducing chlorine and lead. In rural areas, developing countries, wilderness environments, or destinations with unreliable infrastructure, you may also need protection against bacteria, viruses, and parasites.
+      </p>
+      <p>
+        The key mistake many travelers make is assuming that all filtered water bottles are equivalent. They are not. Some bottles only improve taste. Some remove bacteria but not viruses. Only a few are true travel purifiers suitable for high-risk destinations.
       </p>
 
-      <div class="health-checklist" aria-label="Common things travelers try to reduce or treat in water">
-        <span>Chlorine taste/odor</span>
-        <span>Lead or metals</span>
-        <span>Bacteria</span>
-        <span>Viruses</span>
-        <span>Parasites</span>
+      <h3>What Protection Do You Actually Need?</h3>
+      <div class="comparison-wrap">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Threat</th>
+              <th>Typical Sources</th>
+              <th>Why It Matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Chlorine taste/odor</th>
+              <td>City tap water</td>
+              <td>Improves taste and smell</td>
+            </tr>
+            <tr>
+              <th>Lead or metals</th>
+              <td>Old pipes, contaminated infrastructure</td>
+              <td>Long-term toxicity concerns</td>
+            </tr>
+            <tr>
+              <th>Bacteria</th>
+              <td>Unsafe tap water, streams</td>
+              <td>Common cause of traveler's diarrhea</td>
+            </tr>
+            <tr>
+              <th>Viruses</th>
+              <td>Poor sanitation systems</td>
+              <td>Major risk in many developing countries</td>
+            </tr>
+            <tr>
+              <th>Parasites</th>
+              <td>Rivers, lakes, untreated water</td>
+              <td>Giardia and Cryptosporidium risks</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <figure class="health-image">
@@ -98,23 +167,158 @@ const waterTools = [
         </figcaption>
       </figure>
 
-      <h2>Filter and Purifier Options to Compare</h2>
+      <h2>Quick Recommendation Guide</h2>
+      <div class="recommendation-grid">
+        <section>
+          <h3>Best for City Travel in Developed Countries</h3>
+          <p><strong>Brita Premium Filtering Bottle</strong> or <strong>LARQ Bottle Filtered</strong></p>
+          <p>Good for chlorine taste, better-tasting hotel tap water, and basic lead reduction. Not suitable for rural travel, untreated water, or virus protection.</p>
+        </section>
+        <section>
+          <h3>Best for Backpacking and Adventure Travel</h3>
+          <p><strong>LifeStraw Go Series</strong> or <strong>Grayl GeoPress / UltraPress</strong></p>
+          <p>Good for hiking, rural travel, and developing countries. Grayl is significantly more protective than LifeStraw because it also treats viruses.</p>
+        </section>
+        <section>
+          <h3>Best for High-Risk International Travel</h3>
+          <p><strong>Grayl GeoPress</strong>, <strong>LARQ PureVis 2 with filter</strong>, or <strong>SteriPEN Ultra</strong></p>
+          <p>Best for unreliable sanitation, overland travel, long-term backpacking, and remote expeditions.</p>
+        </section>
+      </div>
+
+      <h2>Product Images and Quick Notes</h2>
       <p>
-        Use this list as a buying checklist, not a certification chart. Product specifications change, and different models from the same brand can do different things. Before relying on any product, check the current manufacturer claims, independent certifications such as NSF/ANSI where relevant, replacement cartridge rules, and whether the device treats viruses.
+        Product photos are shown from product or retailer pages and link back to their source. Before buying, check the current manufacturer page, certifications, replacement-cartridge rules, and whether the exact model treats viruses.
       </p>
 
-      <div class="tool-table">
-        {waterTools.map(([name, note]) => (
-          <div>
-            <strong>{name}</strong>
-            <p>{note}</p>
-          </div>
+      <div class="product-grid">
+        {productCards.map((product) => (
+          <article class="product-card">
+            <a href={product.source} rel="noopener noreferrer">
+              <img src={product.image} alt={`${product.name} product image`} loading="lazy" />
+            </a>
+            <div>
+              <h3>{product.name}</h3>
+              <p class="product-best">{product.bestFor}</p>
+              <p>{product.note}</p>
+              <a href={product.source} rel="noopener noreferrer">Image/source</a>
+            </div>
+          </article>
         ))}
       </div>
 
-      <h2>Simple Rule of Thumb</h2>
+      <h2>Comparison Table</h2>
+      <div class="comparison-wrap">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Chlorine</th>
+              <th>Lead/Metals</th>
+              <th>Bacteria</th>
+              <th>Viruses</th>
+              <th>Parasites</th>
+              <th>Best Use</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Brita Premium Filtering Bottle</th>
+              <td>Yes</td>
+              <td>Limited</td>
+              <td>No</td>
+              <td>No</td>
+              <td>No</td>
+              <td>City tap water</td>
+            </tr>
+            <tr>
+              <th>LARQ Bottle Filtered</th>
+              <td>Yes</td>
+              <td>Some reduction</td>
+              <td>Limited</td>
+              <td>No</td>
+              <td>No</td>
+              <td>Urban travel</td>
+            </tr>
+            <tr>
+              <th>LARQ PureVis 2</th>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Partial, depending on setup</td>
+              <td>Yes</td>
+              <td>Premium travel bottle</td>
+            </tr>
+            <tr>
+              <th>LifeStraw Go Series</th>
+              <td>Minimal</td>
+              <td>Model-dependent</td>
+              <td>Yes</td>
+              <td>No</td>
+              <td>Yes</td>
+              <td>Hiking and backpacking</td>
+            </tr>
+            <tr>
+              <th>Grayl GeoPress / UltraPress</th>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Serious international travel</td>
+            </tr>
+            <tr>
+              <th>SteriPEN Ultra</th>
+              <td>No</td>
+              <td>No</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>UV purifier for clear water</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-legend">Legend: Yes = strong protection, Limited/Partial = model-dependent, No = not designed for this.</p>
+
+      <h2>The Most Important Distinction: Filter vs Purifier</h2>
       <p>
-        Filters physically remove some contaminants; disinfectants and UV devices inactivate germs; activated carbon can improve taste and reduce some chemicals. No single method is perfect for every water source. For higher-risk water, combine methods or choose a purifier designed for the specific threat.
+        This is the single most important concept for travelers. Most water bottles are filters. They usually protect against parasites and bacteria, but often not viruses. Brita, LifeStraw Go, and many hiking filters sit closer to this category.
+      </p>
+      <p>
+        Purifiers are designed for international travel and unsafe water systems. They target bacteria, parasites, and viruses. Grayl GeoPress, SteriPEN, and some UV-based systems sit closer to this category. If you travel extensively in Africa, South Asia, Latin America, or remote regions, virus protection becomes much more important.
+      </p>
+
+      <h2>Best Overall Choices</h2>
+      <div class="best-choice-grid">
+        <section>
+          <h3>Best Urban Travel Bottle</h3>
+          <p><strong>LARQ Bottle Filtered</strong></p>
+          <p>Stylish, strong for hotels and airports, and best for treated-water taste improvement in places such as Europe, Japan, Korea, and Singapore.</p>
+        </section>
+        <section>
+          <h3>Best Lightweight Adventure Bottle</h3>
+          <p><strong>LifeStraw Go</strong></p>
+          <p>Simple and rugged, with strong bacteria and protozoa protection for hiking and backpacking.</p>
+        </section>
+        <section>
+          <h3>Best One-Bottle Global Solution</h3>
+          <p><strong>Grayl GeoPress</strong></p>
+          <p>One of the few true purifier bottles, covering viruses as well as bacteria and parasites.</p>
+        </section>
+        <section>
+          <h3>Best UV Solution</h3>
+          <p><strong>SteriPEN Ultra</strong></p>
+          <p>Lightweight and effective against microbes in clear water, but it does not remove sediment or improve taste.</p>
+        </section>
+      </div>
+
+      <h2>Important Reality Check</h2>
+      <p>
+        No portable bottle is perfect. Even the best purifier bottles have trade-offs: heavier weight, slower flow, cartridge replacement costs, battery dependence for UV systems, and reduced performance in muddy water.
+      </p>
+      <p>
+        For many travelers, the ideal setup is a lightweight filter bottle for daily use plus purification tablets or UV backup for higher-risk situations. That combination is often lighter, cheaper, and more reliable than relying on a single magic bottle.
       </p>
 
       <h2>Sources</h2>

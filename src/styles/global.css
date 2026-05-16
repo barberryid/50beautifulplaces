@@ -460,6 +460,12 @@ p {
   font-size: clamp(1.7rem, 3vw, 2.7rem);
 }
 
+.health-article h3 {
+  margin: 1.25rem 0 0.5rem;
+  color: var(--forest);
+  font-size: 1.1rem;
+}
+
 .health-article p,
 .health-article li {
   color: var(--muted);
@@ -551,6 +557,88 @@ p {
   font-weight: 800;
 }
 
+.comparison-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1.25rem 0;
+}
+
+.comparison-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.comparison-table th,
+.comparison-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.comparison-table th {
+  color: var(--forest);
+  font-weight: 900;
+}
+
+.comparison-table td {
+  color: var(--muted);
+}
+
+.table-legend,
+.product-best {
+  color: var(--forest);
+  font-weight: 900;
+}
+
+.recommendation-grid,
+.best-choice-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.recommendation-grid section,
+.best-choice-grid section {
+  border-left: 4px solid var(--clay);
+  background: var(--surface);
+  padding: 1rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.product-card {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 1rem;
+}
+
+.product-card img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.product-card a {
+  color: var(--clay);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 .tool-table {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -595,9 +683,14 @@ p {
 
   .destination-grid,
   .health-cards,
+  .product-grid,
   .tool-table,
   .guide-facts {
     grid-template-columns: 1fr;
+  }
+
+  .product-card {
+    grid-template-columns: 110px minmax(0, 1fr);
   }
 
   .hero {
