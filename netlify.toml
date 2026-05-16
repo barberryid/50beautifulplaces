@@ -14,3 +14,8 @@
   from = "/places"
   to = "/places/"
   status = 301
+
+[[redirects]]
+  from = "/places/dentifoss/"
+  to = "/places/dettifoss/"
+  status = 301
