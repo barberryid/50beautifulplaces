@@ -24,6 +24,6 @@ seoDescription: "Isfahan's great square gathers turquoise domes, arcades, mosque
 
 Isfahan's great square gathers turquoise domes, arcades, mosques, and palace facades into one of the world's grandest urban rooms. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Give Isfahan more than a quick stop. Visit the square at different times of day: morning for tile detail, afternoon for arcades and tea, and evening when families gather under the lights. Check current visa, dress, and travel-advisory requirements carefully before planning Iran.

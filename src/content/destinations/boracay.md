@@ -26,7 +26,7 @@ _Country guide built around the Philippines’ most famous beach island._
 
 Four kilometres of powder-fine White Beach face west into the Sulu Sea — so the sunsets are a feature, not an accident. Boracay was closed for a six-month environmental rehabilitation in 2018 (no overnight tourism, sewer system rebuilt) and the post-rehab island is meaningfully tidier: the beachfront is car-free, the laneways behind it have proper drainage, and a cap on daily arrivals limits the worst high-season crush.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### When to go
 

@@ -24,6 +24,6 @@ seoDescription: "Dragon's blood trees, empty beaches, alien limestone, and remot
 
 Dragon's blood trees, empty beaches, alien limestone, and remote Arabian Sea isolation make Socotra feel biologically impossible. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Socotra requires careful logistics and current safety checks, usually through a specialist operator. Expect camping, simple food, rough roads, and landscapes that feel biologically impossible: dragon's blood trees, dunes, caves, limestone plateaus, and empty beaches. The fragility of the island is part of the responsibility.

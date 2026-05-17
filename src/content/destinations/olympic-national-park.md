@@ -24,6 +24,6 @@ seoDescription: "Rainforest, glacier peaks, moss valleys, driftwood beaches, and
 
 Rainforest, glacier peaks, moss valleys, driftwood beaches, and stormy Pacific edges all collide in one Washington wilderness. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Do not underestimate the distances: rainforest, mountains, and coast sit in different corners of the peninsula. Base choices matter, so group Hoh Rain Forest, Hurricane Ridge, Lake Crescent, and Rialto or Ruby Beach logically. Pack rain gear even in good forecasts; the drama often arrives with the mist.

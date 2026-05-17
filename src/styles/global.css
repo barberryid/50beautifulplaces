@@ -527,6 +527,57 @@ p {
   margin-top: clamp(3rem, 7vw, 5rem);
 }
 
+.planning-guide {
+  margin-top: clamp(3rem, 7vw, 5rem);
+  border-top: 1px solid var(--line);
+  padding-top: clamp(2rem, 5vw, 3rem);
+}
+
+.planning-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.planning-card {
+  display: grid;
+  align-content: start;
+  gap: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 1rem;
+}
+
+.planning-card-wide {
+  margin-bottom: 1rem;
+}
+
+.planning-card p,
+.planning-card li {
+  color: var(--muted);
+}
+
+.planning-card strong {
+  color: var(--forest);
+}
+
+.planning-card ul {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.planning-card li {
+  margin-bottom: 0.45rem;
+}
+
+.planning-card a {
+  color: var(--clay);
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -818,6 +869,7 @@ p {
 
   .destination-grid,
   .gallery-grid,
+  .planning-grid,
   .health-cards,
   .product-grid,
   .tool-table,

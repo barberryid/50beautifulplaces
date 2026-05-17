@@ -26,7 +26,7 @@ _Built directly from the December 2021 and March 2024 trip reports in the archiv
 
 Dominica (not the Dominican Republic) is the Caribbean island the cruise crowd mostly skips — mountainous, volcanic, rainforested, with nine active volcanoes, hundreds of waterfalls, a boiling lake and the only intact pre-Columbian Carib (Kalinago) territory left in the Antilles. There are no all-inclusives. The selling line "the Nature Island" turns out to be accurate.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### When to go
 

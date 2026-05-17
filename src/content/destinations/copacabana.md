@@ -26,7 +26,7 @@ _A destination guide for the world’s most famous urban beach, set inside a cou
 
 A four-kilometre crescent of sand between two granite headlands, framed by the Sugarloaf to the east and Leme to the north. The black-and-white Portuguese-mosaic promenade designed by Roberto Burle Marx is itself a piece of public art. Copacabana is busy, urban, and never quiet — there is football, volleyball, futevolei, capoeira, kite-flyers, hawkers, beach bars (kiosks called barracas), and a Cariocan flow you only really understand after a couple of days.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### When to go
 

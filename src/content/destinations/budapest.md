@@ -26,7 +26,7 @@ Budapest is one of Europe's best-value grand cities. It has imperial architectur
 
 For a beautiful-places list, Budapest belongs because of its setting. The Danube cuts between hilly Buda and flatter Pest, with Parliament, the Castle District, bridges, and the riverfront creating one of Europe's most dramatic city panoramas.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### What to do there
 

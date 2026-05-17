@@ -1,29 +1,29 @@
 ---
-title: "Medellin"
+title: "Medellín"
 country: "Colombia"
 region: "South America"
 summary: "A mountain-ringed city of cable cars, spring weather, public art, and restless reinvention high in Colombia's Aburra Valley."
 mainImage: "https://live.staticflickr.com/1675/24417172916_d82e8a75e0_b.jpg"
-imageAlt: "Medellin in Colombia"
-imageCredit: "Medellin, Colombia by szeke (BY SA 2.0) via Openverse"
+imageAlt: "Medellín in Colombia"
+imageCredit: "Medellín, Colombia by szeke (BY SA 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/43355249@N00/24417172916"
 imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/"
-hotelName: "8+ rated stays for Medellin"
-hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Medellin%2C%20Colombia&nflt=review_score%3D80"
+hotelName: "8+ rated stays for Medellín"
+hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Medellín%2C%20Colombia&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ guest-score filter for Medellin, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Medellín, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "December to March and July to August for drier city days in the Aburra Valley"
 duration: "2 to 5 days"
 tags: ["Cities","Mountains","Culture"]
 featured: false
-seoTitle: "Medellin Travel Guide"
-seoDescription: "A mountain-ringed city of cable cars, spring weather, public art, and restless reinvention high in Colombia's Aburra Valley. Includes timing, access, stay-length, and practical planning notes for Medellin."
+seoTitle: "Medellín Travel Guide"
+seoDescription: "A mountain-ringed city of cable cars, spring weather, public art, and restless reinvention high in Colombia's Aburra Valley. Includes timing, access, stay-length, and practical planning notes for Medellín."
 ---
 
 ## Why It Is Beautiful
 
 A mountain-ringed city of cable cars, spring weather, public art, and restless reinvention high in Colombia's Aburra Valley. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Stay near El Poblado, Laureles, or a well-connected metro stop, then use the cable cars to understand the city's valley setting. Pair Comuna 13 with a responsible local guide, visit the botanical garden, and go up to Parque Arvi for cooler air. The magic is the city rising green and bright on every slope.

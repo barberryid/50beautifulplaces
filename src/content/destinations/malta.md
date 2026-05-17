@@ -24,6 +24,6 @@ seoDescription: "Honey-stone cities, blue coves, ancient temples, and sea walls 
 
 Honey-stone cities, blue coves, ancient temples, and sea walls stack Mediterranean history into one bright island chain. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Choose Valletta, Sliema, or the Three Cities for architecture and ferry links, or Gozo for a slower limestone-and-sea trip. Book Hypogeum tickets early if it is on your list. Summer is brilliant but fierce; shoulder season lets you walk fortified streets and swim without feeling rushed by the heat.

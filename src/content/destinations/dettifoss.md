@@ -24,7 +24,7 @@ seoDescription: "A glacial river hurls itself into a basalt canyon with a force 
 
 Dettifoss is one of Iceland's most powerful waterfalls: a wide, roaring wall of grey glacial water dropping into the canyon of the Jokulsa a Fjollum river. It is not delicate or pretty in the usual sense. It is raw, loud, and physical.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### What to do there
 

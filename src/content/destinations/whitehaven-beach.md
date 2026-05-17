@@ -24,6 +24,6 @@ seoDescription: "Silica sand swirls through turquoise shallows in the Whitsunday
 
 Silica sand swirls through turquoise shallows in the Whitsundays, creating one of Australia's most dazzling shorelines. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Reach it by boat, sailing trip, seaplane, or helicopter from the Whitsundays. Hill Inlet is the essential viewpoint, where tide patterns twist white silica sand through blue water. Reef-safe sun protection matters, and weather can change the whole character of a day trip.

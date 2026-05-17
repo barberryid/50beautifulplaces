@@ -24,6 +24,6 @@ seoDescription: "Glaciers, granite towers, blue lakes, and ferocious wind give t
 
 Glaciers, granite towers, blue lakes, and ferocious wind give the far south a raw end-of-the-world beauty. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Pick a side or build enough time for both Chile and Argentina. Torres del Paine, El Chalten, glaciers, and steppe roads are spectacular but weather-governed. Reserve key accommodation early, carry windproof layers, and leave slack days for the rare clear morning that changes the whole trip.

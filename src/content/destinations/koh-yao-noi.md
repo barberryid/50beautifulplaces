@@ -24,6 +24,6 @@ seoDescription: "Between Phuket and Krabi, this Thai island keeps the limestone 
 
 Between Phuket and Krabi, this Thai island keeps the limestone views but trades the rush for rice fields and slow mornings. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Reach the island by boat from Phuket or Krabi, then slow down. Rent a scooter only if you are confident, choose the east coast for limestone-island views, and use long-tail boat trips for Phang Nga Bay. This is a place for hammocks, seafood, and soft mornings rather than a packed party schedule.

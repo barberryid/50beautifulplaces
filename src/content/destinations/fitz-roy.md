@@ -24,6 +24,6 @@ seoDescription: "Jagged granite spires explode above Patagonian lakes and wind-s
 
 Jagged granite spires explode above Patagonian lakes and wind-scoured trails, especially electric at first light. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Use El Chalten as your base and plan around weather rather than a rigid itinerary. The Laguna de los Tres hike is the classic sunrise effort, but wind, snow, and cloud can erase the mountain in minutes. Carry layers, start early, and keep a spare day for the moment the granite spires finally clear.

@@ -24,6 +24,6 @@ seoDescription: "Imperial canals, pastel palaces, vast museums, and northern lig
 
 Imperial canals, pastel palaces, vast museums, and northern light give Russia's old capital a dramatic, melancholy grandeur. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Plan around museums, canals, and long light. The Hermitage needs timed patience, while Peterhof and Tsarskoe Selo are best treated as separate outings. Check current visa rules and travel advisories before planning Russia, and build in slower days for distances and formalities.

@@ -26,7 +26,7 @@ _Country guide for the United States routed through its biggest, wildest nationa
 
 Denali (6,190 m, the highest mountain in North America) is the centrepiece of a 24,000 km² sub-arctic wilderness so big it has only one road. The park hosts grizzly bears, wolves, moose, caribou, Dall sheep and a 12,000-foot mountain that famously hides in cloud most days — a clear view is called a "30% day". The pull is the sense of scale, not specific attractions.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### When to go
 

@@ -26,7 +26,7 @@ _A country guide built around the world’s tallest uninterrupted waterfall and 
 
 Angel Falls (Salto Ángel, locally Kerepakupai Merú) plunges 979 metres off the side of Auyán-tepui, the second-largest of Venezuela’s flat-topped sandstone plateaus. The setting is the bigger story: Canaima National Park is roughly the size of Belgium, a green carpet of rainforest punctuated by tepuis that look as if continents were cut out and lifted into the sky. Roraima, the most famous tepui, sits further east near Santa Elena de Uairén and is climbable on a 6–7 day trek.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### When to go
 

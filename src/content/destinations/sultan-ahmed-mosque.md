@@ -24,6 +24,6 @@ seoDescription: "Istanbul's Blue Mosque gathers domes, minarets, Iznik tiles, an
 
 Istanbul's Blue Mosque gathers domes, minarets, Iznik tiles, and call-to-prayer atmosphere across from Hagia Sophia. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Visit outside prayer times and dress respectfully. The mosque sits at the heart of Sultanahmet, so pair it with Hagia Sophia, the Basilica Cistern, and a slow walk toward the Golden Horn. The building is most moving when you let the courtyard, domes, and call to prayer set the pace.

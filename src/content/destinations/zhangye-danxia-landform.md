@@ -24,6 +24,6 @@ seoDescription: "China's rainbow mountains ripple in bands of red, gold, and gre
 
 China's rainbow mountains ripple in bands of red, gold, and green, like geology painted at impossible scale. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Use Zhangye as the base and visit at sunrise or sunset, when the striped hills hold their strongest color. Rain can intensify the tones, but paths and viewpoints are controlled, so expect a managed scenic area rather than wilderness. The spectacle is geology made almost painterly.

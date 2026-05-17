@@ -26,7 +26,7 @@ _Country guide framed around a quiet whitewashed fishing village on the Cape Agu
 
 Arniston (officially Waenhuiskrans) sits two and a half hours south-east of Cape Town, past the wheat-fields of the Overberg, almost at the southern tip of Africa. The village is built around a 200-year-old fishing community at Kassiesbaai — limewashed cottages, no chain stores, southern right whales offshore between June and November. It is a perfect first or last stop on a Cape road trip.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### When to go
 

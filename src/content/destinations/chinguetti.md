@@ -26,7 +26,7 @@ Chinguetti is one of the great old Saharan towns: sand-blown stone buildings, an
 
 This is a destination for experienced travelers who value atmosphere, desert culture, and remote places more than comfort.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### What to do there
 

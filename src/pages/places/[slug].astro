@@ -74,9 +74,7 @@ const countryAliases: Record<string, string> = {
   "Chile and Argentina": "Chile|Argentina",
   "Isfahan, Iran": "Iran",
   "Istanbul, Turkey": "Turkey",
-  Tadjikistan: "Tajikistan",
   "Trinidad & Tobago": "Trinidad & Tobago",
-  "Usbekistan": "Uzbekistan",
   "Utah, USA": "USA",
   "Washington State, USA": "USA",
   "Zambia and Zimbabwe": "Zambia|Zimbabwe"
@@ -97,6 +95,47 @@ const visaLinks = visaCountries.map((country) => {
 });
 const mapQuery = `${place.data.title}, ${place.data.country}`;
 const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery)}`;
+const planning = {
+  practicalIntro: place.data.practicalIntro ?? "This guide is designed to help you decide whether this place fits the trip you are actually planning: the season you can travel, the time you have, the level of comfort you want, and the amount of effort you are willing to invest.",
+  practicalDisclaimer: place.data.practicalDisclaimer ?? "Use it as a starting point for planning, then check current local conditions, transport options, entry requirements, weather patterns, opening times, and safety advice before booking.",
+  accessSummary: place.data.accessSummary ?? "Most beautiful places are not difficult in the same way. Some are easy city or beach trips. Others require long road journeys, weather windows, permits, guides, high-altitude awareness, or a flexible itinerary.",
+  planningDifficulty: place.data.planningDifficulty ?? "Planning difficulty varies by season, access, and how independently you want to travel. Give yourself enough time to understand the geography before making non-refundable bookings.",
+  physicalDifficulty: place.data.physicalDifficulty ?? "Physical difficulty depends on how you choose to experience the place. A viewpoint visit may be simple, while hikes, boats, heat, altitude, wind, or rough roads can change the trip quickly.",
+  bestTimeExpanded: place.data.bestTimeExpanded ?? `The headline timing for ${place.data.title} is: ${place.data.bestTime}. The best time still depends on what you want most: clear weather, fewer crowds, lower prices, wildlife, flowers, snow, surf, reflections, festivals, or dramatic seasonal conditions.`,
+  durationExpanded: place.data.durationExpanded ?? `The suggested duration is ${place.data.duration}. Treat that as a realistic starting point, not a rule: a short visit can work for one landmark, while a longer stay gives you better light, slower wandering, day trips, and weather flexibility.`,
+  perfectFor: place.data.perfectFor ?? [
+    "Travellers who enjoy slowing down, looking carefully, and letting a landscape or historic setting build gradually.",
+    "Photography, viewpoints, atmosphere, and changing light.",
+    "A trip that feels different from a standard city break or resort holiday.",
+    "Building a journey around one extraordinary place rather than rushing through many stops.",
+    `Visitors drawn to ${place.data.tags.join(", ").toLowerCase()}.`
+  ],
+  notIdealFor: place.data.notIdealFor ?? [
+    "Very tight itineraries with no flexibility for weather, queues, or transport delays.",
+    "Travellers who want every detail to be effortless, predictable, or fully controlled.",
+    "Anyone expecting the place to look exactly like photos at all times of day and year.",
+    "Trips where nightlife, shopping, or resort-style convenience matters more than scenery and atmosphere."
+  ],
+  commonMistakes: place.data.commonMistakes ?? [
+    "Visiting in the wrong season for the experience you want.",
+    "Allowing only one short weather-dependent window.",
+    "Staying too far away from the main area of interest.",
+    "Underestimating transfer times, road conditions, queues, heat, altitude, or walking distances.",
+    "Trying to see too much in one day instead of leaving time for light, rest, and atmosphere.",
+    "Booking accommodation or transport before understanding the geography."
+  ],
+  combineWith: place.data.combineWith ?? "This destination may work as a standalone trip, but many visitors will get more from it by combining it with nearby landscapes, towns, coastlines, cultural sites, national parks, or scenic routes. Avoid adding places only because they look close on a map; travel time, road quality, border crossings, ferry schedules, flight routes, altitude, weather, and fatigue can matter more than distance.",
+  beforeBooking: place.data.beforeBooking ?? [
+    "Entry requirements and passport validity.",
+    "Local safety and travel health advice.",
+    "Seasonal weather and access conditions.",
+    "Transport schedules and realistic transfer times.",
+    "Accommodation location, not just rating.",
+    "Whether guides, permits, ferries, cable cars, park access, or timed tickets are needed.",
+    "Travel insurance coverage for the activities you plan to do."
+  ],
+  healthPlanningNote: place.data.healthPlanningNote ?? "For heat, altitude, insects, water safety, remote roads, food hygiene, or limited medical access, review basic travel health preparation before you go."
+};
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
@@ -198,6 +237,85 @@ const jsonLd = {
     <div class="guide-content">
       <Content />
     </div>
+
+    <section class="planning-guide" aria-labelledby="planning-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Planning notes</p>
+          <h2 id="planning-heading">Practical Travel Notes</h2>
+        </div>
+      </div>
+
+      <div class="planning-card planning-card-wide">
+        <p>{planning.practicalIntro}</p>
+        <p>{planning.practicalDisclaimer}</p>
+      </div>
+
+      <div class="planning-grid">
+        <section class="planning-card">
+          <h3>Can I Realistically Visit This?</h3>
+          <p>{planning.accessSummary}</p>
+          <p><strong>Planning:</strong> {planning.planningDifficulty}</p>
+          <p><strong>Physical effort:</strong> {planning.physicalDifficulty}</p>
+        </section>
+
+        <section class="planning-card">
+          <h3>Best Time to Go</h3>
+          <p>{planning.bestTimeExpanded}</p>
+          <ul>
+            <li>Check dry, wet, hot, cold, storm, or snow seasons.</li>
+            <li>Check whether roads, trails, ferries, viewpoints, or parks close seasonally.</li>
+            <li>Check local holidays, school holidays, and major festivals.</li>
+          </ul>
+        </section>
+
+        <section class="planning-card">
+          <h3>How Long to Stay</h3>
+          <p>{planning.durationExpanded}</p>
+          <ul>
+            <li>1 day can work for a single landmark or viewpoint.</li>
+            <li>2 to 3 days usually allows better light and a calmer visit.</li>
+            <li>4 to 7 days is better for landscapes, islands, hiking regions, wildlife, or weather-dependent trips.</li>
+          </ul>
+        </section>
+
+        <section class="planning-card">
+          <h3>Who This Place Is Perfect For</h3>
+          <ul>
+            {planning.perfectFor.map((item) => <li>{item}</li>)}
+          </ul>
+        </section>
+
+        <section class="planning-card">
+          <h3>Not Ideal If</h3>
+          <ul>
+            {planning.notIdealFor.map((item) => <li>{item}</li>)}
+          </ul>
+        </section>
+
+        <section class="planning-card">
+          <h3>Common Mistakes</h3>
+          <ul>
+            {planning.commonMistakes.map((item) => <li>{item}</li>)}
+          </ul>
+        </section>
+
+        <section class="planning-card">
+          <h3>What to Combine It With</h3>
+          <p>{planning.combineWith}</p>
+        </section>
+
+        <section class="planning-card">
+          <h3>Before You Book</h3>
+          <ul>
+            {planning.beforeBooking.map((item) => <li>{item}</li>)}
+          </ul>
+          <p>
+            {planning.healthPlanningNote} <a href="/health/">Read the travel health guide.</a>
+          </p>
+        </section>
+      </div>
+    </section>
 
     {place.data.galleryImages && place.data.galleryImages.length > 0 && (
       <section class="image-gallery" aria-labelledby="gallery-heading">

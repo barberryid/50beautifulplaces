@@ -26,7 +26,7 @@ Anse Source d'Argent is the Seychelles beach that looks almost unreal: pale sand
 
 The beach is on La Digue, the most relaxed of the main Seychelles islands. Most visitors get around by bicycle, and the pace is part of the pleasure. It works especially well for travelers who want gentle swimming, photography, a beach picnic, and a quiet island base rather than resort isolation.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### What to do there
 

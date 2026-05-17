@@ -24,6 +24,6 @@ seoDescription: "Cape Town unfolds below a flat-topped mountain of cliffs, cloud
 
 Cape Town unfolds below a flat-topped mountain of cliffs, cloud, fynbos, ocean, and sunset city views. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Check conditions before heading up; wind can close the cableway even on bright days. Hike with proper gear if taking Platteklip or longer routes, and descend before weather turns. The reward is Cape Town suddenly arranged below you: ocean, city grid, cliffs, and Robben Island in one sweep.

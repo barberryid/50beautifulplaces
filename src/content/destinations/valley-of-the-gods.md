@@ -24,6 +24,6 @@ seoDescription: "Red sandstone buttes stand over a lonely Utah road, delivering 
 
 Red sandstone buttes stand over a lonely Utah road, delivering Monument Valley drama with far more silence. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 This Utah backroad is quieter and looser than Monument Valley, with huge sandstone forms rising from open desert. A high-clearance vehicle helps after weather, and dispersed camping requires self-sufficiency. Go at sunrise or sunset when the buttes turn red and the road feels wonderfully small.

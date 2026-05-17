@@ -24,6 +24,6 @@ seoDescription: "Volcanoes, hot springs, bear country, and Pacific wilderness ma
 
 Volcanoes, hot springs, bear country, and Pacific wilderness make Kamchatka one of Earth's last big raw edges. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Most trips start in Petropavlovsk-Kamchatsky and require guided logistics, permits, and flexible weather days. Helicopter trips, volcano hikes, hot springs, and bear-viewing excursions can be delayed by cloud or wind. Build a buffer into the itinerary and treat the remoteness as part of the thrill.

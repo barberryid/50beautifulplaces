@@ -26,7 +26,7 @@ _A destination guide built directly from trip reports in the archive._
 
 The Danakil is one of the planet’s most extreme landscapes — a tectonic spreading rift where Africa is splitting apart, mostly below sea level, with the lowest dry point on the continent (Dallol at −125 m). It contains an active lava lake at Erta Ale, the neon-yellow sulphur and salt springs of Dallol, salt-mining camel caravans along Lake Karum, and the Afar people, one of the most distinct cultures in East Africa. A traveller in the archive who has been to 133 countries calls Danakil "one of the most beautiful and unique places in the world".
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### When to go
 

@@ -24,6 +24,6 @@ seoDescription: "Canals, palaces, stone bridges, and lagoon light make Venice fe
 
 Canals, palaces, stone bridges, and lagoon light make Venice feel like a city floating between history and dream. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Sleep in Venice proper if possible, then walk before breakfast and after dinner when day-trippers thin out. Book major sights, but save time for vaporetto rides, side canals, cicchetti bars, and getting gently lost. The city is fragile, expensive, and still astonishing when approached slowly.

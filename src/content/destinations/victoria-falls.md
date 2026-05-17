@@ -24,6 +24,6 @@ seoDescription: "The Zambezi drops into a roaring chasm of spray, rainbows, and 
 
 The Zambezi drops into a roaring chasm of spray, rainbows, and thunder you hear long before you see it. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Choose the Zambia or Zimbabwe side based on season and water level; many travelers see both. High water brings thunder and soaking spray, while lower water reveals more of the gorge. Add a sunset river cruise or viewpoints along the bridge to feel the scale beyond one lookout.

@@ -24,6 +24,6 @@ seoDescription: "Floodwater spreads into desert and becomes a maze of reeds, cha
 
 Floodwater spreads into desert and becomes a maze of reeds, channels, elephants, mokoros, and impossible green life. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Decide early whether you want a lodge-based safari, mobile camping, or a mokoro-focused trip. Water levels shape the experience, and small aircraft transfers are common. This is not a checklist safari; the awe is in silence, reeds, reflected sky, and animals appearing at the edge of floodwater.

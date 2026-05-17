@@ -24,6 +24,6 @@ seoDescription: "Red, white, and pink canyon walls blaze in the Turkmen desert, 
 
 Red, white, and pink canyon walls blaze in the Turkmen desert, especially when low sun turns the cliffs molten. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Yankikala is remote, dry, and best visited with a driver who knows Turkmenistan's rules and roads. The canyon's pink, red, and cream walls glow near sunset, but services are minimal. Carry water, sun protection, and patience for permits or checkpoint formalities.

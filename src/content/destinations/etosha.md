@@ -26,7 +26,7 @@ Etosha is one of Africa's best self-drive safari parks. The landscape is open, d
 
 For budget travelers, Etosha is especially attractive because you can self-drive instead of paying for a fully guided luxury safari.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### What to do there
 

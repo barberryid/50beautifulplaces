@@ -26,7 +26,7 @@ Chefchaouen is Morocco's blue mountain town, set in the Rif Mountains with lanes
 
 It works well for travelers who want a gentler Moroccan medina experience, mountain air, small cafes, simple guesthouses, and easy wandering.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### What to do there
 

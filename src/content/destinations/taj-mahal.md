@@ -24,6 +24,6 @@ seoDescription: "White marble, river mist, perfect symmetry, and changing light 
 
 White marble, river mist, perfect symmetry, and changing light make the Taj Mahal feel both intimate and monumental. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Stay overnight in Agra so you can enter at dawn, before heat and crowds flatten the mood. Book tickets properly, carry only what is allowed, and view the mausoleum again from Mehtab Bagh across the Yamuna. The emotion is strongest when the marble slowly takes the morning light.

@@ -24,6 +24,6 @@ seoDescription: "Cologne's cathedral rises like black lace over the Rhine, a Got
 
 Cologne's cathedral rises like black lace over the Rhine, a Gothic landmark that still startles from every angle. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 The cathedral is best approached slowly from the Rhine or the train station, where its twin spires suddenly dominate everything. Climb the tower if you have the legs, visit early for quieter nave light, and stay for evening when the stone turns almost black against the city glow.

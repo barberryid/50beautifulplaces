@@ -26,7 +26,7 @@ _Country guide with one sharp practical warning, taken straight from the archive
 
 The DR shares the island of Hispaniola with Haiti and has, by some distance, the Caribbean’s most varied geography — the highest peak in the region (Pico Duarte, 3,098 m), dry desert in the south-west, mangrove lagoons in Samaná, world-class kitesurfing on the north coast, the world’s best humpback-whale breeding ground in Silver Bank, and Santo Domingo, the first European city founded in the Americas (1496). It is also a place where the package-tourist version (Punta Cana) sits beside a much richer independent-traveller version most visitors never see.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### Read this first — the E-Ticket trap
 

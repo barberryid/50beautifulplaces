@@ -24,6 +24,6 @@ seoDescription: "A tiny Maldives island wrapped in reef water, where the horizon
 
 A tiny Maldives island wrapped in reef water, where the horizon, lagoon, and house reef do almost all the talking. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Hadahaa is remote even by Maldives standards, so the trip depends on resort transfers and domestic-flight timing. Come for reef time, silence, and water clarity rather than nightlife. Pack light, respect coral rules, and confirm seaplane or speedboat logistics before locking international flights.

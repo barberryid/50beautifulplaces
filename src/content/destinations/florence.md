@@ -24,6 +24,6 @@ seoDescription: "Renaissance domes, river bridges, marble churches, and honeyed 
 
 Renaissance domes, river bridges, marble churches, and honeyed evening streets make Florence feel like art turned into a city. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Stay central enough to walk before the day-trip crowds arrive. Book the Uffizi, Accademia, and Brunelleschi's Dome ahead, then leave unplanned time for side streets, artisan workshops, and sunset from San Miniato al Monte. Florence is compact, but museum fatigue is real, so spread the icons across several days.

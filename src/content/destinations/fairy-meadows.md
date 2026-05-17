@@ -26,7 +26,7 @@ Fairy Meadows is one of Pakistan's most famous mountain viewpoints: a green alpi
 
 This is not a polished resort destination. It is for travelers who want Himalayan drama, simple huts or camping, and a bit of roughness.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### What to do there
 

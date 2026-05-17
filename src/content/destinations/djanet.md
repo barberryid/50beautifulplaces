@@ -26,7 +26,7 @@ Djanet is one of the great gateways to the central Sahara. It sits in southeast 
 
 This is not a casual city break. It is an expedition-style destination for people who want desert silence, geology, culture, and a sense of remoteness.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### What to do there
 

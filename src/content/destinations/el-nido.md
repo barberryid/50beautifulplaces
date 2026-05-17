@@ -26,7 +26,7 @@ _Destination guide for one of the most photographed coastlines in Southeast Asia
 
 El Nido sits on the north-west tip of Palawan, fringing Bacuit Bay — a 30 km expanse of limestone karst islands, hidden lagoons, white-sand strips and shallow reefs. The big draws are the four standard island-hopping circuits (Tours A, B, C and D), most of which you can do back-to-back over four days. The town itself is small, mildly chaotic, and improved by a road bypass completed in 2023.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### When to go
 

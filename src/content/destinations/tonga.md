@@ -24,6 +24,6 @@ seoDescription: "South Pacific islands of limestone caves, blue water, whale enc
 
 South Pacific islands of limestone caves, blue water, whale encounters, and Polynesian calm spread far beyond the usual routes. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Plan around islands and boats rather than a single base. Whale-swim season is the headline, but beaches, blowholes, caves, and village life are part of the beauty. Use licensed operators, respect local customs, and keep plans flexible because small-island logistics can shift.

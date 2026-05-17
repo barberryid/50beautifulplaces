@@ -26,7 +26,7 @@ _A destination guide for the most accessible great-mountain trekking on the plan
 
 The Annapurna massif is a 55-km wall of seven peaks above 7,000 m, three of them over 8,000 m. Trails fan out from Pokhara into a horseshoe of villages, terraced rice paddies, rhododendron forest and high pastures, climbing eventually to glacier-rimmed amphitheatres. Compared to Everest, Annapurna treks are lower, greener, more cultural — you walk through working Gurung, Magar and Thakali villages — and cheaper.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### Pick a trek
 

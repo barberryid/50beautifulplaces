@@ -24,6 +24,6 @@ seoDescription: "Brazil's great wetland turns wildlife watching into a daily spe
 
 Brazil's great wetland turns wildlife watching into a daily spectacle of jaguars, caimans, capybaras, birds, and open sky. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Base in the northern or southern Pantanal depending on your route and wildlife priorities. The dry season makes roads easier and concentrates animals near water, while guided river outings raise your chance of seeing jaguar. Bring binoculars, insect protection, and a willingness to sit still.

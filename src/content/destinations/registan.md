@@ -30,6 +30,6 @@ seoDescription: "Samarkand's tiled madrasas rise around a monumental square wher
 
 Samarkand's tiled madrasas rise around a monumental square where Silk Road history still feels theatrical and alive. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Stay in Samarkand so you can see the square after tour groups leave. The madrasahs are magnificent in full daylight, but blue hour is when the tiles feel almost theatrical. Pair the Registan with Shah-i-Zinda and local markets for a fuller sense of the Silk Road city.

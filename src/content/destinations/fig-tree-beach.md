@@ -24,6 +24,6 @@ seoDescription: "Clear Cypriot water, soft sand, and easy Mediterranean swimming
 
 Clear Cypriot water, soft sand, and easy Mediterranean swimming make this one of Protaras' most inviting beaches. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Base yourself in Protaras or nearby Ayia Napa if you want easy bus and taxi access. Arrive before mid-morning for calmer water, rent a lounger only if you plan to stay, and bring reef-safe sun protection because shade disappears quickly. The beach is highly developed, so the reward is effortless swimming rather than isolation.

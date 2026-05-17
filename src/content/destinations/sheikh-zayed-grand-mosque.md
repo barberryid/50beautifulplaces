@@ -24,6 +24,6 @@ seoDescription: "Marble courtyards, domes, columns, and reflective pools make Ab
 
 Marble courtyards, domes, columns, and reflective pools make Abu Dhabi's great mosque glow with serene scale. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Visit late afternoon so the white marble shifts from sunlit brilliance to blue-hour glow. Dress rules are strict and security is formal, so check requirements before going. The mosque is close enough to pair with Abu Dhabi's museums or waterfront, but it deserves unhurried time.

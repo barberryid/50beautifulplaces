@@ -24,6 +24,6 @@ seoDescription: "Desert dunes, sculptural museums, souqs, mangroves, and a futur
 
 Desert dunes, sculptural museums, souqs, mangroves, and a futuristic skyline meet on a compact Gulf peninsula. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Use Doha as the base, then balance museums, souqs, desert drives, and the Corniche. The country rewards evening exploring, when heat softens and the skyline begins to glow. For desert trips or Inland Sea excursions, use a reputable driver rather than self-driving into sand.

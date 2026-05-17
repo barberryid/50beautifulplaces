@@ -26,7 +26,7 @@ The Romanian Carpathians are one of Europe's best-value mountain regions: forest
 
 For first-time visitors, the most practical areas are Bucegi, Piatra Craiului, Fagaras, Retezat, and parts of Apuseni. Bucegi is the easiest to access from Bucharest and Brasov; Piatra Craiului is sharper and more dramatic; Fagaras is higher and more committing.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### What to do there
 

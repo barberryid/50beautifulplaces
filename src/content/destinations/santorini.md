@@ -24,6 +24,6 @@ seoDescription: "White villages cling to a volcanic caldera above Aegean blue, w
 
 White villages cling to a volcanic caldera above Aegean blue, with sunset light turning the cliffs almost unreal. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Stay outside Oia if you want better value, then visit the caldera villages early or late. Walk Fira to Oia for the island's best sense of height and volcanic shape. The views are famous for a reason, but the island feels better when you avoid cruise-ship peak hours.

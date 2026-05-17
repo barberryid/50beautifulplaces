@@ -24,6 +24,6 @@ seoDescription: "A collapsed volcanic world shelters lions, elephants, flamingos
 
 A collapsed volcanic world shelters lions, elephants, flamingos, and grassland drama inside one immense Tanzanian bowl. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Plan an early descent into the crater, when light spills across the floor and wildlife is most active. Most travelers combine it with the Serengeti or Tarangire, but one carefully timed crater day can still feel immense. Bring warm layers for the rim and patience for busy viewpoints.

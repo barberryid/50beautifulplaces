@@ -24,6 +24,6 @@ seoDescription: "Ancient ruins, baroque fountains, sun-baked piazzas, and layere
 
 Ancient ruins, baroque fountains, sun-baked piazzas, and layered street life make Rome feel endlessly inhabited by history. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Rome rewards early starts and neighborhood pacing. Book the Colosseum and Vatican Museums ahead, then let the rest breathe: fountains at night, churches with open doors, espresso at the bar, and ruins appearing between ordinary streets. Comfortable shoes matter more than almost anything.

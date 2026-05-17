@@ -26,7 +26,7 @@ The Avenue of the Baobabs is one of Madagascar's great visual moments: a dusty r
 
 The trees here are mainly Grandidier's baobabs, one of Madagascar's endemic baobab species. Recent reporting describes the avenue as a concentration of around 20-25 baobabs directly along the road, with more scattered nearby in the surrounding landscape.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 ### What to do there
 

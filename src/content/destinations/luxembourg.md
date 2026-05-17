@@ -24,6 +24,6 @@ seoDescription: "Fortress cliffs, old bridges, forested valleys, and compact Eur
 
 Fortress cliffs, old bridges, forested valleys, and compact European elegance make tiny Luxembourg feel far larger than its map. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Use Luxembourg City as a base, then add the Mullerthal trails, Vianden Castle, and river valleys by train or car. The beauty is compact and layered: fortress walls, forest paths, old towns, and clean viewpoints close together. It works especially well as a short, polished European break.

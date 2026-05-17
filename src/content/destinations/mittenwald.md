@@ -24,6 +24,6 @@ seoDescription: "Painted Bavarian houses sit below Alpine walls, with violin-mak
 
 Painted Bavarian houses sit below Alpine walls, with violin-making history, mountain trails, and storybook streets in every direction. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Arrive by train if you can: the first view of painted houses under the Karwendel peaks is part of the charm. Use the town for easy Alpine walks, violin-making history, and day trips toward Garmisch-Partenkirchen. Weather shifts fast, so keep a low-valley plan for cloudy mountain days.

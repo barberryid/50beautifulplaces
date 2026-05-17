@@ -24,6 +24,6 @@ seoDescription: "White sails rise over Sydney Harbour, turning a working perform
 
 White sails rise over Sydney Harbour, turning a working performance hall into one of the world's great waterfront icons. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 See it from several angles: Circular Quay, the Royal Botanic Garden, the ferry to Manly, and inside on a tour or performance night. The building is a working cultural venue, not just a harbor sculpture. Sunset ferries give the most effortless sense of its setting.

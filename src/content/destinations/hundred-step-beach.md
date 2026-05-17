@@ -24,6 +24,6 @@ seoDescription: "A quiet Trinidad and Tobago escape where the reward is surf, sa
 
 A quiet Trinidad and Tobago escape where the reward is surf, sand, and the feeling of finding a coast before the crowd. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Use Tobago's quieter Atlantic-side rhythm as the frame: early swims, local food, and slow coastal drives. Access and names can vary locally, so ask your guesthouse for the best current route. Bring water shoes, check sea conditions, and do not assume every beautiful cove is safe for swimming.

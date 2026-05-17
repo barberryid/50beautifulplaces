@@ -24,6 +24,6 @@ seoDescription: "Bolivia's salt flats become a white infinity by day and a mirro
 
 Bolivia's salt flats become a white infinity by day and a mirror of sky after rain, stretching beyond belief. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
 
-## Practical Travel Notes
+## Local Planning Notes
 
 Choose between mirror season and dry-season geometry before booking. Multi-day 4x4 trips can be cold, high, and basic, but the scale is unforgettable: white salt to the horizon, volcanoes, flamingo lagoons, and stars sharpened by altitude. Bring layers, sunglasses, and extra camera batteries.
