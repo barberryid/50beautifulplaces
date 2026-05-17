@@ -13,17 +13,27 @@ interface Props {
 }
 
 const { href, title, country, region, summary, image, alt, tags, bestFor = [], priority = false } = Astro.props;
+const chips = (bestFor.length ? bestFor : tags).slice(0, 3);
 ---
 
 <article class="destination-card" data-region={region} data-best-for={bestFor.join("|")}>
-  <a href={href} aria-label={`Read the ${title} guide`}>
-    <img src={image} alt={alt} width="1200" height="900" loading={priority ? "eager" : "lazy"} decoding="async" fetchpriority={priority ? "high" : "auto"} />
+  <a class="destination-card-link" href={href} aria-label={`Read the ${title} guide`}>
+    <img
+      src={image}
+      alt={alt}
+      width="1200"
+      height="900"
+      loading={priority ? "eager" : "lazy"}
+      decoding="async"
+      fetchpriority={priority ? "high" : "auto"}
+    />
     <div class="card-body">
-      <p class="eyebrow">{region} / {country}</p>
+      <p class="eyebrow card-region">{region}</p>
       <h3>{title}</h3>
-      <p>{summary}</p>
+      <p class="card-country">{country}</p>
+      <p class="card-summary">{summary}</p>
       <div class="tag-row" aria-label="Destination tags">
-        {(bestFor.length ? bestFor : tags).slice(0, 3).map((tag) => <span>{tag}</span>)}
+        {chips.map((tag) => <span>{tag}</span>)}
       </div>
     </div>
   </a>
