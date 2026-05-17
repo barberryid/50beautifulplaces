@@ -523,6 +523,33 @@ p {
   padding-top: clamp(2rem, 5vw, 3rem);
 }
 
+.image-gallery {
+  margin-top: clamp(3rem, 7vw, 5rem);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid figure {
+  margin: 0;
+}
+
+.gallery-grid img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gallery-grid figcaption {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .guide-content h2,
 .prose h2 {
   margin: 2rem 0 0.75rem;
@@ -790,6 +817,7 @@ p {
   }
 
   .destination-grid,
+  .gallery-grid,
   .health-cards,
   .product-grid,
   .tool-table,

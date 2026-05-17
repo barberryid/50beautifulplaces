@@ -199,6 +199,25 @@ const jsonLd = {
       <Content />
     </div>
 
+    {place.data.galleryImages && place.data.galleryImages.length > 0 && (
+      <section class="image-gallery" aria-labelledby="gallery-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Gallery</p>
+            <h2 id="gallery-heading">More views of {place.data.title}.</h2>
+          </div>
+        </div>
+        <div class="gallery-grid">
+          {place.data.galleryImages.map((image) => (
+            <figure>
+              <img src={image.src} alt={image.alt} width="1200" height="760" loading="lazy" decoding="async" />
+              {image.caption && <figcaption>{image.caption}</figcaption>}
+            </figure>
+          ))}
+        </div>
+      </section>
+    )}
+
     {related.length > 0 && (
       <section class="related-guides" aria-labelledby="related-heading">
         <div class="section-heading">
