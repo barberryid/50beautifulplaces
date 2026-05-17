@@ -1,30 +1,113 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const heroImage = "https://live.staticflickr.com/7372/8754152916_6240747448_b.jpg";
 ---
 
 <BaseLayout
-  title="About 50 Beautiful Places"
-  description="Learn about the editorial approach behind 50 Beautiful Places, a lightweight travel inspiration site built with Astro."
+  title="About Me | 50 Beautiful Places"
+  description="Learn why 50 Beautiful Places was created: a personal travel project focused on awe-inspiring landscapes, meaningful travel experiences, cultural depth, and practical destination guidance."
+  image={heroImage}
+  preloadImage
 >
-  <section class="page-hero compact">
-    <p class="eyebrow">About the project</p>
-    <h1>A calm, maintainable travel guide library.</h1>
+  <section class="about-hero">
+    <img src={heroImage} alt="A vast Patagonian glacier and mountain landscape" width="1600" height="1000" fetchpriority="high" />
+    <div class="about-hero-content">
+      <p class="eyebrow">About Me</p>
+      <h1>Why I created 50 Beautiful Places</h1>
+      <p>I created 50 Beautiful Places because I have spent much of my life searching for places that create a genuine sense of awe.</p>
+    </div>
+  </section>
+
+  <section class="section-narrow prose about-intro">
+    <h2>A Life Shaped by Travel</h2>
     <p>
-      50 Beautiful Places is structured for image-led destination stories with practical notes,
-      clean metadata, static pages, and a publishing workflow that respects Netlify build minutes.
+      Not just famous landmarks or luxury resorts, but the kinds of places that stay in your memory for years.
+      Places where landscapes feel almost unreal, where cultures are deeply rooted, and where travel still feels
+      like discovery rather than consumption.
+    </p>
+    <p>
+      Over the years I have travelled extensively across Africa, Asia, Latin America, Europe, Oceania, and the
+      Middle East. I am especially drawn to dramatic natural scenery, remote regions, mountain landscapes, deserts,
+      coastlines, ancient cultures, and destinations that still retain a strong local identity.
+    </p>
+    <p>
+      I tend to avoid large cities and instead look for places that feel visually powerful, emotionally memorable,
+      and deeply connected to nature or history.
     </p>
   </section>
 
+  <section class="about-feature-band" aria-label="What 50 Beautiful Places values">
+    <article>
+      <h2>Natural Beauty</h2>
+      <p>Mountains, deserts, coastlines, islands, wildlife, and dramatic landscapes that create a true sense of awe.</p>
+    </article>
+    <article>
+      <h2>Cultural Depth</h2>
+      <p>Places with history, architecture, local identity, ancient traditions, and a strong sense of place.</p>
+    </article>
+    <article>
+      <h2>Practical Travel Intelligence</h2>
+      <p>Clear guidance on when to go, how realistic a trip is, what it costs, and whether a place truly lives up to expectations.</p>
+    </article>
+  </section>
+
   <section class="section-narrow prose">
-    <h2>Editorial approach</h2>
+    <h2>What Makes a Place Beautiful?</h2>
     <p>
-      The site favors concise guides that help readers decide where to go and what kind of trip a place rewards.
-      New destinations can be added as Markdown files in the Astro content collection.
+      This website is the result of decades of travel research, planning, photography inspiration, and personal
+      curiosity. It combines destinations I have visited myself with places I have spent years researching and
+      dreaming about. The aim is not simply to create another top destinations list, but to build a curated
+      collection of places that genuinely inspire wonder.
     </p>
-    <h2>Publishing approach</h2>
+    <p>Many travel websites focus heavily on luxury, nightlife, influencers, or fast-moving itineraries. My focus is different. I care about:</p>
+    <ul>
+      <li>Extraordinary landscapes</li>
+      <li>Visual beauty</li>
+      <li>Meaningful travel experiences</li>
+      <li>Photography-worthy scenery</li>
+      <li>Strong cultural atmosphere</li>
+      <li>Adventure and exploration</li>
+      <li>Places that feel emotionally unforgettable</li>
+    </ul>
+
+    <h2>Why This Website Exists</h2>
     <p>
-      During heavy iteration, build and preview locally before using Netlify CLI previews. Push stable grouped commits
-      to GitHub when the work is ready for an automatic Netlify production build.
+      I also care deeply about practical travel intelligence. I enjoy researching how destinations actually work
+      in real life: when to go, how difficult they are to reach, what they truly cost, how crowded they are, and
+      whether they genuinely live up to their reputation.
     </p>
+    <p>
+      You will notice that this site includes destinations ranging from iconic world-famous locations to remote
+      places that many travellers have never heard of. That balance is intentional. Some of the world's most
+      beautiful places are celebrated for good reason. Others remain relatively unknown simply because they are
+      harder to reach or less commercially promoted.
+    </p>
+
+    <h2>How I Choose Places</h2>
+    <p>
+      Professionally, I come from an analytical background, which influences how I approach travel research and
+      trip planning. Personally, I am also deeply interested in endurance sports, hiking, outdoor landscapes,
+      photography, and long-term exploration. Those interests naturally shape the kinds of destinations featured here.
+    </p>
+
+    <h2>The Purpose of 50 Beautiful Places</h2>
+    <p>
+      The goal of this site is simple: to help people discover places that create real excitement, wonder, and
+      inspiration, and to make those places feel achievable rather than overwhelming.
+    </p>
+    <p>
+      If a destination on this website causes someone to pause, dream, plan an adventure, or see the world
+      differently, then the project is succeeding.
+    </p>
+  </section>
+
+  <section class="about-cta">
+    <div>
+      <p class="eyebrow">Begin the atlas</p>
+      <h2>Start exploring beautiful places</h2>
+      <p>Browse the collection and discover destinations that inspire wonder, curiosity, and a real desire to travel.</p>
+      <a class="button primary" href="/places/">Explore Places</a>
+    </div>
   </section>
 </BaseLayout>
