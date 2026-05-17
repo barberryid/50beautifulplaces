@@ -639,8 +639,14 @@ p {
 }
 
 .status-best {
-  border-color: rgba(101, 123, 88, 0.45);
-  background: #eaf0e5;
+  border-color: #1f7a3d;
+  background: #1f9d4a;
+  box-shadow: 0 0 0 2px rgba(31, 157, 74, 0.16);
+}
+
+.status-best strong,
+.status-best small {
+  color: #fffaf0;
 }
 
 .status-good {
