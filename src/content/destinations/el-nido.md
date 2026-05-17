@@ -8,16 +8,16 @@ imageAlt: "El Nido in Philippines"
 imageCredit: "El Nido, Philippines by Eardex.com (BY 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/89941121@N04/8175106370"
 imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
-hotelName: "Hotels rated 8+ near El Nido"
+hotelName: "8+ rated stays for El Nido"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=El%20Nido%2C%20Philippines&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for El Nido, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "December to May for island-hopping seas and clearer lagoon light"
 duration: "2 to 5 days"
 tags: ["Islands","Lagoons","Beach"]
 featured: false
 seoTitle: "El Nido Travel Guide"
-seoDescription: "Discover El Nido in Philippines with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "Bacuit Bay is a maze of limestone towers, secret lagoons, reef shallows, and white beaches made for boat days. Includes timing, access, stay-length, and practical planning notes for El Nido."
 ---
 
 _Destination guide for one of the most photographed coastlines in Southeast Asia._

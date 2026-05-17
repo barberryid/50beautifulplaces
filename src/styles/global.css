@@ -10,7 +10,7 @@
   --clay: #b86f45;
   --sun: #d6a24f;
   --shadow: 0 18px 50px rgba(20, 33, 29, 0.12);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 * {
@@ -33,6 +33,38 @@ img {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--clay);
+  outline-offset: 4px;
+}
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 100;
+  transform: translateY(-150%);
+  border-radius: 999px;
+  background: var(--forest);
+  color: var(--paper);
+  padding: 0.65rem 0.9rem;
+  font-weight: 900;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
 }
 
 h1,
@@ -122,6 +154,10 @@ p {
   color: var(--ink);
 }
 
+.site-nav a[aria-current="page"] {
+  color: var(--ink);
+}
+
 .hero {
   position: relative;
   min-height: calc(100svh - 4.6rem);
@@ -152,6 +188,7 @@ p {
   width: min(100%, 1180px);
   padding: 12vh clamp(1rem, 5vw, 5rem);
   color: #fffaf0;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
 }
 
 .hero-content p:not(.eyebrow) {
@@ -434,6 +471,12 @@ p {
   margin-top: 2.5rem;
 }
 
+.related-guides {
+  margin-top: clamp(3rem, 7vw, 5rem);
+  border-top: 1px solid var(--line);
+  padding-top: clamp(2rem, 5vw, 3rem);
+}
+
 .guide-content h2,
 .prose h2 {
   margin: 2rem 0 0.75rem;
@@ -571,6 +614,13 @@ p {
   background: var(--surface);
 }
 
+.comparison-table caption {
+  padding: 0 0 0.7rem;
+  color: var(--forest);
+  font-weight: 900;
+  text-align: left;
+}
+
 .comparison-table th,
 .comparison-table td {
   border-bottom: 1px solid var(--line);
@@ -705,10 +755,6 @@ p {
 }
 
 @media (max-width: 560px) {
-  .site-header {
-    position: static;
-  }
-
   .site-nav {
     width: 100%;
   }

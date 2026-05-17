@@ -8,16 +8,16 @@ imageAlt: "Djanet in Algeria"
 imageCredit: "Djanet-Algeria by Gruban / Patrick Gruban from Munich, Germany (BY SA 2.0) via Openverse"
 imageCreditUrl: "https://commons.wikimedia.org/w/index.php?curid=1320579"
 imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/"
-hotelName: "Hotels rated 8+ near Djanet"
+hotelName: "8+ rated stays for Djanet"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Djanet%2C%20Algeria&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "October to March"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Djanet, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "October to March for cooler Sahara camping weather and long days among the Tassili landscapes"
 duration: "4 to 7 days"
 tags: ["Desert","Rock art","Expedition"]
 featured: false
 seoTitle: "Djanet Travel Guide"
-seoDescription: "Discover Djanet in Algeria with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "Tuareg desert camps, rock arches, prehistoric art, and star-heavy Sahara nights make Djanet feel like another planet. Includes timing, access, stay-length, and practical planning notes for Djanet."
 ---
 
 ## Why It Is Beautiful

@@ -8,16 +8,16 @@ imageAlt: "Arniston in South Africa"
 imageCredit: "Arniston, South Africa by Haphazard Traveler (BY ND 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/32384289@N06/4798394148"
 imageLicenseUrl: "https://creativecommons.org/licenses/by-nd/2.0/"
-hotelName: "Hotels rated 8+ near Arniston"
+hotelName: "8+ rated stays for Arniston"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Arniston%2C%20South%20Africa&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Arniston, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "September to April for warmer coastal weather, with winter bringing rougher seas and quieter village stays"
 duration: "2 to 5 days"
 tags: ["Coast","Villages","Beach"]
 featured: false
 seoTitle: "Arniston Travel Guide"
-seoDescription: "Discover Arniston in South Africa with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "A whitewashed fishing village near Africa's southern tip, with sea caves, whale cliffs, and salt-bright Cape coast silence. Includes timing, access, stay-length, and practical planning notes for Arniston."
 ---
 
 _Country guide framed around a quiet whitewashed fishing village on the Cape Agulhas coast._

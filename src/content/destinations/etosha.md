@@ -8,16 +8,16 @@ imageAlt: "Etosha in Namibia"
 imageCredit: "Springbok, Etosha, Namibia by CarolineG2011 (BY SA 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/58108850@N07/12598561425"
 imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/"
-hotelName: "Hotels rated 8+ near Etosha"
+hotelName: "8+ rated stays for Etosha"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Etosha%2C%20Namibia&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "July to September for peak dry-season wildlife viewing"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Etosha, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "July to September for peak dry-season wildlife around waterholes, with June and October also rewarding"
 duration: "2 to 4 days"
 tags: ["Wildlife","Desert","Safari"]
 featured: false
 seoTitle: "Etosha Travel Guide"
-seoDescription: "Discover Etosha in Namibia with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "Wildlife gathers at waterholes on the edge of a vast white pan, turning Namibia's dry season into theatre. Includes timing, access, stay-length, and practical planning notes for Etosha."
 ---
 
 ## Why It Is Beautiful

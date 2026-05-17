@@ -5,6 +5,12 @@ const navItems = [
   { href: "/health/", label: "Health" },
   { href: "/about/", label: "About" }
 ];
+
+const currentPath = Astro.url.pathname;
+const isActive = (href: string) => {
+  if (href === "/") return currentPath === "/";
+  return currentPath.startsWith(href);
+};
 ---
 
 <header class="site-header">
@@ -13,6 +19,6 @@ const navItems = [
     <span>Beautiful Places</span>
   </a>
   <nav class="site-nav" aria-label="Primary navigation">
-    {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
+    {navItems.map((item) => <a href={item.href} aria-current={isActive(item.href) ? "page" : undefined}>{item.label}</a>)}
   </nav>
 </header>

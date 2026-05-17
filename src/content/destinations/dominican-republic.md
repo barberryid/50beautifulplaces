@@ -8,16 +8,16 @@ imageAlt: "Dominican Republic in Dominican Republic"
 imageCredit: "Excellence Punta Cana by tedmurphy (BY 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/25182329@N02/3897251229"
 imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
-hotelName: "Hotels rated 8+ near Dominican Republic"
+hotelName: "8+ rated stays for Dominican Republic"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Dominican%20Republic%2C%20Dominican%20Republic&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Dominican Republic, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "December to April for drier beach weather, with shoulder months offering better value"
 duration: "2 to 5 days"
 tags: ["Beach","Islands","Culture"]
 featured: false
 seoTitle: "Dominican Republic Travel Guide"
-seoDescription: "Discover Dominican Republic in Dominican Republic with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "Beyond Punta Cana, Hispaniola opens into colonial streets, whale bays, kite beaches, mountain forests, and the Caribbean's highest peak. Includes timing, access, stay-length, and practical planning notes for Dominican Republic."
 ---
 
 _Country guide with one sharp practical warning, taken straight from the archive._

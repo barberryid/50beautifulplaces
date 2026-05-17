@@ -26,7 +26,7 @@ const regions = [...new Set(destinations.map((place) => place.data.region))].sor
 
   <section class="section">
     <div class="destination-grid">
-      {destinations.map((place) => (
+      {destinations.map((place, index) => (
         <DestinationCard
           href={`/places/${place.id}/`}
           title={place.data.title}
@@ -36,26 +36,49 @@ const regions = [...new Set(destinations.map((place) => place.data.region))].sor
           image={place.data.mainImage}
           alt={place.data.imageAlt}
           tags={place.data.tags}
+          priority={index < 6}
         />
       ))}
     </div>
   </section>
 
   <script>
-    const activeRegion = new URLSearchParams(window.location.search).get("region");
+    let activeRegion = new URLSearchParams(window.location.search).get("region");
     const cards = document.querySelectorAll("[data-region]");
     const filters = document.querySelectorAll("[data-region-filter]");
 
-    cards.forEach((card) => {
-      card.toggleAttribute("hidden", Boolean(activeRegion) && card.getAttribute("data-region") !== activeRegion);
-    });
+    const applyFilter = () => {
+      cards.forEach((card) => {
+        card.toggleAttribute("hidden", Boolean(activeRegion) && card.getAttribute("data-region") !== activeRegion);
+      });
+
+      filters.forEach((filter) => {
+        const filterRegion = filter.getAttribute("data-region-filter");
+        const isAll = filterRegion === "all";
+        if ((isAll && !activeRegion) || filterRegion === activeRegion) {
+          filter.setAttribute("aria-current", "page");
+        } else {
+          filter.removeAttribute("aria-current");
+        }
+      });
+    };
 
     filters.forEach((filter) => {
-      const filterRegion = filter.getAttribute("data-region-filter");
-      const isAll = filterRegion === "all";
-      if ((isAll && !activeRegion) || filterRegion === activeRegion) {
-        filter.setAttribute("aria-current", "page");
-      }
+      filter.addEventListener("click", (event) => {
+        event.preventDefault();
+        const filterRegion = filter.getAttribute("data-region-filter");
+        activeRegion = filterRegion === "all" ? null : filterRegion;
+        const nextUrl = activeRegion ? `/places/?region=${encodeURIComponent(activeRegion)}` : "/places/";
+        window.history.pushState({}, "", nextUrl);
+        applyFilter();
+      });
     });
+
+    window.addEventListener("popstate", () => {
+      activeRegion = new URLSearchParams(window.location.search).get("region");
+      applyFilter();
+    });
+
+    applyFilter();
   </script>
 </BaseLayout>

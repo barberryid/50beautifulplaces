@@ -8,16 +8,16 @@ imageAlt: "Medellin in Colombia"
 imageCredit: "Medellin, Colombia by szeke (BY SA 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/43355249@N00/24417172916"
 imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/"
-hotelName: "Hotels rated 8+ near Medellin"
+hotelName: "8+ rated stays for Medellin"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Medellin%2C%20Colombia&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Medellin, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "December to March and July to August for drier city days in the Aburra Valley"
 duration: "2 to 5 days"
 tags: ["Cities","Mountains","Culture"]
 featured: false
 seoTitle: "Medellin Travel Guide"
-seoDescription: "Discover Medellin in Colombia with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "A mountain-ringed city of cable cars, spring weather, public art, and restless reinvention high in Colombia's Aburra Valley. Includes timing, access, stay-length, and practical planning notes for Medellin."
 ---
 
 ## Why It Is Beautiful
@@ -26,4 +26,4 @@ A mountain-ringed city of cable cars, spring weather, public art, and restless r
 
 ## Practical Travel Notes
 
-Use this page as the planning shell for the full guide. Add transport details, seasonal cautions, entry requirements, neighborhood or base recommendations, and current local advice before publishing a finished itinerary.
+Stay near El Poblado, Laureles, or a well-connected metro stop, then use the cable cars to understand the city's valley setting. Pair Comuna 13 with a responsible local guide, visit the botanical garden, and go up to Parque Arvi for cooler air. The magic is the city rising green and bright on every slope.

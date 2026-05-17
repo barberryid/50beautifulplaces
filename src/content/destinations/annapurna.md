@@ -8,16 +8,16 @@ imageAlt: "Annapurna in Nepal"
 imageCredit: "Annapurna, Nepal by Richie 33 (BY 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/24905089@N04/3723428699"
 imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
-hotelName: "Hotels rated 8+ near Annapurna"
+hotelName: "8+ rated stays for Annapurna"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Annapurna%2C%20Nepal&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Annapurna, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "October to November and March to April for clearer trekking skies and comfortable mountain temperatures"
 duration: "2 to 5 days"
 tags: ["Mountains","Trekking","Culture"]
 featured: false
 seoTitle: "Annapurna Travel Guide"
-seoDescription: "Discover Annapurna in Nepal with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "Village trails climb from rice terraces to glacier amphitheatres beneath some of the Himalaya's most overwhelming peaks. Includes timing, access, stay-length, and practical planning notes for Annapurna."
 ---
 
 _A destination guide for the most accessible great-mountain trekking on the planet._

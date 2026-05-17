@@ -8,16 +8,16 @@ imageAlt: "Budapest in Hungary"
 imageCredit: "Vajdahunyad Castle, Budapest, Hungary by Night by Cost3l (BY 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/11473706@N03/11651643606"
 imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
-hotelName: "Hotels rated 8+ near Budapest"
+hotelName: "8+ rated stays for Budapest"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Budapest%2C%20Hungary&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Spring and autumn for the best weather-value balance"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Budapest, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "April to June and September to October for river walks, baths, and terraces without peak summer heat"
 duration: "3 to 5 days"
 tags: ["Cities","Architecture","Thermal baths"]
 featured: false
 seoTitle: "Budapest Travel Guide"
-seoDescription: "Discover Budapest in Hungary with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "The Danube splits a city of glowing bridges, thermal baths, grand cafes, ruin bars, and castle-lit evening walks. Includes timing, access, stay-length, and practical planning notes for Budapest."
 ---
 
 ## Why It Is Beautiful

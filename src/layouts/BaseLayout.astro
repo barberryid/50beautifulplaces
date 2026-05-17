@@ -8,9 +8,11 @@ interface Props {
   title: string;
   description: string;
   image?: string;
+  preloadImage?: boolean;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-const { title, description, image } = Astro.props;
+const { title, description, image, preloadImage = false, jsonLd } = Astro.props;
 ---
 
 <!doctype html>
@@ -19,11 +21,17 @@ const { title, description, image } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {preloadImage && image && <link rel="preload" as="image" href={image} />}
     <SEO title={title} description={description} image={image} />
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <Header />
-    <main>
+    <main id="main-content">
       <slot />
     </main>
     <Footer />

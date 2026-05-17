@@ -8,16 +8,16 @@ imageAlt: "Boracay in Philippines"
 imageCredit: "Punta Bunga Cove, Boracay, Philippines by . Ray in Manila (BY 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/21186555@N07/52568926928"
 imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
-hotelName: "Hotels rated 8+ near Boracay"
+hotelName: "8+ rated stays for Boracay"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Boracay%2C%20Philippines&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Boracay, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "December to May for dry beach weather, with January to March usually offering the most reliable sunshine"
 duration: "2 to 5 days"
 tags: ["Beach","Islands","Relaxation"]
 featured: false
 seoTitle: "Boracay Travel Guide"
-seoDescription: "Discover Boracay in Philippines with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "Four kilometres of powder-white sand face west into blazing sunsets, with paraw sails, reef water, and island energy after dark. Includes timing, access, stay-length, and practical planning notes for Boracay."
 ---
 
 _Country guide built around the Philippines’ most famous beach island._

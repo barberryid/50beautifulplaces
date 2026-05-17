@@ -8,16 +8,16 @@ imageAlt: "Angel Falls in Venezuela"
 imageCredit: "Salto Angel (Angel Falls) Venezuela by benedict.adam (BY 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/54032907@N00/2646362424"
 imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
-hotelName: "Hotels rated 8+ near Angel Falls"
+hotelName: "8+ rated stays for Angel Falls"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Angel%20Falls%2C%20Venezuela&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Angel Falls, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "June to November for the strongest waterfall flow; late June to August balances high water with clearer breaks between storms"
 duration: "2 to 5 days"
 tags: ["Waterfalls","Jungle","Adventure"]
 featured: false
 seoTitle: "Angel Falls Travel Guide"
-seoDescription: "Discover Angel Falls in Venezuela with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "A 979-metre waterfall drops from a lost-world tepui into rainforest, reached by canoe through Canaima's storm-lit rivers. Includes timing, access, stay-length, and practical planning notes for Angel Falls."
 ---
 
 _A country guide built around the world’s tallest uninterrupted waterfall and the tepuis of the Gran Sabana._

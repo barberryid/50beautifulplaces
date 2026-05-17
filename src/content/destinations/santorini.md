@@ -8,16 +8,16 @@ imageAlt: "Santorini in Greece"
 imageCredit: "Santorini, Greece by szeke (BY SA 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/43355249@N00/38376823641"
 imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/"
-hotelName: "Hotels rated 8+ near Santorini"
+hotelName: "8+ rated stays for Santorini"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Santorini%2C%20Greece&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Santorini, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "April to June and September to October for caldera views without the biggest cruise-ship crowds"
 duration: "2 to 5 days"
 tags: ["Islands","Villages","Coast"]
 featured: true
 seoTitle: "Santorini Travel Guide"
-seoDescription: "Discover Santorini in Greece with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "White villages cling to a volcanic caldera above Aegean blue, with sunset light turning the cliffs almost unreal. Includes timing, access, stay-length, and practical planning notes for Santorini."
 ---
 
 ## Why It Is Beautiful
@@ -26,4 +26,4 @@ White villages cling to a volcanic caldera above Aegean blue, with sunset light 
 
 ## Practical Travel Notes
 
-Use this page as the planning shell for the full guide. Add transport details, seasonal cautions, entry requirements, neighborhood or base recommendations, and current local advice before publishing a finished itinerary.
+Stay outside Oia if you want better value, then visit the caldera villages early or late. Walk Fira to Oia for the island's best sense of height and volcanic shape. The views are famous for a reason, but the island feels better when you avoid cruise-ship peak hours.

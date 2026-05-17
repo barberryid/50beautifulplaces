@@ -83,7 +83,7 @@ imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
 hotelName: "Hotels rated 8+ near Destination Name"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Destination&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter."
+hotelNote: "Booking.com opens with an 8+ guest-score filter for this destination."
 bestTime: "Best months or season"
 duration: "Suggested trip length"
 tags: ["Hiking", "Coast", "Culture"]

@@ -8,16 +8,16 @@ imageAlt: "Dominica in Dominica"
 imageCredit: "Setophaga dominica dominica by fishkeeper (BY 4.0) via Openverse"
 imageCreditUrl: "https://www.inaturalist.org/photos/340681326"
 imageLicenseUrl: "http://creativecommons.org/licenses/by/4.0/"
-hotelName: "Hotels rated 8+ near Dominica"
+hotelName: "8+ rated stays for Dominica"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Dominica%2C%20Dominica&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Dominica, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "December to May for drier hiking weather; waterfalls run year-round but trails are easier outside peak rains"
 duration: "2 to 5 days"
 tags: ["Rainforest","Waterfalls","Islands"]
 featured: false
 seoTitle: "Dominica Travel Guide"
-seoDescription: "Discover Dominica in Dominica with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "The Caribbean's nature island rises in volcanoes, rainforest, boiling lakes, whale water, and waterfall trails without resort gloss. Includes timing, access, stay-length, and practical planning notes for Dominica."
 ---
 
 _Built directly from the December 2021 and March 2024 trip reports in the archive._

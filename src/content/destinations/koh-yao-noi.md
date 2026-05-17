@@ -8,16 +8,16 @@ imageAlt: "Koh Yao Noi in Thailand"
 imageCredit: "Hermit crab in a seashell, Koh Yao Noi, Thailand by Vyacheslav Argenberg (BY 4.0) via Openverse"
 imageCreditUrl: "https://commons.wikimedia.org/w/index.php?curid=111796878"
 imageLicenseUrl: "https://creativecommons.org/licenses/by/4.0/"
-hotelName: "Hotels rated 8+ near Koh Yao Noi"
+hotelName: "8+ rated stays for Koh Yao Noi"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Koh%20Yao%20Noi%2C%20Thailand&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Koh Yao Noi, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "November to April for calmer Andaman seas and island-hopping weather"
 duration: "2 to 5 days"
 tags: ["Islands","Local life","Beach"]
 featured: false
 seoTitle: "Koh Yao Noi Travel Guide"
-seoDescription: "Discover Koh Yao Noi in Thailand with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "Between Phuket and Krabi, this Thai island keeps the limestone views but trades the rush for rice fields and slow mornings. Includes timing, access, stay-length, and practical planning notes for Koh Yao Noi."
 ---
 
 ## Why It Is Beautiful
@@ -26,4 +26,4 @@ Between Phuket and Krabi, this Thai island keeps the limestone views but trades 
 
 ## Practical Travel Notes
 
-Use this page as the planning shell for the full guide. Add transport details, seasonal cautions, entry requirements, neighborhood or base recommendations, and current local advice before publishing a finished itinerary.
+Reach the island by boat from Phuket or Krabi, then slow down. Rent a scooter only if you are confident, choose the east coast for limestone-island views, and use long-tail boat trips for Phang Nga Bay. This is a place for hammocks, seafood, and soft mornings rather than a packed party schedule.

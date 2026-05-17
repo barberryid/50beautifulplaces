@@ -8,16 +8,16 @@ imageAlt: "Dettifoss in Iceland"
 imageCredit: "Iceland by NASA Goddard Photo and Video (BY 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/24662369@N07/15082529060"
 imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
-hotelName: "Hotels rated 8+ near Dettifoss"
+hotelName: "8+ rated stays for Dettifoss"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Dettifoss%2C%20Iceland&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Summer for easiest access; check road conditions in shoulder seasons"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Dettifoss, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "June to September for the easiest road access; late spring and autumn can be superb if roads are open"
 duration: "Half day to 1 day"
 tags: ["Waterfalls","Geology","Nature"]
 featured: false
 seoTitle: "Dettifoss Travel Guide"
-seoDescription: "Discover Dettifoss in Iceland with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "A glacial river hurls itself into a basalt canyon with a force you feel in your chest before you reach the edge. Includes timing, access, stay-length, and practical planning notes for Dettifoss."
 ---
 
 ## Why It Is Beautiful

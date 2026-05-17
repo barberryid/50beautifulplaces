@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import DestinationCard from "../../components/DestinationCard.astro";
 
 export async function getStaticPaths() {
   const destinations = await getCollection("destinations");
@@ -12,13 +13,31 @@ export async function getStaticPaths() {
 
 const { place } = Astro.props;
 const { Content } = await render(place);
+const related = (await getCollection("destinations"))
+  .filter((item) => item.id !== place.id && item.data.region === place.data.region)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title))
+  .slice(0, 3);
+const placeUrl = new URL(`/places/${place.id}/`, Astro.site).toString();
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+  name: place.data.title,
+  description: place.data.seoDescription,
+  image: place.data.mainImage,
+  url: placeUrl,
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: place.data.country
+  },
+  touristType: place.data.tags
+};
 ---
 
-<BaseLayout title={place.data.seoTitle} description={place.data.seoDescription} image={place.data.mainImage}>
+<BaseLayout title={place.data.seoTitle} description={place.data.seoDescription} image={place.data.mainImage} preloadImage jsonLd={jsonLd}>
   <article class="guide">
     <header class="guide-hero">
       <figure>
-        <img src={place.data.mainImage} alt={place.data.imageAlt} />
+        <img src={place.data.mainImage} alt={place.data.imageAlt} width="1200" height="960" loading="eager" decoding="async" fetchpriority="high" />
         <figcaption>
           <a href={place.data.imageCreditUrl} rel="noopener noreferrer">{place.data.imageCredit}</a>
           {place.data.imageLicenseUrl && (
@@ -58,13 +77,38 @@ const { Content } = await render(place);
         <p>{place.data.hotelNote}</p>
         <p class="hotel-rating">{place.data.hotelRating}</p>
       </div>
-      <a class="button hotel-button" href={place.data.hotelBookingUrl} target="_blank" rel="noopener noreferrer">
-        View on Booking.com
+      <a class="button hotel-button" href={place.data.hotelBookingUrl} target="_blank" rel="sponsored noopener noreferrer">
+        View on Booking.com <span aria-hidden="true">↗</span><span class="sr-only"> opens in a new tab</span>
       </a>
     </section>
 
     <div class="guide-content">
       <Content />
     </div>
+
+    {related.length > 0 && (
+      <section class="related-guides" aria-labelledby="related-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">More in {place.data.region}</p>
+            <h2 id="related-heading">Keep exploring nearby ideas.</h2>
+          </div>
+        </div>
+        <div class="destination-grid">
+          {related.map((item) => (
+            <DestinationCard
+              href={`/places/${item.id}/`}
+              title={item.data.title}
+              country={item.data.country}
+              region={item.data.region}
+              summary={item.data.summary}
+              image={item.data.mainImage}
+              alt={item.data.imageAlt}
+              tags={item.data.tags}
+            />
+          ))}
+        </div>
+      </section>
+    )}
   </article>
 </BaseLayout>

@@ -8,16 +8,16 @@ imageAlt: "Copacabana Beach in Rio de Janeiro, Brazil"
 imageCredit: "Copacabana Beach - Rio de Janeiro by Christian Haugen (BY 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/34073237@N04/3741021128"
 imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
-hotelName: "Hotels rated 8+ near Copacabana"
+hotelName: "8+ rated stays for Copacabana"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Copacabana%2C%20Brazil&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Copacabana, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "May to October for drier, clearer Rio weather; go early morning for the beach before the heat and crowds build"
 duration: "2 to 5 days"
 tags: ["Beach","Cities","Culture"]
 featured: false
 seoTitle: "Copacabana Travel Guide"
-seoDescription: "Discover Copacabana in Brazil with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "Rio's legendary urban beach pulses between granite headlands, samba nights, mosaic promenades, football, surf, and Sugarloaf views. Includes timing, access, stay-length, and practical planning notes for Copacabana."
 ---
 
 _A destination guide for the world’s most famous urban beach, set inside a country guide for Brazil._

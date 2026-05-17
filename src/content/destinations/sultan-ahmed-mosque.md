@@ -8,16 +8,16 @@ imageAlt: "Sultan Ahmed Mosque in Istanbul, Turkey"
 imageCredit: "Sultan Ahmed Mosque Istanbul Turkey retouched by Dersaadet (BY SA 3.0) via Openverse"
 imageCreditUrl: "https://commons.wikimedia.org/w/index.php?curid=9575779"
 imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/"
-hotelName: "Hotels rated 8+ near Sultan Ahmed Mosque"
+hotelName: "8+ rated stays for Sultan Ahmed Mosque"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Sultan%20Ahmed%20Mosque%2C%20Istanbul%2C%20Turkey&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Sultan Ahmed Mosque, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "April to June and September to November for Istanbul walking weather and soft evening light"
 duration: "2 to 5 days"
 tags: ["Architecture","Culture","Landmark"]
 featured: false
 seoTitle: "Sultan Ahmed Mosque Travel Guide"
-seoDescription: "Discover Sultan Ahmed Mosque in Istanbul, Turkey with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "Istanbul's Blue Mosque gathers domes, minarets, Iznik tiles, and call-to-prayer atmosphere across from Hagia Sophia. Includes timing, access, stay-length, and practical planning notes for Sultan Ahmed Mosque."
 ---
 
 ## Why It Is Beautiful
@@ -26,4 +26,4 @@ Istanbul's Blue Mosque gathers domes, minarets, Iznik tiles, and call-to-prayer 
 
 ## Practical Travel Notes
 
-Use this page as the planning shell for the full guide. Add transport details, seasonal cautions, entry requirements, neighborhood or base recommendations, and current local advice before publishing a finished itinerary.
+Visit outside prayer times and dress respectfully. The mosque sits at the heart of Sultanahmet, so pair it with Hagia Sophia, the Basilica Cistern, and a slow walk toward the Golden Horn. The building is most moving when you let the courtyard, domes, and call to prayer set the pace.

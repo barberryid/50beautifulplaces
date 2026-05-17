@@ -8,16 +8,16 @@ imageAlt: "Southern Carpathians mountain landscape in Romania"
 imageCredit: "Southern Carpathians, Piatra Craiului - Romania - Landscape photography by Giuseppe Milo (BY 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/87690240@N03/36831093712"
 imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
-hotelName: "Hotels rated 8+ near Carpathian Mountains"
+hotelName: "8+ rated stays for Carpathian Mountains"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Carpathian%20Mountains%2C%20Romania&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "June to September for hiking, with September often ideal"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Carpathian Mountains, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "June to September for hiking, with September often the best balance of clear air, color, and fewer crowds"
 duration: "4 to 7 days"
 tags: ["Mountains","Forest","Villages"]
 featured: false
 seoTitle: "Carpathian Mountains Travel Guide"
-seoDescription: "Discover Carpathian Mountains in Romania with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "Romania's wild mountain spine folds castles, bear forests, shepherd ridges, and sharp limestone trails into one cinematic escape. Includes timing, access, stay-length, and practical planning notes for Carpathian Mountains."
 ---
 
 ## Why It Is Beautiful

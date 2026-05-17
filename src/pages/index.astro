@@ -13,9 +13,10 @@ const hero = featured[0];
   title="50 Beautiful Places"
   description="A fast, image-led travel inspiration site for discovering beautiful places, scenic routes, and practical destination notes."
   image={hero.data.mainImage}
+  preloadImage
 >
   <section class="hero">
-    <img src={hero.data.mainImage} alt={hero.data.imageAlt} />
+    <img src={hero.data.mainImage} alt={hero.data.imageAlt} width="1600" height="1000" fetchpriority="high" />
     <div class="hero-content">
       <p class="eyebrow">Curated travel inspiration</p>
       <h1>50 Beautiful Places</h1>
@@ -45,7 +46,7 @@ const hero = featured[0];
       <a href="/places/">View all</a>
     </div>
     <div class="destination-grid">
-      {featured.map((place) => (
+      {featured.map((place, index) => (
         <DestinationCard
           href={`/places/${place.id}/`}
           title={place.data.title}
@@ -55,6 +56,7 @@ const hero = featured[0];
           image={place.data.mainImage}
           alt={place.data.imageAlt}
           tags={place.data.tags}
+          priority={index < 3}
         />
       ))}
     </div>

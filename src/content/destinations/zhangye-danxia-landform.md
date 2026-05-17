@@ -8,16 +8,16 @@ imageAlt: "Zhangye Danxia Landform in China"
 imageCredit: "China 2009 by gudi&cris (BY ND 2.0) via Openverse"
 imageCreditUrl: "https://www.flickr.com/photos/54951409@N00/4061653954"
 imageLicenseUrl: "https://creativecommons.org/licenses/by-nd/2.0/"
-hotelName: "Hotels rated 8+ near Zhangye Danxia Landform"
+hotelName: "8+ rated stays for Zhangye Danxia Landform"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Zhangye%20Danxia%20Landform%2C%20China&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Zhangye Danxia Landform, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "June to September for stronger color after rain, especially at sunrise or sunset"
 duration: "2 to 5 days"
 tags: ["Geology","Color","Landscape"]
 featured: false
 seoTitle: "Zhangye Danxia Landform Travel Guide"
-seoDescription: "Discover Zhangye Danxia Landform in China with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "China's rainbow mountains ripple in bands of red, gold, and green, like geology painted at impossible scale. Includes timing, access, stay-length, and practical planning notes for Zhangye Danxia Landform."
 ---
 
 ## Why It Is Beautiful
@@ -26,4 +26,4 @@ China's rainbow mountains ripple in bands of red, gold, and green, like geology 
 
 ## Practical Travel Notes
 
-Use this page as the planning shell for the full guide. Add transport details, seasonal cautions, entry requirements, neighborhood or base recommendations, and current local advice before publishing a finished itinerary.
+Use Zhangye as the base and visit at sunrise or sunset, when the striped hills hold their strongest color. Rain can intensify the tones, but paths and viewpoints are controlled, so expect a managed scenic area rather than wilderness. The spectacle is geology made almost painterly.

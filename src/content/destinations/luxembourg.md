@@ -8,16 +8,16 @@ imageAlt: "Luxembourg in Luxembourg"
 imageCredit: "Stade de Luxembourg, Luxembourg vs Azebaidjan 2021-09-01 (101) by GilPe (BY SA 4.0) via Openverse"
 imageCreditUrl: "https://commons.wikimedia.org/w/index.php?curid=109646224"
 imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/"
-hotelName: "Hotels rated 8+ near Luxembourg"
+hotelName: "8+ rated stays for Luxembourg"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Luxembourg%2C%20Luxembourg&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
-hotelNote: "Booking.com opens with an 8+ review-score filter so visitors can compare current hotel photos, rates, availability, and guest reviews."
-bestTime: "Check seasonal weather, local holidays, and access conditions before booking"
+hotelNote: "Booking.com opens with an 8+ guest-score filter for Luxembourg, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+bestTime: "May to September for green valleys and castle walks; October adds autumn color in the Mullerthal woods"
 duration: "2 to 5 days"
 tags: ["Culture","Castles","Weekend"]
 featured: false
 seoTitle: "Luxembourg Travel Guide"
-seoDescription: "Discover Luxembourg in Luxembourg with quick travel notes, best-time guidance, highlights, and planning context."
+seoDescription: "Fortress cliffs, old bridges, forested valleys, and compact European elegance make tiny Luxembourg feel far larger than its map. Includes timing, access, stay-length, and practical planning notes for Luxembourg."
 ---
 
 ## Why It Is Beautiful
@@ -26,4 +26,4 @@ Fortress cliffs, old bridges, forested valleys, and compact European elegance ma
 
 ## Practical Travel Notes
 
-Use this page as the planning shell for the full guide. Add transport details, seasonal cautions, entry requirements, neighborhood or base recommendations, and current local advice before publishing a finished itinerary.
+Use Luxembourg City as a base, then add the Mullerthal trails, Vianden Castle, and river valleys by train or car. The beauty is compact and layered: fortress walls, forest paths, old towns, and clean viewpoints close together. It works especially well as a short, polished European break.
