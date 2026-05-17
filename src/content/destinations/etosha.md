@@ -20,7 +20,7 @@ bestFor:
   - "Photography"
   - "Road trips"
   - "Family-friendly natural beauty"
-realisticVisit: "Yes. Etosha is one of Africa's more practical safari choices, especially for self-drive travellers. Planning still matters: book accommodation early, understand park distances, and choose the right season for wildlife viewing."
+realisticVisit: "Yes. Etosha is one of Africa's more practical safari choices for self-drive travellers, but you still need your own vehicle or an organised safari. Book rest camps early and understand park distances before choosing a route."
 whenToGo:
   summary: "Best: Jun-Oct. Good: May, Nov. Rainy / Possible: Dec-Apr."
   jan: "Rainy"
@@ -50,7 +50,7 @@ seoDescription: "Wildlife gathers at waterholes on the edge of a vast white pan,
 
 ## Why It Is Beautiful
 
-Etosha is one of Africa's best self-drive safari parks. The landscape is open, dry, and stark, with animals gathering around waterholes at the edge of the vast Etosha Pan. It is less about lush scenery and more about visibility: elephants, giraffes, zebra, springbok, lions, rhino, and sometimes leopard moving through a pale, almost lunar landscape.
+Etosha is beautiful because it is stark rather than lush. The pale pan, dry bush, flat horizons, and waterholes turn wildlife into theatre. Elephants, giraffes, zebra, springbok, lions, rhino, and sometimes leopard appear against a minimal background where every movement is visible.
 
 For budget travelers, Etosha is especially attractive because you can self-drive instead of paying for a fully guided luxury safari.
 
@@ -58,7 +58,11 @@ For budget travelers, Etosha is especially attractive because you can self-drive
 
 ### What to do there
 
-Plan your days around waterholes. In the dry season, animals concentrate around water, and the best strategy is often to wait rather than drive constantly. Camps such as Okaukuejo, Halali, and Namutoni are useful bases, and some have floodlit waterholes for night viewing.
+Plan your days around waterholes. In the dry season, animals concentrate around water, and the best strategy is often to wait rather than drive constantly. Some of Etosha's strongest moments come from sitting still as the pan light changes and animals arrive one by one.
+
+- **Okaukuejo**: especially useful for its camp waterhole, often memorable after dark and known for rhino sightings.
+- **Halali**: another important rest-camp base with a floodlit waterhole.
+- **Namutoni**: a distinctive eastern base with a white fort setting and nearby waterhole areas.
 
 A good first visit is 3 nights: one near Okaukuejo, one around Halali, and one toward Namutoni or the eastern side. With only 2 nights, stay central and avoid over-driving.
 
@@ -79,3 +83,5 @@ To save money, rent a basic car, camp or use simple rest-camp accommodation, sel
 ### Practical notes
 
 Stay in your vehicle except at designated areas. Do not speed. Carry water and fuel when possible. After the major 2025 wildfire, reporting suggested that a large part of the park had been damaged and that recovery could take years, so expect some affected landscapes while wildlife viewing remains possible.
+
+> Field-detail source: Ron Perrier, [Namibia - The Trip](https://www.ronperrier.net/2017/04/03/namibia-the-trip/) and [Wildlife](https://www.ronperrier.net/2024/06/20/wildlife/).

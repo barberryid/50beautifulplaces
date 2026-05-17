@@ -13,14 +13,14 @@ hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Socotra%2C%20Yem
 hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Socotra, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "October to April for calmer temperatures and better access, avoiding the strongest monsoon winds"
-duration: "2 to 5 days"
+duration: "About 7 days on the island"
 bestFor:
   - "Remote/adventurous travel"
   - "Wildlife"
   - "Photography"
   - "Beaches without crowds"
   - "Dramatic landscapes"
-realisticVisit: "Yes, but only with specialist planning. Socotra is a remote island with limited infrastructure, seasonal access issues, simple conditions, and a strong need to verify current safety and travel routes."
+realisticVisit: "Yes, but only with specialist planning. Most visitors use a local operator for visa support, flights, permits, driver, camping equipment, and 4WD logistics. Verify current safety, access, and flight details before travel."
 whenToGo:
   summary: "Best: Oct-Apr. Good: May. Very windy / limited: Jun-Sep."
   jan: "Best"
@@ -35,14 +35,14 @@ whenToGo:
   oct: "Best"
   nov: "Best"
   dec: "Best"
-comparisonGroup: "Socotra vs Dominica vs Tonga - island nature for travellers seeking unusual landscapes rather than standard resort life."
-physicalDifficulty: "Moderate"
-logisticalDifficulty: "Complex / specialist trip"
+comparisonGroup: "Socotra vs Danakil Depression vs Kamchatka - strange, logistically demanding landscapes for travellers who plan carefully."
+physicalDifficulty: "Moderate (camping, walking, rough roads)"
+logisticalDifficulty: "Specialist trip / needs operator and current safety checks"
 perfectFor:
-  - "Experienced travellers, photographers, naturalists, and visitors who want dragon's blood trees, empty beaches, dunes, and alien island landscapes"
+  - "Adventurous travellers, naturalists, photographers, and anyone fascinated by endemic ecosystems."
 notIdealFor:
-  - "Travellers wanting resort comfort, nightlife, flexible independent transport, or easy medical access"
-tags: ["Islands","Wildlife","Remote"]
+  - "Travellers expecting comfort, predictable conditions, or quick visits."
+tags: ["Islands","Endemic species","Adventure"]
 featured: true
 seoTitle: "Socotra Travel Guide"
 seoDescription: "Dragon's blood trees, empty beaches, alien limestone, and remote Arabian Sea isolation make Socotra feel biologically impossible. Includes timing, access, stay-length, and practical planning notes for Socotra."
@@ -50,8 +50,32 @@ seoDescription: "Dragon's blood trees, empty beaches, alien limestone, and remot
 
 ## Why It Is Beautiful
 
-Dragon's blood trees, empty beaches, alien limestone, and remote Arabian Sea isolation make Socotra feel biologically impossible. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
+Socotra is not one striking view but a whole island system: dragon's blood trees, white beaches, limestone plateaus, marine reserves, wadis, dunes, caves, and dry mountains above turquoise water. The awe comes from the contrasts. One hour can feel like Arabia, the next like an oceanic wilderness that evolved on its own private timetable.
 
 ## Local Planning Notes
 
-Socotra requires careful logistics and current safety checks, usually through a specialist operator. Expect camping, simple food, rough roads, and landscapes that feel biologically impossible: dragon's blood trees, dunes, caves, limestone plateaus, and empty beaches. The fragility of the island is part of the responsibility.
+### What to see and do
+
+- **Homhil National Park**: a classic introduction to Socotra's endemic plants, including dragon's blood trees and bottle trees.
+- **Arher Beach**: cliffs, freshwater, huge dunes, and pale sand meeting the sea in one of the island's most dramatic coastal settings.
+- **Dihamri Marine Protected Area**: a strong choice for snorkelling, reef colour, and coastal camping.
+- **Wadi Kalisan**: clear pools and limestone formations that reveal the island's hidden-water side.
+- **Dixam Plateau and Firhmin Forest**: key highland areas for dragon's blood trees and broad interior views.
+- **Detwah Lagoon and Qalansiah**: soft light, shallow water, birdlife, and a useful western base for boat trips.
+- **Sha'ab Beach**: often reached by boat, and one of the better ways to add a remote beach day.
+
+### Can I realistically visit this?
+
+Socotra rewards travellers who are comfortable with logistical friction. A typical trip is guide-supported rather than independent: simple camping, rough roads, limited infrastructure, and high dependence on your driver and guide. The best itinerary usually loops through beaches, wadis, dragon blood tree areas, marine reserves, lagoons, and campsites.
+
+### Best time and duration
+
+Wind is the major planning factor. The southwest monsoon, roughly June to September, can make the island difficult or unpleasant because of strong winds and rough seas. Early October to late April is the more realistic visitor season, with late winter into spring often better for greenery and nature.
+
+Plan around a week on the island. That gives enough room for coastal camps, highland trees, wadis, lagoons, and at least one boat or beach day without turning the trip into a checklist.
+
+### Style and where to stay
+
+Socotra is best for adventurous nature travellers, photographers, and people who are comfortable with camping. The most memorable nights are often beach or inland camps rather than hotel stays. It is not ideal for nightlife, resort comfort, luxury infrastructure, or fully independent transport.
+
+> Field-detail source: Ron Perrier, [Yemen - Socotra](https://www.ronperrier.net/2020/02/09/yemen-socotra/) and [Socrata - Yemen](https://www.ronperrier.net/2024/07/06/socrata-yemen/).

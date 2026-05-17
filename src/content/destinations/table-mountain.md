@@ -20,7 +20,7 @@ bestFor:
   - "Photography"
   - "Hiking"
   - "Family-friendly natural beauty"
-realisticVisit: "Yes. Table Mountain is very accessible from central Cape Town, but the experience is highly weather-dependent. Cableway status, summit visibility, wind, cloud, and hiking conditions can change quickly, so build in flexibility."
+realisticVisit: "Yes. Table Mountain is very accessible from central Cape Town, but weather controls the experience. Cableway status, summit visibility, wind, heat, cloud, and hiking conditions can change quickly, so keep timing flexible."
 whenToGo:
   summary: "Best: Oct-Apr. Good: May, Sep. Rainy / possible: Jun-Aug."
   jan: "Best"
@@ -35,14 +35,14 @@ whenToGo:
   oct: "Best"
   nov: "Best"
   dec: "Best"
-comparisonGroup: "Table Mountain vs Fitz Roy vs Southern Patagonia - mountain drama at very different levels of effort."
-physicalDifficulty: "Easy by cableway; moderate to strenuous by hiking route"
-logisticalDifficulty: "Easy independent trip"
+comparisonGroup: "Table Mountain vs Fitz Roy vs Olympic National Park - mountain landscapes shaped by weather where access is part of the plan."
+physicalDifficulty: "Easy by cableway, strenuous on foot"
+logisticalDifficulty: "Easy independent trip / check weather and cableway closures"
 perfectFor:
-  - "First-time Cape Town visitors, photographers, hikers, families, and travellers combining city, coast, wine, and mountain"
+  - "Cape Town visitors, hikers, photographers, and travellers wanting big city-and-ocean views in one outing."
 notIdealFor:
-  - "Travellers expecting wilderness solitude or those with only one weather-dependent chance to visit"
-tags: ["Mountains","Cities","Views"]
+  - "Travellers uncomfortable with sudden weather changes or heights on exposed paths."
+tags: ["Mountains","Cities","Coast"]
 featured: true
 seoTitle: "Table Mountain Travel Guide"
 seoDescription: "Cape Town unfolds below a flat-topped mountain of cliffs, cloud, fynbos, ocean, and sunset city views. Includes timing, access, stay-length, and practical planning notes for Table Mountain."
@@ -50,8 +50,22 @@ seoDescription: "Cape Town unfolds below a flat-topped mountain of cliffs, cloud
 
 ## Why It Is Beautiful
 
-Cape Town unfolds below a flat-topped mountain of cliffs, cloud, fynbos, ocean, and sunset city views. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
+Table Mountain is beautiful because it is both wilderness and city landmark. It rises directly above Cape Town, turning the city into an amphitheatre of rock, sea, cloud, and light. The flat summit, steep cliffs, Atlantic views, and sudden table-cloth cloud make it feel far larger than its height alone suggests.
 
 ## Local Planning Notes
 
-Check conditions before heading up; wind can close the cableway even on bright days. Hike with proper gear if taking Platteklip or longer routes, and descend before weather turns. The reward is Cape Town suddenly arranged below you: ocean, city grid, cliffs, and Robben Island in one sweep.
+### Ways to experience Table Mountain
+
+- **Cableway**: the easiest way to reach the top, especially with limited time, limited mobility, or uncertain hiking confidence.
+- **Platteklip Gorge**: the direct classic hiking route, steep and exposed, best started early and avoided in heat or poor visibility.
+- **Pipe Track**: a scenic route along the mountain's side, useful for views without immediately committing to the summit.
+- **Skeleton Gorge**: a greener, more demanding route from the Kirstenbosch side.
+- **Nursery Ravine**: another Kirstenbosch-side route that can pair botanical garden time with a mountain hike.
+
+### Weather and safety
+
+Do not treat Table Mountain like a simple urban viewpoint just because it is close to the city. Weather can shift quickly. The famous table-cloth cloud can cover the summit, reduce visibility, and make navigation harder. Wind, heat, and exposure can also make the mountain more serious than it looks from below.
+
+Start early, carry water, use sun protection, and bring a warm layer even when the city feels mild. Avoid summiting in bad cloud, strong wind, extreme heat, or poor visibility. For photography, early and late light are usually better than midday. If the summit is covered, wait for a clearer window if your schedule allows.
+
+> Field-detail source: Ron Perrier, [South Africa - The Trip](https://www.ronperrier.net/2017/04/17/south-africa-the-trip/).

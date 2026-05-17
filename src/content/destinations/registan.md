@@ -19,13 +19,13 @@ hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Registan%2C%20Uz
 hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Registan, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "April to May and September to October for Samarkand's blue-tiled monuments in comfortable weather"
-duration: "2 to 5 days"
+duration: "A few hours for the square; 1 to 2 full days for Samarkand"
 bestFor:
   - "Culture and architecture"
   - "Photography"
   - "Road trips"
   - "Remote/adventurous travel"
-realisticVisit: "Yes. Registan is one of the easier major Silk Road landmarks to visit once you are in Samarkand. The main planning task is choosing how to reach Samarkand, where to stay, and how much time to allow for the square at different times of day."
+realisticVisit: "Yes. Registan is one of the easier major Silk Road landmarks to visit once you are in Samarkand. The main planning task is allowing enough time for the square, its courtyards, and nearby Timurid sites."
 whenToGo:
   summary: "Best: Apr-May, Sep-Oct. Good: Mar, Nov. Very hot: Jun-Aug. Cold / possible: Dec-Feb."
   jan: "Possible"
@@ -42,11 +42,11 @@ whenToGo:
   dec: "Possible"
 comparisonGroup: "Registan vs Naqsh-e Jahan Square vs Sultan Ahmed Mosque - Islamic architecture and public space for travellers who love tile, scale, and symmetry."
 physicalDifficulty: "Easy"
-logisticalDifficulty: "Easy independent trip / needs some planning"
+logisticalDifficulty: "Easy independent trip / needs some planning around Samarkand transport"
 perfectFor:
-  - "Silk Road travellers, architecture photographers, history lovers, and visitors combining Samarkand with Bukhara, Khiva, or Tashkent"
+  - "Silk Road travellers, architecture photographers, history lovers, and visitors combining Samarkand with Bukhara, Khiva, or Tashkent."
 notIdealFor:
-  - "Travellers looking for wilderness solitude or those visiting in peak summer heat without planning"
+  - "Travellers looking for wilderness solitude or those visiting in peak summer heat without planning."
 tags: ["Architecture","History","Silk Road"]
 featured: true
 seoTitle: "Registan Travel Guide"
@@ -55,8 +55,28 @@ seoDescription: "Samarkand's tiled madrasas rise around a monumental square wher
 
 ## Why It Is Beautiful
 
-Samarkand's tiled madrasas rise around a monumental square where Silk Road history still feels theatrical and alive. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
+The Registan is beautiful because it is not a single monument. It is an urban stage framed by three madrasas, each with its own rhythm of tilework, portals, domes, inscriptions, and courtyards. From a distance it works as one grand composition; up close it becomes colour, geometry, glazed surface, and shadow.
 
 ## Local Planning Notes
 
-Stay in Samarkand so you can see the square after tour groups leave. The madrasahs are magnificent in full daylight, but blue hour is when the tiles feel almost theatrical. Pair the Registan with Shah-i-Zinda and local markets for a fuller sense of the Silk Road city.
+### The three madrasas
+
+- **Ulugbek Madrasa**: completed in 1420 and associated with Ulugbek, the Timurid ruler and astronomer. It gives the square its scholarly foundation.
+- **Sher-Dor Madrasa**: completed in 1636 and famous for bold animal imagery on its facade.
+- **Tilla-Kari Madrasa**: completed in 1660, with a richly decorated mosque interior where gold design creates a powerful domed effect.
+
+### How to experience it
+
+Do not treat the Registan as a five-minute photo stop. See it from the middle of the square, from each side, inside the courtyards, and again when the light changes. The details matter: tile geometry, portal scale, blue surfaces against desert light, and the way each madrasa changes as you move.
+
+### Extend the visit in Samarkand
+
+- **Gur-e-Amir**: Timur's mausoleum and essential context for Samarkand's imperial history.
+- **Bibi-Khanym Mosque**: monumental scale from Timur's era, with restoration and ruin sitting side by side.
+- **Siyob / Siab Bazaar**: a good way to ground the city in daily life rather than only monuments.
+- **Hazrat-Hizr Mosque**: useful for views and the city's layered religious landscape.
+- **Shah-i-Zinda**: one of Samarkand's strongest tilework experiences and an obvious companion to the Registan.
+
+The Registan itself can be seen in a few hours, but Samarkand deserves at least 1 to 2 full days. Stay overnight if you can, so you can return after tour groups leave and see how the square changes from hard daylight to blue hour.
+
+> Field-detail source: Ron Perrier, [Uzbekistan](https://www.ronperrier.net/2024/06/28/uzbekistan/) and [Uzbekistan - The Trip](https://www.ronperrier.net/2015/11/08/uzbekistan-the-trip-2/).

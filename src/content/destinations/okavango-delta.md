@@ -20,7 +20,7 @@ bestFor:
   - "Photography"
   - "Remote/adventurous travel"
   - "Easy luxury trips"
-realisticVisit: "Yes, but it is usually a planned safari rather than a casual add-on. Decide between lodge, mobile safari, mokoro, fly-in, or self-drive edge experiences. Costs and season matter."
+realisticVisit: "Yes, but it is usually a planned safari rather than a casual add-on. Maun is the practical gateway for operators, air charters, lodges, car rental, and transfers. Book early for prime season."
 whenToGo:
   summary: "Best: Jun-Oct. Good: May, Nov. Rainy / green season: Dec-Apr."
   jan: "Rainy"
@@ -35,13 +35,13 @@ whenToGo:
   oct: "Best"
   nov: "Good"
   dec: "Rainy"
-comparisonGroup: "Okavango vs Kruger vs Pantanal - wildlife wetlands and safari ecosystems at different levels of access and cost."
-physicalDifficulty: "Easy"
-logisticalDifficulty: "Better with local operator / complex for premium camps"
+comparisonGroup: "Okavango Delta vs Etosha vs Pantanal - water-shaped wildlife regions where silence and reflection are part of the appeal."
+physicalDifficulty: "Easy to moderate (camp life, light boating)"
+logisticalDifficulty: "Specialist trip / needs careful operator choice and small-aircraft transfers"
 perfectFor:
-  - "Wildlife photographers, safari travellers, birders, luxury wilderness seekers, and people who want water, light, and animals together"
+  - "Safari travellers wanting a slower, water-based experience, photographers, and honeymooners."
 notIdealFor:
-  - "Budget travellers expecting easy independent logistics or visitors who dislike small aircraft and remote camps"
+  - "Travellers on tight budgets or those wanting fast-moving sightseeing."
 tags: ["Wildlife","Wetlands","Safari"]
 featured: false
 seoTitle: "Okavango Delta Travel Guide"
@@ -50,8 +50,30 @@ seoDescription: "Floodwater spreads into desert and becomes a maze of reeds, cha
 
 ## Why It Is Beautiful
 
-Floodwater spreads into desert and becomes a maze of reeds, channels, elephants, mokoros, and impossible green life. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
+The Okavango Delta is beautiful because it is an inland flood in a dry country. Water travels from the Angolan highlands into Botswana's Kalahari basin, then spreads into channels, islands, lagoons, floodplains, papyrus, reeds, and wildlife corridors. It never reaches the sea. It disappears into evaporation, sand, plants, animals, and light.
 
 ## Local Planning Notes
 
-Decide early whether you want a lodge-based safari, mobile camping, or a mokoro-focused trip. Water levels shape the experience, and small aircraft transfers are common. This is not a checklist safari; the awe is in silence, reeds, reflected sky, and animals appearing at the edge of floodwater.
+### How the delta works
+
+The Okavango's rhythm is counterintuitive. Rain falls far away in Angola, then floodwater moves slowly south into Botswana. The flood spreads from roughly March to June and often peaks during the dry winter months, around June to August. That is why wildlife viewing can be strongest when the surrounding landscape is dry but the delta itself is full.
+
+### Can I realistically visit this?
+
+Maun is the main practical gateway. Many travellers either fly from Maun into a lodge or arrange a 4WD safari through a specialist operator. This is not a place where turning up casually always works, especially for the best camps and park campsites. Treat flights, transfers, water levels, and season as part of the trip.
+
+### What to see and do
+
+- **Mokoro trips**: a quiet, water-level way to experience channels, reeds, and reflected sky.
+- **Moremi Game Reserve**: one of the key wildlife areas on the eastern side of the delta.
+- **Permanent lagoons and photo camps**: often the strongest areas for wildlife and photography.
+- **Guma Lagoon / Guma Pool area**: a northern or western access point for water-based experiences, birdlife, fishing, hippo trails, and mokoro excursions.
+- **Maun**: not the reason to come to Botswana, but the hub that makes the delta workable.
+
+### Best time and practical notes
+
+For wildlife, May to October is usually the strongest period, with flood levels often highest from July to September. Wetter months can be greener and beautiful, but wildlife is more dispersed and access can be more variable.
+
+The delta is a malaria-risk area, so get current travel health advice before going. Dry-season nights can be surprisingly cold. Distances are large, and map times can be misleading where sand tracks, park roads, or 4WD routes are involved. Botswana's best-known safari areas often follow a high-value, low-volume model; budget options exist, but the delta is rarely casual low-cost travel.
+
+> Field-detail source: Ron Perrier, [Botswana - The Trip](https://www.ronperrier.net/2023/02/01/botswana-the-trip/).

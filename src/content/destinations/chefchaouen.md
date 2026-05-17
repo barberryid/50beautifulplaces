@@ -49,7 +49,7 @@ seoDescription: "Blue lanes climb through the Rif Mountains, where morning light
 
 ## Why It Is Beautiful
 
-Chefchaouen is Morocco's blue mountain town, set in the Rif Mountains with lanes painted in shades of blue, whitewashed walls, tiled doorways, and a slower rhythm than Marrakesh or Fez. It is highly photogenic, but it is not only a photo stop. The best reason to stay overnight is to feel the town before and after day-trippers.
+Chefchaouen is Morocco's blue mountain town: blue and white lanes climbing under the Rif Mountains, with rooftops, tiled doorways, and a quieter rhythm than Marrakesh or Fez. Its beauty comes from enclosure and escape at the same time: intimate alleys below, mountain air above.
 
 It works well for travelers who want a gentler Moroccan medina experience, mountain air, small cafes, simple guesthouses, and easy wandering.
 
@@ -59,7 +59,7 @@ It works well for travelers who want a gentler Moroccan medina experience, mount
 
 Spend the first hours doing very little: walk the medina, climb steps, follow blue alleys, and stop often. The town is compact, and the pleasure is in slow exploration rather than ticking off sights.
 
-For the best view, walk up toward the Spanish Mosque in the late afternoon. The view back over the blue town and surrounding mountains is the classic Chefchaouen panorama. In town, visit the kasbah area, the main square, and local craft shops, but avoid turning the visit into a shopping mission.
+For the best view, walk up toward the Spanish Mosque in the late afternoon. The view back over the blue town and surrounding mountains is the classic Chefchaouen panorama. In town, focus on Plaza Uta el-Hammam, the kasbah area, the medina lanes, and the exterior of the Grande Mosquee with its distinctive octagonal minaret. Visit local craft shops if you like, but avoid turning the day into a shopping mission.
 
 Chefchaouen can also be used as a base for hikes in the Rif Mountains, including nearby waterfalls and trails, though you should check local conditions and transport before setting out.
 
@@ -78,3 +78,7 @@ Chefchaouen is cheaper if you stay overnight rather than visit on a rushed priva
 ### Practical notes
 
 The town is safe and relaxed by Moroccan standards, but it is still popular. For photos, go early in the morning. Be respectful around residential alleys; the blue streets are also people's homes.
+
+Chefchaouen is easier than the remote wilderness places on this site. It fits naturally into a northern Morocco route from Tangier, Tetouan, or the Mediterranean coast, and can also be combined with Fez. The main challenge is expectation: arrive for atmosphere, hills, rooftops, and mountain light, not just a few blue-wall photos.
+
+> Field-detail source: Ron Perrier, [Morocco - The Trip](https://www.ronperrier.net/2016/11/23/morocco-the-trip/) and [Morocco - General](https://www.ronperrier.net/2020/01/28/morocco-general/).
