@@ -84,4 +84,8 @@ To save money, rent a basic car, camp or use simple rest-camp accommodation, sel
 
 Stay in your vehicle except at designated areas. Do not speed. Carry water and fuel when possible. After the major 2025 wildfire, reporting suggested that a large part of the park had been damaged and that recovery could take years, so expect some affected landscapes while wildlife viewing remains possible.
 
-> Field-detail source: Ron Perrier, [Namibia - The Trip](https://www.ronperrier.net/2017/04/03/namibia-the-trip/) and [Wildlife](https://www.ronperrier.net/2024/06/20/wildlife/).
+### Namibia works best as a road trip
+
+Etosha is easier to understand as part of a wider Namibia loop rather than an isolated dot. Many visitors link Windhoek, desert lodges, Sossusvlei, Swakopmund / Walvis Bay, Damaraland, and Etosha by rental car or guided road trip. The drives are part of the experience, but they need planning: fuel, daylight, gravel-road conditions, tyre risk, and realistic daily distances matter.
+
+> Field-detail sources: Ron Perrier, [Namibia - The Trip](https://www.ronperrier.net/2017/04/03/namibia-the-trip/) and [Wildlife](https://www.ronperrier.net/2024/06/20/wildlife/); BucketListly, [2 Weeks in Namibia: A Road Trip Itinerary](https://www.bucketlistly.blog/posts/namibia-road-trip-backpacking-itinerary).

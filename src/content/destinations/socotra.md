@@ -20,7 +20,7 @@ bestFor:
   - "Photography"
   - "Beaches without crowds"
   - "Dramatic landscapes"
-realisticVisit: "Yes, but only with specialist planning. Most visitors use a local operator for visa support, flights, permits, driver, camping equipment, and 4WD logistics. Verify current safety, access, and flight details before travel."
+realisticVisit: "Yes, but only with specialist planning. Most visitors use a local operator for visa support, limited flight access, permits, driver, camping equipment, and 4WD logistics. Verify current safety, visa, and flight details before travel."
 whenToGo:
   summary: "Best: Oct-Apr. Good: May. Very windy / limited: Jun-Sep."
   jan: "Best"
@@ -70,7 +70,7 @@ Socotra rewards travellers who are comfortable with logistical friction. A typic
 
 ### Best time and duration
 
-Wind is the major planning factor. The southwest monsoon, roughly June to September, can make the island difficult or unpleasant because of strong winds and rough seas. Early October to late April is the more realistic visitor season, with late winter into spring often better for greenery and nature.
+Wind is the major planning factor. The southwest monsoon, roughly June to September, can make the island difficult or unpleasant because of strong winds and rough seas. Many trips operate roughly from October into early May, but late spring can already feel hot and windy. For a first visit, November to February is often the more comfortable window, with late winter into spring sometimes better for greenery, flowering bottle trees, and nature.
 
 Plan around a week on the island. That gives enough room for coastal camps, highland trees, wadis, lagoons, and at least one boat or beach day without turning the trip into a checklist.
 
@@ -78,4 +78,10 @@ Plan around a week on the island. That gives enough room for coastal camps, high
 
 Socotra is best for adventurous nature travellers, photographers, and people who are comfortable with camping. The most memorable nights are often beach or inland camps rather than hotel stays. It is not ideal for nightlife, resort comfort, luxury infrastructure, or fully independent transport.
 
-> Field-detail source: Ron Perrier, [Yemen - Socotra](https://www.ronperrier.net/2020/02/09/yemen-socotra/) and [Socrata - Yemen](https://www.ronperrier.net/2024/07/06/socrata-yemen/).
+### Packing and practical cautions
+
+Pack for rough, simple travel rather than hotel-to-hotel comfort: lightweight quick-drying clothing, grippy sandals or water shoes, a quick-dry towel, a power bank, and a car USB charger. Many trips involve camping without normal charging points, so manage phone, camera, and battery use carefully.
+
+Do not assume drones are straightforward. Some travellers report restrictions or confiscation risks, especially for larger drones. Check current rules with your operator before packing one.
+
+> Field-detail sources: Ron Perrier, [Yemen - Socotra](https://www.ronperrier.net/2020/02/09/yemen-socotra/) and [Socrata - Yemen](https://www.ronperrier.net/2024/07/06/socrata-yemen/); Anna Round the World, [Top Things to See in Socotra Island, Yemen](https://www.annaroundtheworld.com/blog/socotra-island-yemen) and [Yemen category / Socotra notes](https://www.annaroundtheworld.com/blog/category/Yemen).

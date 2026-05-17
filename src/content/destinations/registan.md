@@ -67,7 +67,7 @@ The Registan is beautiful because it is not a single monument. It is an urban st
 
 ### How to experience it
 
-Do not treat the Registan as a five-minute photo stop. See it from the middle of the square, from each side, inside the courtyards, and again when the light changes. The details matter: tile geometry, portal scale, blue surfaces against desert light, and the way each madrasa changes as you move.
+Do not treat the Registan as a five-minute photo stop or a single midday photograph. Arrive when it opens if you want the quietest architectural views, then return later for warmer light, local evening atmosphere, and the illuminated square. Morning is best for space and detail; sunset and evening are better for mood.
 
 ### Extend the visit in Samarkand
 
@@ -79,4 +79,6 @@ Do not treat the Registan as a five-minute photo stop. See it from the middle of
 
 The Registan itself can be seen in a few hours, but Samarkand deserves at least 1 to 2 full days. Stay overnight if you can, so you can return after tour groups leave and see how the square changes from hard daylight to blue hour.
 
-> Field-detail source: Ron Perrier, [Uzbekistan](https://www.ronperrier.net/2024/06/28/uzbekistan/) and [Uzbekistan - The Trip](https://www.ronperrier.net/2015/11/08/uzbekistan-the-trip-2/).
+Samarkand is easy to combine with the rest of Uzbekistan by train, but popular train routes can sell out. If you want to link Samarkand with Bukhara, Khiva, or Tashkent, book rail tickets early rather than assuming the best departures will be available at the last minute.
+
+> Field-detail sources: Ron Perrier, [Uzbekistan](https://www.ronperrier.net/2024/06/28/uzbekistan/) and [Uzbekistan - The Trip](https://www.ronperrier.net/2015/11/08/uzbekistan-the-trip-2/); Anna Round the World, [Best Uzbekistan Itinerary](https://www.annaroundtheworld.com/blog/best-uzbekistan-itinerary); BucketListly, [Explore Uzbekistan in 2 Weeks](https://www.bucketlistly.blog/posts/two-weeks-itinerary-uzbekistan) and [One Month in Central Asia](https://www.bucketlistly.blog/posts/central-asia-one-month-backpacking-itinerary).

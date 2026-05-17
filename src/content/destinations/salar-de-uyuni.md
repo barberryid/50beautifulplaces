@@ -55,6 +55,14 @@ Its scale is the shock. The surface is so broad, pale, and flat that it feels le
 
 ## Local Planning Notes
 
+### Choose your Salar experience
+
+There are three very different ways to experience the Salar de Uyuni:
+
+- **One-day salt flat trip from Uyuni**: best if you mainly want the white salt, perspective photos, cactus-island views, and sunset light.
+- **Two- or three-day Uyuni route**: better if you want the salt flat plus coloured lagoons, flamingos, volcanic landscapes, geysers, hot springs, and rock formations.
+- **Tupiza-to-Uyuni route**: the more adventurous approach, turning the salar into the finale of a wider altiplano journey.
+
 ### The adventurous route
 
 For more than the salt flat itself, consider the Tupiza-to-Uyuni 4WD route. It is often run as a 4-day / 3-night crossing of the high-altitude southwest Bolivian altiplano, usually on dirt and gravel roads. The route can include coloured lagoons, flamingos, geysers or fumaroles, desert rock formations, hot springs, high passes, and finally the salar.
@@ -64,11 +72,14 @@ That changes the experience from "visit a famous salt flat" into "cross one of S
 ### What to see and do
 
 - **The mirror effect**: best after rain, when shallow water reflects the sky.
+- **Salt-flat perspective photography**: the flatness makes scale illusions possible, but a patient guide and enough time make a big difference.
+- **Sunset on the salt**: if your tour allows it, stay long enough for the surface to change colour as the sun drops.
 - **Dry-season salt polygons**: strong geometric crust patterns when the surface is dry.
 - **Isla Incahuasi and cactus islands**: classic stops where cacti rise from the salt.
 - **Train Cemetery near Uyuni**: an atmospheric short stop at the beginning or end.
-- **Altiplano lagoons**: coloured lakes and flamingos on longer 4WD routes.
+- **Laguna Colorada, Laguna Verde, and other altiplano lagoons**: colour, flamingos, and volcanic scenery on longer routes.
 - **Geysers, fumaroles, and hot springs**: the volcanic side of the altiplano.
+- **Dali Desert and rock formations**: reminders that Uyuni is part of a larger surreal highland landscape, not just a salt flat.
 
 ### Can I realistically visit this?
 
@@ -80,4 +91,8 @@ Much of the extended altiplano route sits very high, often around 4,600 to 5,000
 
 Choose the season by the effect you want. Rainy months are better for mirror reflections but can complicate access. Dry months are better for reliable crossings, salt polygons, and the classic white-desert look. Nights can be intensely cold at altitude, especially in the dry winter season.
 
-> Field-detail source: Ron Perrier, [Bolivia - Altiplano & the Salar de Uyuni](https://www.ronperrier.net/2024/07/01/bolivia-altiplano-salar-de-uyuni/).
+### Fees and inclusions
+
+When comparing tours, ask exactly what is included: park fees, island fees, hot springs, border transfer, meals, sleeping arrangements, and whether the route ends back in Uyuni or continues toward Chile. Do not rely on old price examples; check current fees and inclusions before booking.
+
+> Field-detail sources: Ron Perrier, [Bolivia - Altiplano & the Salar de Uyuni](https://www.ronperrier.net/2024/07/01/bolivia-altiplano-salar-de-uyuni/); Never Ending Footsteps, [The Cost of Travel in Bolivia](https://www.neverendingfootsteps.com/cost-of-travel-bolivia-budget/); Along Dusty Roads, [Why a One Day Bolivia Salt Flats Tour Might Just Be Enough](https://www.alongdustyroads.com/posts/2016/10/11/one-day-salt-flats-tour-bolivia) and [A Short Guide to Tupiza, Bolivia](https://www.alongdustyroads.com/posts/tupiza-bolivia); BucketListly, [One Week in Bolivia](https://www.bucketlistly.blog/posts/bolivia-backpacking-itinerary) and [Discover South America: Best Places to Visit](https://www.bucketlistly.blog/posts/best-places-to-visit-south-america).

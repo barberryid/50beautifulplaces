@@ -13,7 +13,7 @@ hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Table%20Mountain
 hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Table Mountain, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "October to April for clearer hiking and cableway days, though conditions change quickly year-round"
-duration: "2 to 5 days"
+duration: "Half a day for the summit; 2 to 4 days for the wider Cape Town mountain setting"
 bestFor:
   - "Dramatic landscapes"
   - "First-time Africa trips"
@@ -50,7 +50,7 @@ seoDescription: "Cape Town unfolds below a flat-topped mountain of cliffs, cloud
 
 ## Why It Is Beautiful
 
-Table Mountain is beautiful because it is both wilderness and city landmark. It rises directly above Cape Town, turning the city into an amphitheatre of rock, sea, cloud, and light. The flat summit, steep cliffs, Atlantic views, and sudden table-cloth cloud make it feel far larger than its height alone suggests.
+Table Mountain is beautiful because it is both wilderness and city landmark. It rises directly above Cape Town, turning the city into an amphitheatre of rock, sea, cloud, and light. But it is not only beautiful from the summit. Some of the strongest views are from the surrounding city and neighbouring peaks, where the flat-topped mountain becomes the backdrop to beaches, fynbos, the City Bowl, Camps Bay, the Twelve Apostles, and the Cape Peninsula.
 
 ## Local Planning Notes
 
@@ -62,10 +62,20 @@ Table Mountain is beautiful because it is both wilderness and city landmark. It 
 - **Skeleton Gorge**: a greener, more demanding route from the Kirstenbosch side.
 - **Nursery Ravine**: another Kirstenbosch-side route that can pair botanical garden time with a mountain hike.
 
+### Best viewpoint of Table Mountain: Lion's Head
+
+Lion's Head is one of the best companion experiences because it gives a clear view back to Table Mountain itself. The hike is relatively short, but it is not just a gentle walk. Expect rocky sections, exposed places, ladders or chains, slippery dust or sand in places, and bottlenecks near the top.
+
+Use the main trail from the Lion's Head parking area rather than informal approaches. For solo hikers, the well-used main route is safer and easier to follow. Carry water, wear shoes with good grip, and pay attention on the descent because side trails can lead away from the starting point.
+
 ### Weather and safety
 
 Do not treat Table Mountain like a simple urban viewpoint just because it is close to the city. Weather can shift quickly. The famous table-cloth cloud can cover the summit, reduce visibility, and make navigation harder. Wind, heat, and exposure can also make the mountain more serious than it looks from below.
 
 Start early, carry water, use sun protection, and bring a warm layer even when the city feels mild. Avoid summiting in bad cloud, strong wind, extreme heat, or poor visibility. For photography, early and late light are usually better than midday. If the summit is covered, wait for a clearer window if your schedule allows.
 
-> Field-detail source: Ron Perrier, [South Africa - The Trip](https://www.ronperrier.net/2017/04/17/south-africa-the-trip/).
+For a simple cableway summit visit, half a day may be enough. For the stronger Cape Town mountain experience, allow 2 to 4 days so you can combine Table Mountain, Lion's Head, Kirstenbosch, Camps Bay, the Cape Peninsula, and weather-flexible hiking windows.
+
+Cape Town can be visited year-round, but mid-November to mid-December and mid-January to mid-March often give a useful balance of weather and crowds. July and August can be cooler and wetter. Always check wind, cloud, and cableway status before committing to a summit plan.
+
+> Field-detail sources: Ron Perrier, [South Africa - The Trip](https://www.ronperrier.net/2017/04/17/south-africa-the-trip/); Never Ending Footsteps, [Hiking Lion's Head](https://www.neverendingfootsteps.com/hiking-lions-head-south-africa/) and [8 Reasons Why I Fell in Love With Cape Town](https://www.neverendingfootsteps.com/why-i-love-cape-town/); Anywhere We Roam, [Best Things to Do in Cape Town](https://anywhereweroam.com/things-to-do-in-cape-town/), [5-Day Cape Town Itinerary](https://anywhereweroam.com/5-day-cape-town-itinerary/), [Places to Visit in South Africa](https://anywhereweroam.com/places-to-visit-south-africa/), and [Best Time to Visit South Africa](https://anywhereweroam.com/best-time-to-visit-south-africa/); BucketListly, [Discover Cape Town](https://www.bucketlistly.blog/posts/cape-town-best-things-to-do), [Lion's Head Hiking Guide](https://www.bucketlistly.blog/posts/lions-head-hiking-guide-cape-town), and [4 Days in Cape Town](https://www.bucketlistly.blog/posts/cape-town-backpacking-itinerary).
