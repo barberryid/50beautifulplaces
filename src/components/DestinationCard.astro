@@ -8,13 +8,14 @@ interface Props {
   image: string;
   alt: string;
   tags: string[];
+  bestFor?: string[];
   priority?: boolean;
 }
 
-const { href, title, country, region, summary, image, alt, tags, priority = false } = Astro.props;
+const { href, title, country, region, summary, image, alt, tags, bestFor = [], priority = false } = Astro.props;
 ---
 
-<article class="destination-card" data-region={region}>
+<article class="destination-card" data-region={region} data-best-for={bestFor.join("|")}>
   <a href={href} aria-label={`Read the ${title} guide`}>
     <img src={image} alt={alt} width="1200" height="900" loading={priority ? "eager" : "lazy"} decoding="async" fetchpriority={priority ? "high" : "auto"} />
     <div class="card-body">
@@ -22,7 +23,7 @@ const { href, title, country, region, summary, image, alt, tags, priority = fals
       <h3>{title}</h3>
       <p>{summary}</p>
       <div class="tag-row" aria-label="Destination tags">
-        {tags.slice(0, 3).map((tag) => <span>{tag}</span>)}
+        {(bestFor.length ? bestFor : tags).slice(0, 3).map((tag) => <span>{tag}</span>)}
       </div>
     </div>
   </a>

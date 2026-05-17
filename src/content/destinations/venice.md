@@ -14,6 +14,32 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Venice, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "April to June and September to November for gentler light and less oppressive heat"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Easy luxury trips"
+realisticVisit: "Yes. Venice is easy to reach but difficult to experience well if rushed or visited only at peak day-tripper hours. Stay overnight if possible and plan around crowds, walking, water transport, and seasonal flooding risk."
+whenToGo:
+  summary: "Best: Apr-Jun, Sep-Oct. Good: Mar, Nov. Crowded / hot: Jul-Aug. Possible: Dec-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Best"
+  jul: "Crowded"
+  aug: "Crowded"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Venice vs Santorini vs Budapest - water, architecture, light, and heavy visitor pressure."
+physicalDifficulty: "Easy to moderate because of bridges and walking"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "Photographers, couples, architecture lovers, slow walkers, and travellers willing to explore early or late"
+notIdealFor:
+  - "Visitors who need step-free simplicity, low prices, or crowd-free streets in peak season"
 tags: ["Canals","Culture","Architecture"]
 featured: false
 seoTitle: "Venice Travel Guide"

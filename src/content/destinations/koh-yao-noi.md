@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Koh Yao Noi, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "November to April for calmer Andaman seas and island-hopping weather"
 duration: "2 to 5 days"
+bestFor:
+  - "Beaches without crowds"
+  - "Family-friendly natural beauty"
+  - "Easy luxury trips"
+  - "Photography"
+realisticVisit: "Yes. Koh Yao Noi is relatively accessible from Phuket or Krabi but feels quieter than many Thai island centres. Plan around boat transfers, tides, and whether you want a simple guesthouse or boutique resort."
+whenToGo:
+  summary: "Best: Dec-Mar. Good: Apr, Nov. Rainy / Possible: May-Oct."
+  jan: "Best"
+  feb: "Best"
+  mar: "Best"
+  apr: "Good"
+  may: "Rainy"
+  jun: "Rainy"
+  jul: "Rainy"
+  aug: "Rainy"
+  sep: "Rainy"
+  oct: "Rainy"
+  nov: "Good"
+  dec: "Best"
+comparisonGroup: "Koh Yao Noi vs Boracay vs El Nido - tropical Southeast Asia with different levels of quiet, infrastructure, and drama."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "Travellers wanting a gentler Thai island, families, couples, cyclists, kayakers, and people who value calm over nightlife"
+notIdealFor:
+  - "Party travellers or visitors expecting a huge choice of beaches and late-night entertainment"
 tags: ["Islands","Local life","Beach"]
 featured: false
 seoTitle: "Koh Yao Noi Travel Guide"

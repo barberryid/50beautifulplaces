@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Annapurna, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "October to November and March to April for clearer trekking skies and comfortable mountain temperatures"
 duration: "2 to 5 days"
+bestFor:
+  - "Hiking"
+  - "Dramatic landscapes"
+  - "Photography"
+  - "Remote/adventurous travel"
+realisticVisit: "Yes, but choose the route carefully. Annapurna can mean anything from short foothill hikes to demanding multi-day treks with altitude, weather, permits, and changing trail conditions."
+whenToGo:
+  summary: "Best: Oct-Nov, Mar-Apr. Good: Dec, Feb, May. Rainy: Jun-Sep. Cold / limited higher routes: Jan."
+  jan: "Closed / limited access"
+  feb: "Good"
+  mar: "Best"
+  apr: "Best"
+  may: "Good"
+  jun: "Rainy"
+  jul: "Rainy"
+  aug: "Rainy"
+  sep: "Rainy"
+  oct: "Best"
+  nov: "Best"
+  dec: "Good"
+comparisonGroup: "Annapurna vs Fairy Meadows vs Carpathian Mountains - mountain journeys at very different levels of altitude, infrastructure, and commitment."
+physicalDifficulty: "Moderate to strenuous"
+logisticalDifficulty: "Needs planning / better with local operator for longer treks"
+perfectFor:
+  - "Hikers, mountain lovers, photography-focused travellers, and people who want villages, peaks, lodges, and trail culture"
+notIdealFor:
+  - "Travellers with no interest in walking, altitude preparation, or flexible mountain planning"
 tags: ["Mountains","Trekking","Culture"]
 featured: false
 seoTitle: "Annapurna Travel Guide"

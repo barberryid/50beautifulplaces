@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Pamir Highway, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "June to September, when high passes are most accessible and village stays are feasible"
 duration: "2 to 5 days"
+bestFor:
+  - "Road trips"
+  - "Dramatic landscapes"
+  - "Remote/adventurous travel"
+  - "Photography"
+realisticVisit: "Yes, but it is a serious overland trip. Expect altitude, rough roads, long distances, limited services, border formalities, and the need for current route advice and reliable transport."
+whenToGo:
+  summary: "Best: Jun-Sep. Good: May, Oct. Closed / limited access: Nov-Apr."
+  jan: "Closed / limited access"
+  feb: "Closed / limited access"
+  mar: "Closed / limited access"
+  apr: "Closed / limited access"
+  may: "Good"
+  jun: "Best"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Good"
+  nov: "Closed / limited access"
+  dec: "Closed / limited access"
+comparisonGroup: "Pamir Highway vs Southern Patagonia vs Denali - big-road landscapes where remoteness is central to the appeal."
+physicalDifficulty: "Moderate because of altitude and long travel days"
+logisticalDifficulty: "Complex / specialist trip"
+perfectFor:
+  - "Overland travellers, photographers, high-mountain scenery lovers, and people who enjoy remote roads more than comfort"
+notIdealFor:
+  - "Travellers who need smooth roads, luxury services, low altitude, or predictable schedules"
 tags: ["Road trip","Mountains","Remote"]
 featured: false
 seoTitle: "Pamir Highway Travel Guide"

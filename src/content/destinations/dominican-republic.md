@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Dominican Republic, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "December to April for drier beach weather, with shoulder months offering better value"
 duration: "2 to 5 days"
+bestFor:
+  - "Beaches without crowds"
+  - "Easy luxury trips"
+  - "Family-friendly natural beauty"
+  - "Road trips"
+realisticVisit: "Yes. The Dominican Republic can be very easy as a resort trip or more varied as an independent road trip. Decide whether you want beaches, mountains, colonial towns, waterfalls, or a mix."
+whenToGo:
+  summary: "Best: Dec-Apr. Good: May, Nov. Rainy / hurricane season risk: Jun-Oct."
+  jan: "Best"
+  feb: "Best"
+  mar: "Best"
+  apr: "Best"
+  may: "Good"
+  jun: "Rainy"
+  jul: "Rainy"
+  aug: "Rainy"
+  sep: "Rainy"
+  oct: "Rainy"
+  nov: "Good"
+  dec: "Best"
+comparisonGroup: "Dominican Republic vs Boracay vs Malta - easy sun trips with different blends of beach, culture, and infrastructure."
+physicalDifficulty: "Easy to moderate"
+logisticalDifficulty: "Easy independent trip / needs planning for road trips"
+perfectFor:
+  - "Families, resort travellers, beach lovers, road-trippers, and visitors wanting a flexible Caribbean trip"
+notIdealFor:
+  - "Travellers who want untouched beaches everywhere or a single quiet island atmosphere"
 tags: ["Beach","Islands","Culture"]
 featured: false
 seoTitle: "Dominican Republic Travel Guide"

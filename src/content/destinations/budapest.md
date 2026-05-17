@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Budapest, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "April to June and September to October for river walks, baths, and terraces without peak summer heat"
 duration: "3 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Easy luxury trips"
+  - "Photography"
+  - "Family-friendly natural beauty"
+realisticVisit: "Yes. Budapest is easy to visit independently, with strong transport, accommodation, food, baths, river views, and architecture. The main planning task is choosing neighbourhood, season, and how much time to allow for both sides of the Danube."
+whenToGo:
+  summary: "Best: Apr-Jun, Sep-Oct. Good: Mar, Nov-Dec. Crowded / hot: Jul-Aug. Cold: Jan-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Best"
+  jul: "Crowded"
+  aug: "Crowded"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Good"
+comparisonGroup: "Budapest vs Florence vs Venice - European city beauty shaped by water, architecture, and atmosphere."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "First-time Central Europe visitors, architecture lovers, thermal bath fans, couples, families, and value-conscious city travellers"
+notIdealFor:
+  - "Travellers wanting remote nature or a small-town escape"
 tags: ["Cities","Architecture","Thermal baths"]
 featured: false
 seoTitle: "Budapest Travel Guide"

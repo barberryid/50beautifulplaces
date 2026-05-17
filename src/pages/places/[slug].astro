@@ -95,27 +95,30 @@ const visaLinks = visaCountries.map((country) => {
 });
 const mapQuery = `${place.data.title}, ${place.data.country}`;
 const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery)}`;
+const monthLabels = [
+  ["jan", "Jan"],
+  ["feb", "Feb"],
+  ["mar", "Mar"],
+  ["apr", "Apr"],
+  ["may", "May"],
+  ["jun", "Jun"],
+  ["jul", "Jul"],
+  ["aug", "Aug"],
+  ["sep", "Sep"],
+  ["oct", "Oct"],
+  ["nov", "Nov"],
+  ["dec", "Dec"]
+] as const;
 const planning = {
   practicalIntro: place.data.practicalIntro ?? "This guide is designed to help you decide whether this place fits the trip you are actually planning: the season you can travel, the time you have, the level of comfort you want, and the amount of effort you are willing to invest.",
   practicalDisclaimer: place.data.practicalDisclaimer ?? "Use it as a starting point for planning, then check current local conditions, transport options, entry requirements, weather patterns, opening times, and safety advice before booking.",
   accessSummary: place.data.accessSummary ?? "Most beautiful places are not difficult in the same way. Some are easy city or beach trips. Others require long road journeys, weather windows, permits, guides, high-altitude awareness, or a flexible itinerary.",
   planningDifficulty: place.data.planningDifficulty ?? "Planning difficulty varies by season, access, and how independently you want to travel. Give yourself enough time to understand the geography before making non-refundable bookings.",
-  physicalDifficulty: place.data.physicalDifficulty ?? "Physical difficulty depends on how you choose to experience the place. A viewpoint visit may be simple, while hikes, boats, heat, altitude, wind, or rough roads can change the trip quickly.",
-  bestTimeExpanded: place.data.bestTimeExpanded ?? `The headline timing for ${place.data.title} is: ${place.data.bestTime}. The best time still depends on what you want most: clear weather, fewer crowds, lower prices, wildlife, flowers, snow, surf, reflections, festivals, or dramatic seasonal conditions.`,
+  physicalDifficulty: "Physical difficulty depends on how you choose to experience the place. A viewpoint visit may be simple, while hikes, boats, heat, altitude, wind, or rough roads can change the trip quickly.",
+  bestTimeExpanded: place.data.bestTimeExpanded ?? `${place.data.whenToGo.summary} The best time still depends on what you want most: clear weather, fewer crowds, lower prices, wildlife, flowers, snow, surf, reflections, festivals, or dramatic seasonal conditions.`,
   durationExpanded: place.data.durationExpanded ?? `The suggested duration is ${place.data.duration}. Treat that as a realistic starting point, not a rule: a short visit can work for one landmark, while a longer stay gives you better light, slower wandering, day trips, and weather flexibility.`,
-  perfectFor: place.data.perfectFor ?? [
-    "Travellers who enjoy slowing down, looking carefully, and letting a landscape or historic setting build gradually.",
-    "Photography, viewpoints, atmosphere, and changing light.",
-    "A trip that feels different from a standard city break or resort holiday.",
-    "Building a journey around one extraordinary place rather than rushing through many stops.",
-    `Visitors drawn to ${place.data.tags.join(", ").toLowerCase()}.`
-  ],
-  notIdealFor: place.data.notIdealFor ?? [
-    "Very tight itineraries with no flexibility for weather, queues, or transport delays.",
-    "Travellers who want every detail to be effortless, predictable, or fully controlled.",
-    "Anyone expecting the place to look exactly like photos at all times of day and year.",
-    "Trips where nightlife, shopping, or resort-style convenience matters more than scenery and atmosphere."
-  ],
+  perfectFor: place.data.perfectFor,
+  notIdealFor: place.data.notIdealFor,
   commonMistakes: place.data.commonMistakes ?? [
     "Visiting in the wrong season for the experience you want.",
     "Allowing only one short weather-dependent window.",
@@ -188,6 +191,69 @@ const jsonLd = {
       </div>
     </section>
 
+    <section class="destination-planning" aria-labelledby="decision-heading">
+      <div>
+        <p class="eyebrow">Trip fit</p>
+        <h2 id="decision-heading">Is {place.data.title} right for your trip?</h2>
+      </div>
+
+      <div class="best-for-panel">
+        <h3>Best for</h3>
+        <div class="tag-list" aria-label="Best for categories">
+          {place.data.bestFor.map((category) => <span>{category}</span>)}
+        </div>
+      </div>
+
+      <article class="realistic-visit-card">
+        <h3>Can I realistically visit this?</h3>
+        <p>{place.data.realisticVisit}</p>
+      </article>
+
+      <div class="difficulty-grid">
+        <article>
+          <h3>Physical difficulty</h3>
+          <p>{place.data.physicalDifficulty}</p>
+        </article>
+        <article>
+          <h3>Planning complexity</h3>
+          <p>{place.data.logisticalDifficulty}</p>
+        </article>
+      </div>
+
+      <article class="when-to-go">
+        <h3>When to go</h3>
+        <p>{place.data.whenToGo.summary}</p>
+        <div class="month-strip" aria-label="Month by month travel timing">
+          {monthLabels.map(([key, label]) => (
+            <span class={`month-status status-${place.data.whenToGo[key].toLowerCase().replaceAll(" / ", "-").replaceAll(" ", "-")}`}>
+              <strong>{label}</strong>
+              <small>{place.data.whenToGo[key]}</small>
+            </span>
+          ))}
+        </div>
+      </article>
+
+      <div class="fit-grid">
+        <article>
+          <h3>Perfect for</h3>
+          <ul>
+            {place.data.perfectFor.map((item) => <li>{item}</li>)}
+          </ul>
+        </article>
+        <article>
+          <h3>Not ideal if</h3>
+          <ul>
+            {place.data.notIdealFor.map((item) => <li>{item}</li>)}
+          </ul>
+        </article>
+      </div>
+
+      <article class="comparison-group">
+        <h3>Compare with similar places</h3>
+        <p>{place.data.comparisonGroup}</p>
+      </article>
+    </section>
+
     <section class="travel-tools" aria-labelledby="travel-tools-heading">
       <div>
         <p class="eyebrow">Travel essentials</p>
@@ -253,13 +319,6 @@ const jsonLd = {
 
       <div class="planning-grid">
         <section class="planning-card">
-          <h3>Can I Realistically Visit This?</h3>
-          <p>{planning.accessSummary}</p>
-          <p><strong>Planning:</strong> {planning.planningDifficulty}</p>
-          <p><strong>Physical effort:</strong> {planning.physicalDifficulty}</p>
-        </section>
-
-        <section class="planning-card">
           <h3>Best Time to Go</h3>
           <p>{planning.bestTimeExpanded}</p>
           <ul>
@@ -276,20 +335,6 @@ const jsonLd = {
             <li>1 day can work for a single landmark or viewpoint.</li>
             <li>2 to 3 days usually allows better light and a calmer visit.</li>
             <li>4 to 7 days is better for landscapes, islands, hiking regions, wildlife, or weather-dependent trips.</li>
-          </ul>
-        </section>
-
-        <section class="planning-card">
-          <h3>Who This Place Is Perfect For</h3>
-          <ul>
-            {planning.perfectFor.map((item) => <li>{item}</li>)}
-          </ul>
-        </section>
-
-        <section class="planning-card">
-          <h3>Not Ideal If</h3>
-          <ul>
-            {planning.notIdealFor.map((item) => <li>{item}</li>)}
           </ul>
         </section>
 
@@ -355,6 +400,7 @@ const jsonLd = {
               image={item.data.mainImage}
               alt={item.data.imageAlt}
               tags={item.data.tags}
+              bestFor={item.data.bestFor}
             />
           ))}
         </div>

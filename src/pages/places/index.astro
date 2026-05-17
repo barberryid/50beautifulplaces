@@ -5,6 +5,7 @@ import DestinationCard from "../../components/DestinationCard.astro";
 
 const destinations = (await getCollection("destinations")).sort((a, b) => a.data.title.localeCompare(b.data.title));
 const regions = [...new Set(destinations.map((place) => place.data.region))].sort();
+const bestForOptions = [...new Set(destinations.flatMap((place) => place.data.bestFor))].sort();
 ---
 
 <BaseLayout
@@ -24,6 +25,14 @@ const regions = [...new Set(destinations.map((place) => place.data.region))].sor
     ))}
   </section>
 
+  <section class="filter-strip secondary-filter" aria-label="Best for">
+    <span>Best for</span>
+    <a href="/places/" data-best-for-filter="all">All</a>
+    {bestForOptions.map((category) => (
+      <a href={`/places/?bestFor=${encodeURIComponent(category)}`} data-best-for-filter={category}>{category}</a>
+    ))}
+  </section>
+
   <section class="section">
     <div class="destination-grid">
       {destinations.map((place, index) => (
@@ -36,6 +45,7 @@ const regions = [...new Set(destinations.map((place) => place.data.region))].sor
           image={place.data.mainImage}
           alt={place.data.imageAlt}
           tags={place.data.tags}
+          bestFor={place.data.bestFor}
           priority={index < 6}
         />
       ))}
@@ -44,18 +54,33 @@ const regions = [...new Set(destinations.map((place) => place.data.region))].sor
 
   <script>
     let activeRegion = new URLSearchParams(window.location.search).get("region");
+    let activeBestFor = new URLSearchParams(window.location.search).get("bestFor");
     const cards = document.querySelectorAll("[data-region]");
     const filters = document.querySelectorAll("[data-region-filter]");
+    const bestForFilters = document.querySelectorAll("[data-best-for-filter]");
 
     const applyFilter = () => {
       cards.forEach((card) => {
-        card.toggleAttribute("hidden", Boolean(activeRegion) && card.getAttribute("data-region") !== activeRegion);
+        const regionMatch = !activeRegion || card.getAttribute("data-region") === activeRegion;
+        const bestForValues = card.getAttribute("data-best-for")?.split("|") ?? [];
+        const bestForMatch = !activeBestFor || bestForValues.includes(activeBestFor);
+        card.toggleAttribute("hidden", !(regionMatch && bestForMatch));
       });
 
       filters.forEach((filter) => {
         const filterRegion = filter.getAttribute("data-region-filter");
         const isAll = filterRegion === "all";
         if ((isAll && !activeRegion) || filterRegion === activeRegion) {
+          filter.setAttribute("aria-current", "page");
+        } else {
+          filter.removeAttribute("aria-current");
+        }
+      });
+
+      bestForFilters.forEach((filter) => {
+        const filterValue = filter.getAttribute("data-best-for-filter");
+        const isAll = filterValue === "all";
+        if ((isAll && !activeBestFor) || filterValue === activeBestFor) {
           filter.setAttribute("aria-current", "page");
         } else {
           filter.removeAttribute("aria-current");
@@ -68,7 +93,24 @@ const regions = [...new Set(destinations.map((place) => place.data.region))].sor
         event.preventDefault();
         const filterRegion = filter.getAttribute("data-region-filter");
         activeRegion = filterRegion === "all" ? null : filterRegion;
-        const nextUrl = activeRegion ? `/places/?region=${encodeURIComponent(activeRegion)}` : "/places/";
+        const params = new URLSearchParams();
+        if (activeRegion) params.set("region", activeRegion);
+        if (activeBestFor) params.set("bestFor", activeBestFor);
+        const nextUrl = params.toString() ? `/places/?${params.toString()}` : "/places/";
+        window.history.pushState({}, "", nextUrl);
+        applyFilter();
+      });
+    });
+
+    bestForFilters.forEach((filter) => {
+      filter.addEventListener("click", (event) => {
+        event.preventDefault();
+        const filterValue = filter.getAttribute("data-best-for-filter");
+        activeBestFor = filterValue === "all" ? null : filterValue;
+        const params = new URLSearchParams();
+        if (activeRegion) params.set("region", activeRegion);
+        if (activeBestFor) params.set("bestFor", activeBestFor);
+        const nextUrl = params.toString() ? `/places/?${params.toString()}` : "/places/";
         window.history.pushState({}, "", nextUrl);
         applyFilter();
       });
@@ -76,6 +118,7 @@ const regions = [...new Set(destinations.map((place) => place.data.region))].sor
 
     window.addEventListener("popstate", () => {
       activeRegion = new URLSearchParams(window.location.search).get("region");
+      activeBestFor = new URLSearchParams(window.location.search).get("bestFor");
       applyFilter();
     });
 

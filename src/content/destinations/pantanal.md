@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Pantanal, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "July to October for dry-season wildlife concentration and the best chance of jaguar sightings"
 duration: "2 to 5 days"
+bestFor:
+  - "Wildlife"
+  - "Photography"
+  - "Family-friendly natural beauty"
+  - "Remote/adventurous travel"
+realisticVisit: "Yes, but choose the region, lodge, and season carefully. The Pantanal is one of the world's great wildlife areas, but access, roads, water levels, mosquitoes, and jaguar-viewing goals affect planning."
+whenToGo:
+  summary: "Best: Jul-Oct for wildlife visibility. Good: May-Jun, Nov. Rainy: Dec-Apr."
+  jan: "Rainy"
+  feb: "Rainy"
+  mar: "Rainy"
+  apr: "Rainy"
+  may: "Good"
+  jun: "Good"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Rainy"
+comparisonGroup: "Pantanal vs Okavango vs Kruger - wildlife-rich landscapes shaped by water and season."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Better with local operator / lodge"
+perfectFor:
+  - "Wildlife photographers, birders, jaguar seekers, families, and travellers who want animals more than beaches or cities"
+notIdealFor:
+  - "Visitors who dislike insects, heat, boat rides, remote lodges, or seasonal variability"
 tags: ["Wildlife","Wetlands","Nature"]
 featured: false
 seoTitle: "Pantanal Travel Guide"

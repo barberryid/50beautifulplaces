@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Angel Falls, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "June to November for the strongest waterfall flow; late June to August balances high water with clearer breaks between storms"
 duration: "2 to 5 days"
+bestFor:
+  - "Dramatic landscapes"
+  - "Photography"
+  - "Remote/adventurous travel"
+  - "Wildlife"
+realisticVisit: "Yes, but as a specialist trip. Angel Falls usually requires flights or river logistics, guides, seasonal water awareness, and careful checking of current safety, access, and operator reliability."
+whenToGo:
+  summary: "Best: Jun-Nov for stronger water. Good: May, Dec. Possible / lower water: Jan-Apr."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Possible"
+  apr: "Possible"
+  may: "Good"
+  jun: "Best"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Best"
+  nov: "Best"
+  dec: "Good"
+comparisonGroup: "Angel Falls vs Victoria Falls vs Dettifoss - waterfall trips from remote jungle to accessible thunder."
+physicalDifficulty: "Moderate"
+logisticalDifficulty: "Complex / specialist trip"
+perfectFor:
+  - "Adventure travellers, waterfall lovers, photographers, and people willing to travel deep for a singular natural sight"
+notIdealFor:
+  - "Visitors who want easy logistics, luxury comfort, or a destination that does not require current safety checks"
 tags: ["Waterfalls","Jungle","Adventure"]
 featured: false
 seoTitle: "Angel Falls Travel Guide"

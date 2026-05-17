@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Sultan Ahmed Mosque, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "April to June and September to November for Istanbul walking weather and soft evening light"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Easy luxury trips"
+  - "Family-friendly natural beauty"
+realisticVisit: "Yes. The Sultan Ahmed Mosque is easy to visit as part of an Istanbul itinerary, but remember it is an active place of worship. Plan around prayer times, dress expectations, crowds, and nearby historic sites."
+whenToGo:
+  summary: "Best: Apr-Jun, Sep-Oct. Good: Mar, Nov. Crowded / hot: Jul-Aug. Possible: Dec-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Best"
+  jul: "Crowded"
+  aug: "Crowded"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Sultan Ahmed Mosque vs Sheikh Zayed Grand Mosque vs Registan - Islamic architecture through tile, scale, symmetry, and public space."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "Architecture lovers, first-time Istanbul visitors, cultural travellers, photographers, and families"
+notIdealFor:
+  - "Visitors unwilling to follow mosque etiquette or those looking for a quiet uncrowded monument at all hours"
 tags: ["Architecture","Culture","Landmark"]
 featured: false
 seoTitle: "Sultan Ahmed Mosque Travel Guide"

@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Valley of the Gods, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "March to May and September to November for desert light, cooler roads, and quieter camping"
 duration: "2 to 5 days"
+bestFor:
+  - "Dramatic landscapes"
+  - "Road trips"
+  - "Photography"
+  - "Remote/adventurous travel"
+realisticVisit: "Yes, if you are comfortable with desert road-trip planning. It is less formal than nearby national parks, so check road conditions, vehicle suitability, weather, heat, fuel, water, and navigation."
+whenToGo:
+  summary: "Best: Mar-May, Sep-Oct. Good: Feb, Nov. Very hot: Jun-Aug. Cold / possible: Dec-Jan."
+  jan: "Possible"
+  feb: "Good"
+  mar: "Best"
+  apr: "Best"
+  may: "Best"
+  jun: "Very hot"
+  jul: "Very hot"
+  aug: "Very hot"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Valley of the Gods vs Yangykala Canyon vs Zhangye Danxia - colour, rock, and road-trip drama."
+physicalDifficulty: "Easy to moderate"
+logisticalDifficulty: "Needs some planning"
+perfectFor:
+  - "Road-trippers, desert photographers, solitude seekers, and travellers who enjoy open landscapes without heavy infrastructure"
+notIdealFor:
+  - "Visitors who dislike rough roads, heat, remote services, or self-sufficient desert driving"
 tags: ["Desert","Road trip","Canyons"]
 featured: false
 seoTitle: "Valley of the Gods Travel Guide"

@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Sheikh Zayed Grand Mosque, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "November to March for cooler Abu Dhabi weather and comfortable evening visits"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Easy luxury trips"
+  - "Family-friendly natural beauty"
+realisticVisit: "Yes. It is very accessible from Abu Dhabi and often possible from Dubai, but timing, dress code, heat, and visitor rules matter. It is best experienced with enough time for both detail and scale."
+whenToGo:
+  summary: "Best: Nov-Mar. Good: Apr, Oct. Very hot: May-Sep."
+  jan: "Best"
+  feb: "Best"
+  mar: "Best"
+  apr: "Good"
+  may: "Very hot"
+  jun: "Very hot"
+  jul: "Very hot"
+  aug: "Very hot"
+  sep: "Very hot"
+  oct: "Good"
+  nov: "Best"
+  dec: "Best"
+comparisonGroup: "Sheikh Zayed Grand Mosque vs Taj Mahal vs Sultan Ahmed Mosque - light stone, symmetry, devotion, and visual grandeur."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "Architecture photographers, families, first-time UAE visitors, and travellers wanting a high-impact cultural landmark"
+notIdealFor:
+  - "Visitors who ignore dress requirements, heat, or religious-site etiquette"
 tags: ["Architecture","Culture","Landmark"]
 featured: false
 seoTitle: "Sheikh Zayed Grand Mosque Travel Guide"

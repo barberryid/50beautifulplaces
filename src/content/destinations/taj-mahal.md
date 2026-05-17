@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Taj Mahal, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "October to March for cooler Agra mornings and the best chance of soft dawn light"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Family-friendly natural beauty"
+  - "Easy luxury trips"
+realisticVisit: "Yes. The Taj Mahal is one of the easiest great monuments to include in a North India itinerary, but timing matters. Plan for early starts, heat, crowds, ticketing, security rules, and whether you stay overnight in Agra."
+whenToGo:
+  summary: "Best: Nov-Feb. Good: Mar, Oct. Very hot: Apr-Jun. Rainy: Jul-Sep."
+  jan: "Best"
+  feb: "Best"
+  mar: "Good"
+  apr: "Very hot"
+  may: "Very hot"
+  jun: "Very hot"
+  jul: "Rainy"
+  aug: "Rainy"
+  sep: "Rainy"
+  oct: "Good"
+  nov: "Best"
+  dec: "Best"
+comparisonGroup: "Taj Mahal vs Registan vs Sheikh Zayed Grand Mosque - monumental architecture built around symmetry, light, and emotional impact."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Easy independent trip / needs some planning"
+perfectFor:
+  - "Architecture lovers, photographers, first-time India travellers, families, and visitors who want one of the world's most recognisable landmarks"
+notIdealFor:
+  - "Travellers who dislike crowds, early starts, heat, or strict site rules"
 tags: ["Architecture","History","Landmark"]
 featured: false
 seoTitle: "Taj Mahal Travel Guide"

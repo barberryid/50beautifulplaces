@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Carpathian Mountains, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "June to September for hiking, with September often the best balance of clear air, color, and fewer crowds"
 duration: "4 to 7 days"
+bestFor:
+  - "Hiking"
+  - "Family-friendly natural beauty"
+  - "Road trips"
+  - "Photography"
+realisticVisit: "Yes. The Carpathians are broad and varied, so choose a specific country and base. Planning depends on whether you want gentle village walks, national parks, wildlife, winter scenery, or longer ridge hikes."
+whenToGo:
+  summary: "Best: Jun-Sep. Good: May, Oct. Snow / possible: Dec-Mar. Shoulder: Apr, Nov."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Possible"
+  apr: "Possible"
+  may: "Good"
+  jun: "Best"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Good"
+  nov: "Possible"
+  dec: "Possible"
+comparisonGroup: "Carpathian Mountains vs Mittenwald vs Annapurna - mountain travel across a wide range of difficulty and infrastructure."
+physicalDifficulty: "Easy to strenuous, depending on route"
+logisticalDifficulty: "Needs some planning"
+perfectFor:
+  - "Hikers, families, road-trippers, forest lovers, village stays, and travellers wanting European mountains without Alpine prices everywhere"
+notIdealFor:
+  - "Visitors who have not narrowed the region or who expect one single simple destination"
 tags: ["Mountains","Forest","Villages"]
 featured: false
 seoTitle: "Carpathian Mountains Travel Guide"

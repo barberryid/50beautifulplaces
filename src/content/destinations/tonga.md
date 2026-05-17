@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Tonga, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "May to October for drier weather and whale season, especially July to October"
 duration: "2 to 5 days"
+bestFor:
+  - "Beaches without crowds"
+  - "Wildlife"
+  - "Remote/adventurous travel"
+  - "Photography"
+realisticVisit: "Yes, but allow time. Tonga rewards travellers who can handle island logistics, limited schedules, and slower movement. It is better for a planned South Pacific journey than a rushed add-on."
+whenToGo:
+  summary: "Best: Jun-Oct. Good: May, Nov. Rainy / cyclone season risk: Dec-Apr."
+  jan: "Rainy"
+  feb: "Rainy"
+  mar: "Rainy"
+  apr: "Rainy"
+  may: "Good"
+  jun: "Best"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Rainy"
+comparisonGroup: "Tonga vs Socotra vs Dominica - island nature for travellers who want something beyond standard resort travel."
+physicalDifficulty: "Easy to moderate"
+logisticalDifficulty: "Needs some planning"
+perfectFor:
+  - "Whale-season travellers, ocean lovers, low-key island explorers, and people who like places that still feel far away"
+notIdealFor:
+  - "Visitors needing frequent flights, polished resort infrastructure, or a highly predictable schedule"
 tags: ["Islands","Ocean","Culture"]
 featured: false
 seoTitle: "Tonga Travel Guide"

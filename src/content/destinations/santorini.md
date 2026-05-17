@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Santorini, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "April to June and September to October for caldera views without the biggest cruise-ship crowds"
 duration: "2 to 5 days"
+bestFor:
+  - "Photography"
+  - "Easy luxury trips"
+  - "Culture and architecture"
+  - "Family-friendly natural beauty"
+realisticVisit: "Yes. Santorini is easy to reach and highly developed, but the key is managing crowds, prices, heat, and location. Choose your base carefully and consider shoulder season."
+whenToGo:
+  summary: "Best: Apr-Jun, Sep-Oct. Good: Mar, Nov. Crowded / Very hot: Jul-Aug. Possible: Dec-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Best"
+  jul: "Crowded"
+  aug: "Crowded"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Santorini vs Malta vs Venice - Mediterranean beauty where architecture, water, and crowds all matter."
+physicalDifficulty: "Easy to moderate because of steps and heat"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "Couples, photographers, sunset seekers, caldera views, boutique stays, and first-time Greek island visitors"
+notIdealFor:
+  - "Travellers seeking empty beaches, low prices, or quiet villages in peak summer"
 tags: ["Islands","Villages","Coast"]
 featured: true
 seoTitle: "Santorini Travel Guide"

@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Chinguetti, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "November to February, when Saharan heat is manageable and desert nights are cool"
 duration: "2 to 4 days"
+bestFor:
+  - "Culture and architecture"
+  - "Remote/adventurous travel"
+  - "Photography"
+  - "Road trips"
+realisticVisit: "Yes, but it is a specialist desert-cultural trip rather than a simple city break. Most visitors should plan with local support, especially if combining it with desert drives, ancient libraries, and wider Adrar landscapes."
+whenToGo:
+  summary: "Best: Nov-Feb. Good: Mar, Oct. Very hot / Avoid: Apr-Sep."
+  jan: "Best"
+  feb: "Best"
+  mar: "Good"
+  apr: "Very hot"
+  may: "Very hot"
+  jun: "Very hot"
+  jul: "Very hot"
+  aug: "Very hot"
+  sep: "Very hot"
+  oct: "Good"
+  nov: "Best"
+  dec: "Best"
+comparisonGroup: "Chinguetti vs Djanet vs Chefchaouen - historic settlements shaped by desert, mountains, colour, and remoteness."
+physicalDifficulty: "Easy to moderate"
+logisticalDifficulty: "Better with local operator"
+perfectFor:
+  - "Travellers interested in desert towns, Islamic scholarship, old caravan routes, sand, silence, and unusual cultural landscapes"
+notIdealFor:
+  - "Comfort-first travellers, nightlife seekers, or visitors who dislike heat, dust, and long overland travel"
 tags: ["Desert","History","Architecture"]
 featured: false
 seoTitle: "Chinguetti Travel Guide"

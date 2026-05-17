@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Medellín, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "December to March and July to August for drier city days in the Aburra Valley"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Easy luxury trips"
+  - "Road trips"
+realisticVisit: "Yes. Medellín is a major city with good tourism infrastructure, but choose neighbourhoods carefully, plan safe transport, and combine city views with nearby towns and mountains."
+whenToGo:
+  summary: "Best: Dec-Mar, Jul-Aug. Good: Apr-Jun, Sep-Nov. Rainy periods vary; check before booking."
+  jan: "Best"
+  feb: "Best"
+  mar: "Best"
+  apr: "Good"
+  may: "Good"
+  jun: "Good"
+  jul: "Best"
+  aug: "Best"
+  sep: "Good"
+  oct: "Good"
+  nov: "Good"
+  dec: "Best"
+comparisonGroup: "Medellín vs Cape Town/Table Mountain vs Budapest - city beauty shaped by topography, light, and viewpoints."
+physicalDifficulty: "Easy to moderate because of hills and heat"
+logisticalDifficulty: "Easy independent trip / needs urban awareness"
+perfectFor:
+  - "City-view photographers, food travellers, digital nomads, culture travellers, and people combining urban energy with mountain landscapes"
+notIdealFor:
+  - "Travellers who want wilderness, low stimulation, or to ignore city safety basics"
 tags: ["Cities","Mountains","Culture"]
 featured: false
 seoTitle: "Medellín Travel Guide"

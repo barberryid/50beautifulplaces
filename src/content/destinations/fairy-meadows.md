@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Fairy Meadows, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "June to September, with September often bringing steadier skies and fewer visitors"
 duration: "2 to 4 days"
+bestFor:
+  - "Dramatic landscapes"
+  - "Hiking"
+  - "Photography"
+  - "Remote/adventurous travel"
+realisticVisit: "Yes, if you are comfortable with mountain logistics. The approach involves road travel, a famously exposed jeep section, and hiking or horseback access. Build in weather flexibility and choose local arrangements carefully."
+whenToGo:
+  summary: "Best: Jun-Sep. Good: May, Oct. Closed / limited access: Nov-Apr."
+  jan: "Closed / limited access"
+  feb: "Closed / limited access"
+  mar: "Closed / limited access"
+  apr: "Closed / limited access"
+  may: "Good"
+  jun: "Best"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Good"
+  nov: "Closed / limited access"
+  dec: "Closed / limited access"
+comparisonGroup: "Fairy Meadows vs Annapurna vs Fitz Roy - mountain landscapes where the approach is part of the experience."
+physicalDifficulty: "Moderate to strenuous"
+logisticalDifficulty: "Better with local operator"
+perfectFor:
+  - "Mountain photographers, hikers, and travellers who want a close view of a giant Himalayan wall without a long expedition trek"
+notIdealFor:
+  - "Travellers afraid of rough roads, exposed mountain access, simple accommodation, or weather uncertainty"
 tags: ["Mountains","Trekking","Views"]
 featured: true
 seoTitle: "Fairy Meadows Travel Guide"

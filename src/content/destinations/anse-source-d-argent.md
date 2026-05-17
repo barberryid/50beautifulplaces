@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Anse Source d'Argent, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "April to May and October to November for calmer seas; visit early or late for softer light and fewer day-trippers"
 duration: "Half day to 2 days"
+bestFor:
+  - "Beaches without crowds"
+  - "Photography"
+  - "Easy luxury trips"
+  - "Family-friendly natural beauty"
+realisticVisit: "Yes. This is a relatively easy beach visit once you are on La Digue. The main planning questions are how to reach the island, where to stay, and how to time your visit around tide, light, and day-tripper crowds."
+whenToGo:
+  summary: "Best: Apr-May, Oct-Nov. Good: Jun-Sep. Possible: Dec-Mar. Rainy: Dec-Feb."
+  jan: "Rainy"
+  feb: "Rainy"
+  mar: "Possible"
+  apr: "Best"
+  may: "Best"
+  jun: "Good"
+  jul: "Good"
+  aug: "Good"
+  sep: "Good"
+  oct: "Best"
+  nov: "Best"
+  dec: "Rainy"
+comparisonGroup: "Anse Source d'Argent vs Whitehaven Beach vs Boracay - iconic beaches with very different textures: granite, silica sand, and tropical resort energy."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Needs some planning"
+perfectFor:
+  - "Photographers, couples, beach walkers, families, and travellers who want a calm tropical setting with world-class visual impact"
+notIdealFor:
+  - "Visitors expecting a totally empty beach at peak times or those who dislike ferry logistics"
 tags: ["Beach","Islands","Photography"]
 featured: true
 seoTitle: "Anse Source d'Argent Travel Guide"

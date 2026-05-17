@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Avenue of the Baobabs, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "May to October for easier dry-season roads; sunrise is quieter, while sunset gives the classic silhouettes"
 duration: "Half day from Morondava"
+bestFor:
+  - "Photography"
+  - "Dramatic landscapes"
+  - "Remote/adventurous travel"
+  - "Wildlife"
+realisticVisit: "Yes, but it takes planning because Madagascar travel can be slow. The avenue itself is accessible from Morondava, but the wider trip benefits from a driver, flexible timing, and realistic expectations about roads."
+whenToGo:
+  summary: "Best: May-Oct. Good: Apr, Nov. Rainy / Possible: Dec-Mar."
+  jan: "Rainy"
+  feb: "Rainy"
+  mar: "Rainy"
+  apr: "Good"
+  may: "Best"
+  jun: "Best"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Rainy"
+comparisonGroup: "Avenue of the Baobabs vs Etosha vs Ngorongoro - African nature icons, but with very different wildlife and road logistics."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Better with local operator / driver"
+perfectFor:
+  - "Photographers, nature travellers, Madagascar first-timers, and visitors who want a simple but unforgettable landscape image"
+notIdealFor:
+  - "Travellers who expect fast road travel, polished infrastructure, or a destination that fills many days by itself"
 tags: ["Trees","Road trip","Sunset"]
 featured: false
 seoTitle: "Avenue of the Baobabs Travel Guide"

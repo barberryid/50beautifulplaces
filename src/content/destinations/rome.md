@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Rome, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "April to June and September to November for long walking days without the heaviest heat"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Easy luxury trips"
+  - "Family-friendly natural beauty"
+realisticVisit: "Yes. Rome is very easy to visit, but it can feel overwhelming without priorities. Book major sites early, choose a walkable base, and do not try to see every ruin, church, museum, and piazza in one short stay."
+whenToGo:
+  summary: "Best: Apr-Jun, Sep-Oct. Good: Mar, Nov. Crowded / hot: Jul-Aug. Possible: Dec-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Best"
+  jul: "Crowded"
+  aug: "Crowded"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Rome vs Florence vs Venice - historic Italy at three different scales."
+physicalDifficulty: "Easy to moderate because of walking and heat"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "History lovers, first-time Italy visitors, families, food travellers, architecture photographers, and long-weekend planners"
+notIdealFor:
+  - "Travellers wanting quiet streets, low crowds, or a nature-focused trip"
 tags: ["Cities","History","Architecture"]
 featured: false
 seoTitle: "Rome Travel Guide"

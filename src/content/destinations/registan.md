@@ -20,6 +20,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Registan, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "April to May and September to October for Samarkand's blue-tiled monuments in comfortable weather"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Road trips"
+  - "Remote/adventurous travel"
+realisticVisit: "Yes. Registan is one of the easier major Silk Road landmarks to visit once you are in Samarkand. The main planning task is choosing how to reach Samarkand, where to stay, and how much time to allow for the square at different times of day."
+whenToGo:
+  summary: "Best: Apr-May, Sep-Oct. Good: Mar, Nov. Very hot: Jun-Aug. Cold / possible: Dec-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Very hot"
+  jul: "Very hot"
+  aug: "Very hot"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Registan vs Naqsh-e Jahan Square vs Sultan Ahmed Mosque - Islamic architecture and public space for travellers who love tile, scale, and symmetry."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Easy independent trip / needs some planning"
+perfectFor:
+  - "Silk Road travellers, architecture photographers, history lovers, and visitors combining Samarkand with Bukhara, Khiva, or Tashkent"
+notIdealFor:
+  - "Travellers looking for wilderness solitude or those visiting in peak summer heat without planning"
 tags: ["Architecture","History","Silk Road"]
 featured: true
 seoTitle: "Registan Travel Guide"

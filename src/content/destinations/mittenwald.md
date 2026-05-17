@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Mittenwald, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "June to September for Alpine walking; December is atmospheric for painted houses and winter markets"
 duration: "2 to 5 days"
+bestFor:
+  - "Hiking"
+  - "Family-friendly natural beauty"
+  - "Photography"
+  - "Culture and architecture"
+realisticVisit: "Yes. Mittenwald is an accessible Alpine town with rail links, walks, mountain scenery, painted houses, and nearby lakes. The main planning questions are season, weather, and whether you want easy valley walks or higher mountain routes."
+whenToGo:
+  summary: "Best: Jun-Sep. Good: May, Oct. Snow / possible: Dec-Mar. Shoulder: Apr, Nov."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Possible"
+  apr: "Possible"
+  may: "Good"
+  jun: "Best"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Good"
+  nov: "Possible"
+  dec: "Possible"
+comparisonGroup: "Mittenwald vs Carpathian Mountains vs Luxembourg - accessible European landscapes for walking and atmosphere."
+physicalDifficulty: "Easy to strenuous, depending on route"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "Families, hikers, train travellers, Alpine photography, and people who want mountains without remote logistics"
+notIdealFor:
+  - "Visitors wanting true wilderness or guaranteed high-mountain weather"
 tags: ["Villages","Mountains","Culture"]
 featured: false
 seoTitle: "Mittenwald Travel Guide"

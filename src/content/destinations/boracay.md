@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Boracay, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "December to May for dry beach weather, with January to March usually offering the most reliable sunshine"
 duration: "2 to 5 days"
+bestFor:
+  - "Beaches without crowds"
+  - "Easy luxury trips"
+  - "Family-friendly natural beauty"
+  - "Photography"
+realisticVisit: "Yes. Boracay is one of the easier tropical beach destinations to visit, with established accommodation, restaurants, transfers, and activities. The main planning issue is choosing the right season, beach area, and level of quiet."
+whenToGo:
+  summary: "Best: Dec-Apr. Good: Nov, May. Rainy / Possible: Jun-Oct. Crowded: Christmas, New Year, Easter."
+  jan: "Best"
+  feb: "Best"
+  mar: "Best"
+  apr: "Best"
+  may: "Good"
+  jun: "Rainy"
+  jul: "Rainy"
+  aug: "Rainy"
+  sep: "Rainy"
+  oct: "Rainy"
+  nov: "Good"
+  dec: "Best"
+comparisonGroup: "Boracay vs El Nido vs Whitehaven Beach - bright tropical water, but with very different levels of development and remoteness."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "Beach lovers, couples, families, soft adventure travellers, and anyone wanting a beautiful beach with comfort nearby"
+notIdealFor:
+  - "Travellers wanting wilderness solitude or an undeveloped island atmosphere"
 tags: ["Beach","Islands","Relaxation"]
 featured: false
 seoTitle: "Boracay Travel Guide"

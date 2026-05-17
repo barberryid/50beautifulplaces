@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Dettifoss, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "June to September for the easiest road access; late spring and autumn can be superb if roads are open"
 duration: "Half day to 1 day"
+bestFor:
+  - "Dramatic landscapes"
+  - "Photography"
+  - "Road trips"
+  - "Remote/adventurous travel"
+realisticVisit: "Yes, but access depends on season, road conditions, and which side you visit. Dettifoss works best as part of a North Iceland road trip, not as a rushed detour without checking conditions."
+whenToGo:
+  summary: "Best: Jun-Sep. Good: May, Oct. Closed / limited access: Nov-Apr."
+  jan: "Closed / limited access"
+  feb: "Closed / limited access"
+  mar: "Closed / limited access"
+  apr: "Closed / limited access"
+  may: "Good"
+  jun: "Best"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Good"
+  nov: "Closed / limited access"
+  dec: "Closed / limited access"
+comparisonGroup: "Dettifoss vs Victoria Falls vs Angel Falls - waterfall force in very different environments."
+physicalDifficulty: "Easy to moderate"
+logisticalDifficulty: "Needs some planning"
+perfectFor:
+  - "Road-trippers, waterfall photographers, Iceland travellers, and people drawn to raw, elemental landscapes"
+notIdealFor:
+  - "Visitors ignoring road closures, winter conditions, or the difference between east and west access"
 tags: ["Waterfalls","Geology","Nature"]
 featured: false
 seoTitle: "Dettifoss Travel Guide"

@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Kölner Dom, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "April to October for city walking and Rhine views; December adds Christmas markets and cathedral atmosphere"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Family-friendly natural beauty"
+  - "Easy luxury trips"
+realisticVisit: "Yes. Cologne Cathedral is one of Europe's easiest major monuments to visit by train. Plan around crowds, services, climbing options, and pairing it with the Rhine or nearby cities."
+whenToGo:
+  summary: "Best: Apr-Jun, Sep-Oct. Good: Mar, Nov-Dec. Crowded: Christmas market season and summer weekends. Cold: Jan-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Best"
+  jul: "Possible"
+  aug: "Possible"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Good"
+comparisonGroup: "Kölner Dom vs Florence vs Rome - European sacred architecture and historic city atmosphere."
+physicalDifficulty: "Easy; moderate if climbing"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "Train travellers, architecture lovers, families, cathedral photographers, and short European breaks"
+notIdealFor:
+  - "Travellers wanting a full nature destination or crowd-free interiors at peak times"
 tags: ["Architecture","Cathedral","Cities"]
 featured: false
 seoTitle: "Kölner Dom Travel Guide"

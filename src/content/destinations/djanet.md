@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Djanet, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "October to March for cooler Sahara camping weather and long days among the Tassili landscapes"
 duration: "4 to 7 days"
+bestFor:
+  - "Dramatic landscapes"
+  - "Photography"
+  - "Road trips"
+  - "Remote/adventurous travel"
+realisticVisit: "Yes, but as a planned desert expedition. Djanet and the surrounding Saharan landscapes usually require local guides, permits or formal arrangements, camping logistics, and careful attention to current access rules."
+whenToGo:
+  summary: "Best: Nov-Feb. Good: Mar, Oct. Very hot / Avoid: Apr-Sep."
+  jan: "Best"
+  feb: "Best"
+  mar: "Good"
+  apr: "Very hot"
+  may: "Very hot"
+  jun: "Very hot"
+  jul: "Very hot"
+  aug: "Very hot"
+  sep: "Very hot"
+  oct: "Good"
+  nov: "Best"
+  dec: "Best"
+comparisonGroup: "Djanet vs Danakil vs Chinguetti - desert experiences for travellers who want scale, silence, and old routes."
+physicalDifficulty: "Moderate"
+logisticalDifficulty: "Complex / specialist trip"
+perfectFor:
+  - "Desert photographers, overland travellers, geology lovers, and people comfortable with camping and guided logistics"
+notIdealFor:
+  - "Travellers looking for independent city-style travel, nightlife, or luxury convenience"
 tags: ["Desert","Rock art","Expedition"]
 featured: false
 seoTitle: "Djanet Travel Guide"

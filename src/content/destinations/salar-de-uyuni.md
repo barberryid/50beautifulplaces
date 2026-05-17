@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Salar de Uyuni, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "January to March for mirror reflections; May to October for dry-season perspective and easier crossings"
 duration: "2 to 5 days"
+bestFor:
+  - "Dramatic landscapes"
+  - "Photography"
+  - "Road trips"
+  - "Remote/adventurous travel"
+realisticVisit: "Yes, with planning. Salar de Uyuni is usually experienced by jeep tour. Consider altitude, cold nights, remote roads, operator reliability, and whether you want dry white salt or rainy-season mirror reflections."
+whenToGo:
+  summary: "Best: May-Oct for dry salt. Best mirror chance: Jan-Mar. Good: Apr, Nov. Possible / transition: Dec."
+  jan: "Best"
+  feb: "Best"
+  mar: "Best"
+  apr: "Good"
+  may: "Best"
+  jun: "Best"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Salar de Uyuni vs Zhangye Danxia vs Whitehaven Beach - surreal landscapes where colour, reflection, and scale define the experience."
+physicalDifficulty: "Easy to moderate because of altitude and long vehicle days"
+logisticalDifficulty: "Needs planning / better with local operator"
+perfectFor:
+  - "Landscape photographers, road-trip travellers, high-altitude desert lovers, and visitors combining Bolivia with the Atacama"
+notIdealFor:
+  - "Travellers needing luxury comfort, low altitude, or guaranteed mirror conditions"
 tags: ["Salt flats","Photography","Road trip"]
 featured: true
 seoTitle: "Salar de Uyuni Travel Guide"

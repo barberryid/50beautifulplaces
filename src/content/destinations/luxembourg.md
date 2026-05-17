@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Luxembourg, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "May to September for green valleys and castle walks; October adds autumn color in the Mullerthal woods"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Family-friendly natural beauty"
+  - "Road trips"
+  - "Easy luxury trips"
+realisticVisit: "Yes. Luxembourg is easy to visit, compact, safe-feeling, and well connected. It works well as a short European break or as part of a Benelux, Moselle, Ardennes, or Rhine route."
+whenToGo:
+  summary: "Best: Apr-Jun, Sep-Oct. Good: Mar, Nov. Crowded / warm: Jul-Aug. Cold / possible: Dec-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Best"
+  jul: "Crowded"
+  aug: "Crowded"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Luxembourg vs Budapest vs Florence - European city beauty at different scales and levels of grandeur."
+physicalDifficulty: "Easy to moderate because of hills and old-town walking"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "Short-break travellers, architecture lovers, families, walkers, and people who enjoy compact cities with nature nearby"
+notIdealFor:
+  - "Travellers looking for huge-city energy or dramatic wilderness"
 tags: ["Culture","Castles","Weekend"]
 featured: false
 seoTitle: "Luxembourg Travel Guide"

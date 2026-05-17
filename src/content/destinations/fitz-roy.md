@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Fitz Roy, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "November to March for Patagonia hiking access, with January and February bringing the longest days"
 duration: "2 to 5 days"
+bestFor:
+  - "Dramatic landscapes"
+  - "Photography"
+  - "Hiking"
+  - "Remote/adventurous travel"
+realisticVisit: "Yes, if you enjoy mountain towns, hiking, and changeable weather. El Chaltén makes Fitz Roy more accessible than it looks, but you need time, layers, trail fitness, and weather flexibility."
+whenToGo:
+  summary: "Best: Dec-Mar. Good: Nov, Apr. Possible: Oct, May. Closed / limited access: Jun-Sep for many hiking plans."
+  jan: "Best"
+  feb: "Best"
+  mar: "Best"
+  apr: "Good"
+  may: "Possible"
+  jun: "Closed / limited access"
+  jul: "Closed / limited access"
+  aug: "Closed / limited access"
+  sep: "Closed / limited access"
+  oct: "Possible"
+  nov: "Good"
+  dec: "Best"
+comparisonGroup: "Fitz Roy vs Southern Patagonia vs Fairy Meadows - mountain drama for hikers and photographers."
+physicalDifficulty: "Moderate to strenuous"
+logisticalDifficulty: "Needs some planning"
+perfectFor:
+  - "Hikers, mountain photographers, Patagonia dreamers, and travellers who can wait for weather windows"
+notIdealFor:
+  - "Visitors who want guaranteed clear views, low-effort sightseeing, or warm settled weather"
 tags: ["Mountains","Trekking","Wilderness"]
 featured: false
 seoTitle: "Fitz Roy Travel Guide"

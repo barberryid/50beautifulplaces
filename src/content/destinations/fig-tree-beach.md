@@ -14,6 +14,32 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Fig Tree Beach, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "May to October for warm water and beach weather, with May, June, September, and October quieter than midsummer"
 duration: "2 to 5 days"
+bestFor:
+  - "Beaches without crowds"
+  - "Family-friendly natural beauty"
+  - "Easy luxury trips"
+realisticVisit: "Yes. Fig Tree Beach is a straightforward beach destination with good infrastructure. Plan around peak summer crowds, heat, and whether you want a lively resort base or quieter nearby coves."
+whenToGo:
+  summary: "Best: May-Jun, Sep-Oct. Good: Apr, Nov. Very hot / crowded: Jul-Aug. Possible: Dec-Mar."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Possible"
+  apr: "Good"
+  may: "Best"
+  jun: "Best"
+  jul: "Very hot"
+  aug: "Very hot"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Fig Tree Beach vs Boracay vs Anse Source d'Argent - accessible beach beauty with very different levels of atmosphere and remoteness."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "Families, swimmers, beach-first travellers, and visitors wanting clear water with easy facilities"
+notIdealFor:
+  - "Travellers seeking remote, wild, undeveloped coastline"
 tags: ["Beach","Swimming","Family"]
 featured: false
 seoTitle: "Fig Tree Beach Travel Guide"

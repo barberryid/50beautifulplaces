@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Malta, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "April to June and September to October for warm sea light without the fiercest summer heat"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Family-friendly natural beauty"
+  - "Easy luxury trips"
+realisticVisit: "Yes. Malta is compact and accessible, but it rewards planning around heat, traffic, ferry links, historic towns, swimming spots, and which island atmosphere you want."
+whenToGo:
+  summary: "Best: Apr-Jun, Sep-Oct. Good: Mar, Nov. Very hot / crowded: Jul-Aug. Possible: Dec-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Best"
+  jul: "Very hot"
+  aug: "Very hot"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Malta vs Santorini vs Luxor - strong sun, stone architecture, and history, but very different moods."
+physicalDifficulty: "Easy to moderate"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "History lovers, architecture photographers, families, swimmers, and travellers who want culture and coast in a compact trip"
+notIdealFor:
+  - "Visitors wanting wild nature or empty roads in high season"
 tags: ["Islands","History","Coast"]
 featured: false
 seoTitle: "Malta Travel Guide"

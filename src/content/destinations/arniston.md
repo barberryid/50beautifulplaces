@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Arniston, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "September to April for warmer coastal weather, with winter bringing rougher seas and quieter village stays"
 duration: "2 to 5 days"
+bestFor:
+  - "Beaches without crowds"
+  - "Photography"
+  - "Road trips"
+  - "Family-friendly natural beauty"
+realisticVisit: "Yes. Arniston is a quiet coastal village best visited by road. Plan around self-drive access, sea conditions, accommodation availability, and whether you want it as a slow stop rather than a major activity hub."
+whenToGo:
+  summary: "Best: Oct-Apr. Good: May, Sep. Rainy / cooler: Jun-Aug."
+  jan: "Best"
+  feb: "Best"
+  mar: "Best"
+  apr: "Best"
+  may: "Good"
+  jun: "Rainy"
+  jul: "Rainy"
+  aug: "Rainy"
+  sep: "Good"
+  oct: "Best"
+  nov: "Best"
+  dec: "Best"
+comparisonGroup: "Arniston vs Fig Tree Beach vs Koh Yao Noi - gentler coastal places for slower trips."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Easy independent road trip"
+perfectFor:
+  - "Coastal walkers, families, photographers, South Africa road-trippers, and travellers who like quiet seaside villages"
+notIdealFor:
+  - "Visitors seeking nightlife, dense activities, or resort infrastructure"
 tags: ["Coast","Villages","Beach"]
 featured: false
 seoTitle: "Arniston Travel Guide"

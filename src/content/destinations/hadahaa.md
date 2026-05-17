@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Hadahaa, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "January to April for calmer Maldives seas and bright reef visibility"
 duration: "2 to 5 days"
+bestFor:
+  - "Beaches without crowds"
+  - "Easy luxury trips"
+  - "Photography"
+  - "Family-friendly natural beauty"
+realisticVisit: "Yes, if the budget fits. Hadahaa is a resort-style remote island experience where logistics are usually arranged through the property. The main decision is whether you want high-end seclusion rather than independent island-hopping."
+whenToGo:
+  summary: "Best: Jan-Apr. Good: Dec, May. Rainy / Possible: Jun-Nov."
+  jan: "Best"
+  feb: "Best"
+  mar: "Best"
+  apr: "Best"
+  may: "Good"
+  jun: "Rainy"
+  jul: "Rainy"
+  aug: "Rainy"
+  sep: "Rainy"
+  oct: "Rainy"
+  nov: "Rainy"
+  dec: "Good"
+comparisonGroup: "Hadahaa vs Anse Source d'Argent vs Whitehaven Beach - soft sand, tropical water, and different versions of paradise."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Easy luxury trip, but costly"
+perfectFor:
+  - "Couples, honeymoon-style trips, snorkelling, quiet beach days, and travellers who want comfort in a remote ocean setting"
+notIdealFor:
+  - "Budget travellers, nightlife seekers, or people wanting cultural variety and independent exploration"
 tags: ["Islands","Reef","Luxury"]
 featured: false
 seoTitle: "Hadahaa Travel Guide"

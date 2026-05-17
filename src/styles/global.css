@@ -373,6 +373,15 @@ p {
   padding-bottom: 1rem;
 }
 
+.secondary-filter {
+  padding-bottom: 2rem;
+}
+
+.secondary-filter > span {
+  color: var(--forest);
+  font-weight: 900;
+}
+
 .guide {
   padding-bottom: clamp(3rem, 7vw, 6rem);
 }
@@ -436,6 +445,112 @@ p {
   margin-top: 2rem;
   border-block: 1px solid var(--line);
   padding: 1.5rem 0;
+}
+
+.destination-planning {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 2rem;
+}
+
+.destination-planning h2 {
+  max-width: none;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.best-for-panel,
+.realistic-visit-card,
+.difficulty-grid article,
+.fit-grid article,
+.when-to-go,
+.comparison-group {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 1rem;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.tag-list span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #f1eee6;
+  color: var(--forest);
+  padding: 0.35rem 0.65rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.difficulty-grid,
+.fit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.destination-planning p,
+.destination-planning li {
+  color: var(--muted);
+}
+
+.destination-planning ul {
+  margin: 0.75rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.month-strip {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 0.35rem;
+  margin-top: 1rem;
+}
+
+.month-status {
+  display: grid;
+  gap: 0.2rem;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f7f4ed;
+  padding: 0.45rem 0.35rem;
+  text-align: center;
+}
+
+.month-status strong {
+  color: var(--forest);
+  font-size: 0.82rem;
+}
+
+.month-status small {
+  color: var(--muted);
+  font-size: 0.68rem;
+  line-height: 1.15;
+}
+
+.status-best {
+  border-color: rgba(101, 123, 88, 0.45);
+  background: #eaf0e5;
+}
+
+.status-good {
+  background: #f1eee6;
+}
+
+.status-rainy,
+.status-very-hot,
+.status-crowded,
+.status-avoid,
+.status-closed-limited-access {
+  border-color: rgba(184, 111, 69, 0.38);
+  background: #f8eadf;
 }
 
 .travel-tools h2 {
@@ -870,12 +985,18 @@ p {
   .destination-grid,
   .gallery-grid,
   .planning-grid,
+  .difficulty-grid,
+  .fit-grid,
   .health-cards,
   .product-grid,
   .tool-table,
   .travel-tool-grid,
   .guide-facts {
     grid-template-columns: 1fr;
+  }
+
+  .month-strip {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .product-card {

@@ -14,6 +14,32 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Saint Petersburg, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "May to July for White Nights; September brings calmer museums and autumn light"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Easy luxury trips"
+realisticVisit: "Possibly, but only after checking current entry rules, flight routes, payment constraints, insurance validity, and government travel advice. It is a major cultural city, but current practicalities matter more than usual."
+whenToGo:
+  summary: "Best: May-Sep. Good: Apr, Oct. Cold / limited daylight: Nov-Mar."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Possible"
+  apr: "Good"
+  may: "Best"
+  jun: "Best"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Good"
+  nov: "Possible"
+  dec: "Possible"
+comparisonGroup: "St Petersburg vs Budapest vs Florence - grand European urban beauty with very different current access considerations."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Needs planning / may be complex depending on current conditions"
+perfectFor:
+  - "Architecture lovers, museum travellers, river-and-canal photography, and people interested in imperial urban design"
+notIdealFor:
+  - "Travellers unwilling to check current political, payment, insurance, and entry conditions carefully"
 tags: ["Cities","Architecture","Museums"]
 featured: false
 seoTitle: "Saint Petersburg Travel Guide"

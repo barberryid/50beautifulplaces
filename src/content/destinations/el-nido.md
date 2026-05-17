@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for El Nido, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "December to May for island-hopping seas and clearer lagoon light"
 duration: "2 to 5 days"
+bestFor:
+  - "Dramatic landscapes"
+  - "Beaches without crowds"
+  - "Photography"
+  - "Remote/adventurous travel"
+realisticVisit: "Yes. El Nido is accessible but still requires planning around flights, ferries, boat tours, weather, crowds, and which island or beach experience you want."
+whenToGo:
+  summary: "Best: Dec-Apr. Good: Nov, May. Rainy / Possible: Jun-Oct."
+  jan: "Best"
+  feb: "Best"
+  mar: "Best"
+  apr: "Best"
+  may: "Good"
+  jun: "Rainy"
+  jul: "Rainy"
+  aug: "Rainy"
+  sep: "Rainy"
+  oct: "Rainy"
+  nov: "Good"
+  dec: "Best"
+comparisonGroup: "El Nido vs Boracay vs Whitehaven Beach - tropical blue water with different levels of karst drama, crowds, and access."
+physicalDifficulty: "Easy to moderate"
+logisticalDifficulty: "Needs some planning"
+perfectFor:
+  - "Island-hoppers, photographers, kayakers, snorkellers, and travellers wanting limestone lagoons and tropical sea colour"
+notIdealFor:
+  - "Visitors wanting guaranteed empty beaches, smooth logistics, or no boat-based days"
 tags: ["Islands","Lagoons","Beach"]
 featured: false
 seoTitle: "El Nido Travel Guide"

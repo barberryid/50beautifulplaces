@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Copacabana, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "May to October for drier, clearer Rio weather; go early morning for the beach before the heat and crowds build"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Road trips"
+  - "Family-friendly natural beauty"
+realisticVisit: "Yes. Copacabana is a practical base for Lake Titicaca, but altitude, bus routes, border logistics, and boat schedules should be checked before planning a tight itinerary."
+whenToGo:
+  summary: "Best: May-Oct. Good: Apr, Nov. Rainy: Dec-Mar."
+  jan: "Rainy"
+  feb: "Rainy"
+  mar: "Rainy"
+  apr: "Good"
+  may: "Best"
+  jun: "Best"
+  jul: "Best"
+  aug: "Best"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Rainy"
+comparisonGroup: "Copacabana vs Luxor vs Chinguetti - historic and cultural settings shaped by intense landscape."
+physicalDifficulty: "Easy to moderate because of altitude"
+logisticalDifficulty: "Needs some planning"
+perfectFor:
+  - "Travellers combining Bolivia and Peru, lake views, island trips, churches, markets, and high-altitude atmosphere"
+notIdealFor:
+  - "Visitors sensitive to altitude or expecting a polished lakeside resort"
 tags: ["Beach","Cities","Culture"]
 featured: false
 seoTitle: "Copacabana Travel Guide"

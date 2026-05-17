@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Chefchaouen, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "March to May and September to November for mild Rif Mountain weather and calmer medina wandering"
 duration: "1 to 3 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Family-friendly natural beauty"
+  - "Road trips"
+realisticVisit: "Yes. Chefchaouen is a practical northern Morocco stop, but it works best when you allow time for slow wandering, light, hills, and nearby mountain scenery rather than treating it as only a blue-wall photo stop."
+whenToGo:
+  summary: "Best: Apr-May, Sep-Oct. Good: Mar, Nov. Very hot / crowded: Jun-Aug. Possible: Dec-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Very hot"
+  jul: "Very hot"
+  aug: "Very hot"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Chefchaouen vs Chinguetti vs Santorini - strong colour, old streets, and atmosphere, but very different landscapes."
+physicalDifficulty: "Easy to moderate because of hills and steps"
+logisticalDifficulty: "Easy independent trip / needs some planning"
+perfectFor:
+  - "Photographers, Morocco first-timers, slow walkers, architecture lovers, and travellers combining cities with Rif mountain scenery"
+notIdealFor:
+  - "Visitors expecting solitude, a large city, or a destination that is only about one viewpoint"
 tags: ["Cities","Color","Culture"]
 featured: false
 seoTitle: "Chefchaouen Travel Guide"

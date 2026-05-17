@@ -14,6 +14,32 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Naqsh-e Jahan Square, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "March to May and September to November for softer Isfahan light and more comfortable temperatures"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Remote/adventurous travel"
+realisticVisit: "Yes, if current travel conditions and entry requirements allow. Isfahan is a major city with deep cultural infrastructure, but visitors must check up-to-date travel advice before planning."
+whenToGo:
+  summary: "Best: Apr-May, Sep-Oct. Good: Mar, Nov. Very hot: Jun-Aug. Cold / possible: Dec-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Very hot"
+  jul: "Very hot"
+  aug: "Very hot"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Naqsh-e Jahan Square vs Registan vs Sultan Ahmed Mosque - monumental Islamic urban space and tilework."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Needs some planning"
+perfectFor:
+  - "Architecture lovers, photographers, history travellers, and visitors drawn to grand squares, mosques, bazaars, and Persian design"
+notIdealFor:
+  - "Travellers unwilling to check current entry rules, local restrictions, and travel advice carefully"
 tags: ["Architecture","Culture","History"]
 featured: false
 seoTitle: "Naqsh-e Jahan Square Travel Guide"

@@ -14,6 +14,33 @@ hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Florence, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
 bestTime: "April to June and September to October for golden city light, open terraces, and fewer peak-summer crowds"
 duration: "2 to 5 days"
+bestFor:
+  - "Culture and architecture"
+  - "Photography"
+  - "Easy luxury trips"
+  - "Family-friendly natural beauty"
+realisticVisit: "Yes. Florence is easy to visit, but book key museums and accommodation early, especially in busy seasons. The main challenge is managing crowds while leaving time to wander."
+whenToGo:
+  summary: "Best: Apr-Jun, Sep-Oct. Good: Mar, Nov. Crowded / hot: Jul-Aug. Possible: Dec-Feb."
+  jan: "Possible"
+  feb: "Possible"
+  mar: "Good"
+  apr: "Best"
+  may: "Best"
+  jun: "Best"
+  jul: "Crowded"
+  aug: "Crowded"
+  sep: "Best"
+  oct: "Best"
+  nov: "Good"
+  dec: "Possible"
+comparisonGroup: "Florence vs Rome vs Venice - Italy's classic art-and-architecture triangle."
+physicalDifficulty: "Easy"
+logisticalDifficulty: "Easy independent trip"
+perfectFor:
+  - "Art lovers, architecture travellers, first-time Italy visitors, food-focused trips, and slow walkers"
+notIdealFor:
+  - "Visitors who dislike museums, crowds, and compact historic cities"
 tags: ["Art","Architecture","Cities"]
 featured: false
 seoTitle: "Florence Travel Guide"
