@@ -18,6 +18,85 @@ const related = (await getCollection("destinations"))
   .sort((a, b) => a.data.title.localeCompare(b.data.title))
   .slice(0, 3);
 const placeUrl = new URL(`/places/${place.id}/`, Astro.site).toString();
+const visaPolicyTitles: Record<string, string> = {
+  Argentina: "Visa policy of Argentina",
+  Algeria: "Visa policy of Algeria",
+  Australia: "Visa policy of Australia",
+  Bolivia: "Visa policy of Bolivia",
+  Botswana: "Visa policy of Botswana",
+  Brazil: "Visa policy of Brazil",
+  Chile: "Visa policy of Chile",
+  China: "Visa policy of China",
+  Colombia: "Visa policy of Colombia",
+  Cyprus: "Visa policy of Cyprus",
+  Dominica: "Visa policy of Dominica",
+  "Dominican Republic": "Visa policy of the Dominican Republic",
+  Ethiopia: "Visa policy of Ethiopia",
+  Germany: "Visa policy of Germany",
+  Greece: "Visa policy of Greece",
+  Hungary: "Visa policy of Hungary",
+  Iceland: "Visa policy of Iceland",
+  India: "Visa policy of India",
+  Iran: "Visa policy of Iran",
+  Italy: "Visa policy of Italy",
+  Luxembourg: "Visa policy of Luxembourg",
+  Madagascar: "Visa policy of Madagascar",
+  Maldives: "Visa policy of Maldives",
+  Malta: "Visa policy of Malta",
+  Mauritania: "Visa policy of Mauritania",
+  Morocco: "Visa policy of Morocco",
+  Namibia: "Visa policy of Namibia",
+  Nepal: "Visa policy of Nepal",
+  Pakistan: "Visa policy of Pakistan",
+  Philippines: "Visa policy of the Philippines",
+  Qatar: "Visa policy of Qatar",
+  Romania: "Visa policy of Romania",
+  Russia: "Visa policy of Russia",
+  Seychelles: "Visa policy of Seychelles",
+  "South Africa": "Visa policy of South Africa",
+  Tajikistan: "Visa policy of Tajikistan",
+  Tanzania: "Visa policy of Tanzania",
+  Thailand: "Visa policy of Thailand",
+  Tonga: "Visa policy of Tonga",
+  "Trinidad & Tobago": "Visa policy of Trinidad and Tobago",
+  Turkey: "Visa policy of Turkey",
+  Turkmenistan: "Visa policy of Turkmenistan",
+  "United Arab Emirates": "Visa policy of the United Arab Emirates",
+  USA: "Visa policy of the United States",
+  Uzbekistan: "Visa policy of Uzbekistan",
+  Venezuela: "Visa policy of Venezuela",
+  Yemen: "Visa policy of Yemen",
+  Zambia: "Visa policy of Zambia",
+  Zimbabwe: "Visa policy of Zimbabwe"
+};
+const countryAliases: Record<string, string> = {
+  "Cape Town, South Africa": "South Africa",
+  "Chile and Argentina": "Chile|Argentina",
+  "Isfahan, Iran": "Iran",
+  "Istanbul, Turkey": "Turkey",
+  Tadjikistan: "Tajikistan",
+  "Trinidad & Tobago": "Trinidad & Tobago",
+  "Usbekistan": "Uzbekistan",
+  "Utah, USA": "USA",
+  "Washington State, USA": "USA",
+  "Zambia and Zimbabwe": "Zambia|Zimbabwe"
+};
+const normalizeCountries = (country: string) => {
+  const normalized = countryAliases[country] ?? country;
+  return normalized.split("|").map((item) => item.trim());
+};
+const wikipediaUrl = (title: string) => `https://en.wikipedia.org/wiki/${encodeURIComponent(title).replaceAll("%20", "_")}`;
+const visaCountries = normalizeCountries(place.data.country);
+const visaLinks = visaCountries.map((country) => {
+  const title = visaPolicyTitles[country] ?? `Visa policy of ${country}`;
+  return {
+    country,
+    title,
+    href: wikipediaUrl(title)
+  };
+});
+const mapQuery = `${place.data.title}, ${place.data.country}`;
+const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery)}`;
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
@@ -67,6 +146,40 @@ const jsonLd = {
       <div>
         <span>Travel style</span>
         <strong>{place.data.tags.join(", ")}</strong>
+      </div>
+    </section>
+
+    <section class="travel-tools" aria-labelledby="travel-tools-heading">
+      <div>
+        <p class="eyebrow">Travel essentials</p>
+        <h2 id="travel-tools-heading">Before you book the flight.</h2>
+      </div>
+      <div class="travel-tool-grid">
+        <article>
+          <h3>{visaCountries.length === 1 ? `Do you need a visa for ${visaCountries[0]}?` : `Check visa rules for ${visaCountries.join(" and ")}`}</h3>
+          <p>Start with the country visa-policy overview, then confirm current rules with an official source before booking.</p>
+          <div class="tool-link-list">
+            {visaLinks.map((link) => (
+              <a href={link.href} target="_blank" rel="noopener noreferrer">
+                {link.title} <span class="sr-only">opens in a new tab</span>
+              </a>
+            ))}
+          </div>
+        </article>
+        <article>
+          <h3>Need the visa handled fast?</h3>
+          <p>Use a specialist visa service if you want a simpler application route.</p>
+          <a href="https://www.ivisa.com/" target="_blank" rel="sponsored noopener noreferrer">
+            The fastest way<br />to get your travel visa <span class="sr-only">opens in a new tab</span>
+          </a>
+        </article>
+        <article>
+          <h3>Open {place.data.title} on Google Maps.</h3>
+          <p>This opens Google Maps in a new tab and can hand off to the iOS or Android app when your device supports it.</p>
+          <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
+            View location on Google Maps <span class="sr-only">opens in a new tab</span>
+          </a>
+        </article>
       </div>
     </section>
 

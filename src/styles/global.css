@@ -430,6 +430,52 @@ p {
   width: max-content;
 }
 
+.travel-tools {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 2rem;
+  border-block: 1px solid var(--line);
+  padding: 1.5rem 0;
+}
+
+.travel-tools h2 {
+  max-width: none;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.travel-tool-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.travel-tool-grid article {
+  display: grid;
+  align-content: start;
+  gap: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 1rem;
+}
+
+.travel-tool-grid p {
+  color: var(--muted);
+}
+
+.travel-tool-grid a,
+.tool-link-list a {
+  color: var(--clay);
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.tool-link-list {
+  display: grid;
+  gap: 0.45rem;
+}
+
 .guide-content,
 .prose {
   width: min(720px, 100%);
@@ -713,6 +759,16 @@ p {
   color: var(--muted);
 }
 
+.footer-credit {
+  font-size: 0.92rem;
+}
+
+.protected-email {
+  display: inline-block;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
 .footer-brand .brand-mark {
   background: var(--clay);
 }
@@ -737,6 +793,7 @@ p {
   .health-cards,
   .product-grid,
   .tool-table,
+  .travel-tool-grid,
   .guide-facts {
     grid-template-columns: 1fr;
   }
