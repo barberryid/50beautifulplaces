@@ -12,6 +12,19 @@ hotelName: "8+ rated stays for Arniston"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Arniston%2C%20South%20Africa&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Arniston, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+planningResources:
+  - label: "Cape Agulhas Tourism: Arniston / Waenhuiskrans"
+    href: "https://discovercapeagulhas.co.za/destinations/arnistonwaenhuiskrans/"
+    note: "Official regional tourism page for Arniston, Kassiesbaai, Waenhuiskrans Cave, and local visitor orientation."
+    official: true
+  - label: "Cape Agulhas Municipality attractions"
+    href: "https://capeagulhas.gov.za/attractions/"
+    note: "Municipal tourism office contact details and regional attraction information."
+    official: true
+  - label: "CapeNature: De Hoop Nature Reserve"
+    href: "https://www.capenature.co.za/reserves/de-hoop-nature-reserve"
+    note: "Official reserve information for De Hoop access, conservation rules, reserve notices, and visitor planning."
+    official: true
 bestTime: "September to April for warmer coastal weather, with winter bringing rougher seas and quieter village stays"
 duration: "2 to 5 days"
 bestFor:
@@ -69,11 +82,11 @@ The only practical way is to fly to Cape Town (CPT) and drive. Avis, Europcar an
 
 ### Where to stay near Arniston
 
-Arniston Spa Hotel — the only hotel of note, cliff-edge rooms over the breakers.
+[Arniston Spa Hotel](https://www.booking.com/hotel/za/arniston-spa.html) — the only hotel of note, cliff-edge rooms over the breakers.
 
 Self-catering cottages in Kassiesbaai or the new village — plentiful on Airbnb and TravelGround.
 
-De Hoop Collection (40 minutes north-east) — inside the reserve, the best whale-watching base of all.
+[De Hoop Collection](https://www.booking.com/searchresults.html?ss=De%20Hoop%20Collection%2C%20De%20Hoop%20Nature%20Reserve%2C%20South%20Africa) (40 minutes north-east) — inside the reserve, the best whale-watching base of all.
 
 ### What to do
 

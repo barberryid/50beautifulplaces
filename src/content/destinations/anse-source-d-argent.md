@@ -3,15 +3,11 @@ title: "Anse Source d'Argent"
 country: "Seychelles"
 region: "Africa"
 summary: "Shallow turquoise water curls around rose-grey granite boulders on La Digue's dreamiest, slowest, most photographed shore."
-mainImage: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Aerial_of_the_most_beautiful_beach_in_the_world_Anse_Source_d%27Argent_Seychelles_%2839587410162%29.jpg"
-imageAlt: "Anse Source d'Argent in Seychelles"
-imageCredit: "Aerial of the most beautiful beach in the world Anse Source d'Argent Seychelles (39587410162) by dronepicr (BY 2.0) via Openverse"
-imageCreditUrl: "https://commons.wikimedia.org/w/index.php?curid=65465618"
-imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
+mainImage: "/images/destinations/anse-source-d-argent-1.jpg"
+imageAlt: "Granite boulders and turquoise water at Anse Source d'Argent in Seychelles"
+imageCredit: "Anse Source d'Argent image supplied by 50 Beautiful Places"
+imageCreditUrl: "https://50beautifulplaces.com/places/anse-source-d-argent/"
 galleryImages:
-  - src: "/images/destinations/anse-source-d-argent-1.jpg"
-    alt: "Granite boulders and turquoise water at Anse Source d'Argent in Seychelles"
-    caption: "Rose-grey granite and shallow lagoon water define the beach."
   - src: "/images/destinations/anse-source-d-argent-2.jpg"
     alt: "Palm-framed shoreline and clear water at Anse Source d'Argent"
     caption: "La Digue's most famous beach is best explored slowly between the coves."
@@ -22,6 +18,19 @@ hotelName: "8+ rated stays for Anse Source d'Argent"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Anse%20Source%20d%27Argent%2C%20Seychelles&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
 hotelNote: "Booking.com opens with an 8+ guest-score filter for Anse Source d'Argent, so you can compare current hotel photos, availability, prices, and recent traveler reviews before choosing a base."
+planningResources:
+  - label: "Cat Cocos ferry schedules"
+    href: "https://cat-cocos.koek.sc/en"
+    note: "Mahe, Praslin, and La Digue fast-ferry operator; use the live booking flow for current sailings and availability."
+    official: true
+  - label: "Cat Rose / Inter Island Ferry"
+    href: "https://www.iif-catrose.com/"
+    note: "Praslin-La Digue ferry operator for checking the latest inter-island service information."
+    official: true
+  - label: "L'Union Estate"
+    href: "https://www.lunion.estate/"
+    note: "Official estate site for the normal Anse Source d'Argent access route, opening details, and visitor information."
+    official: true
 bestTime: "April to May and October to November for calmer seas; visit early or late for softer light and fewer day-trippers"
 duration: "Half day to 2 days"
 bestFor:
@@ -79,9 +88,9 @@ Most travelers reach La Digue by ferry from Mahe via Praslin, or from Praslin di
 
 Access to the beach is normally through L'Union Estate. Recent visitor information lists the entrance at around 150 Seychelles rupees per person, though this can change and should be checked locally before relying on it.
 
-### Best time to visit
+### Tide and light timing
 
-Seychelles is a year-round destination, but the most comfortable periods are usually the calmer shoulder months around April-May and October-November. For Anse Source d'Argent specifically, tide and light matter more than month. Low tide exposes more sand and reef; higher tide can make the lagoon prettier for swimming.
+Month matters less than tide, ferry timing, and light. Low tide exposes more sand and reef; a little more water in the lagoon can be prettier for swimming. Check the latest ferry times before committing to a day trip, and leave enough buffer if connecting back to a flight from Mahe.
 
 ### Budget tips
 

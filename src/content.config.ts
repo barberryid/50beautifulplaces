@@ -96,6 +96,12 @@ const destinations = defineCollection({
     beforeBooking: z.array(z.string()).optional(),
     healthPlanningNote: z.string().optional(),
     practicalDisclaimer: z.string().optional(),
+    planningResources: z.array(z.object({
+      label: z.string(),
+      href: z.string().url(),
+      note: z.string(),
+      official: z.boolean().default(false)
+    })).optional(),
     tags: z.array(z.string()),
     featured: z.boolean().default(false),
     seoTitle: z.string(),

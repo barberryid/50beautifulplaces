@@ -742,7 +742,7 @@ p {
 
 .travel-tool-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
 }
 
@@ -812,6 +812,80 @@ p {
 
 .guide-content {
   margin-top: 2.5rem;
+}
+
+.official-resources {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1.5rem;
+}
+
+.official-resources h2 {
+  max-width: none;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.resource-card,
+.packing-guide-card {
+  display: grid;
+  align-content: start;
+  gap: 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 1rem;
+}
+
+.resource-card {
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.resource-card span,
+.packing-guide-card span {
+  color: var(--clay-text);
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.resource-card p,
+.packing-guide-card p {
+  color: var(--muted);
+}
+
+.resource-card strong,
+.packing-guide-card strong {
+  color: var(--forest);
+  font-size: 1.12rem;
+}
+
+.packing-guide-card {
+  max-width: 760px;
+  border-color: rgba(184, 111, 69, 0.36);
+  background: #fffaf0;
+}
+
+.packing-guide-card em {
+  width: max-content;
+  margin-top: 0.25rem;
+  border-bottom: 1px solid rgba(184, 111, 69, 0.45);
+  color: var(--clay-text);
+  font-style: normal;
+  font-weight: 900;
 }
 
 .related-guides {
@@ -1173,7 +1247,6 @@ p {
   .health-cards,
   .product-grid,
   .tool-table,
-  .travel-tool-grid,
   .guide-facts {
     grid-template-columns: 1fr;
   }
