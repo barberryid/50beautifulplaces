@@ -52,58 +52,64 @@ const productCards = [
   description="Practical travel-health notes on traveler's diarrhea, food and water hygiene, and water-filter options for destination planning."
   image="https://live.staticflickr.com/380/18609813624_3aa8110de0_b.jpg"
 >
-  <section class="page-hero compact">
-    <p class="eyebrow">Travel health</p>
-    <h1>Stay well enough to enjoy the trip.</h1>
-    <p>
+  <!-- Page hero -->
+  <section class="mx-auto w-full max-w-[1180px] px-4 pb-8 pt-[clamp(3rem,8vw,7rem)]">
+    <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Travel health</p>
+    <h1 class="max-w-[14ch]">Stay well enough to enjoy the trip.</h1>
+    <p class="mt-4 max-w-[45rem] text-lg text-muted">
       A practical guide to traveler's diarrhea, food and water hygiene, and choosing water-treatment tools for different kinds of trips.
     </p>
   </section>
 
-  <section class="health-layout section">
-    <article class="health-article">
-      <aside class="health-note">
+  <!-- Article -->
+  <section class="mx-auto w-full max-w-[1180px] px-4 pb-[clamp(3rem,7vw,6rem)]">
+    <article class="w-full max-w-[860px] space-y-6">
+
+      <!-- Disclaimer -->
+      <aside class="border-l-4 border-clay bg-tag-bg p-4 text-[1.05rem] font-bold text-forest">
         This page is general travel-health information, not medical advice. For personal risks, medicines, vaccines, pregnancy, immune conditions, or persistent symptoms, talk with a qualified clinician or travel-medicine clinic.
       </aside>
 
-      <h2>Traveler's Diarrhea</h2>
-      <p>
+      <h2 class="mb-2 font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Traveler's Diarrhea</h2>
+      <p class="text-[1.05rem] text-muted">
         Traveler's diarrhea is one of the most common travel-related illnesses. It usually comes from eating or drinking something contaminated with bacteria, viruses, or parasites, especially in places where water treatment, sanitation, or food-handling standards differ from what your body is used to.
       </p>
 
-      <div class="health-cards">
-        <div>
-          <strong>Bacteria</strong>
-          <p>Bacteria cause many cases. Enterotoxigenic <em>E. coli</em> is a frequent culprit, and contamination can happen during food production, preparation, storage, or serving.</p>
+      <!-- Cause cards -->
+      <div class="grid gap-4 sm:grid-cols-3">
+        <div class="rounded-xl border border-line bg-surface p-4 shadow-card">
+          <strong class="mb-2 block font-bold text-forest">Bacteria</strong>
+          <p class="text-sm text-muted">Bacteria cause many cases. Enterotoxigenic <em>E. coli</em> is a frequent culprit, and contamination can happen during food production, preparation, storage, or serving.</p>
         </div>
-        <div>
-          <strong>Viruses</strong>
-          <p>Norovirus, rotavirus, and related viruses can spread through contaminated food, water, surfaces, or infected food handlers.</p>
+        <div class="rounded-xl border border-line bg-surface p-4 shadow-card">
+          <strong class="mb-2 block font-bold text-forest">Viruses</strong>
+          <p class="text-sm text-muted">Norovirus, rotavirus, and related viruses can spread through contaminated food, water, surfaces, or infected food handlers.</p>
         </div>
-        <div>
-          <strong>Parasites</strong>
-          <p>Giardia, Cryptosporidium, and other protozoa can cause longer-lasting symptoms and are often linked to unsafe or inadequately treated water.</p>
+        <div class="rounded-xl border border-line bg-surface p-4 shadow-card">
+          <strong class="mb-2 block font-bold text-forest">Parasites</strong>
+          <p class="text-sm text-muted">Giardia, Cryptosporidium, and other protozoa can cause longer-lasting symptoms and are often linked to unsafe or inadequately treated water.</p>
         </div>
       </div>
 
-      <figure class="health-image">
-        <img src="https://live.staticflickr.com/380/18609813624_3aa8110de0_b.jpg" alt="A hand-washing station in Turmi, Ethiopia" loading="lazy" />
-        <figcaption>
+      <figure class="my-6">
+        <img
+          src="https://live.staticflickr.com/380/18609813624_3aa8110de0_b.jpg"
+          alt="A hand-washing station in Turmi, Ethiopia"
+          loading="lazy"
+          class="w-full max-h-[430px] rounded-xl object-cover"
+        />
+        <figcaption class="mt-2 text-sm text-muted">
           Hand Wash, Turmi, Ethiopia by Rod Waddington, CC BY-SA 2.0 via Openverse.
-          <a href="https://www.flickr.com/photos/64607715@N05/18609813624" rel="noopener noreferrer">Source</a>
+          <a class="underline underline-offset-2" href="https://www.flickr.com/photos/64607715@N05/18609813624" rel="noopener noreferrer">Source</a>
         </figcaption>
       </figure>
 
-      <h2>How Contamination Happens</h2>
-      <p>
-        The usual pathway is fecal contamination reaching food or water. Sewage can contaminate crops or water sources, untreated water can carry organisms, and poor hand hygiene can transfer germs even when the original food was safe.
-      </p>
-      <p>
-        Hands matter. A food handler who does not wash properly after using the restroom can contaminate a meal. Travelers can also contaminate their own food by eating with unwashed hands after transit, markets, bathrooms, shared surfaces, or handling money.
-      </p>
+      <h2 class="font-serif text-[clamp(1.7rem,3vw,2.7rem)]">How Contamination Happens</h2>
+      <p class="text-[1.05rem] text-muted">The usual pathway is fecal contamination reaching food or water. Sewage can contaminate crops or water sources, untreated water can carry organisms, and poor hand hygiene can transfer germs even when the original food was safe.</p>
+      <p class="text-[1.05rem] text-muted">Hands matter. A food handler who does not wash properly after using the restroom can contaminate a meal. Travelers can also contaminate their own food by eating with unwashed hands after transit, markets, bathrooms, shared surfaces, or handling money.</p>
 
-      <h2>Key Prevention Habits</h2>
-      <ul class="health-list">
+      <h2 class="font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Key Prevention Habits</h2>
+      <ul class="space-y-3 pl-5 text-[1.05rem] text-muted">
         <li>Wash hands thoroughly with soap and water, especially before eating or preparing food.</li>
         <li>When soap and water are not available, use an alcohol-based hand sanitizer with at least 60% alcohol, then wash properly when you can.</li>
         <li>Choose busy, clean-looking food places where hot food is served hot and turnover is high.</li>
@@ -111,269 +117,147 @@ const productCards = [
         <li>Use bottled, boiled, filtered, disinfected, or otherwise reliably treated drinking water where tap water is not considered safe.</li>
       </ul>
 
-      <h2>Travel Water Filters and Purifiers: Choosing the Right Bottle</h2>
-      <p>
-        Water treatment is not one-size-fits-all. In a modern city with treated tap water, you may only care about improving taste or reducing chlorine and lead. In rural areas, developing countries, wilderness environments, or destinations with unreliable infrastructure, you may also need protection against bacteria, viruses, and parasites.
-      </p>
-      <p>
-        The key mistake many travelers make is assuming that all filtered water bottles are equivalent. They are not. Some bottles only improve taste. Some remove bacteria but not viruses. Only a few are true travel purifiers suitable for high-risk destinations.
-      </p>
+      <h2 class="font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Travel Water Filters and Purifiers: Choosing the Right Bottle</h2>
+      <p class="text-[1.05rem] text-muted">Water treatment is not one-size-fits-all. In a modern city with treated tap water, you may only care about improving taste or reducing chlorine and lead. In rural areas, developing countries, wilderness environments, or destinations with unreliable infrastructure, you may also need protection against bacteria, viruses, and parasites.</p>
+      <p class="text-[1.05rem] text-muted">The key mistake many travelers make is assuming that all filtered water bottles are equivalent. They are not. Some bottles only improve taste. Some remove bacteria but not viruses. Only a few are true travel purifiers suitable for high-risk destinations.</p>
 
-      <h3>What Protection Do You Actually Need?</h3>
-      <div class="comparison-wrap">
-        <table class="comparison-table">
-          <caption>Travel water risks and why each one matters.</caption>
-          <thead>
+      <h3 class="mt-6 text-lg font-bold text-forest">What Protection Do You Actually Need?</h3>
+      <div class="w-full overflow-x-auto rounded-xl border border-line">
+        <table class="w-full min-w-[600px] border-collapse bg-surface text-sm">
+          <caption class="px-4 py-3 text-left font-black text-forest">Travel water risks and why each one matters.</caption>
+          <thead class="border-b border-line bg-tag-bg">
             <tr>
-              <th>Threat</th>
-              <th>Typical Sources</th>
-              <th>Why It Matters</th>
+              <th class="px-4 py-3 text-left font-black text-forest">Threat</th>
+              <th class="px-4 py-3 text-left font-black text-forest">Typical Sources</th>
+              <th class="px-4 py-3 text-left font-black text-forest">Why It Matters</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <th>Chlorine taste/odor</th>
-              <td>City tap water</td>
-              <td>Improves taste and smell</td>
-            </tr>
-            <tr>
-              <th>Lead or metals</th>
-              <td>Old pipes, contaminated infrastructure</td>
-              <td>Long-term toxicity concerns</td>
-            </tr>
-            <tr>
-              <th>Bacteria</th>
-              <td>Unsafe tap water, streams</td>
-              <td>Common cause of traveler's diarrhea</td>
-            </tr>
-            <tr>
-              <th>Viruses</th>
-              <td>Poor sanitation systems</td>
-              <td>Major risk in many developing countries</td>
-            </tr>
-            <tr>
-              <th>Parasites</th>
-              <td>Rivers, lakes, untreated water</td>
-              <td>Giardia and Cryptosporidium risks</td>
-            </tr>
+            {[
+              ["Chlorine taste/odor","City tap water","Improves taste and smell"],
+              ["Lead or metals","Old pipes, contaminated infrastructure","Long-term toxicity concerns"],
+              ["Bacteria","Unsafe tap water, streams","Common cause of traveler's diarrhea"],
+              ["Viruses","Poor sanitation systems","Major risk in many developing countries"],
+              ["Parasites","Rivers, lakes, untreated water","Giardia and Cryptosporidium risks"],
+            ].map(([threat, source, why]) => (
+              <tr class="border-b border-line last:border-0">
+                <td class="px-4 py-3 font-bold text-ink">{threat}</td>
+                <td class="px-4 py-3 text-muted">{source}</td>
+                <td class="px-4 py-3 text-muted">{why}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
 
-      <figure class="health-image">
-        <img src="https://live.staticflickr.com/5548/9563929331_c8dda19fcc_b.jpg" alt="Water bottle filling station on a hiking trail" loading="lazy" />
-        <figcaption>
+      <figure class="my-6">
+        <img
+          src="https://live.staticflickr.com/5548/9563929331_c8dda19fcc_b.jpg"
+          alt="Water bottle filling station on a hiking trail"
+          loading="lazy"
+          class="w-full max-h-[430px] rounded-xl object-cover"
+        />
+        <figcaption class="mt-2 text-sm text-muted">
           Water bottle filling station by Grand Canyon NPS, CC BY 2.0 via Openverse.
-          <a href="https://www.flickr.com/photos/50693818@N08/9563929331" rel="noopener noreferrer">Source</a>
+          <a class="underline underline-offset-2" href="https://www.flickr.com/photos/50693818@N08/9563929331" rel="noopener noreferrer">Source</a>
         </figcaption>
       </figure>
 
-      <h2>Quick Recommendation Guide</h2>
-      <div class="recommendation-grid">
-        <section>
-          <h3>Best for City Travel in Developed Countries</h3>
-          <p><strong>Brita Premium Filtering Bottle</strong> or <strong>LARQ Bottle Filtered</strong></p>
-          <p>Good for chlorine taste, better-tasting hotel tap water, and basic lead reduction. Not suitable for rural travel, untreated water, or virus protection.</p>
-        </section>
-        <section>
-          <h3>Best for Backpacking and Adventure Travel</h3>
-          <p><strong>LifeStraw Go Series</strong> or <strong>Grayl GeoPress / UltraPress</strong></p>
-          <p>Good for hiking, rural travel, and developing countries. Grayl is significantly more protective than LifeStraw because it also treats viruses.</p>
-        </section>
-        <section>
-          <h3>Best for High-Risk International Travel</h3>
-          <p><strong>Grayl GeoPress</strong>, <strong>LARQ PureVis 2 with filter</strong>, or <strong>SteriPEN Ultra</strong></p>
-          <p>Best for unreliable sanitation, overland travel, long-term backpacking, and remote expeditions.</p>
-        </section>
+      <h2 class="font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Quick Recommendation Guide</h2>
+      <div class="grid gap-4 sm:grid-cols-3">
+        {[
+          { head: "Best for City Travel in Developed Countries", body: "<strong>Brita Premium Filtering Bottle</strong> or <strong>LARQ Bottle Filtered</strong>. Good for chlorine taste, better-tasting hotel tap water, and basic lead reduction. Not suitable for rural travel, untreated water, or virus protection." },
+          { head: "Best for Backpacking and Adventure Travel", body: "<strong>LifeStraw Go Series</strong> or <strong>Grayl GeoPress / UltraPress</strong>. Good for hiking, rural travel, and developing countries. Grayl is significantly more protective than LifeStraw because it also treats viruses." },
+          { head: "Best for High-Risk International Travel", body: "<strong>Grayl GeoPress</strong>, <strong>LARQ PureVis 2 with filter</strong>, or <strong>SteriPEN Ultra</strong>. Best for unreliable sanitation, overland travel, long-term backpacking, and remote expeditions." },
+        ].map((rec) => (
+          <section class="rounded-xl border-l-4 border-clay bg-surface p-4">
+            <h3 class="mb-2 font-bold text-forest">{rec.head}</h3>
+            <p class="text-sm text-muted" set:html={rec.body} />
+          </section>
+        ))}
       </div>
 
-      <h2>Product Images and Quick Notes</h2>
-      <p>
-        Product photos are shown from product or retailer pages and link back to their source. Before buying, check the current manufacturer page, certifications, replacement-cartridge rules, and whether the exact model treats viruses.
-      </p>
+      <h2 class="font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Product Images and Quick Notes</h2>
+      <p class="text-[1.05rem] text-muted">Product photos are shown from product or retailer pages and link back to their source. Before buying, check the current manufacturer page, certifications, replacement-cartridge rules, and whether the exact model treats viruses.</p>
 
-      <div class="product-grid">
+      <div class="grid gap-4 sm:grid-cols-2">
         {productCards.map((product) => (
-          <article class="product-card">
-            <a href={product.source} rel="noopener noreferrer">
-              <img src={product.image} alt={`${product.name} product image`} loading="lazy" />
+          <article class="flex gap-4 rounded-xl border border-line bg-surface p-4 shadow-card">
+            <a href={product.source} rel="noopener noreferrer" class="shrink-0">
+              <img
+                src={product.image}
+                alt={`${product.name} product image`}
+                loading="lazy"
+                class="h-[110px] w-[110px] rounded-lg object-contain"
+              />
             </a>
             <div>
-              <h3>{product.name}</h3>
-              <p class="product-best">{product.bestFor}</p>
-              <p>{product.note}</p>
-              <a href={product.source} rel="noopener noreferrer">Image/source</a>
+              <h3 class="mb-1 text-base font-bold text-ink">{product.name}</h3>
+              <p class="mb-1 text-xs font-black text-forest">{product.bestFor}</p>
+              <p class="mb-2 text-sm text-muted">{product.note}</p>
+              <a class="text-xs font-bold text-clay underline underline-offset-2" href={product.source} rel="noopener noreferrer">Image / source</a>
             </div>
           </article>
         ))}
       </div>
 
-      <h2>Comparison Table</h2>
-      <div class="comparison-wrap">
-        <table class="comparison-table">
-          <caption>Comparison of travel water filter and purifier bottle protection.</caption>
-          <thead>
+      <h2 class="font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Comparison Table</h2>
+      <div class="w-full overflow-x-auto rounded-xl border border-line">
+        <table class="w-full min-w-[720px] border-collapse bg-surface text-sm">
+          <caption class="px-4 py-3 text-left font-black text-forest">Comparison of travel water filter and purifier bottle protection.</caption>
+          <thead class="border-b border-line bg-tag-bg">
             <tr>
-              <th>Product</th>
-              <th>Chlorine</th>
-              <th>Lead/Metals</th>
-              <th>Bacteria</th>
-              <th>Viruses</th>
-              <th>Parasites</th>
-              <th>Best Use</th>
+              {["Product","Chlorine","Lead/Metals","Bacteria","Viruses","Parasites","Best Use"].map((h) => (
+                <th class="px-3 py-3 text-left font-black text-forest">{h}</th>
+              ))}
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <th>Brita Premium Filtering Bottle</th>
-              <td>Yes</td>
-              <td>Limited</td>
-              <td>No</td>
-              <td>No</td>
-              <td>No</td>
-              <td>City tap water</td>
-            </tr>
-            <tr>
-              <th>LARQ Bottle Filtered</th>
-              <td>Yes</td>
-              <td>Some reduction</td>
-              <td>Limited</td>
-              <td>No</td>
-              <td>No</td>
-              <td>Urban travel</td>
-            </tr>
-            <tr>
-              <th>LARQ PureVis 2</th>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Partial, depending on setup</td>
-              <td>Yes</td>
-              <td>Premium travel bottle</td>
-            </tr>
-            <tr>
-              <th>LifeStraw Go Series</th>
-              <td>Minimal</td>
-              <td>Model-dependent</td>
-              <td>Yes</td>
-              <td>No</td>
-              <td>Yes</td>
-              <td>Hiking and backpacking</td>
-            </tr>
-            <tr>
-              <th>Grayl GeoPress / UltraPress</th>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Serious international travel</td>
-            </tr>
-            <tr>
-              <th>SteriPEN Ultra</th>
-              <td>No</td>
-              <td>No</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>UV purifier for clear water</td>
-            </tr>
+            {[
+              ["Brita Premium Filtering Bottle","Yes","Limited","No","No","No","City tap water"],
+              ["LARQ Bottle Filtered","Yes","Some reduction","Limited","No","No","Urban travel"],
+              ["LARQ PureVis 2","Yes","Yes","Yes","Partial, depending on setup","Yes","Premium travel bottle"],
+              ["LifeStraw Go Series","Minimal","Model-dependent","Yes","No","Yes","Hiking and backpacking"],
+              ["Grayl GeoPress / UltraPress","Yes","Yes","Yes","Yes","Yes","Serious international travel"],
+              ["SteriPEN Ultra","No","No","Yes","Yes","Yes","UV purifier for clear water"],
+            ].map((row) => (
+              <tr class="border-b border-line last:border-0">
+                <td class="px-3 py-3 font-bold text-ink">{row[0]}</td>
+                {row.slice(1).map((cell) => <td class="px-3 py-3 text-muted">{cell}</td>)}
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
-      <p class="table-legend">Legend: Yes = strong protection, Limited/Partial = model-dependent, No = not designed for this.</p>
+      <p class="text-sm font-black text-forest">Legend: Yes = strong protection, Limited/Partial = model-dependent, No = not designed for this.</p>
 
-      <h2>Why LARQ PureVis 2 Is Marked Partial for Viruses</h2>
-      <p>
-        The LARQ PureVis 2 combines two separate technologies: a physical filter and UV-C light in the cap. That does not automatically make it a universally reliable global travel purifier in the same category as a Grayl GeoPress.
-      </p>
-      <p>
-        Virus protection depends on which filter cartridge you use, water clarity, UV exposure effectiveness, bottle geometry, and whether microbes receive enough UV dose. The LARQ filter is mainly aimed at chlorine taste/odor, some heavy metals, VOCs or chemicals, and particulates. It is not a true virus-removal membrane filter.
-      </p>
+      <h2 class="font-serif text-[clamp(1.7rem,3vw,2.7rem)]">The Most Important Distinction: Filter vs Purifier</h2>
+      <p class="text-[1.05rem] text-muted">Most water bottles are filters. They usually protect against parasites and bacteria, but often not viruses. Purifiers are designed for international travel and unsafe water systems. If you travel extensively in Africa, South Asia, Latin America, or remote regions, virus protection becomes much more important.</p>
 
-      <div class="insight-grid">
-        <section>
-          <h3>What the Filter Does</h3>
-          <p>
-            Most portable bottle filters cannot physically remove viruses unless they are specialized purifier systems. Bacteria are roughly 0.2-5 microns; viruses are much smaller, often around 0.02-0.1 microns. So the LARQ filter itself is not the main virus solution.
-          </p>
-        </section>
-        <section>
-          <h3>What UV-C Does</h3>
-          <p>
-            UV-C can deactivate microbes, including bacteria and some viruses, and is used in hospitals, municipal water systems, and devices such as SteriPEN. It works best when water is clear, exposure is sufficient, and particles are not shielding organisms from the light.
-          </p>
-        </section>
+      <h2 class="font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Best Overall Choices</h2>
+      <div class="grid gap-4 sm:grid-cols-2">
+        {[
+          { head: "Best Urban Travel Bottle", name: "LARQ Bottle Filtered", body: "Stylish, strong for hotels and airports, and best for treated-water taste improvement in places such as Europe, Japan, Korea, and Singapore." },
+          { head: "Best Lightweight Adventure Bottle", name: "LifeStraw Go", body: "Simple and rugged, with strong bacteria and protozoa protection for hiking and backpacking." },
+          { head: "Best One-Bottle Global Solution", name: "Grayl GeoPress", body: "One of the few true purifier bottles, covering viruses as well as bacteria and parasites." },
+          { head: "Best UV Solution", name: "SteriPEN Ultra", body: "Lightweight and effective against microbes in clear water, but it does not remove sediment or improve taste." },
+        ].map((item) => (
+          <section class="rounded-xl border-l-4 border-clay bg-surface p-4">
+            <h3 class="mb-1 text-sm font-black uppercase tracking-wide text-clay-text">{item.head}</h3>
+            <p class="mb-1 font-bold text-ink">{item.name}</p>
+            <p class="text-sm text-muted">{item.body}</p>
+          </section>
+        ))}
       </div>
 
-      <div class="recommendation-grid">
-        <section>
-          <h3>LARQ PureVis 2</h3>
-          <p>Good for airports, hotels, urban travel, reducing microbial growth inside the bottle, and lower-risk international travel.</p>
-          <p>Less ideal for rural Africa, untreated village water, jungle trekking, or highly questionable tap water.</p>
-        </section>
-        <section>
-          <h3>Grayl GeoPress</h3>
-          <p>Designed for high-risk travel, untreated water, remote environments, and countries where viral contamination is a realistic concern.</p>
-          <p>Grayl is simpler to trust for virus protection because it is marketed and tested as a purifier, not merely a filtered smart bottle.</p>
-        </section>
-      </div>
-
-      <h3>The Simplest Rule</h3>
-      <p>
-        If you mainly travel in Europe, Japan, South Korea, Singapore, North America, and major cities globally, LARQ is usually sufficient and much more pleasant to use.
-      </p>
-      <p>
-        If you regularly drink from rural taps, buses or train stations, questionable sinks, rivers, lakes, or remote areas in developing countries, Grayl is the safer choice.
-      </p>
-
-      <h2>The Most Important Distinction: Filter vs Purifier</h2>
-      <p>
-        This is the single most important concept for travelers. Most water bottles are filters. They usually protect against parasites and bacteria, but often not viruses. Brita, LifeStraw Go, and many hiking filters sit closer to this category.
-      </p>
-      <p>
-        Purifiers are designed for international travel and unsafe water systems. They target bacteria, parasites, and viruses. Grayl GeoPress, SteriPEN, and some UV-based systems sit closer to this category. If you travel extensively in Africa, South Asia, Latin America, or remote regions, virus protection becomes much more important.
-      </p>
-
-      <h2>Best Overall Choices</h2>
-      <div class="best-choice-grid">
-        <section>
-          <h3>Best Urban Travel Bottle</h3>
-          <p><strong>LARQ Bottle Filtered</strong></p>
-          <p>Stylish, strong for hotels and airports, and best for treated-water taste improvement in places such as Europe, Japan, Korea, and Singapore.</p>
-        </section>
-        <section>
-          <h3>Best Lightweight Adventure Bottle</h3>
-          <p><strong>LifeStraw Go</strong></p>
-          <p>Simple and rugged, with strong bacteria and protozoa protection for hiking and backpacking.</p>
-        </section>
-        <section>
-          <h3>Best One-Bottle Global Solution</h3>
-          <p><strong>Grayl GeoPress</strong></p>
-          <p>One of the few true purifier bottles, covering viruses as well as bacteria and parasites.</p>
-        </section>
-        <section>
-          <h3>Best UV Solution</h3>
-          <p><strong>SteriPEN Ultra</strong></p>
-          <p>Lightweight and effective against microbes in clear water, but it does not remove sediment or improve taste.</p>
-        </section>
-      </div>
-
-      <h2>Important Reality Check</h2>
-      <p>
-        No portable bottle is perfect. Even the best purifier bottles have trade-offs: heavier weight, slower flow, cartridge replacement costs, battery dependence for UV systems, and reduced performance in muddy water.
-      </p>
-      <p>
-        For many travelers, the ideal setup is a lightweight filter bottle for daily use plus purification tablets or UV backup for higher-risk situations. That combination is often lighter, cheaper, and more reliable than relying on a single magic bottle.
-      </p>
-
-      <h2>Sources</h2>
-      <ul class="source-list">
-        <li><a href="https://wwwnc.cdc.gov/travel/page/travelers-diarrhea.htm" rel="noopener noreferrer">CDC Travelers' Diarrhea</a></li>
-        <li><a href="https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html" rel="noopener noreferrer">CDC Yellow Book: Travelers' Diarrhea</a></li>
-        <li><a href="https://wwwnc.cdc.gov/travel/page/water-disinfection" rel="noopener noreferrer">CDC: Avoid Contaminated Water During Travel</a></li>
-        <li><a href="https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html" rel="noopener noreferrer">CDC: Water Treatment When Hiking, Camping, or Traveling</a></li>
+      <h2 class="font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Sources</h2>
+      <ul class="space-y-2 pl-5">
+        <li><a class="font-bold text-clay underline underline-offset-2" href="https://wwwnc.cdc.gov/travel/page/travelers-diarrhea.htm" rel="noopener noreferrer">CDC Travelers' Diarrhea</a></li>
+        <li><a class="font-bold text-clay underline underline-offset-2" href="https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html" rel="noopener noreferrer">CDC Yellow Book: Travelers' Diarrhea</a></li>
+        <li><a class="font-bold text-clay underline underline-offset-2" href="https://wwwnc.cdc.gov/travel/page/water-disinfection" rel="noopener noreferrer">CDC: Avoid Contaminated Water During Travel</a></li>
+        <li><a class="font-bold text-clay underline underline-offset-2" href="https://www.cdc.gov/drinking-water/prevention/water-treatment-hiking-camping-traveling.html" rel="noopener noreferrer">CDC: Water Treatment When Hiking, Camping, or Traveling</a></li>
       </ul>
+
     </article>
   </section>
 </BaseLayout>

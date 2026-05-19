@@ -1,31 +1,35 @@
-<footer class="site-footer">
-  <div>
-    <a class="brand footer-brand" href="/">
-      <span class="brand-mark">50</span>
-      <span>Beautiful Places</span>
-    </a>
-    <p class="footer-credit">
-      Designed by 50-Design Studio --
-      <span class="protected-email" aria-hidden="true"></span>
-      <span class="sr-only">Email address protected from automated scraping.</span>
-    </p>
+<footer class="border-t border-line bg-tag-bg px-[clamp(1rem,4vw,3rem)] py-8">
+  <div class="mx-auto flex max-w-[1180px] flex-wrap items-start justify-between gap-8">
+    <div>
+      <a class="inline-flex items-center gap-3 font-extrabold text-ink" href="/">
+        <span class="inline-grid h-10 w-10 shrink-0 place-items-center rounded-full bg-clay font-serif text-base text-cream">50</span>
+        <span class="text-[0.97rem]">Beautiful Places</span>
+      </a>
+      <p class="mt-3 max-w-[34rem] text-sm text-muted">
+        Designed by 50-Design Studio &mdash;
+        <span class="protected-email" aria-hidden="true"></span>
+        <span class="sr-only">Email address protected from automated scraping.</span>
+      </p>
+    </div>
+
+    <nav class="flex flex-wrap items-center gap-4" aria-label="Footer navigation">
+      <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/places/">Explore places</a>
+      <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/health/">Health</a>
+      <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/about/">About</a>
+    </nav>
   </div>
-  <nav aria-label="Footer navigation">
-    <a href="/places/">Explore places</a>
-    <a href="/health/">Health</a>
-    <a href="/about/">About</a>
-  </nav>
+
   <script>
     const emailTarget = document.querySelector(".protected-email");
     if (emailTarget) {
-      const parts = [53, 48, 112, 108, 97, 99, 101, 115, 64, 112, 114, 111, 116, 111, 110, 109, 97, 105, 108, 46, 99, 104];
+      const parts = [53,48,112,108,97,99,101,115,64,112,114,111,116,111,110,109,97,105,108,46,99,104];
       emailTarget.textContent = parts.map((code) => String.fromCharCode(code)).join("");
       emailTarget.addEventListener("copy", (event) => event.preventDefault());
       emailTarget.addEventListener("contextmenu", (event) => event.preventDefault());
       document.addEventListener("copy", (event) => {
         const selection = window.getSelection();
         const selectedText = selection?.toString() ?? "";
-        if (selectedText.includes(emailTarget.textContent ?? "")) {
+        if (selectedText.includes((emailTarget as HTMLElement).textContent ?? "")) {
           event.preventDefault();
         }
       });

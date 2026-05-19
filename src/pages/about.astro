@@ -10,16 +10,26 @@ const heroImage = "https://live.staticflickr.com/7372/8754152916_6240747448_b.jp
   image={heroImage}
   preloadImage
 >
-  <section class="about-hero">
-    <img src={heroImage} alt="A vast Patagonian glacier and mountain landscape" width="1600" height="1000" fetchpriority="high" />
-    <div class="about-hero-content">
-      <p class="eyebrow">About Me</p>
-      <h1>Why I created 50 Beautiful Places</h1>
-      <p>I created 50 Beautiful Places because I have spent much of my life searching for places that create a genuine sense of awe.</p>
+  <!-- About hero -->
+  <section class="about-hero grid min-h-[min(74svh,680px)] items-end bg-forest">
+    <img
+      src={heroImage}
+      alt="A vast Patagonian glacier and mountain landscape"
+      width="1600" height="1000"
+      fetchpriority="high"
+      class="absolute inset-0 h-full w-full object-cover"
+    />
+    <div class="relative z-10 mx-auto w-full max-w-[1180px] px-4 pb-[clamp(3rem,10vw,7rem)] text-cream [text-shadow:0_2px_18px_rgba(0,0,0,0.62)]">
+      <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-sun">About Me</p>
+      <h1 class="max-w-[11ch] text-cream">Why I created 50 Beautiful Places</h1>
+      <p class="mt-5 max-w-[42rem] text-[clamp(1.1rem,2vw,1.35rem)] text-cream/85">
+        I created 50 Beautiful Places because I have spent much of my life searching for places that create a genuine sense of awe.
+      </p>
     </div>
   </section>
 
-  <section class="section-narrow prose about-intro">
+  <!-- Intro prose -->
+  <section class="prose mx-auto w-full max-w-[760px] px-4 pt-[clamp(3rem,7vw,5rem)]">
     <h2>A Life Shaped by Travel</h2>
     <p>
       Not just famous landmarks or luxury resorts, but the kinds of places that stay in your memory for years.
@@ -37,22 +47,26 @@ const heroImage = "https://live.staticflickr.com/7372/8754152916_6240747448_b.jp
     </p>
   </section>
 
-  <section class="about-feature-band" aria-label="What 50 Beautiful Places values">
-    <article>
-      <h2>Natural Beauty</h2>
-      <p>Mountains, deserts, coastlines, islands, wildlife, and dramatic landscapes that create a true sense of awe.</p>
-    </article>
-    <article>
-      <h2>Cultural Depth</h2>
-      <p>Places with history, architecture, local identity, ancient traditions, and a strong sense of place.</p>
-    </article>
-    <article>
-      <h2>Practical Travel Intelligence</h2>
-      <p>Clear guidance on when to go, how realistic a trip is, what it costs, and whether a place truly lives up to expectations.</p>
-    </article>
+  <!-- Feature band -->
+  <section class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(2rem,5vw,4rem)]" aria-label="What 50 Beautiful Places values">
+    <div class="grid gap-4 sm:grid-cols-3">
+      <article class="rounded-xl border border-line bg-surface p-6 shadow-card">
+        <h2 class="mb-3 max-w-none text-[clamp(1.35rem,2vw,1.75rem)]">Natural Beauty</h2>
+        <p class="text-muted">Mountains, deserts, coastlines, islands, wildlife, and dramatic landscapes that create a true sense of awe.</p>
+      </article>
+      <article class="rounded-xl border border-line bg-surface p-6 shadow-card">
+        <h2 class="mb-3 max-w-none text-[clamp(1.35rem,2vw,1.75rem)]">Cultural Depth</h2>
+        <p class="text-muted">Places with history, architecture, local identity, ancient traditions, and a strong sense of place.</p>
+      </article>
+      <article class="rounded-xl border border-line bg-surface p-6 shadow-card">
+        <h2 class="mb-3 max-w-none text-[clamp(1.35rem,2vw,1.75rem)]">Practical Travel Intelligence</h2>
+        <p class="text-muted">Clear guidance on when to go, how realistic a trip is, what it costs, and whether a place truly lives up to expectations.</p>
+      </article>
+    </div>
   </section>
 
-  <section class="section-narrow prose">
+  <!-- Extended prose -->
+  <section class="prose mx-auto w-full max-w-[760px] px-4 pb-[clamp(2rem,5vw,4rem)]">
     <h2>What Makes a Place Beautiful?</h2>
     <p>
       This website is the result of decades of travel research, planning, photography inspiration, and personal
@@ -79,16 +93,14 @@ const heroImage = "https://live.staticflickr.com/7372/8754152916_6240747448_b.jp
     </p>
     <p>
       You will notice that this site includes destinations ranging from iconic world-famous locations to remote
-      places that many travellers have never heard of. That balance is intentional. Some of the world's most
-      beautiful places are celebrated for good reason. Others remain relatively unknown simply because they are
-      harder to reach or less commercially promoted.
+      places that many travellers have never heard of. That balance is intentional.
     </p>
 
     <h2>How I Choose Places</h2>
     <p>
       Professionally, I come from an analytical background, which influences how I approach travel research and
       trip planning. Personally, I am also deeply interested in endurance sports, hiking, outdoor landscapes,
-      photography, and long-term exploration. Those interests naturally shape the kinds of destinations featured here.
+      photography, and long-term exploration.
     </p>
 
     <h2>The Purpose of 50 Beautiful Places</h2>
@@ -102,12 +114,18 @@ const heroImage = "https://live.staticflickr.com/7372/8754152916_6240747448_b.jp
     </p>
   </section>
 
-  <section class="about-cta">
-    <div>
-      <p class="eyebrow">Begin the atlas</p>
-      <h2>Start exploring beautiful places</h2>
-      <p>Browse the collection and discover destinations that inspire wonder, curiosity, and a real desire to travel.</p>
-      <a class="button primary" href="/places/">Explore Places</a>
+  <!-- CTA -->
+  <section class="mx-auto w-full max-w-[1180px] px-4 pb-[clamp(3rem,7vw,6rem)]">
+    <div class="rounded-2xl bg-forest px-[clamp(2rem,6vw,4rem)] py-[clamp(2rem,5vw,3.5rem)] text-cream">
+      <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-sun">Begin the atlas</p>
+      <h2 class="max-w-none text-cream">Start exploring beautiful places</h2>
+      <p class="mt-3 max-w-[46rem] text-[1.05rem] text-cream/80">
+        Browse the collection and discover destinations that inspire wonder, curiosity, and a real desire to travel.
+      </p>
+      <a
+        class="mt-7 inline-flex min-h-[2.9rem] items-center justify-center rounded-full bg-cream px-6 text-sm font-extrabold text-forest transition-opacity hover:opacity-90"
+        href="/places/"
+      >Explore Places</a>
     </div>
   </section>
 </BaseLayout>

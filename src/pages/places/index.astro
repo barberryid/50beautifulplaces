@@ -13,28 +13,55 @@ const bestForOptions = [...new Set(destinations.flatMap((place) => place.data.be
   description="A handpicked atlas of the world's most extraordinary destinations, from salt flats and ancient mosques to overgrown ruins and quiet beaches almost nobody finds."
   image={destinations[0].data.mainImage}
 >
-  <section class="page-hero compact">
-    <h1>Fifty places <br />worth crossing <br />a continent for.</h1>
-    <p>A handpicked atlas of the world's most extraordinary destinations &mdash; from salt flats and ancient mosques to overgrown ruins and quiet beaches almost nobody finds.</p>
+  <!-- Page hero -->
+  <section class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(3rem,8vw,7rem)] pb-8">
+    <h1 class="max-w-[12ch]">Fifty places <br />worth crossing <br />a continent for.</h1>
+    <p class="mt-4 max-w-[45rem] text-lg text-muted">
+      A handpicked atlas of the world's most extraordinary destinations &mdash;
+      from salt flats and ancient mosques to overgrown ruins and quiet beaches almost nobody finds.
+    </p>
   </section>
 
-  <section class="filter-strip" aria-label="Regions">
-    <a href="/places/" data-region-filter="all">All</a>
-    {regions.map((region) => (
-      <a href={`/places/?region=${encodeURIComponent(region)}`} data-region-filter={region}>{region}</a>
-    ))}
-  </section>
+  <!-- Region filter -->
+  <div class="mx-auto w-full max-w-[1180px] px-4 pb-2">
+    <div class="flex flex-wrap gap-2" aria-label="Regions">
+      <a
+        href="/places/"
+        data-region-filter="all"
+        class="inline-flex min-h-[2.5rem] items-center rounded-full border border-line bg-surface px-4 text-sm font-bold text-muted transition-colors hover:border-forest hover:text-ink"
+      >All</a>
+      {regions.map((region) => (
+        <a
+          href={`/places/?region=${encodeURIComponent(region)}`}
+          data-region-filter={region}
+          class="inline-flex min-h-[2.5rem] items-center rounded-full border border-line bg-surface px-4 text-sm font-bold text-muted transition-colors hover:border-forest hover:text-ink"
+        >{region}</a>
+      ))}
+    </div>
+  </div>
 
-  <section class="filter-strip secondary-filter" aria-label="Best for">
-    <span>Best for</span>
-    <a href="/places/" data-best-for-filter="all">All</a>
-    {bestForOptions.map((category) => (
-      <a href={`/places/?bestFor=${encodeURIComponent(category)}`} data-best-for-filter={category}>{category}</a>
-    ))}
-  </section>
+  <!-- Best-for filter -->
+  <div class="mx-auto w-full max-w-[1180px] px-4 pb-8 pt-3">
+    <div class="flex flex-wrap items-center gap-2" aria-label="Best for">
+      <span class="text-sm font-black text-forest">Best for</span>
+      <a
+        href="/places/"
+        data-best-for-filter="all"
+        class="inline-flex min-h-[2.5rem] items-center rounded-full border border-line bg-surface px-4 text-sm font-bold text-muted transition-colors hover:border-forest hover:text-ink"
+      >All</a>
+      {bestForOptions.map((category) => (
+        <a
+          href={`/places/?bestFor=${encodeURIComponent(category)}`}
+          data-best-for-filter={category}
+          class="inline-flex min-h-[2.5rem] items-center rounded-full border border-line bg-surface px-4 text-sm font-bold text-muted transition-colors hover:border-forest hover:text-ink"
+        >{category}</a>
+      ))}
+    </div>
+  </div>
 
-  <section class="section">
-    <div class="destination-grid">
+  <!-- Grid -->
+  <section class="mx-auto w-full max-w-[1180px] px-4 pb-[clamp(3rem,7vw,6rem)]">
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {destinations.map((place, index) => (
         <DestinationCard
           href={`/places/${place.id}/`}
@@ -66,7 +93,6 @@ const bestForOptions = [...new Set(destinations.flatMap((place) => place.data.be
         const bestForMatch = !activeBestFor || bestForValues.includes(activeBestFor);
         card.toggleAttribute("hidden", !(regionMatch && bestForMatch));
       });
-
       filters.forEach((filter) => {
         const filterRegion = filter.getAttribute("data-region-filter");
         const isAll = filterRegion === "all";
@@ -76,7 +102,6 @@ const bestForOptions = [...new Set(destinations.flatMap((place) => place.data.be
           filter.removeAttribute("aria-current");
         }
       });
-
       bestForFilters.forEach((filter) => {
         const filterValue = filter.getAttribute("data-best-for-filter");
         const isAll = filterValue === "all";
@@ -96,12 +121,10 @@ const bestForOptions = [...new Set(destinations.flatMap((place) => place.data.be
         const params = new URLSearchParams();
         if (activeRegion) params.set("region", activeRegion);
         if (activeBestFor) params.set("bestFor", activeBestFor);
-        const nextUrl = params.toString() ? `/places/?${params.toString()}` : "/places/";
-        window.history.pushState({}, "", nextUrl);
+        window.history.pushState({}, "", params.toString() ? `/places/?${params}` : "/places/");
         applyFilter();
       });
     });
-
     bestForFilters.forEach((filter) => {
       filter.addEventListener("click", (event) => {
         event.preventDefault();
@@ -110,18 +133,15 @@ const bestForOptions = [...new Set(destinations.flatMap((place) => place.data.be
         const params = new URLSearchParams();
         if (activeRegion) params.set("region", activeRegion);
         if (activeBestFor) params.set("bestFor", activeBestFor);
-        const nextUrl = params.toString() ? `/places/?${params.toString()}` : "/places/";
-        window.history.pushState({}, "", nextUrl);
+        window.history.pushState({}, "", params.toString() ? `/places/?${params}` : "/places/");
         applyFilter();
       });
     });
-
     window.addEventListener("popstate", () => {
       activeRegion = new URLSearchParams(window.location.search).get("region");
       activeBestFor = new URLSearchParams(window.location.search).get("bestFor");
       applyFilter();
     });
-
     applyFilter();
   </script>
 </BaseLayout>

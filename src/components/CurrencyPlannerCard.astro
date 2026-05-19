@@ -15,13 +15,11 @@ const localCode = data.currencyCode;
 const displayFromCurrencies = ["EUR", "USD", "GBP"].filter((c) => c !== localCode);
 const converterCurrencies = ["EUR", "USD", "GBP", "AUD", "CAD"].filter((c) => c !== localCode);
 
-// Pre-compute display rates at build time
 const displayRates = displayFromCurrencies.map((from) => {
   const r = rateFor(rates, from, localCode);
   return { from, rate: r };
 });
 
-// Pre-compute converter rates as JSON to embed in client script
 const converterRatesMap: Record<string, number> = {};
 for (const from of converterCurrencies) {
   const r = rateFor(rates, from, localCode);
@@ -29,7 +27,6 @@ for (const from of converterCurrencies) {
 }
 const ratesJson = JSON.stringify(converterRatesMap);
 
-// Append live EUR equivalents to each cost string
 const tc = data.typicalCosts;
 const costs = {
   coffee:        tc.coffee        ? withEurEquivalent(tc.coffee,        localCode, rates) : undefined,
@@ -39,125 +36,88 @@ const costs = {
   guesthouse:    tc.guesthouse    ? withEurEquivalent(tc.guesthouse,    localCode, rates) : undefined,
   midrangeHotel: tc.midrangeHotel ? withEurEquivalent(tc.midrangeHotel, localCode, rates) : undefined,
 };
-
 const hasCosts = Object.values(costs).some(Boolean);
-const costLevelClass = `cost-level--${data.costLevel.toLowerCase()}`;
+const costLevelClass = `cost-level cost-level--${data.costLevel.toLowerCase()}`;
 ---
 
-<div class="currency-card">
+<div class="mt-4 grid gap-5 rounded-xl border border-line bg-surface p-5 shadow-card">
+
   <!-- Header -->
-  <div class="currency-header">
-    <span class="currency-eyebrow">Local Currency</span>
-    <div class="currency-title-row">
-      <strong class="currency-name">{data.currencyName}</strong>
-      <span class="currency-code">{localCode}</span>
+  <div class="grid gap-1">
+    <span class="text-[0.72rem] font-bold uppercase tracking-[0.08em] text-clay-text">Local Currency</span>
+    <div class="flex flex-wrap items-baseline gap-2">
+      <strong class="text-[1.05rem] font-extrabold text-ink">{data.currencyName}</strong>
+      <span class="rounded bg-tag-bg px-2 py-0.5 text-sm font-bold text-muted">{localCode}</span>
     </div>
-    <span class={`cost-level ${costLevelClass}`}>{data.costLevel}</span>
+    <span class={costLevelClass}>{data.costLevel}</span>
   </div>
 
   <!-- Exchange rates -->
-  <div class="exchange-rates">
-    <span class="currency-label">Exchange Rates</span>
-    <ul class="rates-list">
-      {
-        displayRates.map(({ from, rate }) =>
-          rate !== null ? (
-            <li>
-              <span class="rate-from">1 {from}</span>
-              <span class="rate-approx">≈</span>
-              <span class="rate-value">{formatRate(rate)} {localCode}</span>
-            </li>
-          ) : null
-        )
-      }
+  <div>
+    <span class="mb-2 block text-[0.7rem] font-bold uppercase tracking-[0.07em] text-muted">Exchange Rates</span>
+    <ul class="grid gap-1.5 p-0 list-none m-0">
+      {displayRates.map(({ from, rate }) =>
+        rate !== null ? (
+          <li class="flex items-center gap-2 text-sm">
+            <span class="min-w-[4rem] font-bold text-ink">1 {from}</span>
+            <span class="text-muted">≈</span>
+            <span class="font-extrabold text-clay-text">{formatRate(rate)} {localCode}</span>
+          </li>
+        ) : null
+      )}
     </ul>
-    {
-      usingFallback ? (
-        <p class="rates-note">Approximate rates — live rates fetched at next deploy.</p>
-      ) : (
-        <p class="rates-note">Rates current at time of last build.</p>
-      )
-    }
+    <p class="mt-2 text-[0.72rem] italic text-muted">
+      {usingFallback ? "Approximate rates — live rates fetched at next deploy." : "Rates current at time of last build."}
+    </p>
   </div>
 
   <!-- Typical costs -->
-  {
-    hasCosts && (
-      <div class="typical-costs">
-        <span class="currency-label">Typical Costs</span>
-        <ul class="costs-list">
-          {costs.coffee && (
-            <li>
-              <span>Coffee</span>
-              <span>{costs.coffee}</span>
-            </li>
-          )}
-          {costs.water && (
-            <li>
-              <span>Water</span>
-              <span>{costs.water}</span>
-            </li>
-          )}
-          {costs.meal && (
-            <li>
-              <span>Local meal</span>
-              <span>{costs.meal}</span>
-            </li>
-          )}
-          {costs.taxi && (
-            <li>
-              <span>Taxi</span>
-              <span>{costs.taxi}</span>
-            </li>
-          )}
-          {costs.guesthouse && (
-            <li>
-              <span>Guesthouse</span>
-              <span>{costs.guesthouse}</span>
-            </li>
-          )}
-          {costs.midrangeHotel && (
-            <li>
-              <span>Mid-range hotel</span>
-              <span>{costs.midrangeHotel}</span>
-            </li>
-          )}
-        </ul>
-      </div>
-    )
-  }
+  {hasCosts && (
+    <div>
+      <span class="mb-2 block text-[0.7rem] font-bold uppercase tracking-[0.07em] text-muted">Typical Costs</span>
+      <ul class="grid gap-1 p-0 list-none m-0">
+        {costs.coffee     && <li class="flex justify-between gap-4 border-b border-line py-1.5 text-sm last:border-0"><span class="text-muted">Coffee</span><span class="font-semibold text-ink text-right">{costs.coffee}</span></li>}
+        {costs.water      && <li class="flex justify-between gap-4 border-b border-line py-1.5 text-sm last:border-0"><span class="text-muted">Water</span><span class="font-semibold text-ink text-right">{costs.water}</span></li>}
+        {costs.meal       && <li class="flex justify-between gap-4 border-b border-line py-1.5 text-sm last:border-0"><span class="text-muted">Local meal</span><span class="font-semibold text-ink text-right">{costs.meal}</span></li>}
+        {costs.taxi       && <li class="flex justify-between gap-4 border-b border-line py-1.5 text-sm last:border-0"><span class="text-muted">Taxi</span><span class="font-semibold text-ink text-right">{costs.taxi}</span></li>}
+        {costs.guesthouse && <li class="flex justify-between gap-4 border-b border-line py-1.5 text-sm last:border-0"><span class="text-muted">Guesthouse</span><span class="font-semibold text-ink text-right">{costs.guesthouse}</span></li>}
+        {costs.midrangeHotel && <li class="flex justify-between gap-4 border-b border-line py-1.5 text-sm last:border-0"><span class="text-muted">Mid-range hotel</span><span class="font-semibold text-ink text-right">{costs.midrangeHotel}</span></li>}
+      </ul>
+    </div>
+  )}
 
-  <!-- Conversion calculator -->
-  {
-    converterCurrencies.length > 0 && (
-      <div class="currency-converter" data-rates={ratesJson} data-local={localCode}>
-        <span class="currency-label">Convert to {localCode}</span>
-        <div class="converter-row">
-          <input
-            type="number"
-            class="converter-input"
-            placeholder="100"
-            min="0"
-            step="any"
-            aria-label="Amount to convert"
-          />
-          <select class="converter-select" aria-label="Source currency">
-            {converterCurrencies.map((c) => (
-              <option value={c}>{c}</option>
-            ))}
-          </select>
-        </div>
-        <div class="converter-result" aria-live="polite">
-          <span class="converter-value">—</span>
-          <span class="converter-local">{localCode}</span>
-        </div>
-        <p class="rates-note converter-update-note">Exchange Rates Updated Daily</p>
+  <!-- Converter -->
+  {converterCurrencies.length > 0 && (
+    <div class="currency-converter" data-rates={ratesJson} data-local={localCode}>
+      <span class="mb-2 block text-[0.7rem] font-bold uppercase tracking-[0.07em] text-muted">Convert to {localCode}</span>
+      <div class="mb-3 flex gap-2">
+        <input
+          type="number"
+          class="converter-input min-w-0 flex-1 appearance-none rounded-lg border border-line bg-tag-bg px-3 py-2 text-ink focus:outline-[3px] focus:outline-clay focus:outline-offset-2"
+          placeholder="100"
+          min="0"
+          step="any"
+          aria-label="Amount to convert"
+        />
+        <select
+          class="converter-select cursor-pointer rounded-lg border border-line bg-tag-bg px-3 py-2 text-sm font-bold text-ink focus:outline-[3px] focus:outline-clay focus:outline-offset-2"
+          aria-label="Source currency"
+        >
+          {converterCurrencies.map((c) => <option value={c}>{c}</option>)}
+        </select>
       </div>
-    )
-  }
+      <div class="converter-result flex items-baseline gap-2 rounded-lg bg-tag-bg px-4 py-3" aria-live="polite">
+        <span class="converter-value text-[1.4rem] font-extrabold text-ink">—</span>
+        <span class="converter-local text-sm font-bold text-muted">{localCode}</span>
+      </div>
+      <p class="mt-1.5 text-[0.72rem] italic text-muted">Exchange Rates Updated Daily</p>
+    </div>
+  )}
 
-  <!-- Currency tips -->
-  {data.currencyTips && <p class="currency-tips">{data.currencyTips}</p>}
+  <!-- Tips -->
+  {data.currencyTips && (
+    <p class="border-t border-line pt-4 text-sm leading-relaxed text-muted">{data.currencyTips}</p>
+  )}
 </div>
 
 <script>
@@ -171,19 +131,14 @@ const costLevelClass = `cost-level--${data.costLevel.toLowerCase()}`;
       if (!input || !select || !valueEl) return;
       const amount = parseFloat(input.value);
       const from = select.value;
-      if (!amount || isNaN(amount) || amount < 0 || !rates[from]) {
-        valueEl.textContent = "—";
-        return;
-      }
+      if (!amount || isNaN(amount) || amount < 0 || !rates[from]) { valueEl.textContent = "—"; return; }
       const result = amount * rates[from];
       const formatted =
-        result >= 10000
+        result >= 100
           ? result.toLocaleString("en", { maximumFractionDigits: 0 })
-          : result >= 100
-            ? result.toLocaleString("en", { maximumFractionDigits: 0 })
-            : result >= 1
-              ? result.toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
-              : result.toFixed(4);
+          : result >= 1
+            ? result.toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+            : result.toFixed(4);
       valueEl.textContent = formatted;
     }
 

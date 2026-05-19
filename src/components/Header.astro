@@ -14,12 +14,21 @@ const isActive = (href: string) => {
 };
 ---
 
-<header class="site-header">
-  <a class="brand" href="/" aria-label="50 Beautiful Places home">
-    <span class="brand-mark">50</span>
-    <span>Beautiful Places</span>
+<header class="sticky top-0 z-10 flex items-center justify-between gap-4 border-b border-line/70 bg-paper/[0.93] px-[clamp(1rem,4vw,3rem)] py-4 backdrop-blur-[18px]">
+  <a class="inline-flex items-center gap-3 font-extrabold text-ink hover:text-forest" href="/" aria-label="50 Beautiful Places home">
+    <span class="inline-grid h-10 w-10 shrink-0 place-items-center rounded-full bg-forest font-serif text-base text-cream">50</span>
+    <span class="text-[0.97rem] tracking-tight">Beautiful Places</span>
   </a>
-  <nav class="site-nav" aria-label="Primary navigation">
-    {navItems.map((item) => <a href={item.href} aria-current={isActive(item.href) ? "page" : undefined}>{item.label}</a>)}
+
+  <nav class="flex flex-wrap items-center gap-1" aria-label="Primary navigation">
+    {navItems.map((item) => (
+      <a
+        href={item.href}
+        aria-current={isActive(item.href) ? "page" : undefined}
+        class="rounded-full px-3 py-1.5 text-sm font-bold text-muted transition-colors duration-150 hover:bg-tag-bg hover:text-ink aria-[current=page]:bg-tag-bg aria-[current=page]:text-forest"
+      >
+        {item.label}
+      </a>
+    ))}
   </nav>
 </header>

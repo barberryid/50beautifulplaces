@@ -15,36 +15,53 @@ const hero = featured[0];
   image={hero.data.mainImage}
   preloadImage
 >
-  <section class="hero">
-    <img src={hero.data.mainImage} alt={hero.data.imageAlt} width="1600" height="1000" fetchpriority="high" />
-    <div class="hero-content">
-      <p class="eyebrow">Curated travel inspiration</p>
-      <h1>50 Beautiful Places</h1>
-      <p>Field-guide style stories for landscapes worth planning a trip around: coastlines, mountain lakes, forests, villages, deserts, and long roads.</p>
-      <div class="hero-actions">
-        <a class="button primary" href="/places/">Explore places</a>
-        <a class="link-cta" href="#featured">Featured guides &rarr;</a>
+  <!-- Hero -->
+  <section class="hero grid min-h-[calc(100svh-4.6rem)] items-end bg-forest">
+    <img
+      src={hero.data.mainImage}
+      alt={hero.data.imageAlt}
+      width="1600" height="1000"
+      fetchpriority="high"
+      class="absolute inset-0 h-full w-full object-cover"
+    />
+    <div class="relative z-10 w-full max-w-[1180px] px-[clamp(1rem,5vw,5rem)] pb-[14vh] text-cream [text-shadow:0_2px_18px_rgba(0,0,0,0.55)]">
+      <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-sun">Curated travel inspiration</p>
+      <h1 class="text-cream">50 Beautiful Places</h1>
+      <p class="mt-5 max-w-[42rem] text-[clamp(1.05rem,2vw,1.35rem)] text-cream/85">
+        Field-guide style stories for landscapes worth planning a trip around: coastlines, mountain lakes, forests, villages, deserts, and long roads.
+      </p>
+      <div class="mt-8 flex flex-wrap items-center gap-4">
+        <a
+          class="inline-flex min-h-[2.9rem] items-center justify-center rounded-full bg-cream px-6 text-sm font-extrabold text-forest transition-opacity hover:opacity-90"
+          href="/places/"
+        >Explore places</a>
+        <a
+          class="inline-flex min-h-[2.9rem] items-center border-b border-cream/40 px-1 text-sm font-extrabold text-cream transition-all hover:border-cream/80"
+          href="#featured"
+        >Featured guides &rarr;</a>
       </div>
     </div>
   </section>
 
-  <section class="intro section-narrow">
+  <!-- Intro -->
+  <section class="mx-auto w-full max-w-[760px] px-4 py-[clamp(3rem,8vw,7rem)]">
     <h2>Built for dreaming first, planning second.</h2>
-    <p>
+    <p class="mt-4 max-w-[48rem] text-lg text-muted">
       Each guide keeps the essentials close: why the place is beautiful, when to go,
       how long to stay, and what to know before you commit the miles.
     </p>
   </section>
 
-  <section class="section" id="featured">
-    <div class="section-heading">
+  <!-- Featured destinations -->
+  <section class="mx-auto w-full max-w-[1180px] px-4 pb-[clamp(3rem,7vw,6rem)]" id="featured">
+    <div class="mb-6 flex items-end justify-between gap-6">
       <div>
-        <p class="eyebrow">Featured destinations</p>
+        <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Featured destinations</p>
         <h2>Start with the places that stay with you.</h2>
       </div>
-      <a class="section-link" href="/places/">View all &rarr;</a>
+      <a class="shrink-0 text-sm font-black text-clay-text underline underline-offset-4 hover:no-underline" href="/places/">View all &rarr;</a>
     </div>
-    <div class="destination-grid">
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {featured.map((place, index) => (
         <DestinationCard
           href={`/places/${place.id}/`}
@@ -62,13 +79,23 @@ const hero = featured[0];
     </div>
   </section>
 
-  <section class="region-band">
-    <div>
-      <p class="eyebrow">Browse by region</p>
-      <h2>Find a landscape that matches the trip.</h2>
-    </div>
-    <div class="region-list">
-      {regions.map((region) => <a href={`/places/?region=${encodeURIComponent(region)}`}>{region}</a>)}
+  <!-- Browse by region -->
+  <section class="mx-auto w-full max-w-[1180px] px-4">
+    <div class="border-y border-line py-[clamp(2rem,5vw,4rem)]">
+      <div class="grid gap-8 lg:grid-cols-[1.1fr_1fr] lg:items-center">
+        <div>
+          <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Browse by region</p>
+          <h2>Find a landscape that matches the trip.</h2>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          {regions.map((region) => (
+            <a
+              href={`/places/?region=${encodeURIComponent(region)}`}
+              class="inline-flex min-h-[2.75rem] items-center rounded-full border border-line bg-surface px-4 text-sm font-bold text-muted transition-colors hover:border-forest hover:text-ink"
+            >{region}</a>
+          ))}
+        </div>
+      </div>
     </div>
   </section>
 </BaseLayout>

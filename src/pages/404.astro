@@ -6,10 +6,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   title="Page Not Found"
   description="The page could not be found. Explore the destination guides on 50 Beautiful Places."
 >
-  <section class="page-hero compact">
-    <p class="eyebrow">404</p>
-    <h1>This path has wandered off.</h1>
-    <p>The guide may have moved, or the address may be misspelled. Start again from the destination atlas.</p>
-    <a class="button primary" href="/places/">Explore places</a>
+  <section class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(3rem,8vw,7rem)]">
+    <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">404</p>
+    <h1 class="max-w-[12ch]">This path has wandered off.</h1>
+    <p class="mt-4 max-w-[45rem] text-lg text-muted">
+      The guide may have moved, or the address may be misspelled. Start again from the destination atlas.
+    </p>
+    <a
+      class="mt-8 inline-flex min-h-[2.9rem] items-center justify-center rounded-full bg-forest px-6 text-sm font-extrabold text-cream transition-opacity hover:opacity-90"
+      href="/places/"
+    >Explore places</a>
   </section>
 </BaseLayout>

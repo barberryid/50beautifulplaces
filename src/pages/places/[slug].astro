@@ -23,244 +23,194 @@ const related = (await getCollection("destinations"))
   .sort((a, b) => a.data.title.localeCompare(b.data.title))
   .slice(0, 3);
 const placeUrl = new URL(`/places/${place.id}/`, Astro.site).toString();
+
 const visaPolicyTitles: Record<string, string> = {
-  Argentina: "Visa policy of Argentina",
-  Algeria: "Visa policy of Algeria",
-  Australia: "Visa policy of Australia",
-  Bolivia: "Visa policy of Bolivia",
-  Botswana: "Visa policy of Botswana",
-  Brazil: "Visa policy of Brazil",
-  Chile: "Visa policy of Chile",
-  China: "Visa policy of China",
-  Colombia: "Visa policy of Colombia",
-  Cyprus: "Visa policy of Cyprus",
-  Dominica: "Visa policy of Dominica",
-  "Dominican Republic": "Visa policy of the Dominican Republic",
-  Ethiopia: "Visa policy of Ethiopia",
-  Germany: "Visa policy of Germany",
-  Greece: "Visa policy of Greece",
-  Hungary: "Visa policy of Hungary",
-  Iceland: "Visa policy of Iceland",
-  India: "Visa policy of India",
-  Iran: "Visa policy of Iran",
-  Italy: "Visa policy of Italy",
-  Luxembourg: "Visa policy of Luxembourg",
-  Madagascar: "Visa policy of Madagascar",
-  Maldives: "Visa policy of Maldives",
-  Malta: "Visa policy of Malta",
-  Mauritania: "Visa policy of Mauritania",
-  Morocco: "Visa policy of Morocco",
-  Namibia: "Visa policy of Namibia",
-  Nepal: "Visa policy of Nepal",
-  Pakistan: "Visa policy of Pakistan",
-  Philippines: "Visa policy of the Philippines",
-  Qatar: "Visa policy of Qatar",
-  Romania: "Visa policy of Romania",
-  Russia: "Visa policy of Russia",
-  Seychelles: "Visa policy of Seychelles",
-  "South Africa": "Visa policy of South Africa",
-  Tajikistan: "Visa policy of Tajikistan",
-  Tanzania: "Visa policy of Tanzania",
-  Thailand: "Visa policy of Thailand",
-  Tonga: "Visa policy of Tonga",
-  "Trinidad & Tobago": "Visa policy of Trinidad and Tobago",
-  Turkey: "Visa policy of Turkey",
-  Turkmenistan: "Visa policy of Turkmenistan",
-  "United Arab Emirates": "Visa policy of the United Arab Emirates",
-  USA: "Visa policy of the United States",
-  Uzbekistan: "Visa policy of Uzbekistan",
-  Venezuela: "Visa policy of Venezuela",
-  Yemen: "Visa policy of Yemen",
-  Zambia: "Visa policy of Zambia",
-  Zimbabwe: "Visa policy of Zimbabwe"
+  Argentina:"Visa policy of Argentina",Algeria:"Visa policy of Algeria",Australia:"Visa policy of Australia",Bolivia:"Visa policy of Bolivia",Botswana:"Visa policy of Botswana",Brazil:"Visa policy of Brazil",Chile:"Visa policy of Chile",China:"Visa policy of China",Colombia:"Visa policy of Colombia",Cyprus:"Visa policy of Cyprus",Dominica:"Visa policy of Dominica","Dominican Republic":"Visa policy of the Dominican Republic",Ethiopia:"Visa policy of Ethiopia",Germany:"Visa policy of Germany",Greece:"Visa policy of Greece",Hungary:"Visa policy of Hungary",Iceland:"Visa policy of Iceland",India:"Visa policy of India",Iran:"Visa policy of Iran",Italy:"Visa policy of Italy",Luxembourg:"Visa policy of Luxembourg",Madagascar:"Visa policy of Madagascar",Maldives:"Visa policy of Maldives",Malta:"Visa policy of Malta",Mauritania:"Visa policy of Mauritania",Morocco:"Visa policy of Morocco",Namibia:"Visa policy of Namibia",Nepal:"Visa policy of Nepal",Pakistan:"Visa policy of Pakistan",Philippines:"Visa policy of the Philippines",Qatar:"Visa policy of Qatar",Romania:"Visa policy of Romania",Russia:"Visa policy of Russia",Seychelles:"Visa policy of Seychelles","South Africa":"Visa policy of South Africa",Tajikistan:"Visa policy of Tajikistan",Tanzania:"Visa policy of Tanzania",Thailand:"Visa policy of Thailand",Tonga:"Visa policy of Tonga","Trinidad & Tobago":"Visa policy of Trinidad and Tobago",Turkey:"Visa policy of Turkey",Turkmenistan:"Visa policy of Turkmenistan","United Arab Emirates":"Visa policy of the United Arab Emirates",USA:"Visa policy of the United States",Uzbekistan:"Visa policy of Uzbekistan",Venezuela:"Visa policy of Venezuela",Yemen:"Visa policy of Yemen",Zambia:"Visa policy of Zambia",Zimbabwe:"Visa policy of Zimbabwe"
 };
 const countryAliases: Record<string, string> = {
-  "Cape Town, South Africa": "South Africa",
-  "Chile and Argentina": "Chile|Argentina",
-  "Isfahan, Iran": "Iran",
-  "Istanbul, Turkey": "Turkey",
-  "Trinidad & Tobago": "Trinidad & Tobago",
-  "Utah, USA": "USA",
-  "Washington State, USA": "USA",
-  "Zambia and Zimbabwe": "Zambia|Zimbabwe"
+  "Cape Town, South Africa":"South Africa","Chile and Argentina":"Chile|Argentina","Isfahan, Iran":"Iran","Istanbul, Turkey":"Turkey","Trinidad & Tobago":"Trinidad & Tobago","Utah, USA":"USA","Washington State, USA":"USA","Zambia and Zimbabwe":"Zambia|Zimbabwe"
 };
 const normalizeCountries = (country: string) => {
   const normalized = countryAliases[country] ?? country;
   return normalized.split("|").map((item) => item.trim());
 };
-const wikipediaUrl = (title: string) => `https://en.wikipedia.org/wiki/${encodeURIComponent(title).replaceAll("%20", "_")}`;
+const wikipediaUrl = (title: string) => `https://en.wikipedia.org/wiki/${encodeURIComponent(title).replaceAll("%20","_")}`;
 const visaCountries = normalizeCountries(place.data.country);
-const visaLinks = visaCountries.map((country) => {
-  const title = visaPolicyTitles[country] ?? `Visa policy of ${country}`;
-  return {
-    country,
-    title,
-    href: wikipediaUrl(title)
-  };
-});
+const visaLinks = visaCountries.map((country) => ({
+  country,
+  title: visaPolicyTitles[country] ?? `Visa policy of ${country}`,
+  href: wikipediaUrl(visaPolicyTitles[country] ?? `Visa policy of ${country}`)
+}));
 const mapQuery = `${place.data.title}, ${place.data.country}`;
 const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery)}`;
 const monthLabels = [
-  ["jan", "Jan"],
-  ["feb", "Feb"],
-  ["mar", "Mar"],
-  ["apr", "Apr"],
-  ["may", "May"],
-  ["jun", "Jun"],
-  ["jul", "Jul"],
-  ["aug", "Aug"],
-  ["sep", "Sep"],
-  ["oct", "Oct"],
-  ["nov", "Nov"],
-  ["dec", "Dec"]
+  ["jan","Jan"],["feb","Feb"],["mar","Mar"],["apr","Apr"],["may","May"],["jun","Jun"],
+  ["jul","Jul"],["aug","Aug"],["sep","Sep"],["oct","Oct"],["nov","Nov"],["dec","Dec"]
 ] as const;
 const planningResources = place.data.planningResources ?? [];
 const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "TouristAttraction",
-  name: place.data.title,
-  description: place.data.seoDescription,
-  image: place.data.mainImage,
-  url: placeUrl,
-  address: {
-    "@type": "PostalAddress",
-    addressCountry: place.data.country
-  },
-  touristType: place.data.tags
+  "@context":"https://schema.org","@type":"TouristAttraction",name:place.data.title,
+  description:place.data.seoDescription,image:place.data.mainImage,url:placeUrl,
+  address:{"@type":"PostalAddress",addressCountry:place.data.country},
+  touristType:place.data.tags
 };
 ---
 
 <BaseLayout title={place.data.seoTitle} description={place.data.seoDescription} image={place.data.mainImage} preloadImage jsonLd={jsonLd}>
-  <article class="guide">
-    <header class="guide-hero">
-      <figure>
-        <img src={place.data.mainImage} alt={place.data.imageAlt} width="1200" height="960" loading="eager" decoding="async" fetchpriority="high" />
-        <figcaption>
-          <a href={place.data.imageCreditUrl} rel="noopener noreferrer">{place.data.imageCredit}</a>
+  <article class="mx-auto w-full max-w-[1180px] px-4 pb-[clamp(3rem,7vw,6rem)]">
+
+    <!-- Guide hero -->
+    <header class="grid gap-[clamp(1rem,4vw,3rem)] py-[clamp(1rem,5vw,4rem)] lg:grid-cols-[1.15fr_0.85fr] lg:items-end">
+      <figure class="m-0">
+        <img
+          src={place.data.mainImage}
+          alt={place.data.imageAlt}
+          width="1200" height="960"
+          loading="eager" decoding="async" fetchpriority="high"
+          class="aspect-[4/3] w-full rounded-2xl object-cover"
+        />
+        <figcaption class="mt-2 text-sm text-muted">
+          <a class="underline underline-offset-2" href={place.data.imageCreditUrl} rel="noopener noreferrer">{place.data.imageCredit}</a>
           {place.data.imageLicenseUrl && (
-            <>
-              {" "}
-              <a href={place.data.imageLicenseUrl} rel="noopener noreferrer">License</a>
-            </>
+            <> {" "}<a class="underline underline-offset-2" href={place.data.imageLicenseUrl} rel="noopener noreferrer">License</a></>
           )}
         </figcaption>
       </figure>
       <div>
-        <p class="eyebrow">{place.data.region} / {place.data.country}</p>
-        <h1>{place.data.title}</h1>
-        <p>{place.data.summary}</p>
+        <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">{place.data.region} / {place.data.country}</p>
+        <h1 class="text-ink">{place.data.title}</h1>
+        <p class="mt-4 text-lg text-muted">{place.data.summary}</p>
       </div>
     </header>
 
-    <section class="guide-facts" aria-label="Destination facts">
-      <div>
-        <span>Best time</span>
-        <strong>{place.data.bestTime}</strong>
+    <!-- Quick facts -->
+    <div class="grid grid-cols-3 gap-4 border-y border-line py-4 max-sm:grid-cols-1">
+      <div class="flex flex-col gap-2">
+        <span class="rounded-full bg-tag-bg px-3 py-1 text-xs font-extrabold text-forest w-max">Best time</span>
+        <strong class="text-sm font-black text-ink">{place.data.bestTime}</strong>
       </div>
-      <div>
-        <span>Suggested duration</span>
-        <strong>{place.data.duration}</strong>
+      <div class="flex flex-col gap-2">
+        <span class="rounded-full bg-tag-bg px-3 py-1 text-xs font-extrabold text-forest w-max">Suggested duration</span>
+        <strong class="text-sm font-black text-ink">{place.data.duration}</strong>
       </div>
-      <div>
-        <span>Travel style</span>
-        <strong>{place.data.tags.join(", ")}</strong>
+      <div class="flex flex-col gap-2">
+        <span class="rounded-full bg-tag-bg px-3 py-1 text-xs font-extrabold text-forest w-max">Travel style</span>
+        <strong class="text-sm font-black text-ink">{place.data.tags.join(", ")}</strong>
       </div>
-    </section>
+    </div>
 
-    <section class="destination-planning" aria-labelledby="decision-heading">
-      <div>
-        <p class="eyebrow">Trip fit</p>
-        <h2 id="decision-heading">Is {place.data.title} right for your trip?</h2>
-      </div>
+    <!-- Trip planning -->
+    <section class="mt-8 border-b border-line pb-8" aria-labelledby="decision-heading">
+      <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Trip fit</p>
+      <h2 id="decision-heading" class="mb-6 max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">
+        Is {place.data.title} right for your trip?
+      </h2>
 
-      <div class="best-for-panel">
-        <h3>Best for</h3>
-        <div class="tag-list" aria-label="Best for categories">
-          {place.data.bestFor.map((category) => <span>{category}</span>)}
+      <!-- Best for -->
+      <div class="mb-4 rounded-xl border border-line bg-surface p-4">
+        <h3 class="mb-3 font-bold text-forest">Best for</h3>
+        <div class="flex flex-wrap gap-2">
+          {place.data.bestFor.map((category) => (
+            <span class="rounded-full border border-line bg-tag-bg px-4 py-1.5 text-sm font-extrabold text-forest">{category}</span>
+          ))}
         </div>
       </div>
 
-      <article class="realistic-visit-card">
-        <h3>Can I realistically visit this?</h3>
-        <p>{place.data.realisticVisit}</p>
-      </article>
-
-      <div class="difficulty-grid">
-        <article>
-          <h3>Physical difficulty</h3>
-          <p>{place.data.physicalDifficulty}</p>
-        </article>
-        <article>
-          <h3>Planning complexity</h3>
-          <p>{place.data.logisticalDifficulty}</p>
-        </article>
+      <!-- Realistic visit -->
+      <div class="mb-4 rounded-xl border border-line bg-surface p-4">
+        <h3 class="mb-2 font-bold text-forest">Can I realistically visit this?</h3>
+        <p class="text-muted">{place.data.realisticVisit}</p>
       </div>
 
-      <article class="when-to-go">
-        <h3>When to go</h3>
-        <p>{place.data.whenToGo.summary}</p>
-        <div class="month-strip" aria-label="Month by month travel timing">
+      <!-- Difficulty grid -->
+      <div class="mb-4 grid gap-4 sm:grid-cols-2">
+        <div class="rounded-xl border border-line bg-surface p-4">
+          <h3 class="mb-2 font-bold text-forest">Physical difficulty</h3>
+          <p class="text-muted">{place.data.physicalDifficulty}</p>
+        </div>
+        <div class="rounded-xl border border-line bg-surface p-4">
+          <h3 class="mb-2 font-bold text-forest">Planning complexity</h3>
+          <p class="text-muted">{place.data.logisticalDifficulty}</p>
+        </div>
+      </div>
+
+      <!-- When to go -->
+      <div class="mb-4 rounded-xl border border-line bg-surface p-4">
+        <h3 class="mb-2 font-bold text-forest">When to go</h3>
+        <p class="mb-4 text-muted">{place.data.whenToGo.summary}</p>
+        <div class="grid grid-cols-4 gap-1.5 sm:grid-cols-6 lg:grid-cols-12" aria-label="Month by month travel timing">
           {monthLabels.map(([key, label]) => (
-            <span class={`month-status status-${place.data.whenToGo[key].toLowerCase().replaceAll(" / ", "-").replaceAll(" ", "-")}`}>
+            <span class={`month-status status-${place.data.whenToGo[key].toLowerCase().replaceAll(" / ","-").replaceAll(" ","-")}`}>
               <strong>{label}</strong>
               <small>{place.data.whenToGo[key]}</small>
             </span>
           ))}
         </div>
-      </article>
+      </div>
 
-      <div class="fit-grid">
-        <article>
-          <h3>Perfect for</h3>
-          <ul>
+      <!-- Perfect for / Not ideal if -->
+      <div class="mb-4 grid gap-4 sm:grid-cols-2">
+        <div class="rounded-xl border border-line bg-surface p-4">
+          <h3 class="mb-3 font-bold text-forest">Perfect for</h3>
+          <ul class="space-y-1.5 pl-5 text-sm text-muted">
             {place.data.perfectFor.map((item) => <li>{item}</li>)}
           </ul>
-        </article>
-        <article>
-          <h3>Not ideal if</h3>
-          <ul>
+        </div>
+        <div class="rounded-xl border border-line bg-surface p-4">
+          <h3 class="mb-3 font-bold text-forest">Not ideal if</h3>
+          <ul class="space-y-1.5 pl-5 text-sm text-muted">
             {place.data.notIdealFor.map((item) => <li>{item}</li>)}
           </ul>
-        </article>
+        </div>
       </div>
 
-      <article class="comparison-group">
-        <h3>Compare with similar places</h3>
-        <p>{place.data.comparisonGroup}</p>
-      </article>
+      <!-- Compare -->
+      <div class="rounded-xl border border-line bg-surface p-4">
+        <h3 class="mb-2 font-bold text-forest">Compare with similar places</h3>
+        <p class="text-muted">{place.data.comparisonGroup}</p>
+      </div>
     </section>
 
-    <section class="travel-tools" aria-labelledby="travel-tools-heading">
-      <div>
-        <p class="eyebrow">Travel essentials</p>
-        <h2 id="travel-tools-heading">Before you book the flight.</h2>
-      </div>
-      <div class="travel-tool-grid">
-        <article>
-          <h3>{visaCountries.length === 1 ? `Do you need a visa for ${visaCountries[0]}?` : `Check visa rules for ${visaCountries.join(" and ")}`}</h3>
-          <p>Start with the country visa-policy overview, then confirm current rules with an official source before booking.</p>
-          <div class="tool-link-list">
+    <!-- Travel essentials -->
+    <section class="mt-8 border-b border-line pb-8" aria-labelledby="travel-tools-heading">
+      <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Travel essentials</p>
+      <h2 id="travel-tools-heading" class="mb-6 max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">Before you book the flight.</h2>
+
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Visa -->
+        <div class="grid content-start gap-3 rounded-xl border border-line bg-surface p-4">
+          <h3 class="font-bold text-forest">
+            {visaCountries.length === 1
+              ? `Do you need a visa for ${visaCountries[0]}?`
+              : `Check visa rules for ${visaCountries.join(" and ")}`}
+          </h3>
+          <p class="text-sm text-muted">Start with the country visa-policy overview, then confirm current rules with an official source before booking.</p>
+          <div class="flex flex-col gap-1.5">
             {visaLinks.map((link) => (
-              <a href={link.href} target="_blank" rel="noopener noreferrer">
+              <a class="font-black text-clay underline underline-offset-2" href={link.href} target="_blank" rel="noopener noreferrer">
                 {link.title} <span class="sr-only">opens in a new tab</span>
               </a>
             ))}
           </div>
-        </article>
-        <article>
-          <h3>Need the visa handled fast?</h3>
-          <p>Use a specialist visa service if you want a simpler application route.</p>
-          <a href="https://www.ivisa.com/" target="_blank" rel="sponsored noopener noreferrer">
-            The fastest way<br />to get your travel visa <span class="sr-only">opens in a new tab</span>
+        </div>
+
+        <!-- iVisa -->
+        <div class="grid content-start gap-3 rounded-xl border border-line bg-surface p-4">
+          <h3 class="font-bold text-forest">Need the visa handled fast?</h3>
+          <p class="text-sm text-muted">Use a specialist visa service if you want a simpler application route.</p>
+          <a class="font-black text-clay underline underline-offset-2" href="https://www.ivisa.com/" target="_blank" rel="sponsored noopener noreferrer">
+            The fastest way to get your travel visa <span class="sr-only">opens in a new tab</span>
           </a>
-        </article>
-        <article>
-          <h3>Open {place.data.title} on Google Maps.</h3>
-          <p>This opens Google Maps in a new tab and can hand off to the iOS or Android app when your device supports it.</p>
-          <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
+        </div>
+
+        <!-- Maps -->
+        <div class="grid content-start gap-3 rounded-xl border border-line bg-surface p-4">
+          <h3 class="font-bold text-forest">Open {place.data.title} on Google Maps.</h3>
+          <p class="text-sm text-muted">This opens Google Maps in a new tab and can hand off to the iOS or Android app when your device supports it.</p>
+          <a class="font-black text-clay underline underline-offset-2" href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
             View location on Google Maps <span class="sr-only">opens in a new tab</span>
           </a>
-        </article>
+        </div>
       </div>
 
       {currency && (
@@ -268,84 +218,100 @@ const jsonLd = {
       )}
     </section>
 
+    <!-- Official resources -->
     {planningResources.length > 0 && (
-      <section class="official-resources" aria-labelledby="official-resources-heading">
-        <div>
-          <p class="eyebrow">Live planning</p>
-          <h2 id="official-resources-heading">Official resources for {place.data.title}.</h2>
-        </div>
-        <div class="resource-grid">
+      <section class="mt-8 border-b border-line pb-8" aria-labelledby="official-resources-heading">
+        <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Live planning</p>
+        <h2 id="official-resources-heading" class="mb-6 max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">
+          Official resources for {place.data.title}.
+        </h2>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {planningResources.map((resource) => (
-            <a class="resource-card" href={resource.href} target="_blank" rel="noopener noreferrer">
-              <span>{resource.official ? "Official resource" : "Planning resource"}</span>
-              <strong>{resource.label}</strong>
-              <p>{resource.note}</p>
+            <a
+              class="resource-card grid content-start gap-2 rounded-xl border border-line bg-surface p-4"
+              href={resource.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="text-[0.72rem] font-black uppercase tracking-[0.08em] text-clay-text">
+                {resource.official ? "Official resource" : "Planning resource"}
+              </span>
+              <strong class="text-base font-bold text-forest">{resource.label}</strong>
+              <p class="text-sm text-muted">{resource.note}</p>
             </a>
           ))}
         </div>
       </section>
     )}
 
-    <section class="hotel-panel" aria-labelledby="hotel-heading">
-      <div>
-        <p class="eyebrow">Where to stay</p>
-        <h2 id="hotel-heading">{place.data.hotelName}</h2>
-        <p>{place.data.hotelNote}</p>
-        <p class="hotel-rating">{place.data.hotelRating}</p>
+    <!-- Hotel -->
+    <section class="mt-8 border-b border-line pb-8" aria-labelledby="hotel-heading">
+      <div class="flex flex-wrap items-start justify-between gap-6">
+        <div class="max-w-[640px]">
+          <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Where to stay</p>
+          <h2 id="hotel-heading" class="max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">{place.data.hotelName}</h2>
+          <p class="mt-3 text-muted">{place.data.hotelNote}</p>
+          <p class="mt-2 font-black text-forest">{place.data.hotelRating}</p>
+        </div>
+        <a
+          class="inline-flex min-h-[2.9rem] items-center justify-center rounded-full bg-clay px-6 text-sm font-extrabold text-cream transition-opacity hover:opacity-90"
+          href={place.data.hotelBookingUrl}
+          target="_blank"
+          rel="sponsored noopener noreferrer"
+        >View on Booking.com <span aria-hidden="true"> ↗</span><span class="sr-only"> opens in a new tab</span></a>
       </div>
-      <a class="button hotel-button" href={place.data.hotelBookingUrl} target="_blank" rel="sponsored noopener noreferrer">
-        View on Booking.com <span aria-hidden="true">↗</span><span class="sr-only"> opens in a new tab</span>
-      </a>
     </section>
 
-    <div class="guide-content">
+    <!-- Guide content (markdown) -->
+    <div class="guide-content mt-10">
       <Content />
     </div>
 
-    <section class="planning-guide" aria-labelledby="planning-heading">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Planning notes</p>
-          <h2 id="planning-heading">Practical Travel Notes</h2>
-        </div>
-      </div>
-
-      <a class="packing-guide-card" href="/packing-guide/">
-        <span>Internal guide</span>
-        <strong>Travel Packing Guide</strong>
-        <p>Clothing, adapters, medical kits, beach gear, hiking equipment, luggage, and small items that make destination logistics easier.</p>
-        <em>Open Travel Packing Guide</em>
+    <!-- Packing guide callout -->
+    <section class="mt-[clamp(3rem,7vw,5rem)] border-t border-line pt-[clamp(2rem,5vw,3rem)]" aria-labelledby="planning-heading">
+      <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Planning notes</p>
+      <h2 id="planning-heading" class="mb-6 max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">Practical Travel Notes</h2>
+      <a
+        class="grid max-w-[760px] content-start gap-2 rounded-xl border border-clay/40 bg-cream p-5"
+        href="/packing-guide/"
+      >
+        <span class="text-[0.72rem] font-black uppercase tracking-[0.08em] text-clay-text">Internal guide</span>
+        <strong class="text-lg font-bold text-forest">Travel Packing Guide</strong>
+        <p class="text-sm text-muted">Clothing, adapters, medical kits, beach gear, hiking equipment, luggage, and small items that make destination logistics easier.</p>
+        <em class="w-max border-b border-clay/50 font-black not-italic text-clay-text text-sm">Open Travel Packing Guide</em>
       </a>
     </section>
 
+    <!-- Gallery -->
     {place.data.galleryImages && place.data.galleryImages.length > 0 && (
-      <section class="image-gallery" aria-labelledby="gallery-heading">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Gallery</p>
-            <h2 id="gallery-heading">More views of {place.data.title}.</h2>
-          </div>
-        </div>
-        <div class="gallery-grid">
+      <section class="mt-[clamp(3rem,7vw,5rem)]" aria-labelledby="gallery-heading">
+        <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Gallery</p>
+        <h2 id="gallery-heading" class="mb-6 max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">
+          More views of {place.data.title}.
+        </h2>
+        <div class="grid gap-4 sm:grid-cols-2">
           {place.data.galleryImages.map((image) => (
-            <figure>
-              <img src={image.src} alt={image.alt} width="1200" height="760" loading="lazy" decoding="async" />
-              {image.caption && <figcaption>{image.caption}</figcaption>}
+            <figure class="m-0">
+              <img
+                src={image.src}
+                alt={image.alt}
+                width="1200" height="760"
+                loading="lazy" decoding="async"
+                class="aspect-[3/2] w-full rounded-xl object-cover"
+              />
+              {image.caption && <figcaption class="mt-2 text-sm text-muted">{image.caption}</figcaption>}
             </figure>
           ))}
         </div>
       </section>
     )}
 
+    <!-- Related guides -->
     {related.length > 0 && (
-      <section class="related-guides" aria-labelledby="related-heading">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">More in {place.data.region}</p>
-            <h2 id="related-heading">Keep exploring nearby ideas.</h2>
-          </div>
-        </div>
-        <div class="destination-grid">
+      <section class="mt-[clamp(3rem,7vw,5rem)] border-t border-line pt-[clamp(2rem,5vw,3rem)]" aria-labelledby="related-heading">
+        <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">More in {place.data.region}</p>
+        <h2 id="related-heading" class="mb-6 max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">Keep exploring nearby ideas.</h2>
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {related.map((item) => (
             <DestinationCard
               href={`/places/${item.id}/`}
@@ -362,6 +328,7 @@ const jsonLd = {
         </div>
       </section>
     )}
+
   </article>
   <script is:inline>
     document.querySelectorAll(".guide-content a[href^='http']").forEach((link) => {
