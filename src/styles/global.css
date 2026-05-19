@@ -1222,6 +1222,223 @@ p {
   background: var(--clay);
 }
 
+/* ── Currency Planner Card ─────────────────────────────────────────── */
+
+.currency-card {
+  display: grid;
+  gap: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 1.25rem;
+  margin-top: 1rem;
+}
+
+.currency-header {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.currency-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--clay-text);
+}
+
+.currency-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.currency-name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--ink);
+}
+
+.currency-code {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--muted);
+  background: #f1eee6;
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+}
+
+.cost-level {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 0.2rem 0.55rem;
+}
+
+.cost-level--budget    { background: #d4edda; color: #1a5e2e; }
+.cost-level--moderate  { background: #fff3cd; color: #7a5a00; }
+.cost-level--expensive { background: #ffe4cc; color: #7a3a10; }
+.cost-level--luxury    { background: #f3e0ff; color: #5a1e7a; }
+
+.currency-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.rates-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.rates-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.rate-from {
+  font-weight: 700;
+  color: var(--ink);
+  min-width: 4rem;
+}
+
+.rate-approx {
+  color: var(--muted);
+}
+
+.rate-value {
+  font-weight: 800;
+  color: var(--clay-text);
+}
+
+.rates-note {
+  margin: 0.6rem 0 0;
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.costs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.costs-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.88rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.35rem;
+}
+
+.costs-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.costs-list li span:first-child {
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.costs-list li span:last-child {
+  font-weight: 600;
+  color: var(--ink);
+  text-align: right;
+}
+
+.converter-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.converter-input {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #f1eee6;
+  color: var(--ink);
+  font-size: 1rem;
+  padding: 0.45rem 0.65rem;
+  appearance: textfield;
+}
+
+.converter-input:focus {
+  outline: 3px solid var(--clay);
+  outline-offset: 2px;
+}
+
+.converter-select {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #f1eee6;
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.45rem 0.5rem;
+  cursor: pointer;
+}
+
+.converter-select:focus {
+  outline: 3px solid var(--clay);
+  outline-offset: 2px;
+}
+
+.converter-result {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  background: #f1eee6;
+  border-radius: 6px;
+  padding: 0.55rem 0.85rem;
+}
+
+.converter-value {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--ink);
+}
+
+.converter-local {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.converter-update-note {
+  margin-top: 0.4rem;
+}
+
+.currency-tips {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.55;
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+}
+
+/* ── End Currency Planner Card ─────────────────────────────────────── */
+
 @media (max-width: 860px) {
   .site-header,
   .site-footer,

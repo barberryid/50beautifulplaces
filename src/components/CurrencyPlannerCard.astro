@@ -1,0 +1,193 @@
+---
+import type { CurrencyData } from "../data/currencies";
+import { rateFor, formatRate } from "../lib/exchangeRates";
+import { withEurEquivalent } from "../utils/currencyFormat";
+
+interface Props {
+  data: CurrencyData;
+  rates: Record<string, number>;
+  usingFallback: boolean;
+}
+
+const { data, rates, usingFallback } = Astro.props;
+
+const localCode = data.currencyCode;
+const displayFromCurrencies = ["EUR", "USD", "GBP"].filter((c) => c !== localCode);
+const converterCurrencies = ["EUR", "USD", "GBP", "AUD", "CAD"].filter((c) => c !== localCode);
+
+// Pre-compute display rates at build time
+const displayRates = displayFromCurrencies.map((from) => {
+  const r = rateFor(rates, from, localCode);
+  return { from, rate: r };
+});
+
+// Pre-compute converter rates as JSON to embed in client script
+const converterRatesMap: Record<string, number> = {};
+for (const from of converterCurrencies) {
+  const r = rateFor(rates, from, localCode);
+  if (r !== null) converterRatesMap[from] = r;
+}
+const ratesJson = JSON.stringify(converterRatesMap);
+
+// Append live EUR equivalents to each cost string
+const tc = data.typicalCosts;
+const costs = {
+  coffee:        tc.coffee        ? withEurEquivalent(tc.coffee,        localCode, rates) : undefined,
+  water:         tc.water         ? withEurEquivalent(tc.water,         localCode, rates) : undefined,
+  meal:          tc.meal          ? withEurEquivalent(tc.meal,          localCode, rates) : undefined,
+  taxi:          tc.taxi          ? withEurEquivalent(tc.taxi,          localCode, rates) : undefined,
+  guesthouse:    tc.guesthouse    ? withEurEquivalent(tc.guesthouse,    localCode, rates) : undefined,
+  midrangeHotel: tc.midrangeHotel ? withEurEquivalent(tc.midrangeHotel, localCode, rates) : undefined,
+};
+
+const hasCosts = Object.values(costs).some(Boolean);
+const costLevelClass = `cost-level--${data.costLevel.toLowerCase()}`;
+---
+
+<div class="currency-card">
+  <!-- Header -->
+  <div class="currency-header">
+    <span class="currency-eyebrow">Local Currency</span>
+    <div class="currency-title-row">
+      <strong class="currency-name">{data.currencyName}</strong>
+      <span class="currency-code">{localCode}</span>
+    </div>
+    <span class={`cost-level ${costLevelClass}`}>{data.costLevel}</span>
+  </div>
+
+  <!-- Exchange rates -->
+  <div class="exchange-rates">
+    <span class="currency-label">Exchange Rates</span>
+    <ul class="rates-list">
+      {
+        displayRates.map(({ from, rate }) =>
+          rate !== null ? (
+            <li>
+              <span class="rate-from">1 {from}</span>
+              <span class="rate-approx">≈</span>
+              <span class="rate-value">{formatRate(rate)} {localCode}</span>
+            </li>
+          ) : null
+        )
+      }
+    </ul>
+    {
+      usingFallback ? (
+        <p class="rates-note">Approximate rates — live rates fetched at next deploy.</p>
+      ) : (
+        <p class="rates-note">Rates current at time of last build.</p>
+      )
+    }
+  </div>
+
+  <!-- Typical costs -->
+  {
+    hasCosts && (
+      <div class="typical-costs">
+        <span class="currency-label">Typical Costs</span>
+        <ul class="costs-list">
+          {costs.coffee && (
+            <li>
+              <span>Coffee</span>
+              <span>{costs.coffee}</span>
+            </li>
+          )}
+          {costs.water && (
+            <li>
+              <span>Water</span>
+              <span>{costs.water}</span>
+            </li>
+          )}
+          {costs.meal && (
+            <li>
+              <span>Local meal</span>
+              <span>{costs.meal}</span>
+            </li>
+          )}
+          {costs.taxi && (
+            <li>
+              <span>Taxi</span>
+              <span>{costs.taxi}</span>
+            </li>
+          )}
+          {costs.guesthouse && (
+            <li>
+              <span>Guesthouse</span>
+              <span>{costs.guesthouse}</span>
+            </li>
+          )}
+          {costs.midrangeHotel && (
+            <li>
+              <span>Mid-range hotel</span>
+              <span>{costs.midrangeHotel}</span>
+            </li>
+          )}
+        </ul>
+      </div>
+    )
+  }
+
+  <!-- Conversion calculator -->
+  {
+    converterCurrencies.length > 0 && (
+      <div class="currency-converter" data-rates={ratesJson} data-local={localCode}>
+        <span class="currency-label">Convert to {localCode}</span>
+        <div class="converter-row">
+          <input
+            type="number"
+            class="converter-input"
+            placeholder="100"
+            min="0"
+            step="any"
+            aria-label="Amount to convert"
+          />
+          <select class="converter-select" aria-label="Source currency">
+            {converterCurrencies.map((c) => (
+              <option value={c}>{c}</option>
+            ))}
+          </select>
+        </div>
+        <div class="converter-result" aria-live="polite">
+          <span class="converter-value">—</span>
+          <span class="converter-local">{localCode}</span>
+        </div>
+        <p class="rates-note converter-update-note">Exchange Rates Updated Daily</p>
+      </div>
+    )
+  }
+
+  <!-- Currency tips -->
+  {data.currencyTips && <p class="currency-tips">{data.currencyTips}</p>}
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>(".currency-converter").forEach((el) => {
+    const rates: Record<string, number> = JSON.parse(el.dataset.rates || "{}");
+    const input = el.querySelector<HTMLInputElement>(".converter-input");
+    const select = el.querySelector<HTMLSelectElement>(".converter-select");
+    const valueEl = el.querySelector<HTMLElement>(".converter-value");
+
+    function update() {
+      if (!input || !select || !valueEl) return;
+      const amount = parseFloat(input.value);
+      const from = select.value;
+      if (!amount || isNaN(amount) || amount < 0 || !rates[from]) {
+        valueEl.textContent = "—";
+        return;
+      }
+      const result = amount * rates[from];
+      const formatted =
+        result >= 10000
+          ? result.toLocaleString("en", { maximumFractionDigits: 0 })
+          : result >= 100
+            ? result.toLocaleString("en", { maximumFractionDigits: 0 })
+            : result >= 1
+              ? result.toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+              : result.toFixed(4);
+      valueEl.textContent = formatted;
+    }
+
+    input?.addEventListener("input", update);
+    select?.addEventListener("change", update);
+  });
+</script>

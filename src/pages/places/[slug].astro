@@ -2,16 +2,21 @@
 import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import DestinationCard from "../../components/DestinationCard.astro";
+import CurrencyPlannerCard from "../../components/CurrencyPlannerCard.astro";
+import { currencyData } from "../../data/currencies";
+import { getExchangeRates } from "../../lib/exchangeRates";
 
 export async function getStaticPaths() {
   const destinations = await getCollection("destinations");
+  const { rates, usingFallback } = await getExchangeRates();
   return destinations.map((place) => ({
     params: { slug: place.id },
-    props: { place }
+    props: { place, rates, usingFallback }
   }));
 }
 
-const { place } = Astro.props;
+const { place, rates, usingFallback } = Astro.props;
+const currency = currencyData[place.id];
 const { Content } = await render(place);
 const related = (await getCollection("destinations"))
   .filter((item) => item.id !== place.id && item.data.region === place.data.region)
@@ -256,14 +261,11 @@ const jsonLd = {
             View location on Google Maps <span class="sr-only">opens in a new tab</span>
           </a>
         </article>
-        <article>
-          <h3>Check exchange rates before paying.</h3>
-          <p>Confirm the live rate, card fees, and ATM withdrawal costs before choosing whether to pay by card or carry local cash.</p>
-          <a href="https://www.xe.com/currencyconverter/" target="_blank" rel="noopener noreferrer">
-            Open currency converter <span class="sr-only">opens in a new tab</span>
-          </a>
-        </article>
       </div>
+
+      {currency && (
+        <CurrencyPlannerCard data={currency} rates={rates} usingFallback={usingFallback} />
+      )}
     </section>
 
     {planningResources.length > 0 && (
