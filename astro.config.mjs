@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  site: "https://www.50beautifulplaces.com",
+  site: "https://50beautifulplaces.com",
   output: "static",
   integrations: [sitemap()],
   vite: {

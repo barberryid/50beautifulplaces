@@ -1,12 +1,12 @@
 # 50 Beautiful Places
 
-Astro static website for [50beautifulplaces.com](https://www.50beautifulplaces.com/home), designed as a fast, image-led travel inspiration and destination guide site.
+Astro static website for [50beautifulplaces.com](https://50beautifulplaces.com), designed as a fast, image-led travel inspiration and destination guide site.
 
 ## Tech Stack
 
 - Astro static site generation
 - Markdown content collections for destinations
-- Netlify hosting
+- Cloudflare Pages hosting
 - GitHub version control
 
 ## Local Development
@@ -37,13 +37,18 @@ npm run preview
 
 ## Deployment
 
-The Netlify build settings are defined in `netlify.toml`:
+Cloudflare Pages deploys automatically from the GitHub repository.
 
 - Build command: `npm run build`
-- Publish directory: `dist`
-- Node version: `20`
+- Build output directory: `dist`
+- Framework preset: `Astro`
+- Node version: `18` or later
 
-During active development, avoid pushing every small change if the Netlify site is connected to GitHub automatic deploys. Netlify's free tier includes a 300 build-minute monthly limit.
+Required Cloudflare Pages environment variables:
+
+- `EXCHANGERATE_API_KEY`
+
+Add `EXCHANGERATE_API_KEY` under Cloudflare Pages `Settings -> Variables and Secrets` for both Production and Preview environments. Do not commit local `.env` files.
 
 Preferred iteration workflow:
 
@@ -51,17 +56,19 @@ Preferred iteration workflow:
 npm run dev
 npm run build
 npm run preview
-netlify deploy
 ```
 
 For production:
 
 ```bash
-npm run build
-netlify deploy --prod
+git add .
+git commit -m "Migrate site from Netlify to Cloudflare Pages"
+git push
 ```
 
-Or push a stable grouped commit to the GitHub branch connected to Netlify, typically `main`.
+Cloudflare Pages will build and deploy the pushed commit from the connected GitHub branch, typically `main`.
+
+The project keeps useful host-level redirects in `public/_redirects`, which Cloudflare Pages publishes with the static site. The build output must remain `dist/`.
 
 ## Adding Destinations
 
@@ -115,4 +122,4 @@ git add .
 git commit -m "Initial Astro site setup"
 ```
 
-Connect the repository to GitHub, then connect the GitHub repository to Netlify for automatic production deployments from `main`.
+Connect the repository to GitHub, then connect the GitHub repository to Cloudflare Pages for automatic production deployments from `main`.

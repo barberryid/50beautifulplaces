@@ -5,7 +5,7 @@ export const GET: APIRoute = () =>
     [
       "User-agent: *",
       "Allow: /",
-      "Sitemap: https://www.50beautifulplaces.com/sitemap-index.xml"
+      "Sitemap: https://50beautifulplaces.com/sitemap-index.xml"
     ].join("\n"),
     {
       headers: {

@@ -10,7 +10,7 @@ export const GET: APIRoute = async (context) => {
   return rss({
     title: "50 Beautiful Places",
     description: "Image-led destination guides and practical travel notes.",
-    site: context.site ?? new URL("https://www.50beautifulplaces.com"),
+    site: context.site ?? new URL("https://50beautifulplaces.com"),
     items: destinations.map((place) => ({
       title: place.data.title,
       description: place.data.summary,
