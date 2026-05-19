@@ -156,6 +156,33 @@
   box-shadow: 0 0 0 3px var(--color-clay), var(--shadow-card);
 }
 .destination-card-link:focus-visible { outline: none; }
+
+.destination-when-card {
+  display: grid;
+  gap: 0.35rem;
+  min-width: 0;
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  background: #f7f4ed;
+  padding: 0.7rem 0.75rem;
+}
+
+.destination-when-card span {
+  color: var(--color-clay-text);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.destination-when-card strong {
+  color: var(--color-forest);
+  font-size: 0.88rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .destination-card,
   .destination-card:hover { transition: none; transform: none; }

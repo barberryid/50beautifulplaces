@@ -8,11 +8,12 @@ interface Props {
   image: string;
   alt: string;
   tags: string[];
+  bestTime: string;
   bestFor?: string[];
   priority?: boolean;
 }
 
-const { href, title, country, region, summary, image, alt, tags, bestFor = [], priority = false } = Astro.props;
+const { href, title, country, region, summary, image, alt, tags, bestTime, bestFor = [], priority = false } = Astro.props;
 const chips = (bestFor.length ? bestFor : tags).slice(0, 3);
 ---
 
@@ -39,6 +40,10 @@ const chips = (bestFor.length ? bestFor : tags).slice(0, 3);
       <h3 class="text-xl font-bold leading-snug text-ink">{title}</h3>
       <p class="text-sm font-semibold text-ink">{country}</p>
       <p class="text-sm leading-relaxed text-muted">{summary}</p>
+      <div class="destination-when-card" aria-label={`Best time to visit ${title}`}>
+        <span>When to go</span>
+        <strong>{bestTime}</strong>
+      </div>
       <div class="flex flex-wrap gap-1.5" aria-label="Destination tags">
         {chips.map((tag) => (
           <span class="rounded-full bg-tag-bg px-3 py-1 text-[0.75rem] font-extrabold text-forest">

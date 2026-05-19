@@ -72,6 +72,7 @@ const bestForOptions = [...new Set(destinations.flatMap((place) => place.data.be
           image={place.data.mainImage}
           alt={place.data.imageAlt}
           tags={place.data.tags}
+          bestTime={place.data.bestTime}
           bestFor={place.data.bestFor}
           priority={index < 6}
         />
