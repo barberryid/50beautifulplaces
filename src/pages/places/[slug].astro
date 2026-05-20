@@ -8,14 +8,14 @@ import { getExchangeRates } from "../../lib/exchangeRates";
 
 export async function getStaticPaths() {
   const destinations = await getCollection("destinations");
-  const { rates, usingFallback } = await getExchangeRates();
+  const { rates, usingFallback, lastUpdated } = await getExchangeRates();
   return destinations.map((place) => ({
     params: { slug: place.id },
-    props: { place, rates, usingFallback }
+    props: { place, rates, usingFallback, lastUpdated }
   }));
 }
 
-const { place, rates, usingFallback } = Astro.props;
+const { place, rates, usingFallback, lastUpdated } = Astro.props;
 const currency = currencyData[place.id];
 const { Content } = await render(place);
 const related = (await getCollection("destinations"))
@@ -289,7 +289,7 @@ const jsonLd = {
       <div class={`grid gap-4 ${currency ? "lg:grid-cols-2" : ""}`}>
         {currency && (
           <div>
-            <CurrencyPlannerCard data={currency} rates={rates} usingFallback={usingFallback} compact />
+            <CurrencyPlannerCard data={currency} rates={rates} usingFallback={usingFallback} lastUpdated={lastUpdated} compact />
           </div>
         )}
 

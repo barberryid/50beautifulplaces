@@ -91,6 +91,7 @@ const FALLBACK_RATES: Record<string, number> = {
 export interface RatesResult {
   rates: Record<string, number>;
   usingFallback: boolean;
+  lastUpdated: Date | null;
 }
 
 // Module-level cache — persists for the duration of the build process
@@ -112,9 +113,20 @@ export async function getExchangeRates(): Promise<RatesResult> {
     const data = await res.json();
     if (data.result !== "success") throw new Error("API returned error");
 
-    _cache = { rates: data.conversion_rates as Record<string, number>, usingFallback: false };
+    const lastUpdated =
+      typeof data.time_last_update_unix === "number"
+        ? new Date(data.time_last_update_unix * 1000)
+        : typeof data.time_last_update_utc === "string"
+          ? new Date(data.time_last_update_utc)
+          : null;
+
+    _cache = {
+      rates: data.conversion_rates as Record<string, number>,
+      usingFallback: false,
+      lastUpdated: lastUpdated && !Number.isNaN(lastUpdated.getTime()) ? lastUpdated : null,
+    };
   } catch {
-    _cache = { rates: FALLBACK_RATES, usingFallback: true };
+    _cache = { rates: FALLBACK_RATES, usingFallback: true, lastUpdated: null };
   }
 
   return _cache;

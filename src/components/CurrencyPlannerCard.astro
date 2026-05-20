@@ -7,10 +7,11 @@ interface Props {
   data: CurrencyData;
   rates: Record<string, number>;
   usingFallback: boolean;
+  lastUpdated?: Date | string | null;
   compact?: boolean;
 }
 
-const { data, rates, usingFallback, compact = false } = Astro.props;
+const { data, rates, usingFallback, lastUpdated = null, compact = false } = Astro.props;
 
 const localCode = data.currencyCode;
 const displayFromCurrencies = ["EUR", "USD", "GBP"].filter((c) => c !== localCode);
@@ -39,6 +40,21 @@ const costs = {
 };
 const hasCosts = Object.values(costs).some(Boolean);
 const costLevelClass = `cost-level cost-level--${data.costLevel.toLowerCase()}`;
+const parsedLastUpdated = lastUpdated ? new Date(lastUpdated) : null;
+const formattedLastUpdated =
+  parsedLastUpdated && !Number.isNaN(parsedLastUpdated.getTime())
+    ? parsedLastUpdated.toLocaleDateString("en-GB", {
+        day: "numeric",
+        month: "short",
+        year: "numeric",
+        timeZone: "UTC",
+      }).replaceAll(" ", "/")
+    : null;
+const updateNote = usingFallback
+  ? "Approximate fallback rates. Live exchange rates update daily when available."
+  : formattedLastUpdated
+    ? `Exchange Rates Updated Daily. Last updated on ${formattedLastUpdated}.`
+    : "Exchange Rates Updated Daily.";
 ---
 
 <div class:list={[
@@ -70,8 +86,8 @@ const costLevelClass = `cost-level cost-level--${data.costLevel.toLowerCase()}`;
         ) : null
       )}
     </ul>
-    <p class:list={["mt-2 text-[0.72rem] italic text-muted", compact && "hidden"]}>
-      {usingFallback ? "Approximate rates — live rates fetched at next deploy." : "Rates current at time of last build."}
+    <p class="mt-2 text-[0.72rem] italic text-muted">
+      {updateNote}
     </p>
   </div>
 
@@ -114,7 +130,6 @@ const costLevelClass = `cost-level cost-level--${data.costLevel.toLowerCase()}`;
         <span class="converter-value text-[1.4rem] font-extrabold text-ink">—</span>
         <span class="converter-local text-sm font-bold text-muted">{localCode}</span>
       </div>
-      <p class="mt-1.5 text-[0.72rem] italic text-muted">Exchange Rates Updated Daily</p>
     </div>
   )}
 
