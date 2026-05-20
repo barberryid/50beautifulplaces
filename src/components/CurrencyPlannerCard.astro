@@ -129,29 +129,40 @@ const benchmarkDisclaimer =
 
   <!-- Local burger-price benchmark -->
   {burgerBenchmark && (
-    <div class:list={["rounded-lg border border-line bg-tag-bg p-3", !compact && "border-t-0"]}>
-      <span class="mb-1 block text-[0.7rem] font-bold uppercase tracking-[0.07em] text-muted">Local burger-price benchmark</span>
-      {burgerBenchmark.burgerBenchmarkAvailable && benchmarkPrice ? (
-        <div class="grid gap-1">
-          <p class="text-sm font-extrabold text-ink">Big Mac® benchmark: approx. {benchmarkPrice}</p>
-          {benchmarkChecked && <p class="text-[0.78rem] text-muted">Checked: {benchmarkChecked}. Prices vary by city and branch.</p>}
+    <div class:list={["grid gap-3 rounded-lg border border-line bg-tag-bg p-3 sm:grid-cols-[5.25rem_1fr]", !compact && "border-t-0"]}>
+      <img
+        src="/images/burger-price-benchmark.jpg"
+        alt="Generic burger used as a local fast-food price benchmark"
+        width="160"
+        height="160"
+        loading="lazy"
+        decoding="async"
+        class="aspect-square w-full max-w-[5.25rem] rounded-md object-cover"
+      />
+      <div>
+        <span class="mb-1 block text-[0.7rem] font-bold uppercase tracking-[0.07em] text-muted">Local burger-price benchmark</span>
+        {burgerBenchmark.burgerBenchmarkAvailable && benchmarkPrice ? (
+          <div class="grid gap-1">
+            <p class="text-sm font-extrabold text-ink">Big Mac® benchmark: approx. {benchmarkPrice}</p>
+            {benchmarkChecked && <p class="text-[0.78rem] text-muted">Checked: {benchmarkChecked}. Prices vary by city and branch.</p>}
+          </div>
+        ) : (
+          <div class="grid gap-1">
+            <p class="text-sm font-extrabold text-ink">No McDonald’s benchmark available.</p>
+            <p class="text-[0.78rem] text-muted">Use local café / fast-food meal prices instead.</p>
+          </div>
+        )}
+        <p class="mt-2 text-[0.72rem] leading-relaxed text-muted">{benchmarkDisclaimer}</p>
+        {burgerBenchmark.burgerBenchmarkSourceUrl ? (
+          <p class="mt-1 text-[0.72rem] text-muted">
+            Source: <a class="underline underline-offset-2" href={burgerBenchmark.burgerBenchmarkSourceUrl} target="_blank" rel="noopener noreferrer">{burgerBenchmark.burgerBenchmarkSourceLabel}</a>
+          </p>
+        ) : (
+          <p class="mt-1 text-[0.72rem] text-muted">Source: {burgerBenchmark.burgerBenchmarkSourceLabel}</p>
+        )}
+        {burgerBenchmark.burgerBenchmarkNotes && <p class="mt-1 text-[0.72rem] text-muted">{burgerBenchmark.burgerBenchmarkNotes}</p>}
+        <p class="mt-1 text-[0.72rem] font-semibold text-muted">Prices Researched at May 2026</p>
         </div>
-      ) : (
-        <div class="grid gap-1">
-          <p class="text-sm font-extrabold text-ink">No McDonald’s benchmark available.</p>
-          <p class="text-[0.78rem] text-muted">Use local café / fast-food meal prices instead.</p>
-        </div>
-      )}
-      <p class="mt-2 text-[0.72rem] leading-relaxed text-muted">{benchmarkDisclaimer}</p>
-      {burgerBenchmark.burgerBenchmarkSourceUrl ? (
-        <p class="mt-1 text-[0.72rem] text-muted">
-          Source: <a class="underline underline-offset-2" href={burgerBenchmark.burgerBenchmarkSourceUrl} target="_blank" rel="noopener noreferrer">{burgerBenchmark.burgerBenchmarkSourceLabel}</a>
-        </p>
-      ) : (
-        <p class="mt-1 text-[0.72rem] text-muted">Source: {burgerBenchmark.burgerBenchmarkSourceLabel}</p>
-      )}
-      {burgerBenchmark.burgerBenchmarkNotes && <p class="mt-1 text-[0.72rem] text-muted">{burgerBenchmark.burgerBenchmarkNotes}</p>}
-      <p class="mt-1 text-[0.72rem] font-semibold text-muted">Prices Researched at May 2026</p>
     </div>
   )}
 
