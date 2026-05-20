@@ -23,6 +23,8 @@ const related = (await getCollection("destinations"))
   .sort((a, b) => a.data.title.localeCompare(b.data.title))
   .slice(0, 3);
 const placeUrl = new URL(`/places/${place.id}/`, Astro.site).toString();
+const shortTitle = place.data.shortTitle ?? place.data.title;
+const countryRegionLabel = place.data.countryRegionLabel ?? `${place.data.country} / ${place.data.region}`;
 
 const visaPolicyTitles: Record<string, string> = {
   Argentina:"Visa policy of Argentina",Algeria:"Visa policy of Algeria",Australia:"Visa policy of Australia",Bolivia:"Visa policy of Bolivia",Botswana:"Visa policy of Botswana",Brazil:"Visa policy of Brazil",Chile:"Visa policy of Chile",China:"Visa policy of China",Colombia:"Visa policy of Colombia",Cyprus:"Visa policy of Cyprus",Dominica:"Visa policy of Dominica","Dominican Republic":"Visa policy of the Dominican Republic",Ethiopia:"Visa policy of Ethiopia",Germany:"Visa policy of Germany",Greece:"Visa policy of Greece",Hungary:"Visa policy of Hungary",Iceland:"Visa policy of Iceland",India:"Visa policy of India",Iran:"Visa policy of Iran",Italy:"Visa policy of Italy",Luxembourg:"Visa policy of Luxembourg",Madagascar:"Visa policy of Madagascar",Maldives:"Visa policy of Maldives",Malta:"Visa policy of Malta",Mauritania:"Visa policy of Mauritania",Morocco:"Visa policy of Morocco",Namibia:"Visa policy of Namibia",Nepal:"Visa policy of Nepal",Pakistan:"Visa policy of Pakistan",Philippines:"Visa policy of the Philippines",Qatar:"Visa policy of Qatar",Romania:"Visa policy of Romania",Russia:"Visa policy of Russia",Seychelles:"Visa policy of Seychelles","South Africa":"Visa policy of South Africa",Tajikistan:"Visa policy of Tajikistan",Tanzania:"Visa policy of Tanzania",Thailand:"Visa policy of Thailand",Tonga:"Visa policy of Tonga","Trinidad & Tobago":"Visa policy of Trinidad and Tobago",Turkey:"Visa policy of Turkey",Turkmenistan:"Visa policy of Turkmenistan","United Arab Emirates":"Visa policy of the United Arab Emirates",USA:"Visa policy of the United States",Uzbekistan:"Visa policy of Uzbekistan",Venezuela:"Visa policy of Venezuela",Yemen:"Visa policy of Yemen",Zambia:"Visa policy of Zambia",Zimbabwe:"Visa policy of Zimbabwe"
@@ -41,7 +43,7 @@ const visaLinks = visaCountries.map((country) => ({
   title: visaPolicyTitles[country] ?? `Visa policy of ${country}`,
   href: wikipediaUrl(visaPolicyTitles[country] ?? `Visa policy of ${country}`)
 }));
-const mapQuery = `${place.data.title}, ${place.data.country}`;
+const mapQuery = place.data.googleMapsQuery ?? `${shortTitle}, ${place.data.country}`;
 const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery)}`;
 const monthLabels = [
   ["jan","Jan"],["feb","Feb"],["mar","Mar"],["apr","Apr"],["may","May"],["jun","Jun"],
@@ -50,6 +52,7 @@ const monthLabels = [
 const planningResources = place.data.planningResources ?? [];
 const logisticsNote = place.data.accessSummary ?? place.data.planningDifficulty ?? place.data.logisticalDifficulty;
 const currencyLabel = currency ? `${currency.currencyName} (${currency.currencyCode})` : undefined;
+const imageCreditLabel = place.data.imageCredit.startsWith("Image credit:") ? place.data.imageCredit : `Image credit: ${place.data.imageCredit}`;
 const statusClass = (status: string) => status.toLowerCase().replaceAll(" / ","-").replaceAll(" ","-");
 const jsonLd = {
   "@context":"https://schema.org","@type":"TouristAttraction",name:place.data.title,
@@ -102,7 +105,7 @@ const jsonLd = {
       <dl class="trip-snapshot__grid">
         <div>
           <dt>Country / region</dt>
-          <dd>{place.data.country} / {place.data.region}</dd>
+          <dd>{countryRegionLabel}</dd>
         </div>
         <div>
           <dt>Best time to go</dt>
@@ -128,7 +131,7 @@ const jsonLd = {
         )}
       </dl>
       <div class="trip-snapshot__themes" aria-label="Travel style">
-        {place.data.bestFor.slice(0, 4).map((category) => (
+        {(place.data.travelStyle ?? place.data.bestFor).slice(0, 5).map((category) => (
           <span>{category}</span>
         ))}
       </div>
@@ -136,19 +139,19 @@ const jsonLd = {
         <strong>Logistics note</strong>
         <p>{logisticsNote}</p>
       </div>
-      <p class="trip-snapshot__credit">Image credit: <a href={place.data.imageCreditUrl} rel="noopener noreferrer">{place.data.imageCredit}</a></p>
+      <p class="trip-snapshot__credit"><a href={place.data.imageCreditUrl} rel="noopener noreferrer">{imageCreditLabel}</a></p>
     </aside>
 
     <aside class="editorial-callout mt-6" aria-label="Before booking note">
       <span>Before you book</span>
-      <p>Confirm current access, safety, weather, permits, and local conditions before booking non-refundable travel.</p>
+      <p>{place.data.beforeBooking?.[0] ?? "Confirm current access, safety, weather, permits, and local conditions before booking non-refundable travel."}</p>
     </aside>
 
     <!-- Trip planning -->
     <section class="mt-8 border-b border-line pb-8" aria-labelledby="decision-heading">
       <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Trip fit</p>
       <h2 id="decision-heading" class="mb-6 max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">
-        Is {place.data.title} right for your trip?
+        Is {shortTitle} right for your trip?
       </h2>
 
       <!-- Best for -->
@@ -229,7 +232,7 @@ const jsonLd = {
               ? `Do you need a visa for ${visaCountries[0]}?`
               : `Check visa rules for ${visaCountries.join(" and ")}`}
           </h3>
-          <p class="text-sm text-muted">Start with the country visa-policy overview, then confirm current rules with an official source before booking.</p>
+          <p class="text-sm text-muted">{place.data.visaIntro ?? "Start with the country visa-policy overview, then confirm current rules with an official source before booking."}</p>
           <div class="flex flex-col gap-1.5">
             {visaLinks.map((link) => (
               <a class="font-black text-clay underline underline-offset-2" href={link.href} target="_blank" rel="noopener noreferrer">
@@ -242,13 +245,13 @@ const jsonLd = {
         <!-- Visa verification -->
         <div class="grid content-start gap-3 rounded-xl border border-line bg-surface p-4">
           <h3 class="font-bold text-forest">Check visa requirements before booking</h3>
-          <p class="text-sm text-muted">Start with the visa-policy overview, then confirm the current rules with an official embassy, consulate, or government source before booking non-refundable travel.</p>
+          <p class="text-sm text-muted">{place.data.visaVerificationNote ?? "Start with the visa-policy overview, then confirm the current rules with an official embassy, consulate, or government source before booking non-refundable travel."}</p>
           <p class="text-sm text-muted">If using a visa service, compare processing times, fees, refund rules, and whether they cover your nationality.</p>
         </div>
 
         <!-- Maps -->
         <div class="grid content-start gap-3 rounded-xl border border-line bg-surface p-4">
-          <h3 class="font-bold text-forest">Open {place.data.title} on Google Maps.</h3>
+          <h3 class="font-bold text-forest">Open {shortTitle} on Google Maps.</h3>
           <p class="text-sm text-muted">This opens Google Maps in a new tab and can hand off to the iOS or Android app when your device supports it.</p>
           <a class="font-black text-clay underline underline-offset-2" href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
             View location on Google Maps <span class="sr-only">opens in a new tab</span>
@@ -263,7 +266,7 @@ const jsonLd = {
       <section class="mt-8 border-b border-line pb-8" aria-labelledby="official-resources-heading">
         <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Live planning</p>
         <h2 id="official-resources-heading" class="mb-6 max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">
-          Official resources for {place.data.title}.
+          Official resources for {shortTitle}.
         </h2>
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {planningResources.map((resource) => (

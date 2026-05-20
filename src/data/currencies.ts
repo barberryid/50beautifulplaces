@@ -880,4 +880,19 @@ export const currencyData: Record<string, CurrencyData> = {
     currencyTips:
       "WeChat Pay and Alipay dominate — link a foreign card before arrival (both apps now accept international cards). Foreign cards work at larger hotels. Park entrance fee ~CNY 75; shuttle buses within the park cost extra.",
   },
+  zhangjiajie: {
+    currencyCode: "CNY",
+    currencyName: "Chinese Yuan Renminbi",
+    costLevel: "Budget",
+    typicalCosts: {
+      water: "CNY 3-8",
+      coffee: "CNY 20-40",
+      meal: "CNY 25-60",
+      taxi: "CNY 15-50",
+      guesthouse: "CNY 150-350/night",
+      midrangeHotel: "CNY 350-800/night",
+    },
+    currencyTips:
+      "Prices vary strongly by season, location and whether you are inside a scenic area. Scenic-area food, drinks, cableways and elevators are more expensive than local-town equivalents. Mobile payments dominate in China; prepare Alipay or WeChat Pay if possible and carry some cash as backup.",
+  },
 };

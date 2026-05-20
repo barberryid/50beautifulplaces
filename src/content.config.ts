@@ -59,6 +59,8 @@ const destinations = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/destinations" }),
   schema: z.object({
     title: z.string(),
+    shortTitle: z.string().optional(),
+    countryRegionLabel: z.string().optional(),
     country: z.string(),
     region: z.string(),
     summary: z.string(),
@@ -67,6 +69,9 @@ const destinations = defineCollection({
     imageCredit: z.string(),
     imageCreditUrl: z.string().url(),
     imageLicenseUrl: z.string().url().optional(),
+    googleMapsQuery: z.string().optional(),
+    visaIntro: z.string().optional(),
+    visaVerificationNote: z.string().optional(),
     galleryImages: z.array(z.object({
       src: imagePath,
       alt: z.string(),
@@ -79,6 +84,7 @@ const destinations = defineCollection({
     bestTime: z.string(),
     duration: z.string(),
     bestFor: z.array(bestForCategory).min(1),
+    travelStyle: z.array(z.string()).optional(),
     realisticVisit: z.string(),
     whenToGo,
     comparisonGroup: z.string(),
