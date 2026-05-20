@@ -1,38 +1,38 @@
-<footer class="border-t border-line bg-tag-bg px-[clamp(1rem,4vw,3rem)] py-8">
-  <div class="mx-auto flex max-w-[1180px] flex-wrap items-start justify-between gap-8">
+<footer class="border-t border-line bg-tag-bg px-[clamp(1rem,4vw,3rem)] py-[clamp(2.5rem,6vw,4rem)]">
+  <div class="mx-auto grid max-w-[1180px] gap-10 lg:grid-cols-[1.35fr_0.7fr_0.9fr]">
     <div>
       <a class="inline-flex items-center gap-3 font-extrabold text-ink" href="/">
         <span class="inline-grid h-10 w-10 shrink-0 place-items-center rounded-full bg-clay font-serif text-base text-cream">50</span>
         <span class="text-[0.97rem]">Beautiful Places</span>
       </a>
-      <p class="mt-3 max-w-[34rem] text-sm text-muted">
-        Designed by 50-Design Studio &mdash;
-        <span class="protected-email" aria-hidden="true"></span>
-        <span class="sr-only">Email address protected from automated scraping.</span>
+      <p class="mt-4 max-w-[34rem] text-sm leading-relaxed text-muted">
+        Image-led travel inspiration, practical notes, and quiet routes to unforgettable places.
       </p>
     </div>
 
-    <nav class="flex flex-wrap items-center gap-4" aria-label="Footer navigation">
-      <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/places/">Explore places</a>
+    <nav class="grid content-start gap-2" aria-label="Explore">
+      <p class="mb-1 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">Explore</p>
+      <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/places/">Places</a>
+      <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/packing-guide/">Packing</a>
       <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/health/">Health</a>
       <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/about/">About</a>
     </nav>
-  </div>
 
-  <script>
-    const emailTarget = document.querySelector(".protected-email");
-    if (emailTarget) {
-      const parts = [53,48,112,108,97,99,101,115,64,112,114,111,116,111,110,109,97,105,108,46,99,104];
-      emailTarget.textContent = parts.map((code) => String.fromCharCode(code)).join("");
-      emailTarget.addEventListener("copy", (event) => event.preventDefault());
-      emailTarget.addEventListener("contextmenu", (event) => event.preventDefault());
-      document.addEventListener("copy", (event) => {
-        const selection = window.getSelection();
-        const selectedText = selection?.toString() ?? "";
-        if (selectedText.includes((emailTarget as HTMLElement).textContent ?? "")) {
-          event.preventDefault();
-        }
-      });
-    }
-  </script>
+    <div class="grid content-start gap-5">
+      <nav class="grid gap-2" aria-label="Planning">
+        <p class="mb-1 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">Planning</p>
+        <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/places/">Best time to visit</a>
+        <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/health/">Travel health</a>
+        <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/packing-guide/">Packing guide</a>
+        <a class="text-sm font-bold text-muted transition-colors hover:text-ink" href="/places/">Destination inspiration</a>
+      </nav>
+      <p class="max-w-[28rem] border-t border-line pt-4 text-xs leading-relaxed text-muted">
+        Independent travel inspiration and planning notes. Always verify access, safety, weather, permits, and local conditions before booking.
+      </p>
+    </div>
+  </div>
+  <div class="mx-auto mt-10 max-w-[1180px] border-t border-line pt-5 text-xs font-bold text-muted">
+    &copy; 50 Beautiful Places
+    <!-- TODO: Add a Contact link here when a real contact page exists. -->
+  </div>
 </footer>

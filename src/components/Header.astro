@@ -1,16 +1,16 @@
 ---
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/places/", label: "Places" },
-  { href: "/packing-guide/", label: "Packing" },
-  { href: "/health/", label: "Health" },
-  { href: "/about/", label: "About" }
+  { href: "/", label: "Home", match: ["/"] },
+  { href: "/places/", label: "Places", match: ["/places/"] },
+  { href: "/packing-guide/", label: "Packing", match: ["/packing-guide/", "/packing/"] },
+  { href: "/health/", label: "Health", match: ["/health/"] },
+  { href: "/about/", label: "About", match: ["/about/"] }
 ];
 
 const currentPath = Astro.url.pathname;
-const isActive = (href: string) => {
-  if (href === "/") return currentPath === "/";
-  return currentPath.startsWith(href);
+const isActive = (item: typeof navItems[number]) => {
+  if (item.href === "/") return currentPath === "/";
+  return item.match.some((path) => currentPath.startsWith(path));
 };
 ---
 
@@ -24,7 +24,7 @@ const isActive = (href: string) => {
     {navItems.map((item) => (
       <a
         href={item.href}
-        aria-current={isActive(item.href) ? "page" : undefined}
+        aria-current={isActive(item) ? "page" : undefined}
         class="rounded-full px-3 py-1.5 text-sm font-bold text-muted transition-colors duration-150 hover:bg-tag-bg hover:text-ink aria-[current=page]:bg-tag-bg aria-[current=page]:text-forest"
       >
         {item.label}

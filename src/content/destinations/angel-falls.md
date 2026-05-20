@@ -103,13 +103,19 @@ Days 8–13 — Gran Sabana and Roraima tepui trek from Santa Elena (6–7 days 
 
 Day 14 — Fly out via Caracas; if extending, hop overland to Boa Vista, Brazil.
 
-### Trusted contacts from the archive
+### Archive leads to verify manually
+
+<div class="archive-leads">
+
+These older archive leads are useful starting points, but details should be re-checked independently before relying on them.
 
 Roraima Air — Angel Falls overflights and Kaieteur Falls add-ons across the border in Guyana, based at Roraima Residence Inn.
 
 Wilderness Explorers — longer Gran Sabana and cross-border programmes, responsive operator.
 
 Lupine Travel and Travel the Guianas — multi-country South-American itineraries that wrap in Angel Falls.
+
+</div>
 
 ### Practical tips
 

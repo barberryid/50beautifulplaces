@@ -15,6 +15,7 @@ interface Props {
 
 const { href, title, country, region, summary, image, alt, tags, bestTime, bestFor = [], priority = false } = Astro.props;
 const chips = (bestFor.length ? bestFor : tags).slice(0, 3);
+const hiddenCount = Math.max((bestFor.length ? bestFor : tags).length - chips.length, 0);
 ---
 
 <article
@@ -22,8 +23,8 @@ const chips = (bestFor.length ? bestFor : tags).slice(0, 3);
   data-region={region}
   data-best-for={bestFor.join("|")}
 >
-  <a class="destination-card-link grid h-full" href={href} aria-label={`Read the ${title} guide`}>
-    <div class="overflow-hidden">
+  <a class="destination-card-link group grid h-full" href={href} aria-label={`Read the ${title} guide`}>
+    <div class="destination-image-frame overflow-hidden">
       <img
         src={image}
         alt={alt}
@@ -32,13 +33,20 @@ const chips = (bestFor.length ? bestFor : tags).slice(0, 3);
         loading={priority ? "eager" : "lazy"}
         decoding="async"
         fetchpriority={priority ? "high" : "auto"}
+        onerror="this.closest('.destination-image-frame')?.classList.add('is-missing-image')"
         class="aspect-[3/2] w-full object-cover transition-transform duration-500 group-hover:scale-105"
       />
+      <div class="destination-image-fallback" aria-hidden="true">
+        <span>{region}</span>
+        <strong>{title}</strong>
+      </div>
     </div>
     <div class="grid content-start gap-3 p-5">
-      <p class="text-[0.72rem] font-black uppercase tracking-[0.14em] text-clay-text">{region}</p>
-      <h3 class="text-xl font-bold leading-snug text-ink">{title}</h3>
-      <p class="text-sm font-semibold text-ink">{country}</p>
+      <div class="grid gap-1">
+        <p class="text-[0.72rem] font-black uppercase tracking-[0.14em] text-clay-text">{region}</p>
+        <h3 class="text-xl font-bold leading-snug text-ink">{title}</h3>
+        <p class="text-sm font-semibold text-forest">{country}</p>
+      </div>
       <p class="text-sm leading-relaxed text-muted">{summary}</p>
       <div class="destination-when-card" aria-label={`Best time to visit ${title}`}>
         <span>When to go</span>
@@ -50,7 +58,13 @@ const chips = (bestFor.length ? bestFor : tags).slice(0, 3);
             {tag}
           </span>
         ))}
+        {hiddenCount > 0 && (
+          <span class="rounded-full border border-line px-3 py-1 text-[0.75rem] font-extrabold text-muted">
+            +{hiddenCount} more
+          </span>
+        )}
       </div>
+      <span class="mt-1 text-sm font-black text-clay-text underline decoration-clay/40 underline-offset-4">View guide</span>
     </div>
   </a>
 </article>
