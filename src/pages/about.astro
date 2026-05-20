@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const heroImage = "/images/about-hero.jpg";
+const travelSceneImage = "/images/about-travel-scene.jpg";
 ---
 
 <BaseLayout
@@ -46,6 +47,18 @@ const heroImage = "/images/about-hero.jpg";
       and deeply connected to nature or history.
     </p>
   </section>
+
+  <!-- Personal travel image -->
+  <figure class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(2rem,5vw,4rem)]">
+    <img
+      src={travelSceneImage}
+      alt="Expedition vehicles and a traveler on a wide salt flat at dusk"
+      width="1600" height="900"
+      loading="lazy"
+      decoding="async"
+      class="aspect-[2.25/1] w-full rounded-xl object-cover shadow-card"
+    />
+  </figure>
 
   <!-- Feature band -->
   <section class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(2rem,5vw,4rem)]" aria-label="What 50 Beautiful Places values">
