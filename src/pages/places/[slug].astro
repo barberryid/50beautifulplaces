@@ -4,6 +4,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import DestinationCard from "../../components/DestinationCard.astro";
 import CurrencyPlannerCard from "../../components/CurrencyPlannerCard.astro";
 import { currencyData } from "../../data/currencies";
+import { burgerBenchmarks } from "../../data/burgerBenchmarks";
 import { getExchangeRates } from "../../lib/exchangeRates";
 
 export async function getStaticPaths() {
@@ -17,6 +18,7 @@ export async function getStaticPaths() {
 
 const { place, rates, usingFallback, lastUpdated } = Astro.props;
 const currency = currencyData[place.id];
+const burgerBenchmark = burgerBenchmarks[place.id];
 const { Content } = await render(place);
 const related = (await getCollection("destinations"))
   .filter((item) => item.id !== place.id && item.data.region === place.data.region)
@@ -292,7 +294,7 @@ const jsonLd = {
       <div class={`grid gap-4 ${currency ? "lg:grid-cols-2" : ""}`}>
         {currency && (
           <div>
-            <CurrencyPlannerCard data={currency} rates={rates} usingFallback={usingFallback} lastUpdated={lastUpdated} compact />
+            <CurrencyPlannerCard data={currency} rates={rates} usingFallback={usingFallback} lastUpdated={lastUpdated} burgerBenchmark={burgerBenchmark} compact />
           </div>
         )}
 

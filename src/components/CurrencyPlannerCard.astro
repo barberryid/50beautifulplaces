@@ -1,5 +1,6 @@
 ---
 import type { CurrencyData } from "../data/currencies";
+import type { BurgerBenchmark } from "../data/burgerBenchmarks";
 import { rateFor, formatRate } from "../lib/exchangeRates";
 import { withEurEquivalent } from "../utils/currencyFormat";
 
@@ -8,10 +9,11 @@ interface Props {
   rates: Record<string, number>;
   usingFallback: boolean;
   lastUpdated?: Date | string | null;
+  burgerBenchmark?: BurgerBenchmark;
   compact?: boolean;
 }
 
-const { data, rates, usingFallback, lastUpdated = null, compact = false } = Astro.props;
+const { data, rates, usingFallback, lastUpdated = null, burgerBenchmark, compact = false } = Astro.props;
 
 const localCode = data.currencyCode;
 const displayFromCurrencies = ["EUR", "USD", "GBP"].filter((c) => c !== localCode);
@@ -55,6 +57,25 @@ const updateNote = usingFallback
   : formattedLastUpdated
     ? `Exchange Rates Updated Daily. Last updated on ${formattedLastUpdated}.`
     : "Exchange Rates Updated Daily.";
+
+const formatBenchmarkDate = (value?: string) => {
+  if (!value) return undefined;
+  const date = new Date(value.length === 7 ? `${value}-01T00:00:00Z` : value);
+  if (Number.isNaN(date.getTime())) return value;
+  return date.toLocaleDateString("en-US", {
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+};
+
+const benchmarkChecked = formatBenchmarkDate(burgerBenchmark?.burgerBenchmarkDateChecked);
+const benchmarkPrice =
+  burgerBenchmark?.burgerBenchmarkLocalPrice !== undefined && burgerBenchmark.burgerBenchmarkCurrency
+    ? `${burgerBenchmark.burgerBenchmarkLocalPrice} ${burgerBenchmark.burgerBenchmarkCurrency}`
+    : undefined;
+const benchmarkDisclaimer =
+  "Approximate McDonald’s Big Mac® price where available. Prices vary by city, branch, tax, delivery channel, and date checked. This site is not affiliated with or endorsed by McDonald’s.";
 ---
 
 <div class:list={[
@@ -103,6 +124,34 @@ const updateNote = usingFallback
         {costs.guesthouse && <li class="flex justify-between gap-4 border-b border-line py-1.5 text-sm last:border-0"><span class="text-muted">Guesthouse</span><span class="font-semibold text-ink text-right">{costs.guesthouse}</span></li>}
         {costs.midrangeHotel && <li class="flex justify-between gap-4 border-b border-line py-1.5 text-sm last:border-0"><span class="text-muted">Mid-range hotel</span><span class="font-semibold text-ink text-right">{costs.midrangeHotel}</span></li>}
       </ul>
+    </div>
+  )}
+
+  <!-- Local burger-price benchmark -->
+  {burgerBenchmark && (
+    <div class:list={["rounded-lg border border-line bg-tag-bg p-3", !compact && "border-t-0"]}>
+      <span class="mb-1 block text-[0.7rem] font-bold uppercase tracking-[0.07em] text-muted">Local burger-price benchmark</span>
+      {burgerBenchmark.burgerBenchmarkAvailable && benchmarkPrice ? (
+        <div class="grid gap-1">
+          <p class="text-sm font-extrabold text-ink">Big Mac® benchmark: approx. {benchmarkPrice}</p>
+          {benchmarkChecked && <p class="text-[0.78rem] text-muted">Checked: {benchmarkChecked}. Prices vary by city and branch.</p>}
+        </div>
+      ) : (
+        <div class="grid gap-1">
+          <p class="text-sm font-extrabold text-ink">No McDonald’s benchmark available.</p>
+          <p class="text-[0.78rem] text-muted">Use local café / fast-food meal prices instead.</p>
+        </div>
+      )}
+      <p class="mt-2 text-[0.72rem] leading-relaxed text-muted">{benchmarkDisclaimer}</p>
+      {burgerBenchmark.burgerBenchmarkSourceUrl ? (
+        <p class="mt-1 text-[0.72rem] text-muted">
+          Source: <a class="underline underline-offset-2" href={burgerBenchmark.burgerBenchmarkSourceUrl} target="_blank" rel="noopener noreferrer">{burgerBenchmark.burgerBenchmarkSourceLabel}</a>
+        </p>
+      ) : (
+        <p class="mt-1 text-[0.72rem] text-muted">Source: {burgerBenchmark.burgerBenchmarkSourceLabel}</p>
+      )}
+      {burgerBenchmark.burgerBenchmarkNotes && <p class="mt-1 text-[0.72rem] text-muted">{burgerBenchmark.burgerBenchmarkNotes}</p>}
+      <p class="mt-1 text-[0.72rem] font-semibold text-muted">Prices Researched at May 2026</p>
     </div>
   )}
 
