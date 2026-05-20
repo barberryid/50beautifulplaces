@@ -1,70 +1,312 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const linkRel = "noopener noreferrer";
+
+const setupItems = [
+  ["Main bag", "Patagonia Black Hole Mini MLC 30L for compact travel, or Osprey Farpoint 40 if you need more room."],
+  ["Day bag", "Sea to Summit Ultra-Sil Day Pack 20L."],
+  ["Organisation", "Eagle Creek Pack-It Reveal Compression Cubes."],
+  ["Shirts", "Icebreaker Merino 150 Tech Lite for premium use; Uniqlo AIRism for budget hot-weather layers."],
+  ["Trousers", "Western Rise Evolution Pant."],
+  ["Underwear", "ExOfficio Give-N-Go Sport Mesh or Uniqlo AIRism."],
+  ["Socks", "Smartwool merino socks."],
+  ["Shell", "Patagonia Houdini Jacket."],
+  ["Sun", "Outdoor Research Sun Runner Cap or a wide-brim sun hat."],
+  ["Sandals", "Xero Z-Trek for packability, Teva Hurricane for comfort, Bedrock Cairn Evo for premium adventure use."],
+];
+
+const productSections = [
+  {
+    title: "Main travel bag",
+    intro: "Choose a 30-40L carry-on backpack. For independent travel, a backpack usually works better than a roller on stairs, dirt roads, boats, tuk-tuks, rough pavements and old-town lanes.",
+    items: [
+      { name: "Osprey Farpoint 40", url: "https://www.osprey.com/eu/farpoint-40-s26", bestFor: "More capacity", note: "Best all-round one-bag travel backpack for travellers who want a proper harness." },
+      { name: "Patagonia Black Hole Mini MLC 30L", url: "https://www.patagonia.com/product/black-hole-mini-mlc-convertible-carry-on-backpack-30-liters/49266.html", bestFor: "Compact premium setup", note: "30L carry-on with clean organisation and multiple carry modes." },
+      { name: "Matador travel packs", url: "https://www.matadorequipment.com/collections/travel-bags", bestFor: "Ultralight systems", note: "Useful if you want a more technical and lightweight travel setup." },
+    ],
+    recommendation: "Use the Patagonia Mini MLC 30L if you want a smaller disciplined setup. Use the Osprey Farpoint 40 if you need extra space for mixed climates.",
+  },
+  {
+    title: "Packable day bag and tote",
+    intro: "Keep a simple tote for shopping, laundry, beach days and overflow. Add a packable daypack only if you hike, explore towns without your main bag, or need a small bag for food, water, camera gear and a rain layer.",
+    items: [
+      { name: "Sea to Summit Ultra-Sil Day Pack 20L", url: "https://seatosummit.eu/en-lu/products/ultra-sil-day-pack", bestFor: "Light backup daypack", note: "Best lightweight backup daypack for town days and simple walks." },
+      { name: "Sea to Summit Ultra-Sil Dry Day Pack", url: "https://seatosummit.eu/products/ultra-sil-dry-day-pack", bestFor: "Wet climates", note: "Better for islands, boats and wet weather." },
+      { name: "Matador Freerain", url: "https://www.matadorequipment.com/collections/packable-backpacks", bestFor: "Rugged packable use", note: "A tougher packable option for hikes and beaches." },
+    ],
+  },
+  {
+    title: "Packing cubes and organisation",
+    intro: "Do not over-organise. Two or three pouches are enough: one medium clothing cube, one small cube for underwear and socks, one tech pouch, and one clear pouch for liquids or small toiletries.",
+    items: [
+      { name: "Eagle Creek Pack-It Reveal Compression Cube Set", url: "https://eaglecreek.com/products/pack-it-reveal-compression-cube-set-sm", bestFor: "Practical compression", note: "Best practical compression cube set." },
+      { name: "Peak Design Packing Cube", url: "https://www.peakdesign.com/products/packing-cube", bestFor: "Premium organisation", note: "Clean/dirty organisation in a polished cube." },
+      { name: "Matador FlatPak Soap Bar Case", url: "https://www.matadorequipment.com/products/flatpak-soap-bar-case", bestFor: "Bar soap", note: "Useful if using bar soap instead of liquid wash." },
+    ],
+    recommendation: "Use one medium cube, one small cube, one tech pouch, one clear liquids pouch, and one tote or dry bag for dirty laundry.",
+  },
+  {
+    title: "Clothing system",
+    intro: "Pack clothes as a system, not as separate outfits. Everything should match, layer and dry quickly.",
+    items: [
+      { name: "Icebreaker Merino 150 Tech Lite T-shirt", url: "https://www.icebreaker.com/en-us/mens-tshirts/merino-150-tech-lite-iii-short-sleeve-t-shirt/0A56EJ.html", bestFor: "Premium merino", note: "A refined merino travel shirt for repeat wear." },
+      { name: "Uniqlo AIRism", url: "https://www.uniqlo.com/us/en/men/innerwear/airism", bestFor: "Budget hot-weather layers", note: "Quick-dry base layers and underwear." },
+      { name: "Western Rise Evolution Pant", url: "https://westernrise.com/collections/evolution", bestFor: "Travel trousers", note: "Stretch, breathability, stain resistance and a secure pocket." },
+      { name: "ExOfficio Give-N-Go Sport Mesh", url: "https://www.exofficio.com/men/underwear/boxer-briefs/mens-give-n-go-2.0-sport-mesh-6-boxer-brief/SP_225627.html", bestFor: "Travel underwear", note: "Classic quick-wash underwear for hot climates." },
+      { name: "Smartwool merino socks", url: "https://www.smartwool.com/shop/socks", bestFor: "Walking socks", note: "Reliable socks for walking, hiking and travel." },
+    ],
+  },
+  {
+    title: "Weather layer",
+    intro: "A shell covers wind, light rain, cold buses, ferries, mountain evenings and airport chills.",
+    items: [
+      { name: "Patagonia Houdini Jacket", url: "https://www.patagonia.com/product/mens-houdini-windbreaker-jacket/24142.html", bestFor: "Ultralight wind shell", note: "Best for high-output travel and active days." },
+      { name: "Arc'teryx Incendo / similar active shell", url: "https://arcteryx.com/us/en/c/mens/shell-jackets", bestFor: "Fast movement", note: "A good alternative for running, hiking and active travel." },
+    ],
+    recommendation: "Pack one shell only. If the trip is warm and mostly dry, take a wind shell. If the trip is wet, take a real rain shell instead.",
+  },
+  {
+    title: "Sun protection",
+    intro: "A wide-brim hat or light sports cap is a high-value item for exposed hot places. Most travellers should choose one.",
+    items: [
+      { name: "Outdoor Research Sun Runner Cap", url: "https://www.outdoorresearch.com/products/sun-runner-cap-300299", bestFor: "Serious sun", note: "Sun cap with a removable cape." },
+      { name: "Columbia Bora Bora Booney", url: "https://www.columbia.com/c/fishing-hats/", bestFor: "Wide-brim shade", note: "Useful for deserts, islands, boats and exposed hikes." },
+      { name: "Buff neck gaiter", url: "https://www.buff.com/", bestFor: "Multi-use protection", note: "Dust cover, scarf, sweatband, neck protection and eye shade." },
+    ],
+    recommendation: "Pack both a hat and cap only for hot, exposed routes where sun protection is a core safety item.",
+  },
+  {
+    title: "Footwear",
+    intro: "Two pairs are usually enough: main walking or running shoes worn on travel day, and lightweight sandals packed in the bag.",
+    items: [
+      { name: "Teva Hurricane XLT2", url: "https://www.teva.com/c/hurricane-sandals", bestFor: "Comfort sandal", note: "Practical for hot streets, water use and casual travel." },
+      { name: "Xero Shoes Z-Trek", url: "https://xeroshoes.eu/products/ztrek-men", bestFor: "Minimal packability", note: "Best minimalist packable sandal." },
+      { name: "Bedrock Cairn Evo", url: "https://bedrocksandals.com/products/cairn-evo-3d-pro-1", bestFor: "Premium adventure", note: "A more capable sandal for active routes." },
+    ],
+    recommendation: "Avoid a third pair unless the trip specifically requires dress shoes, boots or technical footwear.",
+  },
+];
+
+const simpleSections = [
+  {
+    title: "Tech kit",
+    body: "Keep electronics compact and boring. The best tech kit charges everything with the fewest parts.",
+    items: ["Smartphone and protective case", "Wired or wireless earphones", "Compact USB-C charger", "Short charging cable and one backup cable", "Power bank", "Universal adapter", "SIM tool", "Small tech pouch"],
+    note: "Use Anker or Ugreen for chargers and cables, Anker or Nitecore for power banks, Skross or Epicka for universal adapters, and Bellroy, Peak Design or Matador for tech pouches.",
+  },
+  {
+    title: "Toiletries",
+    body: "Keep toiletries small. Almost everything can be bought locally.",
+    items: ["Toothbrush and small toothpaste", "Deodorant", "Bar soap or small body wash", "Razor if needed", "Nail clippers and tweezers", "Comb", "Sunscreen", "Lip balm with SPF", "Laundry soap sheets or tiny detergent"],
+    note: "The Matador FlatPak Soap Bar Case is useful for bar soap. Sea to Summit Wilderness Wash or laundry sheets work for sink washing. Pack a Sea to Summit Airlite towel only if you regularly stay somewhere without towels.",
+  },
+  {
+    title: "First aid and health",
+    body: "Do not carry a pharmacy. Carry the small items that prevent minor problems from disrupting the trip.",
+    items: ["Blister plasters", "Painkillers", "Anti-diarrhoea tablets", "Oral rehydration salts", "Antihistamine", "Antiseptic wipes", "Personal medication", "Prescription copies", "Insect repellent where needed", "Sunscreen"],
+    note: "For independent travel, oral rehydration salts and blister care are often more useful than a large first-aid kit.",
+  },
+  {
+    title: "Documents and money",
+    body: "Carry documents in physical and digital form.",
+    items: ["Passport", "Second ID", "Debit card and credit card", "Emergency cash", "Travel insurance details", "Visa documents", "Vaccination certificates where relevant", "Passport photos", "Offline copies of bookings", "Screenshots of transport tickets or QR codes"],
+    note: "For cash-heavy destinations, carry a slim wallet plus a backup card and emergency cash stored elsewhere in the bag.",
+  },
+];
+
+const wornPackedRows = [
+  ["Wear on travel day", "Travel trousers, merino or technical T-shirt, long-sleeve shirt, main walking shoes, belt, shell and hat."],
+  ["Pack inside the bag", "2-3 technical or merino T-shirts, 3-5 pairs of underwear, 3-4 pairs of socks, one pair of shorts or swim shorts, one minimal sleep set, one optional warm layer, one shell, and one buff or neck gaiter."],
+];
+
+const notToPack = [
+  "Multiple jeans",
+  "Extra shoes",
+  "Full-size toiletries",
+  "Large towels",
+  "Duplicate chargers",
+  "Heavy camera gear unless photography is central to the trip",
+  "Formal clothes unless required",
+  "Large first-aid kits",
+  "Paper books",
+  "Bulky cotton hoodies",
+];
+
+const checklist = [
+  "Main 30-40L backpack",
+  "Optional packable day bag or tote",
+  "2-3 T-shirts",
+  "1 long-sleeve shirt",
+  "1 pair travel trousers",
+  "1 pair shorts or swim shorts",
+  "4 pairs underwear",
+  "3-4 pairs socks",
+  "1 shell",
+  "Optional warm layer",
+  "Main walking shoes",
+  "Lightweight sandals",
+  "Smartphone, charger, cables, power bank, adapter, earphones",
+  "Passport, cards, cash, insurance and visa documents",
+  "Small toiletries",
+  "Blister care, painkillers, anti-diarrhoea tablets, oral rehydration salts, personal medicine",
+  "Laundry detergent sheets, zip bags, pen and small lock",
+];
 ---
 
 <BaseLayout
-  title="Travel Packing Guide"
-  description="A practical packing guide for destination travel: clothing, adapters, medical kits, hiking gear, beach gear, luggage, and small logistics items."
+  title="One-Bag Packing Guide for Independent Travel | 50 Beautiful Places"
+  description="A practical one-bag packing guide for independent travellers, with lightweight travel clothing, bags, sandals, electronics, toiletries, health basics, and specific product recommendations."
   image="/og-default.png"
 >
-  <section class="mx-auto w-full max-w-[1180px] px-4 pb-8 pt-[clamp(3rem,8vw,7rem)]">
-    <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Travel packing</p>
-    <h1 class="max-w-[14ch]">Pack for the trip you are actually taking.</h1>
-    <p class="mt-4 max-w-[45rem] text-lg text-muted">
-      A concise checklist for clothing, health basics, electronics, outdoor gear, beach days, documents, and luggage choices.
-    </p>
+  <section class="mx-auto grid w-full max-w-[1180px] gap-8 px-4 pb-10 pt-[clamp(3rem,8vw,7rem)] lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start">
+    <div>
+      <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Travel packing</p>
+      <h1 class="max-w-[14ch]">One-bag packing guide for independent travellers</h1>
+      <div class="mt-5 max-w-[48rem] space-y-4 text-lg leading-relaxed text-muted">
+        <p>Travel is easier when everything useful fits into one carry-on bag. You move faster through airports, use public transport more easily, avoid checked-bag stress, and can walk straight into a town, ferry terminal, guesthouse, market or trailhead without feeling overloaded.</p>
+        <p>The goal is not to pack the least possible. The goal is to pack the smallest useful kit: light enough to carry all day, complete enough for uncertain places, and simple enough that every item earns its place.</p>
+      </div>
+    </div>
+
+    <aside class="rounded-xl border border-line bg-surface p-5 shadow-card">
+      <p class="text-[0.7rem] font-black uppercase tracking-[0.12em] text-clay-text">Best overall setup</p>
+      <h2 class="mt-2 font-serif text-2xl leading-tight text-ink">Best overall one-bag setup</h2>
+      <dl class="mt-5 grid gap-3">
+        {setupItems.map(([label, value]) => (
+          <div class="border-t border-line pt-3">
+            <dt class="text-[0.68rem] font-black uppercase tracking-[0.12em] text-muted">{label}</dt>
+            <dd class="mt-1 text-sm leading-relaxed text-ink">{value}</dd>
+          </div>
+        ))}
+      </dl>
+    </aside>
   </section>
 
   <section class="mx-auto w-full max-w-[1180px] px-4 pb-[clamp(3rem,7vw,6rem)]">
-    <article class="w-full max-w-[860px]">
+    <article class="grid gap-12">
+      <section class="prose max-w-[760px]">
+        <h2>One-bag philosophy</h2>
+        <p>Pack for 4-5 days, not for the whole trip. Wash as you go. Use layers instead of bulky duplicates. Choose clothes that dry quickly, resist odour, and work in several situations. Avoid "just in case" items that are easy to buy locally.</p>
+        <p>A good one-bag setup normally has one main carry-on backpack, one optional packable day bag or tote, one outfit worn on travel day, a small clothing system, a compact tech kit, a minimalist toiletry kit, and a small first-aid pouch.</p>
 
-      <h2 class="mb-4 mt-10 font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Core Documents and Money</h2>
-      <ul class="space-y-3 pl-5 text-[1.05rem] text-muted">
-        <li>Passport, visas, permits, travel insurance details, driving permit if needed, and offline copies of bookings.</li>
-        <li>Two payment cards stored separately, a small amount of local cash, and a plan for ATM fees and exchange rates.</li>
-        <li>Offline maps, hotel addresses, emergency contacts, and screenshots of transport tickets or reservation QR codes.</li>
-      </ul>
+        <h2>Items visible in the photos</h2>
+        <p>The photos suggest a practical warm-weather and active-travel setup. Visible or likely items include a wide-brim sun hat, lightweight long-sleeve shirt, bright active socks, lightweight strap sandals, fabric tote bag, blue waterproof or windproof shell, light blue sports cap, smartphone in protective case, wired earphones, black pouch or tech case, clear zip pouch, small cardboard box for small items, and a compact main bag.</p>
+      </section>
 
-      <h2 class="mb-4 mt-10 font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Clothing</h2>
-      <ul class="space-y-3 pl-5 text-[1.05rem] text-muted">
-        <li>Layer for the coldest realistic moment of the trip, not only the average daytime temperature.</li>
-        <li>Use quick-dry fabrics for humid, beach, hiking, and overland routes; add one smarter outfit for city dining or hotels.</li>
-        <li>Pack a sun hat, warm layer, rain shell, and comfortable shoes before adding destination-specific extras.</li>
-      </ul>
+      {productSections.map((section) => (
+        <section class="grid gap-5 border-t border-line pt-10">
+          <div class="max-w-[760px]">
+            <h2 class="font-serif text-[clamp(1.8rem,3vw,2.8rem)] leading-tight text-ink">{section.title}</h2>
+            <p class="mt-3 text-[1.05rem] leading-relaxed text-muted">{section.intro}</p>
+          </div>
 
-      <h2 class="mb-4 mt-10 font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Health and Hygiene</h2>
-      <ul class="space-y-3 pl-5 text-[1.05rem] text-muted">
-        <li>Personal medicines in original packaging, basic pain relief, blister care, oral rehydration salts, and motion-sickness support if useful.</li>
-        <li>High-SPF sunscreen, insect repellent where needed, hand sanitizer, and a compact first-aid pouch.</li>
-        <li>For water-risk destinations, choose a bottle, filter, purifier, or tablets that match the actual risk. See the <a class="font-bold text-clay underline underline-offset-2" href="/health/">travel health guide</a>.</li>
-      </ul>
+          <div class="overflow-x-auto rounded-xl border border-line bg-surface shadow-card">
+            <table class="w-full min-w-[720px] border-collapse text-left text-sm">
+              <thead class="bg-cream text-[0.68rem] uppercase tracking-[0.12em] text-muted">
+                <tr>
+                  <th class="px-4 py-3 font-black">Product</th>
+                  <th class="px-4 py-3 font-black">Best for</th>
+                  <th class="px-4 py-3 font-black">Editorial note</th>
+                </tr>
+              </thead>
+              <tbody>
+                {section.items.map((item) => (
+                  <tr class="border-t border-line align-top">
+                    <td class="px-4 py-4 font-black text-ink">
+                      <a class="text-clay underline underline-offset-2" href={item.url} target="_blank" rel={linkRel}>{item.name}</a>
+                    </td>
+                    <td class="px-4 py-4 text-ink">{item.bestFor}</td>
+                    <td class="px-4 py-4 leading-relaxed text-muted">{item.note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
-      <h2 class="mb-4 mt-10 font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Electronics and Adapters</h2>
-      <ul class="space-y-3 pl-5 text-[1.05rem] text-muted">
-        <li>Universal adapter, charging cables, power bank, headphones, and a small USB wall charger with enough ports.</li>
-        <li>Downloaded maps, translation files, booking apps, airline apps, and ferry or rail apps before remote travel days.</li>
-        <li>Waterproof phone pouch or dry bag for boat trips, beaches, waterfalls, and rainy hiking regions.</li>
-      </ul>
+          {section.recommendation && (
+            <p class="max-w-[760px] rounded-xl border border-line bg-cream p-4 text-sm font-bold leading-relaxed text-ink">{section.recommendation}</p>
+          )}
+        </section>
+      ))}
 
-      <h2 class="mb-4 mt-10 font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Beach and Boat Days</h2>
-      <ul class="space-y-3 pl-5 text-[1.05rem] text-muted">
-        <li>Reef-safe sun protection, swimwear, light cover-up, dry bag, small towel, water shoes where coral or rocks are likely, and enough drinking water.</li>
-        <li>For ferries and small boats, keep valuables, medication, and a warm layer in a day bag rather than checked luggage.</li>
-      </ul>
+      <section class="grid gap-5 border-t border-line pt-10">
+        <div class="max-w-[760px]">
+          <h2 class="font-serif text-[clamp(1.8rem,3vw,2.8rem)] leading-tight text-ink">Clothing: what to wear and what to pack</h2>
+          <p class="mt-3 text-[1.05rem] leading-relaxed text-muted">Pack clothes as a system, not as separate outfits. Everything should match, layer and dry quickly.</p>
+        </div>
+        <div class="grid gap-4 md:grid-cols-2">
+          {wornPackedRows.map(([label, value]) => (
+            <article class="rounded-xl border border-line bg-surface p-5 shadow-card">
+              <h3 class="text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">{label}</h3>
+              <p class="mt-3 text-sm leading-relaxed text-muted">{value}</p>
+            </article>
+          ))}
+        </div>
+      </section>
 
-      <h2 class="mb-4 mt-10 font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Hiking and Remote Travel</h2>
-      <ul class="space-y-3 pl-5 text-[1.05rem] text-muted">
-        <li>Trail shoes or boots, headlamp, offline map, spare battery, water capacity, snacks, rain layer, and insulation for sudden weather changes.</li>
-        <li>For altitude, desert, safari, or polar-edge trips, check specialist gear needs before booking non-refundable logistics.</li>
-      </ul>
+      <section class="grid gap-5 border-t border-line pt-10">
+        <div class="max-w-[760px]">
+          <h2 class="font-serif text-[clamp(1.8rem,3vw,2.8rem)] leading-tight text-ink">Tech, toiletries, health and documents</h2>
+          <p class="mt-3 text-[1.05rem] leading-relaxed text-muted">The smaller systems matter. They keep the trip functional without turning the bag into a drawer full of backups.</p>
+        </div>
+        <div class="grid gap-4 lg:grid-cols-2">
+          {simpleSections.map((section) => (
+            <article class="rounded-xl border border-line bg-surface p-5 shadow-card">
+              <h3 class="font-serif text-2xl leading-tight text-ink">{section.title}</h3>
+              <p class="mt-3 text-sm leading-relaxed text-muted">{section.body}</p>
+              <ul class="mt-4 grid gap-2 text-sm text-ink">
+                {section.items.map((item) => <li class="border-t border-line pt-2">{item}</li>)}
+              </ul>
+              <p class="mt-4 rounded-lg bg-cream p-3 text-xs font-bold leading-relaxed text-muted">{section.note}</p>
+            </article>
+          ))}
+        </div>
+      </section>
 
-      <h2 class="mb-4 mt-10 font-serif text-[clamp(1.7rem,3vw,2.7rem)]">Luggage Choice</h2>
-      <ul class="space-y-3 pl-5 text-[1.05rem] text-muted">
-        <li>Use a backpack or soft duffel for islands, ferries, guesthouses with stairs, safari vehicles, and rough roads.</li>
-        <li>Use rolling luggage for city, rail, cruise, and resort trips where pavements and transfers are predictable.</li>
-        <li>Keep a lightweight day bag ready for valuables, documents, camera gear, water, medication, and one warm or waterproof layer.</li>
-      </ul>
+      <section class="grid gap-5 border-t border-line pt-10 lg:grid-cols-[minmax(0,1fr)_minmax(320px,420px)]">
+        <div>
+          <h2 class="font-serif text-[clamp(1.8rem,3vw,2.8rem)] leading-tight text-ink">What not to pack</h2>
+          <p class="mt-3 max-w-[760px] text-[1.05rem] leading-relaxed text-muted">Avoid packing for imaginary versions of the trip. Replace bulk with layers. Replace duplicates with washing. Replace "maybe" gear with local purchases if needed.</p>
+          <div class="mt-6 grid gap-2 sm:grid-cols-2">
+            {notToPack.map((item) => (
+              <p class="rounded-lg border border-line bg-surface px-4 py-3 text-sm font-bold text-muted">{item}</p>
+            ))}
+          </div>
+        </div>
 
+        <aside class="rounded-xl border border-line bg-surface p-5 shadow-card">
+          <p class="text-[0.7rem] font-black uppercase tracking-[0.12em] text-clay-text">Final rule</p>
+          <h2 class="mt-2 font-serif text-2xl leading-tight text-ink">The floor test</h2>
+          <p class="mt-4 text-sm leading-relaxed text-muted">Before leaving, lay everything on the floor and ask three questions:</p>
+          <ol class="mt-4 grid gap-3 text-sm font-bold text-ink">
+            <li>Will I use this every week?</li>
+            <li>Can something else already in the bag do the same job?</li>
+            <li>Could I buy this easily if I really needed it?</li>
+          </ol>
+          <p class="mt-4 text-sm leading-relaxed text-muted">If the answer is no, yes and yes, leave it behind. A good one-bag packing list should feel almost too small at home and exactly right on the road.</p>
+        </aside>
+      </section>
+
+      <section class="grid gap-5 border-t border-line pt-10">
+        <div class="max-w-[760px]">
+          <h2 class="font-serif text-[clamp(1.8rem,3vw,2.8rem)] leading-tight text-ink">Final checklist</h2>
+          <p class="mt-3 text-[1.05rem] leading-relaxed text-muted">A minimal one-bag checklist for independent travel.</p>
+        </div>
+        <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          {checklist.map((item) => (
+            <div class="flex min-h-[3.5rem] items-start gap-3 rounded-lg border border-line bg-surface p-3 text-sm leading-snug text-ink">
+              <span class="mt-0.5 h-4 w-4 shrink-0 rounded border border-line bg-cream" aria-hidden="true"></span>
+              <span>{item}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section class="prose max-w-[760px] border-t border-line pt-10">
+        <h2>Codex and product data notes</h2>
+        <p>Product links are editorial references to official brand or category pages where possible. They are not labelled as affiliate links because no affiliate URLs were provided. Exact model pages can change, so category links are used where they are more stable.</p>
+      </section>
     </article>
   </section>
 </BaseLayout>
