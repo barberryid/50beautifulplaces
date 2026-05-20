@@ -7,9 +7,10 @@ interface Props {
   data: CurrencyData;
   rates: Record<string, number>;
   usingFallback: boolean;
+  compact?: boolean;
 }
 
-const { data, rates, usingFallback } = Astro.props;
+const { data, rates, usingFallback, compact = false } = Astro.props;
 
 const localCode = data.currencyCode;
 const displayFromCurrencies = ["EUR", "USD", "GBP"].filter((c) => c !== localCode);
@@ -40,7 +41,10 @@ const hasCosts = Object.values(costs).some(Boolean);
 const costLevelClass = `cost-level cost-level--${data.costLevel.toLowerCase()}`;
 ---
 
-<div class="mt-4 grid gap-5 rounded-xl border border-line bg-surface p-5 shadow-card">
+<div class:list={[
+  "grid rounded-xl border border-line bg-surface shadow-card",
+  compact ? "gap-4 p-4" : "mt-4 gap-5 p-5"
+]}>
 
   <!-- Header -->
   <div class="grid gap-1">
@@ -66,16 +70,16 @@ const costLevelClass = `cost-level cost-level--${data.costLevel.toLowerCase()}`;
         ) : null
       )}
     </ul>
-    <p class="mt-2 text-[0.72rem] italic text-muted">
+    <p class:list={["mt-2 text-[0.72rem] italic text-muted", compact && "hidden"]}>
       {usingFallback ? "Approximate rates — live rates fetched at next deploy." : "Rates current at time of last build."}
     </p>
   </div>
 
   <!-- Typical costs -->
-  {hasCosts && (
+  {hasCosts && !compact && (
     <div>
       <span class="mb-2 block text-[0.7rem] font-bold uppercase tracking-[0.07em] text-muted">Typical Costs</span>
-      <ul class="grid gap-1 p-0 list-none m-0">
+      <ul class:list={["grid p-0 list-none m-0", compact ? "gap-0.5" : "gap-1"]}>
         {costs.coffee     && <li class="flex justify-between gap-4 border-b border-line py-1.5 text-sm last:border-0"><span class="text-muted">Coffee</span><span class="font-semibold text-ink text-right">{costs.coffee}</span></li>}
         {costs.water      && <li class="flex justify-between gap-4 border-b border-line py-1.5 text-sm last:border-0"><span class="text-muted">Water</span><span class="font-semibold text-ink text-right">{costs.water}</span></li>}
         {costs.meal       && <li class="flex justify-between gap-4 border-b border-line py-1.5 text-sm last:border-0"><span class="text-muted">Local meal</span><span class="font-semibold text-ink text-right">{costs.meal}</span></li>}
@@ -87,7 +91,7 @@ const costLevelClass = `cost-level cost-level--${data.costLevel.toLowerCase()}`;
   )}
 
   <!-- Converter -->
-  {converterCurrencies.length > 0 && (
+  {!compact && converterCurrencies.length > 0 && (
     <div class="currency-converter" data-rates={ratesJson} data-local={localCode}>
       <span class="mb-2 block text-[0.7rem] font-bold uppercase tracking-[0.07em] text-muted">Convert to {localCode}</span>
       <div class="mb-3 flex gap-2">
@@ -115,7 +119,7 @@ const costLevelClass = `cost-level cost-level--${data.costLevel.toLowerCase()}`;
   )}
 
   <!-- Tips -->
-  {data.currencyTips && (
+  {data.currencyTips && !compact && (
     <p class="border-t border-line pt-4 text-sm leading-relaxed text-muted">{data.currencyTips}</p>
   )}
 </div>

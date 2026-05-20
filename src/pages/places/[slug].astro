@@ -256,9 +256,6 @@ const jsonLd = {
         </div>
       </div>
 
-      {currency && (
-        <CurrencyPlannerCard data={currency} rates={rates} usingFallback={usingFallback} />
-      )}
     </section>
 
     <!-- Official resources -->
@@ -287,21 +284,31 @@ const jsonLd = {
       </section>
     )}
 
-    <!-- Hotel -->
-    <section class="mt-8 border-b border-line pb-8" aria-labelledby="hotel-heading">
-      <div class="flex flex-wrap items-start justify-between gap-6">
-        <div class="max-w-[640px]">
-          <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Where to stay</p>
-          <h2 id="hotel-heading" class="max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">{place.data.hotelName}</h2>
-          <p class="mt-3 text-muted">{place.data.hotelNote}</p>
-          <p class="mt-2 font-black text-forest">{place.data.hotelRating}</p>
+    <!-- Stay and money -->
+    <section class="mt-8 border-b border-line pb-8" aria-label="Stay and money planning">
+      <div class={`grid gap-4 ${currency ? "lg:grid-cols-2" : ""}`}>
+        {currency && (
+          <div>
+            <CurrencyPlannerCard data={currency} rates={rates} usingFallback={usingFallback} compact />
+          </div>
+        )}
+
+        <div class="grid content-start gap-4 rounded-xl border border-line bg-surface p-5 shadow-card">
+          <div>
+            <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Where to stay</p>
+            <h2 id="hotel-heading" class="max-w-none text-[clamp(1.35rem,2.4vw,2rem)]">{place.data.hotelName}</h2>
+            <p class="mt-3 text-sm leading-relaxed text-muted">{place.data.hotelNote}</p>
+            <p class="mt-2 text-sm font-black text-forest">{place.data.hotelRating}</p>
+          </div>
+          <a
+            class="inline-flex min-h-[2.7rem] w-max items-center justify-center rounded-full bg-clay px-5 text-sm font-extrabold text-cream transition-opacity hover:opacity-90"
+            href={place.data.hotelBookingUrl}
+            target="_blank"
+            rel="sponsored noopener noreferrer"
+          >
+            View on Booking.com <span aria-hidden="true"> ↗</span><span class="sr-only"> opens in a new tab</span>
+          </a>
         </div>
-        <a
-          class="inline-flex min-h-[2.9rem] items-center justify-center rounded-full bg-clay px-6 text-sm font-extrabold text-cream transition-opacity hover:opacity-90"
-          href={place.data.hotelBookingUrl}
-          target="_blank"
-          rel="sponsored noopener noreferrer"
-        >View on Booking.com <span aria-hidden="true"> ↗</span><span class="sr-only"> opens in a new tab</span></a>
       </div>
     </section>
 
