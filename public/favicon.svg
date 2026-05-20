@@ -1,5 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="50 Beautiful Places">
-  <rect width="64" height="64" rx="14" fill="#10201b"/>
-  <path d="M12 43 27 20l10 15 6-8 9 16H12Z" fill="#f4f0e8"/>
-  <circle cx="46" cy="18" r="5" fill="#d89f5b"/>
+  <defs>
+    <linearGradient id="sky" x1="12" x2="52" y1="8" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25b7ff"/>
+      <stop offset="0.48" stop-color="#8ee6ff"/>
+      <stop offset="1" stop-color="#fff1a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#sky)"/>
+  <circle cx="45" cy="18" r="8" fill="#ffcf33"/>
+  <path d="M9 46 25 22l11 17 7-9 12 16H9Z" fill="#ffffff"/>
+  <path d="M9 46 25 22l7 11-8 13H9Z" fill="#dff7ff"/>
+  <path d="M9 46h46v7H9Z" fill="#1f8f7a"/>
 </svg>
