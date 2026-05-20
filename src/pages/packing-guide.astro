@@ -133,25 +133,6 @@ const notToPack = [
   "Bulky cotton hoodies",
 ];
 
-const checklist = [
-  "Main 30-40L backpack",
-  "Optional packable day bag or tote",
-  "2-3 T-shirts",
-  "1 long-sleeve shirt",
-  "1 pair travel trousers",
-  "1 pair shorts or swim shorts",
-  "4 pairs underwear",
-  "3-4 pairs socks",
-  "1 shell",
-  "Optional warm layer",
-  "Main walking shoes",
-  "Lightweight sandals",
-  "Smartphone, charger, cables, power bank, adapter, earphones",
-  "Passport, cards, cash, insurance and visa documents",
-  "Small toiletries",
-  "Blister care, painkillers, anti-diarrhoea tablets, oral rehydration salts, personal medicine",
-  "Laundry detergent sheets, zip bags, pen and small lock",
-];
 ---
 
 <BaseLayout
@@ -189,9 +170,6 @@ const checklist = [
         <h2>One-bag philosophy</h2>
         <p>Pack for 4-5 days, not for the whole trip. Wash as you go. Use layers instead of bulky duplicates. Choose clothes that dry quickly, resist odour, and work in several situations. Avoid "just in case" items that are easy to buy locally.</p>
         <p>A good one-bag setup normally has one main carry-on backpack, one optional packable day bag or tote, one outfit worn on travel day, a small clothing system, a compact tech kit, a minimalist toiletry kit, and a small first-aid pouch.</p>
-
-        <h2>Items visible in the photos</h2>
-        <p>The photos suggest a practical warm-weather and active-travel setup. Visible or likely items include a wide-brim sun hat, lightweight long-sleeve shirt, bright active socks, lightweight strap sandals, fabric tote bag, blue waterproof or windproof shell, light blue sports cap, smartphone in protective case, wired earphones, black pouch or tech case, clear zip pouch, small cardboard box for small items, and a compact main bag.</p>
       </section>
 
       {productSections.map((section) => (
@@ -288,24 +266,9 @@ const checklist = [
         </aside>
       </section>
 
-      <section class="grid gap-5 border-t border-line pt-10">
-        <div class="max-w-[760px]">
-          <h2 class="font-serif text-[clamp(1.8rem,3vw,2.8rem)] leading-tight text-ink">Final checklist</h2>
-          <p class="mt-3 text-[1.05rem] leading-relaxed text-muted">A minimal one-bag checklist for independent travel.</p>
-        </div>
-        <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-          {checklist.map((item) => (
-            <div class="flex min-h-[3.5rem] items-start gap-3 rounded-lg border border-line bg-surface p-3 text-sm leading-snug text-ink">
-              <span class="mt-0.5 h-4 w-4 shrink-0 rounded border border-line bg-cream" aria-hidden="true"></span>
-              <span>{item}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
       <section class="prose max-w-[760px] border-t border-line pt-10">
         <h2>Codex and product data notes</h2>
-        <p>Product links are editorial references to official brand or category pages where possible. They are not labelled as affiliate links because no affiliate URLs were provided. Exact model pages can change, so category links are used where they are more stable.</p>
+        <p>Product links are editorial references to official brand or category pages where possible. There are no affiliate links. Exact model pages can change, so category links are used where they are more stable.</p>
       </section>
     </article>
   </section>
