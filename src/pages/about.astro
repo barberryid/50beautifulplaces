@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const heroImage = "https://live.staticflickr.com/7372/8754152916_6240747448_b.jpg";
+const heroImage = "/images/about-hero.jpg";
 ---
 
 <BaseLayout
@@ -14,7 +14,7 @@ const heroImage = "https://live.staticflickr.com/7372/8754152916_6240747448_b.jp
   <section class="about-hero grid min-h-[min(74svh,680px)] items-end bg-forest">
     <img
       src={heroImage}
-      alt="A vast Patagonian glacier and mountain landscape"
+      alt="Silhouetted travelers walking across a volcanic landscape at sunrise"
       width="1600" height="1000"
       fetchpriority="high"
       class="absolute inset-0 h-full w-full object-cover"
