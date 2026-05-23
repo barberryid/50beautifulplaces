@@ -56,16 +56,45 @@ const logisticsNote = place.data.accessSummary ?? place.data.planningDifficulty 
 const currencyLabel = currency ? `${currency.currencyName} (${currency.currencyCode})` : undefined;
 const imageCreditLabel = place.data.imageCredit.startsWith("Image credit:") ? place.data.imageCredit : `Image credit: ${place.data.imageCredit}`;
 const statusClass = (status: string) => status.toLowerCase().replaceAll(" / ","-").replaceAll(" ","-");
-const jsonLd = {
-  "@context":"https://schema.org","@type":"TouristAttraction",name:place.data.title,
-  description:place.data.seoDescription,image:place.data.mainImage,url:placeUrl,
-  address:{"@type":"PostalAddress",addressCountry:place.data.country},
-  touristType:place.data.tags
+const guideImages = [place.data.mainImage, ...(place.data.galleryImages?.map((img) => img.src) ?? [])]
+  .map((src) => (src.startsWith("http") ? src : new URL(src, Astro.site).toString()));
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site).toString() },
+    { "@type": "ListItem", position: 2, name: "Places", item: new URL("/places/", Astro.site).toString() },
+    { "@type": "ListItem", position: 3, name: place.data.title, item: placeUrl }
+  ]
 };
+const attractionJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+  "@id": `${placeUrl}#attraction`,
+  name: place.data.title,
+  description: place.data.seoDescription,
+  image: guideImages,
+  url: placeUrl,
+  address: { "@type": "PostalAddress", addressCountry: place.data.country },
+  touristType: place.data.tags,
+  isPartOf: { "@type": "WebSite", "@id": "https://50beautifulplaces.com/#website" }
+};
+const jsonLd = [attractionJsonLd, breadcrumbJsonLd];
 ---
 
-<BaseLayout title={place.data.seoTitle} description={place.data.seoDescription} image={place.data.mainImage} preloadImage jsonLd={jsonLd}>
+<BaseLayout title={place.data.seoTitle} description={place.data.seoDescription} image={place.data.mainImage} imageAlt={place.data.imageAlt} ogType="article" preloadImage jsonLd={jsonLd}>
   <article class="mx-auto w-full max-w-[1180px] px-4 pb-[clamp(3rem,7vw,6rem)]">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb pt-[clamp(1rem,3vw,1.75rem)] text-sm text-muted" aria-label="Breadcrumb">
+      <ol class="flex flex-wrap items-center gap-1.5">
+        <li><a class="font-semibold text-clay-text underline-offset-2 hover:underline" href="/">Home</a></li>
+        <li aria-hidden="true" class="text-line">&rsaquo;</li>
+        <li><a class="font-semibold text-clay-text underline-offset-2 hover:underline" href="/places/">Places</a></li>
+        <li aria-hidden="true" class="text-line">&rsaquo;</li>
+        <li class="font-bold text-ink" aria-current="page">{shortTitle}</li>
+      </ol>
+    </nav>
 
     <!-- Guide hero -->
     <header class="grid gap-[clamp(1rem,4vw,3rem)] py-[clamp(1rem,5vw,4rem)] lg:grid-cols-[1.15fr_0.85fr] lg:items-end">

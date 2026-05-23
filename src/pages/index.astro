@@ -7,13 +7,39 @@ const destinations = await getCollection("destinations");
 const featured = destinations.filter((place) => place.data.featured);
 const regions = [...new Set(destinations.map((place) => place.data.region))].sort();
 const hero = featured[0];
+
+const siteUrl = "https://50beautifulplaces.com";
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${siteUrl}/#organization`,
+  name: "50 Beautiful Places",
+  url: `${siteUrl}/`,
+  logo: `${siteUrl}/og-default.png`,
+  description:
+    "Image-led travel inspiration and practical destination guides for beautiful places around the world."
+};
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${siteUrl}/#website`,
+  name: "50 Beautiful Places",
+  url: `${siteUrl}/`,
+  description:
+    "A fast, image-led travel inspiration site for discovering beautiful places, scenic routes, and practical destination notes.",
+  inLanguage: "en",
+  publisher: { "@id": `${siteUrl}/#organization` }
+};
+const jsonLd = [organizationJsonLd, websiteJsonLd];
 ---
 
 <BaseLayout
   title="50 Beautiful Places"
   description="A fast, image-led travel inspiration site for discovering beautiful places, scenic routes, and practical destination notes."
   image={hero.data.mainImage}
+  imageAlt={hero.data.imageAlt}
   preloadImage
+  jsonLd={jsonLd}
 >
   <!-- Hero -->
   <section class="hero grid min-h-[calc(100svh-4.6rem)] items-end bg-forest">

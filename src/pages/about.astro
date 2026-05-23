@@ -4,13 +4,40 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const heroImage = "/images/about-hero.jpg";
 const canyonPortraitImage = "/images/about-canyon-portrait.jpg";
 const travelSceneImage = "/images/about-travel-scene.jpg";
+
+const siteUrl = "https://50beautifulplaces.com";
+const aboutUrl = `${siteUrl}/about/`;
+const aboutDescription =
+  "Why 50 Beautiful Places was created: a personal travel project focused on awe-inspiring landscapes, meaningful travel experiences, cultural depth, and practical destination guidance.";
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": `${aboutUrl}#aboutpage`,
+    name: "About 50 Beautiful Places",
+    url: aboutUrl,
+    description: aboutDescription,
+    isPartOf: { "@type": "WebSite", "@id": `${siteUrl}/#website` },
+    about: { "@type": "Organization", "@id": `${siteUrl}/#organization` }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+      { "@type": "ListItem", position: 2, name: "About", item: aboutUrl }
+    ]
+  }
+];
 ---
 
 <BaseLayout
   title="About Me | 50 Beautiful Places"
   description="Learn why 50 Beautiful Places was created: a personal travel project focused on awe-inspiring landscapes, meaningful travel experiences, cultural depth, and practical destination guidance."
   image={heroImage}
+  imageAlt="Silhouetted travelers walking across a volcanic landscape at sunrise"
   preloadImage
+  jsonLd={jsonLd}
 >
   <!-- About hero -->
   <section class="about-hero grid min-h-[min(74svh,680px)] items-end bg-forest">

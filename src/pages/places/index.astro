@@ -6,12 +6,46 @@ import DestinationCard from "../../components/DestinationCard.astro";
 const destinations = (await getCollection("destinations")).sort((a, b) => a.data.title.localeCompare(b.data.title));
 const regions = [...new Set(destinations.map((place) => place.data.region))].sort();
 const bestForOptions = [...new Set(destinations.flatMap((place) => place.data.bestFor))].sort();
+
+const siteUrl = "https://50beautifulplaces.com";
+const placesUrl = `${siteUrl}/places/`;
+const collectionJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": `${placesUrl}#collection`,
+  name: "Fifty Places Worth Crossing a Continent For",
+  description:
+    "A handpicked atlas of the world's most extraordinary destinations, from salt flats and ancient mosques to overgrown ruins and quiet beaches almost nobody finds.",
+  url: placesUrl,
+  isPartOf: { "@type": "WebSite", "@id": `${siteUrl}/#website` },
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: destinations.length,
+    itemListElement: destinations.map((place, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${siteUrl}/places/${place.id}/`,
+      name: place.data.title
+    }))
+  }
+};
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+    { "@type": "ListItem", position: 2, name: "Places", item: placesUrl }
+  ]
+};
+const jsonLd = [collectionJsonLd, breadcrumbJsonLd];
 ---
 
 <BaseLayout
   title="Fifty Places Worth Crossing a Continent For"
   description="A handpicked atlas of the world's most extraordinary destinations, from salt flats and ancient mosques to overgrown ruins and quiet beaches almost nobody finds."
   image={destinations[0].data.mainImage}
+  imageAlt={destinations[0].data.imageAlt}
+  jsonLd={jsonLd}
 >
   <!-- Page hero -->
   <section class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(3rem,8vw,7rem)] pb-8">

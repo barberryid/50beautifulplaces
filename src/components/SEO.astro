@@ -3,24 +3,61 @@ interface Props {
   title: string;
   description: string;
   image?: string;
+  imageAlt?: string;
   canonical?: string;
+  ogType?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
+  noindex?: boolean;
 }
 
-const { title, description, image = "/og-default.png", canonical } = Astro.props;
-const pageTitle = title.endsWith(" | 50 Beautiful Places") || title === "50 Beautiful Places" ? title : `${title} | 50 Beautiful Places`;
-const canonicalUrl = canonical ? new URL(canonical, Astro.site).toString() : new URL(Astro.url.pathname, Astro.site).toString();
+const {
+  title,
+  description,
+  image = "/og-default.png",
+  imageAlt,
+  canonical,
+  ogType = "website",
+  publishedTime,
+  modifiedTime,
+  noindex = false
+} = Astro.props;
+
+const siteName = "50 Beautiful Places";
+const pageTitle =
+  title.endsWith(` | ${siteName}`) || title === siteName ? title : `${title} | ${siteName}`;
+const canonicalUrl = canonical
+  ? new URL(canonical, Astro.site).toString()
+  : new URL(Astro.url.pathname, Astro.site).toString();
 const imageUrl = image.startsWith("http") ? image : new URL(image, Astro.site).toString();
+const resolvedImageAlt =
+  imageAlt ?? "50 Beautiful Places — image-led travel inspiration and destination guides";
+const robotsContent = noindex
+  ? "noindex, nofollow"
+  : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 ---
 
 <title>{pageTitle}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonicalUrl} />
-<meta property="og:type" content="website" />
+<meta name="robots" content={robotsContent} />
+<meta name="author" content={siteName} />
+
+<!-- Open Graph -->
+<meta property="og:site_name" content={siteName} />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content={ogType} />
 <meta property="og:title" content={pageTitle} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonicalUrl} />
 <meta property="og:image" content={imageUrl} />
+<meta property="og:image:alt" content={resolvedImageAlt} />
+{publishedTime && <meta property="article:published_time" content={publishedTime} />}
+{modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+
+<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={pageTitle} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={imageUrl} />
+<meta name="twitter:image:alt" content={resolvedImageAlt} />

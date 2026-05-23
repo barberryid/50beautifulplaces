@@ -45,12 +45,42 @@ const productCards = [
     note: "Lightweight UV purifier; does not remove sediment, metals, chemicals, or improve taste."
   }
 ];
+
+const siteUrl = "https://50beautifulplaces.com";
+const healthUrl = `${siteUrl}/health/`;
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${healthUrl}#article`,
+    headline: "Travel Health: Water Safety and Stomach-Illness Prevention",
+    description:
+      "Practical travel-health notes on traveler's diarrhea, food and water hygiene, and water-filter options for destination planning.",
+    url: healthUrl,
+    image: "https://live.staticflickr.com/380/18609813624_3aa8110de0_b.jpg",
+    inLanguage: "en",
+    isPartOf: { "@type": "WebSite", "@id": `${siteUrl}/#website` },
+    author: { "@type": "Organization", "@id": `${siteUrl}/#organization` },
+    publisher: { "@type": "Organization", "@id": `${siteUrl}/#organization` }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+      { "@type": "ListItem", position: 2, name: "Health", item: healthUrl }
+    ]
+  }
+];
 ---
 
 <BaseLayout
   title="Travel Health"
   description="Practical travel-health notes on traveler's diarrhea, food and water hygiene, and water-filter options for destination planning."
   image="https://live.staticflickr.com/380/18609813624_3aa8110de0_b.jpg"
+  imageAlt="Travel water-filter bottles for safer drinking water while traveling"
+  ogType="article"
+  jsonLd={jsonLd}
 >
   <!-- Page hero -->
   <section class="mx-auto w-full max-w-[1180px] px-4 pb-8 pt-[clamp(3rem,8vw,7rem)]">

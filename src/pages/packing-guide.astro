@@ -338,12 +338,42 @@ const finalChecklist = [
     ],
   },
 ];
+
+const siteUrl = "https://50beautifulplaces.com";
+const packingUrl = `${siteUrl}/packing-guide/`;
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${packingUrl}#article`,
+    headline: "One-Bag Packing Guide for Independent Travel",
+    description:
+      "A practical one-bag packing guide for independent travellers, with lightweight travel clothing, bags, sandals, electronics, toiletries, health basics, and specific product recommendations.",
+    url: packingUrl,
+    image: `${siteUrl}/og-default.png`,
+    inLanguage: "en",
+    isPartOf: { "@type": "WebSite", "@id": `${siteUrl}/#website` },
+    author: { "@type": "Organization", "@id": `${siteUrl}/#organization` },
+    publisher: { "@type": "Organization", "@id": `${siteUrl}/#organization` }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+      { "@type": "ListItem", position: 2, name: "Packing", item: packingUrl }
+    ]
+  }
+];
 ---
 
 <BaseLayout
   title="One-Bag Packing Guide for Independent Travel | 50 Beautiful Places"
   description="A practical one-bag packing guide for independent travellers, with lightweight travel clothing, bags, sandals, electronics, toiletries, health basics, and specific product recommendations."
   image="/og-default.png"
+  imageAlt="Lightweight one-bag travel packing setup"
+  ogType="article"
+  jsonLd={jsonLd}
 >
   <section class="mx-auto w-full max-w-[1180px] px-4 pb-10 pt-[clamp(3rem,8vw,7rem)]">
     <div class="max-w-[760px]">

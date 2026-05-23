@@ -8,11 +8,27 @@ interface Props {
   title: string;
   description: string;
   image?: string;
+  imageAlt?: string;
+  ogType?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
+  noindex?: boolean;
   preloadImage?: boolean;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-const { title, description, image, preloadImage = false, jsonLd } = Astro.props;
+const {
+  title,
+  description,
+  image,
+  imageAlt,
+  ogType,
+  publishedTime,
+  modifiedTime,
+  noindex,
+  preloadImage = false,
+  jsonLd
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -21,9 +37,24 @@ const { title, description, image, preloadImage = false, jsonLd } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#fbfaf7" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://live.staticflickr.com" crossorigin />
+    <link rel="preconnect" href="https://upload.wikimedia.org" crossorigin />
+    <link rel="dns-prefetch" href="https://live.staticflickr.com" />
+    <link rel="dns-prefetch" href="https://upload.wikimedia.org" />
+    <link rel="dns-prefetch" href="https://inaturalist-open-data.s3.amazonaws.com" />
     {preloadImage && image && <link rel="preload" as="image" href={image} />}
-    <SEO title={title} description={description} image={image} />
+    <SEO
+      title={title}
+      description={description}
+      image={image}
+      imageAlt={imageAlt}
+      ogType={ogType}
+      publishedTime={publishedTime}
+      modifiedTime={modifiedTime}
+      noindex={noindex}
+    />
     {jsonLd && (
       <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     )}
