@@ -3,19 +3,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 const linkRel = "noopener noreferrer";
 
-const setupItems = [
-  ["Main bag", "Patagonia Black Hole Mini MLC 30L for compact travel, or Osprey Farpoint 40 if you need more room."],
-  ["Day bag", "Sea to Summit Ultra-Sil Day Pack 20L."],
-  ["Organisation", "Eagle Creek Pack-It Reveal Compression Cubes."],
-  ["Shirts", "Icebreaker Merino 150 Tech Lite for premium use; Uniqlo AIRism for budget hot-weather layers."],
-  ["Trousers", "Western Rise Evolution Pant."],
-  ["Underwear", "ExOfficio Give-N-Go Sport Mesh or Uniqlo AIRism."],
-  ["Socks", "Smartwool merino socks."],
-  ["Rain jacket or wind shell", "Patagonia Houdini Jacket."],
-  ["Sun", "Outdoor Research Sun Runner Cap or a wide-brim sun hat."],
-  ["Sandals", "Xero Z-Trek for packability, Teva Hurricane for comfort, Bedrock Cairn Evo for premium adventure use."],
-];
-
 const beforeLeaveRows = [
   ["Charge all devices and power banks", "Long travel days often begin before plug sockets are available"],
   ["Unplug non-essential devices", "Reduces risk and saves electricity"],
@@ -375,40 +362,8 @@ const jsonLd = [
   ogType="article"
   jsonLd={jsonLd}
 >
-  <section class="mx-auto w-full max-w-[1180px] px-4 pb-10 pt-[clamp(3rem,8vw,7rem)]">
-    <div class="max-w-[760px]">
-      <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Travel packing</p>
-      <h1 class="max-w-[14ch]">One-bag packing guide for independent travellers</h1>
-      <div class="mt-5 max-w-[48rem] space-y-4 text-lg leading-relaxed text-muted">
-        <p>Travel is easier when everything useful fits into one carry-on bag. You move faster through airports, use public transport more easily, avoid checked-bag stress, and can walk straight into a town, ferry terminal, guesthouse, market or trailhead without feeling overloaded.</p>
-        <p>The goal is not to pack the least possible. The goal is to pack the smallest useful kit: light enough to carry all day, complete enough for uncertain places, and simple enough that every item earns its place.</p>
-      </div>
-    </div>
-  </section>
-
   <section class="mx-auto w-full max-w-[1180px] px-4 pb-[clamp(3rem,7vw,6rem)]">
     <article class="grid gap-12">
-      <section class="prose max-w-[760px]">
-        <h2>One-bag travel philosophy</h2>
-        <p>Pack for 4–5 days, not for the whole trip. Wash as you go. Use layers instead of bulky duplicates. Choose clothes that dry quickly, resist odour, and work in several situations. Avoid "just in case" items that are easy to buy locally.</p>
-        <p>A good one-bag setup normally has one main carry-on backpack, one optional packable day bag or tote, one outfit worn on travel day, a small clothing system, a compact tech kit, a minimalist toiletry kit, and a small first-aid pouch.</p>
-      </section>
-
-      <section class="grid gap-5 border-t border-line pt-10">
-        <aside class="rounded-xl border border-line bg-surface p-5 shadow-card lg:max-w-[760px]">
-          <p class="text-[0.7rem] font-black uppercase tracking-[0.12em] text-clay-text">Best overall setup</p>
-          <h2 class="mt-2 font-serif text-2xl leading-tight text-ink">Best overall one-bag setup</h2>
-          <dl class="mt-5 grid gap-3 sm:grid-cols-2">
-            {setupItems.map(([label, value]) => (
-              <div class="border-t border-line pt-3">
-                <dt class="text-[0.68rem] font-black uppercase tracking-[0.12em] text-muted">{label}</dt>
-                <dd class="mt-1 text-sm leading-relaxed text-ink">{value}</dd>
-              </div>
-            ))}
-          </dl>
-        </aside>
-      </section>
-
       <section class="grid gap-5 border-t border-line pt-10">
         <div class="max-w-[760px]">
           <h2 class="font-serif text-[clamp(1.8rem,3vw,2.8rem)] leading-tight text-ink">Before you leave home</h2>
