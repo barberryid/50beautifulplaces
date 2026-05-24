@@ -210,7 +210,7 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "Nice-to-have extras",
+    title: "13. Nice-to-have extras",
     items: [
       "Chocolate or a small gift for airline crew.",
       "A few good bakeries near your hotel.",
@@ -331,22 +331,34 @@ const jsonLd = [
               <p class="mt-3 text-sm font-bold leading-relaxed text-ink">{beforePayingText}</p>
             </aside>
           )}
-          <section class="rounded-xl border border-line bg-surface p-5 shadow-card sm:p-6" aria-labelledby={`section-${sectionIndex}`}>
-            <div class="mb-5">
-              <h2 id={`section-${sectionIndex}`} class="max-w-none text-[clamp(1.55rem,3vw,2.35rem)]">{section.title}</h2>
-              {section.intro && <p class="mt-3 max-w-[720px] text-[1.02rem] leading-relaxed text-muted">{section.intro}</p>}
+          <details
+            open={sectionIndex === 0}
+            class="checklist-accordion rounded-xl border border-line bg-surface shadow-card"
+          >
+            <summary class="flex cursor-pointer select-none items-start justify-between gap-4 p-5 sm:p-6 [&::-webkit-details-marker]:hidden">
+              <div>
+                <h2 id={`section-${sectionIndex}`} class="max-w-none text-[clamp(1.55rem,3vw,2.35rem)]">{section.title}</h2>
+                {section.intro && <p class="mt-2 max-w-[720px] text-[1.02rem] leading-relaxed text-muted">{section.intro}</p>}
+              </div>
+              <span class="accordion-chevron mt-2 shrink-0 text-clay-text transition-transform duration-200" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </summary>
+            <div class="px-5 pb-5 pt-0 sm:px-6 sm:pb-6">
+              <ul class="grid list-none gap-2 p-0">
+                {section.items.map((item) => (
+                  <li>
+                    <label class="checklist-row flex min-h-[3rem] gap-3 rounded-lg border border-line bg-paper px-3 py-3 text-sm font-bold leading-relaxed text-ink sm:text-[0.96rem]">
+                      <input class="mt-1 h-4 w-4 shrink-0 accent-clay" type="checkbox" aria-label={`Mark complete: ${item}`} />
+                      <span>{item}</span>
+                    </label>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <ul class="grid list-none gap-2 p-0">
-              {section.items.map((item) => (
-                <li>
-                  <label class="checklist-row flex min-h-[3rem] gap-3 rounded-lg border border-line bg-paper px-3 py-3 text-sm font-bold leading-relaxed text-ink sm:text-[0.96rem]">
-                    <input class="mt-1 h-4 w-4 shrink-0 accent-clay" type="checkbox" aria-label={`Mark complete: ${item}`} />
-                    <span>{item}</span>
-                  </label>
-                </li>
-              ))}
-            </ul>
-          </section>
+          </details>
         </>
       ))}
     </article>
@@ -383,6 +395,19 @@ const jsonLd = [
       window.print();
     });
 
+    window.addEventListener("beforeprint", () => {
+      document.querySelectorAll("details.checklist-accordion").forEach((d) => {
+        d._wasOpen = d.open;
+        d.open = true;
+      });
+    });
+
+    window.addEventListener("afterprint", () => {
+      document.querySelectorAll("details.checklist-accordion").forEach((d) => {
+        d.open = d._wasOpen ?? false;
+      });
+    });
+
     copyButton?.addEventListener("click", async () => {
       try {
         await navigator.clipboard.writeText(copyText);
@@ -394,6 +419,10 @@ const jsonLd = [
   </script>
 
   <style>
+    details[open] .accordion-chevron {
+      transform: rotate(180deg);
+    }
+
     @media print {
       header,
       footer,
@@ -413,6 +442,14 @@ const jsonLd = [
 
       input[type="checkbox"] {
         print-color-adjust: exact;
+      }
+
+      details > *:not(summary) {
+        display: block !important;
+      }
+
+      .accordion-chevron {
+        display: none !important;
       }
     }
   </style>
