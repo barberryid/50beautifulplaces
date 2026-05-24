@@ -56,7 +56,7 @@ const logisticsNote = place.data.accessSummary ?? place.data.planningDifficulty 
 const currencyLabel = currency ? `${currency.currencyName} (${currency.currencyCode})` : undefined;
 const imageCreditLabel = place.data.imageCredit.startsWith("Image credit:") ? place.data.imageCredit : `Image credit: ${place.data.imageCredit}`;
 const statusClass = (status: string) => status.toLowerCase().replaceAll(" / ","-").replaceAll(" ","-");
-const guideImages = [place.data.mainImage, ...(place.data.galleryImages?.map((img) => img.src) ?? [])]
+const guideImages = [...new Set([place.data.mainImage, ...(place.data.galleryImages?.map((img) => img.src) ?? [])])]
   .map((src) => (src.startsWith("http") ? src : new URL(src, Astro.site).toString()));
 const siteName = "50 Beautiful Places";
 const pageTitle = place.data.seoTitle.endsWith(` | ${siteName}`)
@@ -452,13 +452,13 @@ const jsonLd = [attractionJsonLd, articleJsonLd, breadcrumbJsonLd];
         </h2>
         <div class="grid gap-4 sm:grid-cols-2">
           {place.data.galleryImages.map((image) => (
-            <figure class="m-0">
+            <figure class={`m-0 ${image.featured ? "sm:col-span-2" : ""}`}>
               <img
                 src={image.src}
                 alt={image.alt}
-                width="1200" height="760"
+                width={image.featured ? "1800" : "1200"} height={image.featured ? "900" : "760"}
                 loading="lazy" decoding="async"
-                class="aspect-[3/2] w-full rounded-xl object-cover"
+                class={`${image.featured ? "aspect-[2/1]" : "aspect-[3/2]"} w-full rounded-xl object-cover`}
               />
               {image.caption && <figcaption class="mt-2 text-sm text-muted">{image.caption}</figcaption>}
             </figure>

@@ -75,7 +75,8 @@ const destinations = defineCollection({
     galleryImages: z.array(z.object({
       src: imagePath,
       alt: z.string(),
-      caption: z.string().optional()
+      caption: z.string().optional(),
+      featured: z.boolean().optional()
     })).optional(),
     hotelName: z.string(),
     hotelBookingUrl: z.string().url(),
