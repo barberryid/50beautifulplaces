@@ -497,9 +497,9 @@ const jsonLd = [attractionJsonLd, articleJsonLd, breadcrumbJsonLd];
       link.setAttribute("target", "_blank");
       link.setAttribute("rel", "noopener noreferrer");
     });
-    // Preserve ordered-list semantics when list-style:none is applied
-    // (Safari/VoiceOver strips list role when list-style is removed via CSS)
-    document.querySelectorAll(".guide-content ol").forEach((ol) => {
+    // Preserve ordered-list semantics for the practical tips list.
+    // Safari/VoiceOver strips the list role when list-style:none is applied via CSS.
+    document.querySelectorAll('.guide-content [id="10-practical-tips-to-help-you-decide"] ~ ol').forEach((ol) => {
       ol.setAttribute("role", "list");
     });
   </script>

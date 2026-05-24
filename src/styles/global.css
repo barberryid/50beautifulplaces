@@ -497,68 +497,83 @@
   }
 }
 
-/* ── Decision Tips: numbered card grid ───────────────────────────────── */
-/* Transforms the "10 Practical Tips" ordered list in .guide-content     */
-/* into a premium two-column numbered card layout. Targets all 59        */
-/* destination pages globally — no per-page changes required.            */
+/* ── Practical Tips: full-width editorial numbered list ──────────────── */
+/* Scoped to the "10 Practical Tips to Help You Decide" section only.    */
+/* Uses the heading's auto-generated id so other ordered lists on the    */
+/* page are unaffected. The id is consistent across all 59 destinations. */
 
-.guide-content ol {
-  counter-reset: decision-tip;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
+.guide-content [id="10-practical-tips-to-help-you-decide"] ~ ol {
+  counter-reset: practical-tip;
   list-style: none;
-  padding-left: 0;
+  padding: 0;
   margin: 1.5rem 0 2rem;
 }
 
-@media (min-width: 640px) {
-  .guide-content ol {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.25rem;
-  }
-}
-
-.guide-content ol > li {
-  counter-increment: decision-tip;
-  border: 1px solid var(--color-line);
-  border-radius: 1rem;
-  background: var(--color-surface);
-  padding: 1.25rem;
+.guide-content [id="10-practical-tips-to-help-you-decide"] ~ ol > li {
+  counter-increment: practical-tip;
+  display: grid;
+  grid-template-columns: minmax(4.5rem, 6rem) 1fr;
+  column-gap: 1.5rem;
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--color-line);
   margin-bottom: 0;
 }
 
-.guide-content ol > li::before {
-  content: counter(decision-tip, decimal-leading-zero);
-  display: block;
-  font-size: 2.5rem;
+.guide-content [id="10-practical-tips-to-help-you-decide"] ~ ol > li:first-child {
+  border-top: 1px solid var(--color-line);
+}
+
+.guide-content [id="10-practical-tips-to-help-you-decide"] ~ ol > li::before {
+  content: counter(practical-tip, decimal-leading-zero);
+  grid-row: 1;
+  grid-column: 1;
+  align-self: start;
+  font-size: clamp(3rem, 5vw, 4.5rem);
   font-weight: 900;
-  line-height: 1;
-  letter-spacing: -0.03em;
-  margin-bottom: 0.75rem;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+  padding-top: 0.05em;
   color: var(--color-clay-text);
-  background: linear-gradient(135deg, var(--color-clay), var(--color-clay-text));
+  background: linear-gradient(160deg, var(--color-clay) 0%, var(--color-clay-text) 55%, var(--color-forest) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.guide-content ol > li > p {
-  font-size: 0.9rem;
-  line-height: 1.65;
+.guide-content [id="10-practical-tips-to-help-you-decide"] ~ ol > li > p {
+  grid-column: 2;
+  font-size: 0.975rem;
+  line-height: 1.72;
   color: var(--color-muted);
-  margin-bottom: 0.5rem;
-}
-
-.guide-content ol > li > p:last-child {
   margin-bottom: 0;
 }
 
-.guide-content ol > li > p:first-child > strong:first-child {
-  display: block;
-  color: var(--color-forest);
-  font-size: 0.9375rem;
-  font-weight: 700;
-  line-height: 1.3;
+.guide-content [id="10-practical-tips-to-help-you-decide"] ~ ol > li > p:not(:last-child) {
   margin-bottom: 0.5rem;
+}
+
+.guide-content [id="10-practical-tips-to-help-you-decide"] ~ ol > li > p:first-child > strong:first-child {
+  display: block;
+  color: var(--color-ink);
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 520px) {
+  .guide-content [id="10-practical-tips-to-help-you-decide"] ~ ol > li {
+    display: block;
+    padding: 1.35rem 0;
+  }
+
+  .guide-content [id="10-practical-tips-to-help-you-decide"] ~ ol > li::before {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: clamp(2.75rem, 12vw, 3.5rem);
+  }
+
+  .guide-content [id="10-practical-tips-to-help-you-decide"] ~ ol > li > p {
+    grid-column: unset;
+  }
 }
