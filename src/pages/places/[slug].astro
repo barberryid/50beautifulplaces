@@ -58,6 +58,13 @@ const imageCreditLabel = place.data.imageCredit.startsWith("Image credit:") ? pl
 const statusClass = (status: string) => status.toLowerCase().replaceAll(" / ","-").replaceAll(" ","-");
 const guideImages = [place.data.mainImage, ...(place.data.galleryImages?.map((img) => img.src) ?? [])]
   .map((src) => (src.startsWith("http") ? src : new URL(src, Astro.site).toString()));
+const siteName = "50 Beautiful Places";
+const pageTitle = place.data.seoTitle.endsWith(` | ${siteName}`)
+  ? place.data.seoTitle
+  : `${place.data.seoTitle} | ${siteName}`;
+const heroImageUrl = place.data.mainImage.startsWith("http")
+  ? place.data.mainImage
+  : new URL(place.data.mainImage, Astro.site).toString();
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -79,7 +86,28 @@ const attractionJsonLd = {
   touristType: place.data.tags,
   isPartOf: { "@type": "WebSite", "@id": "https://50beautifulplaces.com/#website" }
 };
-const jsonLd = [attractionJsonLd, breadcrumbJsonLd];
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": `${placeUrl}#article`,
+  headline: pageTitle,
+  description: place.data.seoDescription,
+  url: placeUrl,
+  mainEntityOfPage: placeUrl,
+  image: heroImageUrl,
+  inLanguage: "en",
+  author: {
+    "@type": "Organization",
+    name: siteName,
+    url: new URL("/", Astro.site).toString()
+  },
+  publisher: {
+    "@type": "Organization",
+    name: siteName,
+    url: new URL("/", Astro.site).toString()
+  }
+};
+const jsonLd = [attractionJsonLd, articleJsonLd, breadcrumbJsonLd];
 ---
 
 <BaseLayout title={place.data.seoTitle} description={place.data.seoDescription} image={place.data.mainImage} imageAlt={place.data.imageAlt} ogType="article" preloadImage jsonLd={jsonLd}>
