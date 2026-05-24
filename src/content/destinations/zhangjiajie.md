@@ -1,5 +1,5 @@
 ---
-title: "Zhangjiajie Travel Guide"
+title: "Zhangjiajie"
 shortTitle: "Zhangjiajie"
 countryRegionLabel: "China / Hunan Province / East Asia"
 country: "China"
@@ -69,13 +69,9 @@ planningResources:
     href: "https://whc.unesco.org/en/list/640/"
     note: "World Heritage overview for the wider Wulingyuan landscape, including its sandstone pillars, ravines, streams, natural bridges and caves."
     official: true
-  - label: "Visa policy of China"
-    href: "https://en.wikipedia.org/wiki/Visa_policy_of_China"
-    note: "A useful overview before confirming the current rules with an official embassy, consulate or government source."
-    official: false
 tags: ["Dramatic landscapes","Photography","Mountains","Forests","Hiking","Views","UNESCO","Asia","Remote/adventurous travel","Nature"]
 featured: false
-seoTitle: "Zhangjiajie Travel Guide | 50 Beautiful Places"
+seoTitle: "Zhangjiajie | 50 Beautiful Places"
 seoDescription: "A practical travel guide to Zhangjiajie National Forest Park and Wulingyuan, China's dreamlike landscape of sandstone pillars, misty valleys, forest trails, cableways, and Avatar-like viewpoints."
 ---
 
