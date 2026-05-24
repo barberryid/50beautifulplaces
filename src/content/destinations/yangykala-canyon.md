@@ -6,7 +6,7 @@ summary: "Red, white, and pink canyon walls blaze in the Turkmen desert, especia
 mainImage: "/images/destinations/yangykala-canyon.png"
 imageAlt: "Layered red and cream cliffs of Yangykala Canyon in Turkmenistan"
 imageCredit: "Yangykala Canyon image supplied by 50 Beautiful Places"
-imageCreditUrl: "https://50beautifulplaces.com/places/yankikala-canyon/"
+imageCreditUrl: "https://50beautifulplaces.com/places/yangykala-canyon/"
 hotelName: "8+ rated stays for Yangykala Canyon"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Yangykala%20Canyon%2C%20Turkmenistan&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"

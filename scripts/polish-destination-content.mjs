@@ -60,7 +60,7 @@ const bestTimeByTitle = {
   Venice: "April to June and September to November for gentler light and less oppressive heat",
   "Victoria Falls": "February to May for maximum spray and drama; June to August balances flow with visibility",
   "Whitehaven Beach": "May to October for drier Whitsunday weather, clear water, and comfortable sailing",
-  "Yankikala Canyon": "April to May and September to October for manageable desert temperatures",
+  "Yangykala Canyon": "April to May and September to October for manageable desert temperatures",
   "Zhangye Danxia Landform": "June to September for stronger color after rain, especially at sunrise or sunset"
 };
 
@@ -101,7 +101,7 @@ const notesByTitle = {
   Venice: "Sleep in Venice proper if possible, then walk before breakfast and after dinner when day-trippers thin out. Book major sights, but save time for vaporetto rides, side canals, cicchetti bars, and getting gently lost. The city is fragile, expensive, and still astonishing when approached slowly.",
   "Victoria Falls": "Choose the Zambia or Zimbabwe side based on season and water level; many travelers see both. High water brings thunder and soaking spray, while lower water reveals more of the gorge. Add a sunset river cruise or viewpoints along the bridge to feel the scale beyond one lookout.",
   "Zhangye Danxia Landform": "Use Zhangye as the base and visit at sunrise or sunset, when the striped hills hold their strongest color. Rain can intensify the tones, but paths and viewpoints are controlled, so expect a managed scenic area rather than wilderness. The spectacle is geology made almost painterly.",
-  "Yankikala Canyon": "Yankikala is remote, dry, and best visited with a driver who knows Turkmenistan's rules and roads. The canyon's pink, red, and cream walls glow near sunset, but services are minimal. Carry water, sun protection, and patience for permits or checkpoint formalities.",
+  "Yangykala Canyon": "Yangykala is remote, dry, and best visited with a driver who knows Turkmenistan's rules and roads. The canyon's pink, red, and cream walls glow near sunset, but services are minimal. Carry water, sun protection, and patience for permits or checkpoint formalities.",
   "Whitehaven Beach": "Reach it by boat, sailing trip, seaplane, or helicopter from the Whitsundays. Hill Inlet is the essential viewpoint, where tide patterns twist white silica sand through blue water. Reef-safe sun protection matters, and weather can change the whole character of a day trip."
 };
 

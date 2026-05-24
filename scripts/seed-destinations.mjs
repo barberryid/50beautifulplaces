@@ -44,7 +44,7 @@ const places = [
   ["Tonga", "Tonga", "Oceania", ["Islands", "Ocean", "Culture"]],
   ["Zhangye Danxia Landform", "China", "Asia", ["Geology", "Color", "Landscape"]],
   ["Dominica", "Dominica", "Caribbean", ["Rainforest", "Waterfalls", "Islands"]],
-  ["Yankikala Canyon", "Turkmenistan", "Asia", ["Canyons", "Desert", "Road trip"]],
+  ["Yangykala Canyon", "Turkmenistan", "Asia", ["Canyons", "Desert", "Road trip"]],
   ["Hundred step beach", "Trinidad & Tobago", "Caribbean", ["Beach", "Coast", "Local escape"]],
   ["Copacabana", "Brazil", "South America", ["Beach", "Cities", "Culture"]],
   ["Malta", "Malta", "Europe", ["Islands", "History", "Coast"]],

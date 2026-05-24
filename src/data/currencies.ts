@@ -852,7 +852,7 @@ export const currencyData: Record<string, CurrencyData> = {
       "Whitehaven Beach is only accessible by boat or seaplane — no ATMs or services on the island. Bring cash for smaller tour operators in Airlie Beach. Cards everywhere on the mainland. Book tours well in advance in peak season (Jun–Aug).",
   },
 
-  "yankikala-canyon": {
+  "yangykala-canyon": {
     currencyCode: "TMT",
     currencyName: "Turkmen Manat",
     costLevel: "Moderate",
@@ -863,7 +863,7 @@ export const currencyData: Record<string, CurrencyData> = {
       midrangeHotel: "TMT 100–350/night (state-approved)",
     },
     currencyTips:
-      "Visa and a mandatory guide are required for Turkmenistan. Cash-only economy. Bring USD to exchange — official and market rates differ significantly, use authorised exchange offices only. Yankikala Canyon is in the remote Karakum Desert; all logistics must be pre-arranged.",
+      "Visa and a mandatory guide are required for Turkmenistan. Cash-only economy. Bring USD to exchange — official and market rates differ significantly, use authorised exchange offices only. Yangykala Canyon is in the remote Karakum Desert; all logistics must be pre-arranged.",
   },
 
   "zhangye-danxia-landform": {

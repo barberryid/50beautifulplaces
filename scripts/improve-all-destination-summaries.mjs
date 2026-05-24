@@ -50,7 +50,7 @@ const summaries = {
   "venice": "Canals, palaces, stone bridges, and lagoon light make Venice feel like a city floating between history and dream.",
   "victoria-falls": "The Zambezi drops into a roaring chasm of spray, rainbows, and thunder you hear long before you see it.",
   "whitehaven-beach": "Silica sand swirls through turquoise shallows in the Whitsundays, creating one of Australia's most dazzling shorelines.",
-  "yankikala-canyon": "Red, white, and pink canyon walls blaze in the Turkmen desert, especially when low sun turns the cliffs molten.",
+  "yangykala-canyon": "Red, white, and pink canyon walls blaze in the Turkmen desert, especially when low sun turns the cliffs molten.",
   "zhangye-danxia-landform": "China's rainbow mountains ripple in bands of red, gold, and green, like geology painted at impossible scale."
 };
 

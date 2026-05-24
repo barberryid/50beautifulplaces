@@ -580,7 +580,7 @@ export const burgerBenchmarks: Record<string, BurgerBenchmark> = {
     burgerBenchmarkSourceUrl: "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv",
     burgerBenchmarkNotes: "Country-level Big Mac price from The Economist Big Mac Index",
   },
-  "yankikala-canyon": {
+  "yangykala-canyon": {
     burgerBenchmarkAvailable: false,
     burgerBenchmarkBrand: "McDonald's",
     burgerBenchmarkProduct: "Big Mac",
