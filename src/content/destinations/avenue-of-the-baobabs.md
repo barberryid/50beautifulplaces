@@ -74,30 +74,3 @@ These tips are designed to help you decide whether the Avenue of the Baobabs fit
 9. **The avenue is still a working road — treat it like one.** Zebu carts, cyclists, and villagers move along the road throughout the day and are part of what makes the scene alive rather than a sealed tourist site. Be respectful with photography of local people, especially children: asking before pointing a camera is both courteous and practically useful — children who expect money for photos become persistent if you shoot without asking.
 
 10. **Add the Belo Tsiribihina river trip if you have the time.** The road north from Morondava leads to Belo Tsiribihina, from which pirogue river trips run toward the Tsingy de Bemaraha — one of Madagascar's most extraordinary landscapes. The combination of avenue, Kirindy, and a Tsingy approach via river is the classic western Madagascar circuit and transforms a half-day detour into a full week of travel with genuine variety.
-
-
-### What to do there
-
-Most people come for sunset, when the trees turn into dark silhouettes against an orange sky. It is beautiful, but it is also the busiest time. If you want quieter photography, go at sunrise as well. The light is softer, the air cooler, and there are usually fewer visitors.
-
-Do not only photograph the famous line of trees. Look for reflections in the wet season, zebu carts passing along the road, and the wider landscape of fields and villages. The site is still part of a living local road, not a sealed-off attraction.
-
-A common extension is to visit the nearby Baobab Amoureux, two intertwined baobabs often included on local half-day trips from Morondava.
-
-### How to get there
-
-The Avenue of the Baobabs is near Morondava on Madagascar's west coast, along the road toward Belo Tsiribihina. Most travelers base themselves in Morondava and hire a taxi, tuk-tuk, driver, or local guide for sunrise or sunset.
-
-Madagascar travel can be slow, and domestic flights or road journeys may change with weather and road conditions. Build in slack rather than planning tight same-day connections.
-
-### Best time to visit
-
-The dry season, roughly May to October, is usually the easiest time for road travel in western Madagascar. The wet season can bring dramatic skies and reflections, but roads may be more difficult. Sunset is the classic viewing time, but sunrise is often the better choice for people who prefer quiet.
-
-### Budget tips
-
-You do not need an expensive tour just to visit the avenue from Morondava. A simple local transfer is usually enough. The bigger budget question is getting to Morondava in the first place: domestic flights can be costly, while overland travel is cheaper but slow and tiring.
-
-### Practical notes
-
-Wear sandals or shoes you do not mind getting dusty or muddy. Bring water and a headlamp if staying after sunset. Be respectful with photography: local people use the road, and children or villagers may ask for money if you take close portraits.

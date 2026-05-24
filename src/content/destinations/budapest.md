@@ -86,28 +86,3 @@ These tips are designed to help you decide whether Budapest fits your time, budg
 9. **Fisherman's Bastion before 9am or after 6pm — midday is a crowd management exercise.** The Neo-Romanesque terraces of Fisherman's Bastion deliver the best direct views of Parliament across the Danube, but they are extremely popular at midday. Go early for architecture photography without crowds, or return at dusk when the Parliament and Chain Bridge light up. The Castle District is pleasant to wander any time, but early morning makes it feel like a different city.
 
 10. **The lit riverfront after dark is free — skip expensive dinner cruises.** The most dramatic Budapest experience costs nothing: walking the Pest embankment or taking tram 2 after dark, with Parliament, the bridges, and the Castle District lit against the river. Dinner cruises are expensive, have limited food quality, and block the views you came for. A tram ticket, a glass of wine from a ruin bar, and an evening embankment walk delivers the same visual experience at a fraction of the price.
-
-
-### What to do there
-
-Start with the classic river walk: Parliament, Chain Bridge, the Danube embankment, and views across to Buda Castle. Go up to Fisherman's Bastion early or late to avoid the biggest crowds. Walk the Castle District, then cross back into Pest for the Great Market Hall, the Jewish Quarter, and the city's cafe culture.
-
-Budapest's thermal baths are a major part of the experience. Szechenyi is the famous one, Gellert is beautiful, and Lukacs can be better value depending on your pass or discount. The official Budapest Card includes public transport and some attractions; check the current inclusions carefully because value depends on how intensively you sightsee.
-
-For a budget-friendly evening, skip expensive dinner cruises and take a normal tram or walk along the river after dark. The lit Parliament and bridges are the show.
-
-### How to get there
-
-Budapest is easy by train, bus, or low-cost flight from much of Europe. From the airport, the 100E airport bus is usually the simplest route into the center, while local public transport works well once you are in town. The BudapestGO app is useful for tickets and route planning.
-
-### Best time to visit
-
-Spring and autumn are the best balance of weather and cost. Summer is lively but hotter and busier. Winter can be excellent value, especially if you like baths, cafes, and Christmas markets, though accommodation prices rise around peak festive dates.
-
-### Budget tips
-
-Stay just outside the most central tourist streets but near a metro or tram stop. Use public transport rather than taxis. Eat at markets, bakeries, and neighborhood restaurants, not on the most obvious riverfront strips. If you plan to visit several museums and baths, price the Budapest Card carefully; otherwise, individual transport tickets may be cheaper.
-
-### Practical notes
-
-Budapest is very walkable, but distances are larger than they look. Plan by districts rather than zigzagging across the river all day. Book Parliament tours and popular baths in advance during busy periods.
