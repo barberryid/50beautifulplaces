@@ -33,7 +33,7 @@ const imageUrl = image.startsWith("http") ? image : new URL(image, Astro.site).t
 const resolvedImageAlt =
   imageAlt ?? "50 Beautiful Places — image-led travel inspiration and destination guides";
 const robotsContent = noindex
-  ? "noindex, nofollow"
+  ? "noindex, follow"
   : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 ---
 
