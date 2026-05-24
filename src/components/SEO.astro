@@ -9,6 +9,7 @@ interface Props {
   publishedTime?: string;
   modifiedTime?: string;
   noindex?: boolean;
+  robots?: string;
 }
 
 const {
@@ -20,7 +21,8 @@ const {
   ogType = "website",
   publishedTime,
   modifiedTime,
-  noindex = false
+  noindex = false,
+  robots
 } = Astro.props;
 
 const siteName = "50 Beautiful Places";
@@ -32,9 +34,9 @@ const canonicalUrl = canonical
 const imageUrl = image.startsWith("http") ? image : new URL(image, Astro.site).toString();
 const resolvedImageAlt =
   imageAlt ?? "50 Beautiful Places — image-led travel inspiration and destination guides";
-const robotsContent = noindex
+const robotsContent = robots ?? (noindex
   ? "noindex, follow"
-  : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
+  : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1");
 ---
 
 <title>{pageTitle}</title>

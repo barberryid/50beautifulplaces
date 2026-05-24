@@ -1,0 +1,160 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const inventory = [
+  { destination: "Angel Falls", slug: "angel-falls", visited: false },
+  { destination: "Annapurna", slug: "annapurna", visited: true },
+  { destination: "Anse Source d'Argent", slug: "anse-source-d-argent", visited: true },
+  { destination: "Arniston", slug: "arniston", visited: true },
+  { destination: "Avenue of the Baobabs", slug: "avenue-of-the-baobabs", visited: false },
+  { destination: "Boracay", slug: "boracay", visited: false },
+  { destination: "Budapest", slug: "budapest", visited: true },
+  { destination: "Carpathian Mountains", slug: "carpathian-mountains", visited: false },
+  { destination: "Chefchaouen", slug: "chefchaouen", visited: false },
+  { destination: "Chinguetti", slug: "chinguetti", visited: true },
+  { destination: "Copacabana", slug: "copacabana", visited: true },
+  { destination: "Danakil Depression", slug: "danakil-depression", visited: true },
+  { destination: "Denali National Park", slug: "denali-national-park", visited: false },
+  { destination: "Dettifoss", slug: "dettifoss", visited: true },
+  { destination: "Djanet", slug: "djanet", visited: true },
+  { destination: "Dominica", slug: "dominica", visited: false },
+  { destination: "Dominican Republic", slug: "dominican-republic", visited: false },
+  { destination: "El Nido", slug: "el-nido", visited: false },
+  { destination: "Etosha", slug: "etosha", visited: false },
+  { destination: "Fairy Meadows", slug: "fairy-meadows", visited: true },
+  { destination: "Fig Tree Beach", slug: "fig-tree-beach", visited: true },
+  { destination: "Fitz Roy", slug: "fitz-roy", visited: false },
+  { destination: "Florence", slug: "florence", visited: true },
+  { destination: "Hadahaa", slug: "hadahaa", visited: false },
+  { destination: "Hundred Step Beach", slug: "hundred-step-beach", visited: false },
+  { destination: "Kamchatka", slug: "kamchatka", visited: false },
+  { destination: "Koh Yao Noi", slug: "koh-yao-noi", visited: false },
+  { destination: "Kolner Dom", slug: "kolner-dom", visited: true },
+  { destination: "Luxembourg", slug: "luxembourg", visited: true },
+  { destination: "Malta", slug: "malta", visited: true },
+  { destination: "Medellin", slug: "medellin", visited: true },
+  { destination: "Mittenwald", slug: "mittenwald", visited: true },
+  { destination: "Naqsh-e Jahan Square", slug: "naqsh-e-jahan-square", visited: true },
+  { destination: "Ngorongoro Crater", slug: "ngorongoro-crater", visited: false },
+  { destination: "Okavango Delta", slug: "okavango-delta", visited: false },
+  { destination: "Olympic National Park", slug: "olympic-national-park", visited: false },
+  { destination: "Pamir Highway", slug: "pamir-highway", visited: true },
+  { destination: "Pantanal", slug: "pantanal", visited: false },
+  { destination: "Qatar", slug: "qatar", visited: true },
+  { destination: "Registan", slug: "registan", visited: true },
+  { destination: "Rome", slug: "rome", visited: true },
+  { destination: "Saint Petersburg", slug: "saint-petersburg", visited: true },
+  { destination: "Salar de Uyuni", slug: "salar-de-uyuni", visited: false },
+  { destination: "Santorini", slug: "santorini", visited: false },
+  { destination: "Sheikh Zayed Grand Mosque", slug: "sheikh-zayed-grand-mosque", visited: true },
+  { destination: "Socotra", slug: "socotra", visited: false },
+  { destination: "Southern Patagonia", slug: "southern-patagonia", visited: false },
+  { destination: "Sultan Ahmed Mosque", slug: "sultan-ahmed-mosque", visited: false },
+  { destination: "Sydney Opera House", slug: "sydney-opera-house", visited: true },
+  { destination: "Table Mountain", slug: "table-mountain", visited: false },
+  { destination: "Taj Mahal", slug: "taj-mahal", visited: false },
+  { destination: "Tonga", slug: "tonga", visited: false },
+  { destination: "Valley of the Gods", slug: "valley-of-the-gods", visited: true },
+  { destination: "Venice", slug: "venice", visited: true },
+  { destination: "Victoria Falls", slug: "victoria-falls", visited: true },
+  { destination: "Whitehaven Beach", slug: "whitehaven-beach", visited: false },
+  { destination: "Yangykala Canyon", slug: "yankikala-canyon", visited: false },
+  { destination: "Zhangjiajie", slug: "zhangjiajie", visited: false },
+  { destination: "Zhangye Danxia Landform", slug: "zhangye-danxia-landform", visited: false }
+];
+
+const normalize = (value: string) =>
+  value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+
+const destinations = await getCollection("destinations");
+const bySlug = new Map(destinations.map((place) => [place.id, place]));
+const byTitle = new Map(destinations.map((place) => [normalize(place.data.title), place]));
+
+const rows = inventory
+  .map((item) => {
+    const match = bySlug.get(item.slug) ?? byTitle.get(normalize(item.destination));
+
+    return {
+      title: match?.data.title ?? item.destination,
+      href: match ? `/places/${match.id}/` : undefined,
+      visited: item.visited,
+      unmatched: !match
+    };
+  })
+  .sort((a, b) => a.title.localeCompare(b.title, "en", { sensitivity: "base" }));
+
+const siteUrl = "https://50beautifulplaces.com";
+const pageUrl = `${siteUrl}/all-destinations/`;
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": `${pageUrl}#collection`,
+  name: "All Destinations",
+  description:
+    "Browse every destination featured on 50 Beautiful Places, including extraordinary landscapes, cultural landmarks, and personal travel highlights.",
+  url: pageUrl,
+  isPartOf: { "@type": "WebSite", "@id": `${siteUrl}/#website` },
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: rows.length,
+    itemListElement: rows.map((row, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: row.title,
+      ...(row.href ? { url: `${siteUrl}${row.href}` } : {})
+    }))
+  }
+};
+---
+
+<BaseLayout
+  title="All Destinations | 50 Beautiful Places"
+  description="Browse every destination featured on 50 Beautiful Places, including extraordinary landscapes, cultural landmarks, and personal travel highlights."
+  robots="index, follow"
+  jsonLd={jsonLd}
+>
+  <section class="mx-auto w-full max-w-[960px] px-4 py-[clamp(3rem,8vw,7rem)] pb-8">
+    <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.12em] text-clay-text">Destination index</p>
+    <h1>All Destinations</h1>
+    <p class="mt-4 max-w-[46rem] text-lg text-muted">
+      A personal index of extraordinary places &mdash; some already visited, others still waiting &mdash; gathered for travellers who want beauty, atmosphere, and a sense of wonder.
+    </p>
+  </section>
+
+  <section class="mx-auto w-full max-w-[960px] px-4 pb-[clamp(3rem,7vw,6rem)]">
+    <h2 class="text-[clamp(1.8rem,3vw,2.4rem)]">Alphabetical destination table</h2>
+    <div class="mt-6 overflow-x-auto border-y border-line">
+      <table class="w-full min-w-[420px] border-collapse text-left text-sm">
+        <thead>
+          <tr class="border-b border-line bg-tag-bg">
+            <th class="px-4 py-3 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">Destination</th>
+            <th class="w-24 px-4 py-3 text-center text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">Visited</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row) => (
+            <tr class="border-b border-line last:border-b-0">
+              <td class="px-4 py-3 font-bold text-ink">
+                {row.href ? (
+                  <a class="text-forest underline underline-offset-4 hover:text-clay-text hover:no-underline" href={row.href}>
+                    {row.title}
+                  </a>
+                ) : (
+                  row.title
+                )}
+              </td>
+              <td class="px-4 py-3 text-center font-black text-forest">{row.visited ? "✔" : ""}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</BaseLayout>

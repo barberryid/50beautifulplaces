@@ -19,6 +19,9 @@ export default defineConfig({
         } else if (item.url === `${siteUrl}/places/`) {
           item.changefreq = ChangeFreqEnum.WEEKLY;
           item.priority = 0.9;
+        } else if (item.url === `${siteUrl}/all-destinations/`) {
+          item.changefreq = ChangeFreqEnum.MONTHLY;
+          item.priority = 0.8;
         } else if (item.url.includes("/places/")) {
           item.changefreq = ChangeFreqEnum.MONTHLY;
           item.priority = 0.8;

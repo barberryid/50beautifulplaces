@@ -13,6 +13,7 @@ interface Props {
   publishedTime?: string;
   modifiedTime?: string;
   noindex?: boolean;
+  robots?: string;
   preloadImage?: boolean;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
@@ -26,6 +27,7 @@ const {
   publishedTime,
   modifiedTime,
   noindex,
+  robots,
   preloadImage = false,
   jsonLd
 } = Astro.props;
@@ -54,6 +56,7 @@ const {
       publishedTime={publishedTime}
       modifiedTime={modifiedTime}
       noindex={noindex}
+      robots={robots}
     />
     {jsonLd && (
       <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
