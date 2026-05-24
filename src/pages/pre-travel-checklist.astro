@@ -2,15 +2,17 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 type ChecklistSection = {
+  num?: number;
   title: string;
-  intro?: string;
+  helper: string;
   items: string[];
 };
 
 const sections: ChecklistSection[] = [
   {
-    title: "1. Before you book",
-    intro: "Check the irreversible or expensive decisions first, before paying for flights or non-refundable hotels.",
+    num: 1,
+    title: "Before you book",
+    helper: "Check safety, entry rules, seasonality, and cancellation risks before paying.",
     items: [
       "Check passport validity rules for every destination and transit country.",
       "Check whether blank passport pages are required.",
@@ -26,7 +28,9 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "2. Flights, hotels, and transport",
+    num: 2,
+    title: "Flights, hotels, and transport",
+    helper: "Confirm timings, connections, baggage rules, airport transfers, and local transport.",
     items: [
       "Compare and book flights early if prices are likely to rise.",
       "Download the airline apps and log in before departure.",
@@ -48,7 +52,9 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "3. Documents and backups",
+    num: 3,
+    title: "Documents and backups",
+    helper: "Prepare passports, visas, insurance, booking references, and offline copies.",
     items: [
       "Save digital copies of your passport, visa, travel insurance, prescriptions, vaccination certificates, flight bookings, hotel bookings, and important receipts.",
       "Keep one offline copy on your phone.",
@@ -63,7 +69,9 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "4. Money and payments",
+    num: 4,
+    title: "Money and payments",
+    helper: "Check cards, cash needs, ATM access, exchange rates, and backup payment options.",
     items: [
       "Check the destination currency.",
       "Download a currency app such as XE or Currency Plus and add the currencies before departure.",
@@ -79,7 +87,9 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "5. Phone, internet, maps, and digital setup",
+    num: 5,
+    title: "Phone, internet, maps, and digital setup",
+    helper: "Prepare eSIMs, offline maps, travel apps, chargers, and key account access.",
     items: [
       "Check whether your phone is unlocked before buying an eSIM.",
       "Check whether eSIM works in your destination.",
@@ -99,7 +109,9 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "6. Health, medication, and insurance",
+    num: 6,
+    title: "Health, medication, and insurance",
+    helper: "Confirm medication, prescriptions, vaccinations, health risks, and insurance coverage.",
     items: [
       "Check recommended vaccinations.",
       "Schedule vaccination or travel-clinic appointments early.",
@@ -116,7 +128,9 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "7. Food, routine, and local practicalities",
+    num: 7,
+    title: "Food, routine, and local practicalities",
+    helper: "Plan around dietary needs, daily routines, shops, water safety, and local basics.",
     items: [
       "Research restaurants near your hotel.",
       "Research local food specialities.",
@@ -133,7 +147,9 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "8. Weather, packing, and local conditions",
+    num: 8,
+    title: "Weather, packing, and local conditions",
+    helper: "Match your packing to climate, terrain, season, and likely daily conditions.",
     items: [
       "Check the weather forecast for your travel dates.",
       "Check temperature ranges, rainfall, wind, humidity, and storm risk.",
@@ -148,7 +164,9 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "9. Day-by-day plan",
+    num: 9,
+    title: "Day-by-day plan",
+    helper: "Build a realistic itinerary with buffers, rest time, and transport checks.",
     items: [
       "Prepare a realistic day-by-day plan.",
       "List the attractions you want to visit.",
@@ -162,7 +180,9 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "10. One week before travel",
+    num: 10,
+    title: "One week before travel",
+    helper: "Finish the main confirmations before problems become urgent.",
     items: [
       "Re-check visa, entry, arrival-card, and health rules.",
       "Re-check weather and access conditions.",
@@ -180,7 +200,9 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "11. Day before departure",
+    num: 11,
+    title: "Day before departure",
+    helper: "Complete final checks, charging, packing, documents, and home preparation.",
     items: [
       "Complete online check-in.",
       "Download or screenshot boarding passes.",
@@ -197,7 +219,9 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "12. Arrival day",
+    num: 12,
+    title: "Arrival day",
+    helper: "Make arrival smoother with transport, cash, connectivity, and hotel details ready.",
     items: [
       "Know what to say if border control asks for hotel address, onward ticket, or travel purpose.",
       "Have your hotel address and GPS coordinates ready.",
@@ -210,7 +234,8 @@ const sections: ChecklistSection[] = [
     ]
   },
   {
-    title: "13. Nice-to-have extras",
+    title: "Nice-to-have extras",
+    helper: "Optional checks that make travel smoother but are not essential for every trip.",
     items: [
       "Chocolate or a small gift for airline crew.",
       "A few good bakeries near your hotel.",
@@ -255,8 +280,7 @@ const copyText = [
   beforePayingText,
   "",
   ...sections.flatMap((section) => [
-    section.title,
-    ...(section.intro ? [section.intro] : []),
+    section.num != null ? `${section.num}. ${section.title}` : section.title,
     ...section.items.map((item) => `[ ] ${item}`),
     ""
   ]),
@@ -321,45 +345,48 @@ const jsonLd = [
   </section>
 
   <section class="mx-auto grid w-full max-w-[1180px] gap-6 px-4 pb-[clamp(3rem,7vw,6rem)] lg:grid-cols-[minmax(0,1fr)_minmax(17rem,22rem)] lg:items-start">
-    <article class="grid gap-6">
+    <article class="grid gap-3">
       {sections.map((section, sectionIndex) => (
-        <>
-          {sectionIndex === 1 && (
-            <aside class="rounded-xl border border-amber-200 bg-amber-50 p-5 shadow-card" aria-labelledby="before-paying-heading">
-              <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.1em] text-clay-text">Before paying</p>
-              <h2 id="before-paying-heading" class="max-w-none text-[clamp(1.55rem,3vw,2.3rem)]">Before paying</h2>
-              <p class="mt-3 text-sm font-bold leading-relaxed text-ink">{beforePayingText}</p>
-            </aside>
-          )}
-          <details
-            open={sectionIndex === 0}
-            class="checklist-accordion rounded-xl border border-line bg-surface shadow-card"
-          >
-            <summary class="flex cursor-pointer select-none items-start justify-between gap-4 p-5 sm:p-6 [&::-webkit-details-marker]:hidden">
-              <div>
-                <h2 id={`section-${sectionIndex}`} class="max-w-none text-[clamp(1.55rem,3vw,2.35rem)]">{section.title}</h2>
-                {section.intro && <p class="mt-2 max-w-[720px] text-[1.02rem] leading-relaxed text-muted">{section.intro}</p>}
-              </div>
-              <span class="accordion-chevron mt-2 shrink-0 text-clay-text transition-transform duration-200" aria-hidden="true">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </summary>
-            <div class="px-5 pb-5 pt-0 sm:px-6 sm:pb-6">
-              <ul class="grid list-none gap-2 p-0">
-                {section.items.map((item) => (
-                  <li>
-                    <label class="checklist-row flex min-h-[3rem] gap-3 rounded-lg border border-line bg-paper px-3 py-3 text-sm font-bold leading-relaxed text-ink sm:text-[0.96rem]">
-                      <input class="mt-1 h-4 w-4 shrink-0 accent-clay" type="checkbox" aria-label={`Mark complete: ${item}`} />
-                      <span>{item}</span>
-                    </label>
-                  </li>
-                ))}
-              </ul>
+        <details
+          open={sectionIndex === 0}
+          class="checklist-accordion rounded-xl border border-line bg-surface shadow-card"
+        >
+          <summary class="accordion-summary">
+            <span
+              class={`section-badge${section.num != null && section.num >= 10 ? " section-badge--double" : ""}`}
+              aria-hidden="true"
+            >
+              {section.num ?? ""}
+            </span>
+            <div class="min-w-0 flex-1">
+              <h2 class="accordion-title">{section.title}</h2>
+              <p class="accordion-helper">{section.helper}</p>
             </div>
-          </details>
-        </>
+            <span class="accordion-chevron" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </summary>
+          <div class="accordion-content">
+            {sectionIndex === 0 && (
+              <div class="mb-4 rounded-lg border border-amber-200 bg-amber-50 p-4">
+                <p class="mb-1 text-[0.7rem] font-black uppercase tracking-[0.1em] text-clay-text">Before booking</p>
+                <p class="text-sm font-bold leading-relaxed text-ink">{beforePayingText}</p>
+              </div>
+            )}
+            <ul class="grid list-none gap-2 p-0">
+              {section.items.map((item) => (
+                <li>
+                  <label class="checklist-row flex min-h-[3rem] gap-3 rounded-lg border border-line bg-paper px-3 py-3 text-sm font-bold leading-relaxed text-ink sm:text-[0.96rem]">
+                    <input class="mt-1 h-4 w-4 shrink-0 accent-clay" type="checkbox" aria-label={`Mark complete: ${item}`} />
+                    <span>{item}</span>
+                  </label>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </details>
       ))}
     </article>
 
@@ -419,10 +446,118 @@ const jsonLd = [
   </script>
 
   <style>
+    /* ── Number badge ─────────────────────────────────────────────────── */
+    .section-badge {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 52px;
+      height: 52px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #ecfccb 0%, #bef264 50%, #65a30d 100%);
+      font-size: 1.4rem;
+      font-weight: 900;
+      color: #14532d;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      box-shadow:
+        inset 0 1px 1px rgba(255, 255, 255, 0.7),
+        0 2px 8px rgba(101, 163, 13, 0.22);
+    }
+
+    .section-badge--double {
+      font-size: 1.1rem;
+      letter-spacing: -0.02em;
+    }
+
+    /* ── Accordion card ───────────────────────────────────────────────── */
+    .accordion-summary {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 1.25rem;
+      cursor: pointer;
+      list-style: none;
+      user-select: none;
+    }
+
+    .accordion-summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .accordion-summary:focus-visible {
+      outline: 3px solid var(--color-clay);
+      outline-offset: -3px;
+      border-radius: 0.75rem;
+    }
+
+    .checklist-accordion > .accordion-summary:hover {
+      background-color: var(--color-tag-bg);
+      border-radius: 0.75rem;
+    }
+
+    details[open] > .accordion-summary {
+      border-bottom: 1px solid var(--color-line);
+      border-radius: 0.75rem 0.75rem 0 0;
+    }
+
+    .accordion-title {
+      font-family: var(--font-sans);
+      font-size: 1.05rem;
+      font-weight: 800;
+      line-height: 1.25;
+      max-width: none;
+      color: var(--color-ink);
+      letter-spacing: -0.01em;
+    }
+
+    .accordion-helper {
+      margin-top: 0.25rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      line-height: 1.45;
+      color: var(--color-muted);
+    }
+
+    .accordion-chevron {
+      flex-shrink: 0;
+      color: var(--color-muted);
+      transition: transform 200ms ease;
+    }
+
     details[open] .accordion-chevron {
       transform: rotate(180deg);
     }
 
+    .accordion-content {
+      padding: 1rem 1.25rem 1.25rem;
+    }
+
+    /* ── Mobile ───────────────────────────────────────────────────────── */
+    @media (max-width: 480px) {
+      .section-badge {
+        width: 44px;
+        height: 44px;
+        font-size: 1.2rem;
+        border-radius: 14px;
+      }
+
+      .section-badge--double {
+        font-size: 0.95rem;
+      }
+
+      .accordion-summary {
+        padding: 0.875rem 1rem;
+        gap: 0.75rem;
+      }
+
+      .accordion-content {
+        padding: 0.875rem 1rem 1rem;
+      }
+    }
+
+    /* ── Print ────────────────────────────────────────────────────────── */
     @media print {
       header,
       footer,
@@ -444,12 +579,25 @@ const jsonLd = [
         print-color-adjust: exact;
       }
 
+      details {
+        break-inside: avoid;
+      }
+
+      details > summary {
+        list-style: none;
+      }
+
       details > *:not(summary) {
         display: block !important;
       }
 
       .accordion-chevron {
         display: none !important;
+      }
+
+      .section-badge {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
       }
     }
   </style>
