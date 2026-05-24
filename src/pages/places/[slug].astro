@@ -497,5 +497,10 @@ const jsonLd = [attractionJsonLd, articleJsonLd, breadcrumbJsonLd];
       link.setAttribute("target", "_blank");
       link.setAttribute("rel", "noopener noreferrer");
     });
+    // Preserve ordered-list semantics when list-style:none is applied
+    // (Safari/VoiceOver strips list role when list-style is removed via CSS)
+    document.querySelectorAll(".guide-content ol").forEach((ol) => {
+      ol.setAttribute("role", "list");
+    });
   </script>
 </BaseLayout>
