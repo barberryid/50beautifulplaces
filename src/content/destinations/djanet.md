@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Djanet fits your time, budget
 
 10. **Combine Djanet with Algiers and the northern tell if your visa and time allow.** Algeria has more than desert. Algiers has a magnificent Ottoman Casbah (UNESCO World Heritage), colonial boulevards, and a Mediterranean seafront. The Roman ruins at Timgad and Djémila in the north rank among the best-preserved in the world. If you are making the effort of obtaining an Algerian visa and flying to Djanet, a few days in the north before or after turns a single expedition into a fuller picture of one of Africa's most undervisited countries.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [UK FCDO — Algeria travel advice](https://www.gov.uk/foreign-travel-advice/algeria) · [US State Dept — Algeria advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/algeria-travel-advisory.html) · [UNESCO — Tassili n'Ajjer World Heritage listing](https://whc.unesco.org/en/list/179) · [Air Algérie — Algiers–Djanet routes](https://www.airalgerie.dz/)

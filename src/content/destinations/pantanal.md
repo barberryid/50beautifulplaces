@@ -75,6 +75,3 @@ These tips are designed to help you decide whether the Pantanal fits your time, 
 
 10. **Combine the northern Pantanal with Bonito for crystal rivers, or with Chapada dos Guimarães for canyon scenery.** Bonito (in the southern Pantanal region, 5 hours from Campo Grande) has some of the world's clearest rivers and offers snorkelling among fish in natural aquariums — a dramatically different environment from the northern floodplain. Chapada dos Guimarães (70 km from Cuiabá) adds sandstone canyon, waterfalls, and viewpoints as a 1–2 day addition before or after the Transpantaneira. Either combination turns a Pantanal trip into a well-rounded Brazilian nature itinerary.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Brazil e-Visa — official application portal](https://www.gov.br/mre/pt-br/consulados/e-visa) · [Pantanal tourism — official information](https://www.turismo.gov.br/) · [UK FCDO — Brazil travel advice](https://www.gov.uk/foreign-travel-advice/brazil) · [Caiman Ecological Refuge — northern Pantanal specialist lodge](https://www.caiman.com.br/en/)

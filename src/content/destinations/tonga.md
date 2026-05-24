@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Tonga fits your time, budget,
 
 10. **Combine Tonga with Fiji for a complete Polynesian–Melanesian South Pacific comparison.** Fiji is 1–2 hours from Tongatapu by air and offers a completely different South Pacific experience: more developed resort infrastructure, better diving on the Great Barrier Reef section of Beqa Lagoon, and the multi-cultural Suva for urban Pacific life. A Tonga–Fiji combination (7–10 days in Tonga, 3–5 days in Fiji) covers both ends of the South Pacific travel spectrum in a single long-haul trip from Auckland or Sydney.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Tonga Tourism Authority — official visitor information](https://www.visittonga.com/) · [Real Tonga — domestic flights](https://www.realtonga.to/) · [UK FCDO — Tonga travel advice](https://www.gov.uk/foreign-travel-advice/tonga) · [Air New Zealand — Auckland to Tongatapu flights](https://www.airnewzealand.com/)

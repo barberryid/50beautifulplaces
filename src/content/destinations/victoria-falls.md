@@ -76,6 +76,3 @@ These tips are designed to help you decide whether Victoria Falls fits your time
 
 10. **Combine Victoria Falls with a Chobe safari and the Okavango for the best southern Africa circuit.** Victoria Falls is 2 hours by road from Kasane (Chobe National Park, Botswana), 90 minutes by charter flight from Maun (Okavango Delta gateway). A Victoria Falls–Chobe–Okavango circuit of 7–10 days covers one of southern Africa's best wildlife and landscape combinations: the falls, the world's largest elephant concentration, and the world's largest inland delta. This circuit is one of Africa's classic itineraries and justifies the long-haul flight from Europe or North America in a way that a single-destination trip may not.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Zimbabwe e-Visa — official application](https://www.evisa.gov.zw/) · [Zambia e-Visa — official application](https://www.evisa.gov.zm/) · [UK FCDO — Zimbabwe travel advice](https://www.gov.uk/foreign-travel-advice/zimbabwe) · [UK FCDO — Zambia travel advice](https://www.gov.uk/foreign-travel-advice/zambia)

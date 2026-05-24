@@ -76,9 +76,6 @@ These tips are designed to help you decide whether Annapurna fits your time, bud
 
 10. **A helicopter flight over the massif is a viable alternative to a full trek.** For visitors who cannot commit to a multi-day trek, a scenic helicopter flight (around one hour) from Pokhara over Annapurna and Machhapuchhare delivers the scale and photography in a fraction of the time. Buddha Air and private charter operators run these regularly. It is expensive (roughly USD 200–400 per person) but reframes the whole visit as a panoramic overflight rather than a compromise.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Nepal Tourism Board — trekking permits](https://www.tourismdepartment.gov.np/) · [ACAP permit information](https://www.ntnc.org.np/project/annapurna-conservation-area-project) · [UK FCDO — Nepal travel advice](https://www.gov.uk/foreign-travel-advice/nepal) · [US State Dept — Nepal advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/nepal-travel-advisory.html)
 
 ### Pick a trek
 

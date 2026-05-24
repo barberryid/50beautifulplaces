@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Florence fits your time, budg
 
 10. **Florence is the ideal anchor for a wider Tuscany trip — Siena, San Gimignano, and Chianti are all day-trip distance.** Siena (70 km south) is the most rewarding day trip: a medieval hill city with the Piazza del Campo and a striped-marble Duomo. San Gimignano (54 km south-west) is smaller and more touristic but has genuinely preserved medieval towers. The Chianti Classico wine region between Florence and Siena is best explored by car for a half-day of vineyard and village stops. A week in Florence as a Tuscany base is one of Italy's most satisfying itinerary structures.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Uffizi Gallery — official timed-entry booking](https://www.uffizi.it/en) · [Accademia Gallery — official David ticket booking](https://www.galleriaaccademiafirenze.it/en/) · [Opera del Duomo — Brunelleschi Dome climb booking](https://www.duomo.firenze.it/en/) · [UK FCDO — Italy travel advice](https://www.gov.uk/foreign-travel-advice/italy) · [Trenitalia — Florence train bookings](https://www.trenitalia.com/)

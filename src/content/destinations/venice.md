@@ -74,6 +74,3 @@ These tips are designed to help you decide whether Venice fits your time, budget
 
 10. **Take the early morning vaporetto (Route 1) along the entire Grand Canal.** The Route 1 vaporetto runs the full length of the Grand Canal (about 45 minutes) and passes every major palazzo in sequence. Catch it at Santa Lucia station at 6:30–7am when the canal is quiet, the light is low, and there are few tourists on board — the palace façades in morning light are Venice at its most cinematic. Buy a 24-hour or 48-hour vaporetto pass, use it for multiple trips, and take at least one complete Grand Canal transit in each direction during your stay.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Doge's Palace — Venice Museums tickets](https://palazzoducale.visitmuve.it/) · [Basilica San Marco — free timed entry booking](https://www.basilicasanmarco.it/) · [Venice day visitor fee — official information](https://www.comune.venezia.it/) · [UK FCDO — Italy travel advice](https://www.gov.uk/foreign-travel-advice/italy)

@@ -75,6 +75,3 @@ These tips are designed to help you decide whether the Valley of the Gods fits y
 
 10. **Combine Valley of the Gods with Moki Dugway and Muley Point for the best Bears Ears circuit.** Moki Dugway is a dramatic unpaved switchback road ascending 360 metres up the edge of Cedar Mesa from the valley floor — three miles of tight, exposed turns with no guardrails and views that stretch to Arizona. At the top, Muley Point gives one of the Southwest's best 360-degree panoramas: the Valley of the Gods below, the San Juan River entrenched in its canyon, Monument Valley to the south, and the Henry Mountains to the north. Add Goosenecks State Park (10 minutes from Mexican Hat) for the vertical view 300 metres straight down into the entrenched meanders of the San Juan River.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [BLM — Bears Ears National Monument visitor information](https://www.blm.gov/programs/national-conservation-lands/utah/bears-ears-national-monument) · [Valley of the Gods B&B — in-valley accommodation](https://www.valleyofthegodsbnb.com/) · [ESTA — US visa waiver application](https://esta.cbp.dhs.gov/) · [UK FCDO — USA travel advice](https://www.gov.uk/foreign-travel-advice/usa)

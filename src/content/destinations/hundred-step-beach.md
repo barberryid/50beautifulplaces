@@ -76,6 +76,3 @@ These tips are designed to help you decide whether Hundred Step Beach fits your 
 
 10. **Tobago combines well with Trinidad for a two-island trip.** Trinidad, 35 minutes away by plane, covers entirely different ground: Carnival (February/March), the Asa Wright Nature Centre in the Northern Range rainforest, the Pitch Lake (the world's largest natural asphalt deposit), and Port of Spain's street food scene. The two islands together cover nature resort and urban culture, and the short domestic flight makes combining them straightforward.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Tourism Trinidad and Tobago — official tourism site](https://www.visittnt.com/) · [Caribbean Airlines — international and inter-island flights](https://www.caribbean-airlines.com/) · [UK FCDO — Trinidad and Tobago travel advice](https://www.gov.uk/foreign-travel-advice/trinidad-and-tobago) · [US State Dept — Trinidad and Tobago advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/trinidad-and-tobago-travel-advisory.html)

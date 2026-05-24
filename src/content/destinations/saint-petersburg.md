@@ -74,6 +74,3 @@ These tips are designed to help you decide whether Saint Petersburg fits your ti
 
 10. **Peterhof is the one day trip that justifies an extra day.** Peterhof Palace, 29 km west of the city on the Gulf of Finland, was designed by Peter the Great as Russia's answer to Versailles and completed in 1723. The Grand Cascade — 64 fountains, 255 bronze statues, and 142 water jets flowing down to the sea canal — is one of Europe's most spectacular formal garden set-pieces. The hydrofoil from Palace Embankment takes 30 minutes and arrives directly at the fountain gardens. Go on a clear morning before the tour groups arrive by coach.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [UK FCDO — Russia travel advice (currently advises against all travel)](https://www.gov.uk/foreign-travel-advice/russia) · [US State Dept — Russia Level 4 Do Not Travel advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/russia-travel-advisory.html) · [State Hermitage Museum — official site](https://www.hermitagemuseum.org/) · [Peterhof — official fountain palace information](https://peterhofmuseum.ru/en)

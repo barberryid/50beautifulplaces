@@ -75,9 +75,6 @@ These tips are designed to help you decide whether the Avenue of the Baobabs fit
 
 10. **Add the Belo Tsiribihina river trip if you have the time.** The road north from Morondava leads to Belo Tsiribihina, from which pirogue river trips run toward the Tsingy de Bemaraha — one of Madagascar's most extraordinary landscapes. The combination of avenue, Kirindy, and a Tsingy approach via river is the classic western Madagascar circuit and transforms a half-day detour into a full week of travel with genuine variety.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Madagascar National Tourism — official information](https://www.madagascar-tourisme.com/) · [UK FCDO — Madagascar travel advice](https://www.gov.uk/foreign-travel-advice/madagascar) · [US State Dept — Madagascar advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/madagascar-travel-advisory.html) · [Air Madagascar — domestic route schedules](https://www.airmadagascar.com/)
 
 ### What to do there
 

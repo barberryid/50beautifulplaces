@@ -75,6 +75,3 @@ These tips are designed to help you decide whether the Pamir Highway fits your t
 
 10. **Combine with Kyrgyzstan's Fergana Valley or Osh for a full Central Asian overland circuit.** Osh is Kyrgyzstan's second city and a natural endpoint for a northbound Pamir transit. From Osh, the Fergana Valley, Bishkek (12 hours by shared taxi), and onward to Kazakhstan or China are all accessible. A Dushanbe–Pamir–Osh–Bishkek circuit covers the heart of post-Soviet Central Asia in 3 to 4 weeks — one of the world's great overland routes for travellers with the time and tolerance for the logistics.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Tajikistan e-Visa — official application portal](https://www.evisa.tj/) · [Pamir Highway travel community — Caravanistan route planning](https://caravanistan.com/pamir-highway/) · [UK FCDO — Tajikistan travel advice](https://www.gov.uk/foreign-travel-advice/tajikistan) · [UK FCDO — Kyrgyzstan travel advice](https://www.gov.uk/foreign-travel-advice/kyrgyzstan)

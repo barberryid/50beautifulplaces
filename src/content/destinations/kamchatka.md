@@ -76,6 +76,3 @@ These tips are designed to help you decide whether Kamchatka fits your time, bud
 
 10. **Avacha volcano is the most accessible Kamchatka experience for fit hikers.** Avacha (2,741 m) is 30 km from Petropavlovsk and climbable as a long day hike or overnight. The active crater smells of sulphur; the summit gives views over Avacha Bay and the surrounding volcanic complex. This is the most accessible Kamchatka hike, requiring only a guide and a good weather window, and can be arranged with much shorter lead time than helicopter excursions.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [UK FCDO — Russia travel advice (currently advises against all travel)](https://www.gov.uk/foreign-travel-advice/russia) · [US State Dept — Russia Level 4 Do Not Travel advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/russia-travel-advisory.html) · [UNESCO — Volcanoes of Kamchatka World Heritage listing](https://whc.unesco.org/en/list/765)

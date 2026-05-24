@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Whitehaven Beach fits your ti
 
 10. **Combine Whitehaven with a Great Barrier Reef snorkelling or diving day for a complete Whitsundays trip.** The Whitsundays sit on the inner edge of the Great Barrier Reef; dedicated reef pontoons at Hardy Reef and Heart Reef (the famously heart-shaped coral formation) are 1–2 hours by fast boat from Airlie Beach. Most multi-day liveaboard trips combine Whitehaven with reef snorkelling. A seaplane from Airlie Beach or Hamilton Island flies over Heart Reef before landing near Whitehaven — the most expensive but most photographed single trip available in the Whitsundays.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Tourism Whitsundays — official visitor information](https://www.tourismwhitsundays.com.au/) · [Australian ETA — entry authorisation application](https://www.homeaffairs.gov.au/eta) · [Great Barrier Reef Marine Park Authority — reef-safe sunscreen](https://www.gbrmpa.gov.au/) · [UK FCDO — Australia travel advice](https://www.gov.uk/foreign-travel-advice/australia)

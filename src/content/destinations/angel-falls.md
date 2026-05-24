@@ -77,9 +77,6 @@ These tips are designed to help you decide whether Angel Falls fits your time, b
 
 10. **English is not widely spoken outside hotels — basic Spanish changes the experience.** Outside major Caracas hotels, English is uncommon across Venezuela. Canaima guides may have some English, but most operators and drivers communicate in Spanish only. Basic phrases covering travel days, food preferences, and directions make a significant practical difference. A brief Spanish refresher before departure is worth the effort.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [UK FCDO — Venezuela travel advice](https://www.gov.uk/foreign-travel-advice/venezuela) · [US State Dept — Venezuela advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/venezuela-travel-advisory.html) · [Venezuela e-visa portal — Ministry of Foreign Affairs](https://www.mppre.gob.ve/) · [WHO — yellow fever vaccination requirements](https://www.who.int/travel-advice/yellow-fever)
 
 ### When to go
 

@@ -96,6 +96,3 @@ These tips are designed to help you decide whether Chinguetti fits your time, bu
 
 10. **The Mauritanian iron ore train is a separate adventure worth combining on the same trip.** One of the world's longest freight trains runs from Nouadhibou on Mauritania's Atlantic coast to Zouérat in the mining region, covering over 700 km of open desert. Passengers ride in open ore wagons or an attached passenger car — slow, cold at night, extremely dusty, and genuinely extraordinary. Logistically separate from the Adrar circuit, it can be combined in a 10–14 day Mauritania trip that turns a cultural stop into a rare overall travel experience.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [US State Dept — Mauritania travel advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mauritania-travel-advisory.html) · [UK FCDO — Mauritania travel advice](https://www.gov.uk/foreign-travel-advice/mauritania) · [UNESCO — Chinguetti World Heritage listing](https://whc.unesco.org/en/list/750) · [Mauritanian Airlines — Nouakchott/Atar routes](https://www.mauritaniaairlines.mr/)

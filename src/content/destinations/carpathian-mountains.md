@@ -75,9 +75,6 @@ These tips are designed to help you decide whether the Carpathian Mountains fit 
 
 10. **September combines clear air, autumn colour, and fewer walkers — it is often the best month.** By early September, daytime temperatures at altitude drop to 10–18°C: cool enough for long hiking days, warm enough for comfortable evenings. The beech and mixed forests begin turning on the lower slopes, the summer crowds thin noticeably, and accommodation is easier to find. For photography, late September and early October can produce exceptional forest light before the trails start closing for winter conditions.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Romania Tourism — official visitor information](https://www.romania.travel/en/) · [UK FCDO — Romania travel advice](https://www.gov.uk/foreign-travel-advice/romania) · [Salvamont Romania — mountain rescue and trail conditions](https://www.salvamont.org/) · [CFR Calatori — Romanian trains](https://www.cfrcalatori.ro/en/)
 
 ### What to do there
 

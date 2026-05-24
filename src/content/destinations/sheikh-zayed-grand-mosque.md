@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Sheikh Zayed Grand Mosque fit
 
 10. **Combine the mosque with the Louvre Abu Dhabi for a full cultural day in the UAE.** The Louvre Abu Dhabi, designed by Jean Nouvel on Saadiyat Island (10 minutes from the mosque), has a rainforest-of-light dome that produces the same kind of dappled illumination as the mosque's reflective pools — two buildings of extraordinary light in a single day. The Louvre holds a genuinely world-class cross-cultural collection (early Islamic art, ancient Mediterranean civilisations, and modern works) at AED 63 (approximately USD 17) entry. Together, these two buildings make Abu Dhabi's Saadiyat cultural district one of the most impressive cultural clusters built in the 21st century.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Sheikh Zayed Grand Mosque — official visitor information](https://www.szgmc.gov.ae/) · [Louvre Abu Dhabi — tickets and information](https://www.louvreabudhabi.ae/) · [UK FCDO — UAE travel advice](https://www.gov.uk/foreign-travel-advice/united-arab-emirates) · [Abu Dhabi tourism — official visitor guide](https://visitabudhabi.ae/)

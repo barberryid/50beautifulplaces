@@ -90,9 +90,6 @@ These tips are designed to help you decide whether Arniston fits your time, budg
 
 10. **De Hoop Nature Reserve is the whale-watching anchor for the whole region.** De Hoop, 40 minutes north-east of Arniston, is rated among the best land-based whale-watching sites on Earth during the June–November calving season. Southern right whales come within metres of the cliffs at Koppie Alleen. The reserve also has fynbos, endemic birdlife, and good self-drive game. If whale-watching is a priority, build your Overberg itinerary around De Hoop first and Arniston as the overnight base.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Cape Agulhas Tourism — Arniston/Waenhuiskrans](https://discovercapeagulhas.co.za/destinations/arnistonwaenhuiskrans/) · [CapeNature — De Hoop Nature Reserve](https://www.capenature.co.za/reserves/de-hoop-nature-reserve) · [UK FCDO — South Africa travel advice](https://www.gov.uk/foreign-travel-advice/south-africa) · [South Africa Home Affairs — entry requirements](https://www.dha.gov.za/)
 
 ### When to go
 

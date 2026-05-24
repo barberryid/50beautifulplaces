@@ -77,6 +77,3 @@ These tips are designed to help you decide whether the Dominican Republic fits y
 
 10. **Bahía de las Águilas is the most beautiful beach in the DR — remote but worth planning around.** In the far south-west near the Haitian border, Bahía de las Águilas is 10 km of undeveloped white sand and turquoise water with almost no facilities. It requires a boat or 4x4 from Pedernales; the drive from Santo Domingo takes most of a day each way, making it a 2-night minimum detour. For travellers who have seen the resort beaches and want something completely different, it is the most rewarding beach in the country.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [DR E-Ticket — official migration form (mandatory)](https://eticket.migracion.gob.do/) · [Discover Dominican Republic — official tourism site](https://www.godominicanrepublic.com/) · [UK FCDO — Dominican Republic travel advice](https://www.gov.uk/foreign-travel-advice/dominican-republic) · [US State Dept — Dominican Republic advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/dominican-republic-travel-advisory.html)

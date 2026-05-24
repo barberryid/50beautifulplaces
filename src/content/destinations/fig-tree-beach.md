@@ -74,6 +74,3 @@ These tips are designed to help you decide whether Fig Tree Beach fits your time
 
 10. **Nicosia is one of Europe's most distinctive day-trip options — the last divided capital city in the world.** Nicosia (Lefkosia) is split between Greek Cypriot south and Turkish Cypriot north, with the UN-patrolled Green Line running through the old city. Crossing on foot at the Ledra Street checkpoint is legal and straightforward for most passports. The Venetian walls, Cyprus Museum, and the contrast between the two sides make Nicosia unique in Europe. About 90 minutes by car from Protaras.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Visit Cyprus — official tourism website](https://www.visitcyprus.com/) · [UK FCDO — Cyprus travel advice](https://www.gov.uk/foreign-travel-advice/cyprus) · [US State Dept — Cyprus advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/cyprus-travel-advisory.html) · [Larnaca Airport — flights and terminal information](https://www.hermesairports.com/hermes/larnaka-airport)

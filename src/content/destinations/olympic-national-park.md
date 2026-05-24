@@ -76,6 +76,3 @@ These tips are designed to help you decide whether Olympic National Park fits yo
 
 10. **Hurricane Ridge gives the alpine dimension — drive it in the morning for clearest mountain views.** The Hurricane Ridge road climbs from Port Angeles to 1,676 metres in 28 km, with the visitor centre giving views across the glaciated Olympic peaks and north to Vancouver Island and the Strait of Juan de Fuca. It is typically open late May to October (weather permitting) and weekends in winter for snowshoeing. Go in the morning before afternoon cloud builds. Marmots, black-tailed deer, and mountain goats are regularly seen near the ridge.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Olympic National Park — official NPS information](https://www.nps.gov/olym/) · [America the Beautiful Pass — annual parks pass](https://www.nps.gov/planyourvisit/passes.htm) · [ESTA — US visa waiver application](https://esta.cbp.dhs.gov/) · [UK FCDO — USA travel advice](https://www.gov.uk/foreign-travel-advice/usa)

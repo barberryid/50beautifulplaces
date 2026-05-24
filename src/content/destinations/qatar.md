@@ -76,6 +76,3 @@ These tips are designed to help you decide whether Qatar fits your time, budget,
 
 10. **The Souq Waqif is the most atmospheric place in Doha for food, coffee, and evening watching.** The restored traditional souq in central Doha has spice merchants, falcon shops, Arabic coffee houses, and dozens of restaurants ranging from Qatari to Indian to Lebanese on outdoor terraces. It is most alive at night — especially in winter, when the alley heat is replaced by a warm breeze and the entire place fills with Qatari families and visitors. Walk slowly, take tea, and avoid rushing it.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Visit Qatar — official tourism site](https://www.visitqatar.qa/) · [Museum of Islamic Art — Doha](https://www.mia.org.qa/) · [UK FCDO — Qatar travel advice](https://www.gov.uk/foreign-travel-advice/qatar) · [Qatar Airways — Hamad International Airport connections](https://www.qatarairways.com/)

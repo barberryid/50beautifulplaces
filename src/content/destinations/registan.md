@@ -81,6 +81,3 @@ These tips are designed to help you decide whether the Registan fits your time, 
 
 10. **Combine Samarkand with Bukhara and Khiva by train — but plan the rail tickets first.** Samarkand alone is worth the trip, but the Uzbekistan Silk Road circuit — Tashkent, Samarkand, Bukhara, Khiva — is one of the most coherent heritage routes in Central Asia. All three cities are connected by train or shared taxi. Popular Afrosiyob and regional departures sell out in shoulder season. Plan and book the full train sequence before building any other part of the itinerary. Allow at least 7–10 days for the three-city circuit.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Uzbekistan Railways — Afrosiyob train booking](https://railway.uz/en/) · [Uzbekistan Tourism official site](https://www.uzbekistan.travel/en/) · [UK FCDO — Uzbekistan travel advice](https://www.gov.uk/foreign-travel-advice/uzbekistan) · [UNESCO — Samarkand World Heritage Sites](https://whc.unesco.org/en/list/603/) · [US State Dept — Uzbekistan advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uzbekistan-travel-advisory.html)

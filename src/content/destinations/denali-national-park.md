@@ -78,6 +78,3 @@ These tips are designed to help you decide whether Denali National Park fits you
 
 10. **Denali is the centrepiece of a two- to three-week Alaska circuit.** A practical Alaska sequence: Anchorage (1 day) → Kenai Peninsula and Kenai Fjords National Park (3–4 days, day cruise from Seward) → Talkeetna flightseeing (1–2 days) → Denali (3–4 days) → Fairbanks and optional Arctic Circle day trip (2–3 days). Fairbanks in September adds the strongest aurora-viewing window. The full circuit takes 12–16 days and covers Alaska's main zones: ocean, temperate rainforest, sub-arctic tundra, and mountain wilderness.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Denali National Park — NPS official site and road status](https://www.nps.gov/dena/) · [Recreation.gov — campground and bus reservations](https://www.recreation.gov/) · [ESTA — US Visa Waiver Program application](https://esta.cbp.dhs.gov/) · [Alaska Railroad — Denali Star timetables](https://www.alaskarailroad.com/) · [UK FCDO — USA travel advice](https://www.gov.uk/foreign-travel-advice/usa)

@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Zhangye Danxia fits your time
 
 10. **Combine Zhangye with Jiayuguan and Dunhuang for a complete Gansu Silk Road circuit.** Zhangye sits on the historic Silk Road corridor across Gansu Province. Jiayuguan (1 hour west by high-speed rail) has the westernmost gate of the Great Wall — a Ming-dynasty fortress in a desert setting unlike any Wall section near Beijing. Dunhuang (3 hours further west, with a flight or long train) has the Mogao Caves (world-class Buddhist cave paintings, UNESCO listed, advance booking essential) and the Singing Sand Dunes. A Lanzhou–Zhangye–Jiayuguan–Dunhuang itinerary of seven to ten days is one of China's most distinctive overland routes.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Zhangye Danxia Geopark — official information](http://www.zhangye.gov.cn/) · [Chinese Ministry of Foreign Affairs — visa information](https://www.mfa.gov.cn/eng/) · [UK FCDO — China travel advice](https://www.gov.uk/foreign-travel-advice/china) · [Dunhuang Mogao Caves — advance booking required](https://www.dha.ac.cn/)

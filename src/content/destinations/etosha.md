@@ -76,6 +76,3 @@ These tips are designed to help you decide whether Etosha fits your time, budget
 
 10. **Combine Etosha with a wider Namibia road trip for one of Africa's best self-drive experiences.** Etosha is best understood as part of a Namibia loop rather than a standalone destination. A classic 10–14 day circuit: Windhoek → Sossusvlei (red dunes of the Namib) → Swakopmund (Atlantic coast) → Damaraland (desert-adapted elephant) → Etosha → Windhoek. The drives are long but the landscapes are extraordinary, most roads are sealed or good gravel, and the circuit is doable in a standard 2WD rental for the majority of the route.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Namibia Wildlife Resorts — park bookings and current fees](https://www.nwr.com.na/) · [Namibia Tourism Board — official visitor information](https://www.namibiatourism.com.na/) · [UK FCDO — Namibia travel advice](https://www.gov.uk/foreign-travel-advice/namibia) · [US State Dept — Namibia advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/namibia-travel-advisory.html)

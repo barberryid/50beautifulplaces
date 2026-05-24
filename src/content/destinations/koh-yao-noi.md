@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Koh Yao Noi fits your time, b
 
 10. **Combine Koh Yao Noi with Phuket or Krabi for a well-rounded Andaman trip.** Koh Yao Noi works well as a deliberate pause between Phuket (30 minutes, international airport) and Krabi (45 minutes, with access to Railay Beach and Koh Lanta). A combination of one busier base and two or three nights on Koh Yao Noi is more satisfying than spending an entire trip in either place.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Thai e-Visa — official application portal](https://www.thaievisa.go.th/) · [Tourism Authority of Thailand — official visitor information](https://www.tourismthailand.org/) · [UK FCDO — Thailand travel advice](https://www.gov.uk/foreign-travel-advice/thailand) · [Bang Rong Pier Phuket — boat schedules to Koh Yao Noi](https://www.bangrongpier.com/)

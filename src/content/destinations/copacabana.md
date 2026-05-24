@@ -77,6 +77,3 @@ These tips are designed to help you decide whether Copacabana fits your time, bu
 
 10. **Rio is one pillar of a Brazil trip — add the Pantanal or Amazon for a complete picture.** Rio makes the strongest case as part of a broader Brazil itinerary. The most-travelled combination is Rio (3–4 nights) + Pantanal for jaguars (4–5 days, fly to Cuiabá) + Amazon lodge (3–5 days from Manaus) — three distinct ecosystems in under two weeks. Iguazu Falls (fly Rio to Foz do Iguaçu, 2 days) is the most efficient addition. Salvador and the Chapada Diamantina add Afro-Brazilian culture and canyon scenery for a longer trip.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Brazil e-Visa — official entry portal](https://www.gov.br/mre/en/consular-services/visas) · [Visit Rio — official tourism site](https://visit.rio/en/) · [UK FCDO — Brazil travel advice](https://www.gov.uk/foreign-travel-advice/brazil) · [US State Dept — Brazil advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/brazil-travel-advisory.html) · [Christ the Redeemer — official cog train booking](https://www.paineiras-humaitacorcovado.com.br/en/)

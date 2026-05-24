@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Medellín fits your time, bud
 
 10. **Guatapé is the most rewarding day trip — three hours from the city and worth the early start.** El Peñón de Guatapé is a 200-metre granite monolith rising from a reservoir 2.5 hours from Medellín. The 740-step climb to the summit gives one of Colombia's most dramatic panoramas: green hills, island-dotted water, and the surrounding Andean landscape. The town of Guatapé itself has brightly painted zócalos (building friezes) and a waterfront worth an hour's walk. Leave by 7am to beat the crowds to the summit.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Colombia tourism — official visitor information](https://colombia.travel/en) · [UK FCDO — Colombia travel advice](https://www.gov.uk/foreign-travel-advice/colombia) · [US State Dept — Colombia Level 3 advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/colombia-travel-advisory.html) · [Civica card — Medellín metro and cable car system](https://www.metrodemedellin.gov.co/)

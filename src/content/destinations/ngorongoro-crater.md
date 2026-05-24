@@ -76,6 +76,3 @@ These tips are designed to help you decide whether Ngorongoro Crater fits your t
 
 10. **Combine Ngorongoro with the Serengeti for a complete northern Tanzania circuit.** The Serengeti is 3 hours from Ngorongoro by road and shares the same ecosystem. Adding three to four nights in the Serengeti (central Seronera for year-round wildlife; northern Kogatende for July–October river crossings) transforms a Ngorongoro trip into one of Africa's great safari itineraries. Olduvia Gorge — where some of the earliest human fossil remains were found — is a 45-minute detour between the two parks and worth the stop.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Tanzania National Parks — official safari information](https://www.tanzaniaparks.go.tz/) · [Ngorongoro Conservation Area Authority](https://www.ncaa.go.tz/) · [Tanzania e-Visa — official immigration portal](https://immigration.go.tz/) · [UK FCDO — Tanzania travel advice](https://www.gov.uk/foreign-travel-advice/tanzania)

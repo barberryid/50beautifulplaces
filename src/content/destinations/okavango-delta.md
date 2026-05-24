@@ -76,6 +76,3 @@ These tips are designed to help you decide whether the Okavango Delta fits your 
 
 10. **Combine the Okavango with Chobe for a complete Botswana trip.** Chobe National Park (4 hours from Maun by road or a short charter flight) has the world's largest elephant concentration — herds of several hundred on the Chobe River. A Maun–Okavango–Chobe–Victoria Falls circuit covers the best of Botswana and Zimbabwe in seven to ten days and is one of southern Africa's classic itineraries. Victoria Falls is 1.5 hours from Kasane by road or a short charter, making it a natural endpoint before flying home.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Botswana Tourism — official visitor information](https://www.botswanatourism.co.bw/) · [Moremi Game Reserve — official information](https://www.moremagamereserve.com/) · [UK FCDO — Botswana travel advice](https://www.gov.uk/foreign-travel-advice/botswana) · [Maun Airport — gateway to the Okavango Delta](https://www.caab.co.bw/)

@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Santorini fits your time, bud
 
 10. **Take the boat trip to the volcanic islets for the geological context the island itself doesn't give.** Half-day boat tours from Fira's old port visit Nea Kameni (the active volcano in the caldera centre, where you can walk to the sulphurous crater) and the hot springs at Palea Kameni. Seeing the caldera from water level — looking back up at the 300-metre cliffs with the white villages on top — reverses the perspective completely and makes the volcanic scale visceral in a way the cliff-top view doesn't. Book at the port or through your hotel.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Visit Greece — official tourism site](https://www.visitgreece.gr/) · [Santorini ferry schedules — Ferryscanner](https://www.ferryscanner.com/) · [Akrotiri archaeological site — official information](https://www.culture.gov.gr/) · [UK FCDO — Greece travel advice](https://www.gov.uk/foreign-travel-advice/greece)

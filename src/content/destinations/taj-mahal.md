@@ -75,6 +75,3 @@ These tips are designed to help you decide whether the Taj Mahal fits your time,
 
 10. **See the Taj from Mehtab Bagh for the reverse view and from Agra Fort's Musamman Burj for the imperial perspective.** Mehtab Bagh is a garden on the north bank of the Yamuna, directly opposite the Taj, where Shah Jahan is said to have planned a second black marble mausoleum for himself. The view across the river gives the building in its river and sky setting without other monuments surrounding it. Agra Fort's Musamman Burj tower is where Shah Jahan was imprisoned by his son Aurangzeb in his final years — he could see the Taj Mahal from the tower window until he died.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Archaeological Survey of India — Taj Mahal tickets](https://asi.nic.in/) · [India e-Visa — official application portal](https://indianvisaonline.gov.in/) · [IRCTC — Agra train bookings from Delhi](https://www.irctc.co.in/) · [UK FCDO — India travel advice](https://www.gov.uk/foreign-travel-advice/india)

@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Luxembourg fits your time, bu
 
 10. **Vianden Castle is the best single day trip — one of the Benelux's finest medieval fortresses.** Vianden Castle overlooks a steep gorge on the Our river at the German border, 1.5 hours by public transport from Luxembourg City (free bus to Diekirch, then local service to Vianden). The Romanesque and Gothic castle has been extensively restored and is worth visiting even in winter. Victor Hugo lived in Vianden during exile — his house is now a museum in the town.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Visit Luxembourg — official tourism site](https://www.visitluxembourg.com/) · [Luxembourg City Tourist Office — city information](https://www.lcto.lu/en) · [UK FCDO — Luxembourg travel advice](https://www.gov.uk/foreign-travel-advice/luxembourg) · [Mobiliteit.lu — Luxembourg free public transport planner](https://www.mobiliteit.lu/)

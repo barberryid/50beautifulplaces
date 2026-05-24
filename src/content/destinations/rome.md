@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Rome fits your time, budget, 
 
 10. **Eat cacio e pepe, carbonara, and supplì in Testaccio — the neighbourhood where Roman food came from.** Testaccio, built over Monte Testaccio (a hill composed of broken Roman amphora shards), was Rome's meat-packing and food processing district and remains its most food-serious neighbourhood. The Testaccio market (covered, open morning) has Rome's best daily produce stalls and several excellent ready-to-eat counters. Trattoria Da Remo for pizza al taglio, Volpetti for cured meats and cheese. Roman pasta dishes (carbonara, cacio e pepe, amatriciana) should not be ordered with cream, peas, or additions anywhere serious.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Vatican Museums — timed entry tickets](https://www.museivaticani.va/) · [Colosseum — advance booking](https://www.colosseo.it/) · [Roma Pass — 48/72 hour museum and transport pass](https://www.romapass.it/) · [UK FCDO — Italy travel advice](https://www.gov.uk/foreign-travel-advice/italy)

@@ -75,6 +75,3 @@ These tips are designed to help you decide whether the Salar de Uyuni fits your 
 
 10. **Combine the salar with San Pedro de Atacama in Chile for a high-altitude trans-Andean circuit.** The Eduardo Avaroa route typically ends at Laguna Verde near the Chilean border, from which a transfer continues 1.5 hours into San Pedro de Atacama (2,438 m, Chile). San Pedro adds the Valle de la Luna, Atacama salt flat, and the Tatio geysers in a contrasting but equally dramatic desert landscape. This Bolivia–Chile crossing is one of South America's classic overland routes and can be completed as a single organised tour from Uyuni.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Bolivia tourism — official visitor information](https://www.bolivia.travel/en) · [Eduardo Avaroa Andean Reserve — SERNAP Bolivia](https://www.bolivia.travel/en/our-attractions/wildlife-and-nature/natural-areas-protected/reserve-andean-fauna-eduardo-avaroa) · [UK FCDO — Bolivia travel advice](https://www.gov.uk/foreign-travel-advice/bolivia) · [Ferroviaria Andina — Oruro to Uyuni train](http://www.ferroviariaandina.com.bo/)

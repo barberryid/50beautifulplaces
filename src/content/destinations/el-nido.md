@@ -77,6 +77,3 @@ These tips are designed to help you decide whether El Nido fits your time, budge
 
 10. **Nacpan Beach and Taraw Cliff give land-based counterpoints to the boat days.** Nacpan Beach, 45 minutes north, is a 4 km double-bay arc of sand with beach bars and far fewer visitors than Bacuit Bay — good for a half-day land break. Taraw Cliff is a 2-hour guided scramble (real climbing at sections, not suitable for those with vertigo) rewarding with sunrise panoramas over the bay. Both round out a visit that would otherwise be entirely water-based.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [eTravel — Philippines arrival form (mandatory)](https://etravel.gov.ph/) · [El Nido Municipality — visitor and environmental fee information](https://www.elnidopalawan.gov.ph/) · [UK FCDO — Philippines travel advice](https://www.gov.uk/foreign-travel-advice/philippines) · [AirSwift — El Nido direct flights from Manila](https://www.air-swift.com/)

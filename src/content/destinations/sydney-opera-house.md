@@ -75,6 +75,3 @@ These tips are designed to help you decide whether the Sydney Opera House fits y
 
 10. **Combine Sydney with the Blue Mountains for a complete New South Wales experience.** The Blue Mountains (1.5 hours by train from Central Station) offer sandstone cliffs, eucalyptus forests, and the Three Sisters rock formation at Katoomba — a day trip or overnight that balances Sydney's urban harbour experience with wilderness in a single trip. Jenolan Caves (2.5 hours from Katoomba) adds a full caving system to the mountain section. Sydney + Blue Mountains is the standard and highly satisfying 5–7 day New South Wales itinerary.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Sydney Opera House — performances and tours](https://www.sydneyoperahouse.com/) · [Australian ETA — entry authorisation application](https://www.homeaffairs.gov.au/eta) · [UK FCDO — Australia travel advice](https://www.gov.uk/foreign-travel-advice/australia) · [Transport NSW — Opal card and Manly Ferry](https://www.transportnsw.info/)

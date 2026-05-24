@@ -77,6 +77,3 @@ These tips are designed to help you decide whether Boracay fits your time, budge
 
 10. **Boracay is mid-range by Southeast Asian standards — especially in peak season.** Compared to mainland Philippines and many other Southeast Asian beach destinations, Boracay runs meaningfully more expensive. Budget rooms exist at Station 3 but fill early in peak season. Booking accommodation 2–3 months ahead is sensible for Christmas and Easter; for shoulder months one month ahead is usually sufficient. The island is accessible but not genuinely cheap — factor this into any Philippines itinerary that includes cheaper destinations.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Philippine DOT — Boracay information](https://tourism.gov.ph) · [eTravel registration](https://etravel.gov.ph) · [PAGASA — Philippine weather service](https://www.pagasa.dost.gov.ph) · [UK FCDO — Philippines travel advice](https://www.gov.uk/foreign-travel-advice/philippines) · [US State Dept — Philippines advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/philippines-travel-advisory.html)

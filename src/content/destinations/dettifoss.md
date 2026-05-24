@@ -100,6 +100,3 @@ These tips are designed to help you decide whether Dettifoss fits your time, bud
 
 10. **Dettifoss is the anchor of the Diamond Circle — combine with Mývatn, Húsavík, and Ásbyrgi.** The Diamond Circle is North Iceland's equivalent of the South Iceland waterfall route: Dettifoss and Ásbyrgi horseshoe canyon → Lake Mývatn (volcanic pseudo-craters and geothermal pools) → Húsavík (Iceland's whale-watching capital, June–August). The full loop takes 2–3 days from Akureyri and turns a single waterfall stop into one of Iceland's most varied short road trips.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Icelandic Road Administration — road conditions and closures](https://www.road.is/) · [Vatnajökull National Park — Dettifoss visitor information](https://www.vatnajokulsthjodgardur.is/en/) · [Inspired by Iceland — official tourism](https://www.inspiredbyiceland.com/) · [UK FCDO — Iceland travel advice](https://www.gov.uk/foreign-travel-advice/iceland)

@@ -78,6 +78,3 @@ These tips are designed to help you decide whether the Danakil Depression fits y
 
 10. **Combine Danakil with Lalibela and the Simien Mountains for a complete Ethiopia itinerary.** Lalibela’s 12th-century rock-hewn churches are one of Africa’s great historical sites — allow a full day and hire a local guide (Mas, WhatsApp +251 91 305 0039, is the most consistently recommended in traveller reports). The Simien Mountains offer 2–3 day treks among Gelada monkeys with escarpment views. Timkat (Ethiopian Epiphany) in Lalibela around January 19 is a major religious festival worth timing around. The Omo Valley adds a tribal-culture circuit for a 12–14 day Ethiopia trip.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Ethiopian e-Visa — official portal](https://www.evisa.gov.et/) · [UK FCDO — Ethiopia travel advice](https://www.gov.uk/foreign-travel-advice/ethiopia) · [US State Dept — Ethiopia advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/ethiopia-travel-advisory.html) · [Ethiopian Airlines — Addis–Semera domestic routes](https://www.ethiopianairlines.com/)

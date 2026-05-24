@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Fitz Roy fits your time, budg
 
 10. **Combine Fitz Roy with Torres del Paine in Chile for the classic Southern Patagonia circuit.** Most serious Patagonia travellers combine El Chaltén with Torres del Paine National Park in Chile, reached via El Calafate and the Cerro Castillo border crossing. Torres del Paine has the W Trek and O Circuit, with mountain huts and camps bookable through CONAF-approved operators. The combination of Fitz Roy and Torres del Paine in 12–14 days is one of the world's great hiking itineraries.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Argentina National Parks — Los Glaciares / El Chaltén sector](https://www.argentina.gob.ar/parquesnacionales/losglaciares) · [Visit Argentina — official tourism site](https://www.argentina.travel/) · [UK FCDO — Argentina travel advice](https://www.gov.uk/foreign-travel-advice/argentina) · [Aerolíneas Argentinas — Buenos Aires–El Calafate domestic flights](https://www.aerolineas.com.ar/)

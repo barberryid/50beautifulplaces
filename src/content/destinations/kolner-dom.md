@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Kölner Dom fits your time, b
 
 10. **Combine Kölner Dom with a Rhine Valley day trip for a fuller picture of the region.** The Middle Rhine Valley between Koblenz and Bingen (UNESCO World Heritage) is 80 km south of Cologne — vineyard terraces, medieval castles, and river towns including Bacharach and Rüdesheim. The train runs along the river; a day cruise from Koblenz gives the valley from the water. Combined with Cologne, it makes a 3–4 day trip from Amsterdam, Brussels, or Frankfurt covering some of Europe's most historically layered riverine scenery.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Kölner Dom — official cathedral visitor information](https://www.koelner-dom.de/en/) · [Cologne Tourism — official visitor guide](https://www.cologne-tourism.com/) · [UK FCDO — Germany travel advice](https://www.gov.uk/foreign-travel-advice/germany) · [Deutsche Bahn — train connections to Cologne](https://www.bahn.com/)

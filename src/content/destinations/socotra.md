@@ -76,6 +76,3 @@ These tips are designed to help you decide whether Socotra fits your time, budge
 
 10. **Recheck access conditions within 30 days of departure, not just when booking.** Socotra's access depends on UAE-administered stability that has shifted without warning before. Flight suspensions, permit changes, and operator limitations have occurred with little notice. Book refundable elements where possible, confirm all logistics with your operator 4–6 weeks before departure, and check your government's travel advisory again 2–4 weeks out. This is not a destination where booking early guarantees smooth travel.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [UK FCDO — Yemen travel advice (includes Socotra)](https://www.gov.uk/foreign-travel-advice/yemen) · [US State Dept — Yemen Do Not Travel advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/yemen-travel-advisory.html) · [UNESCO — Socotra Archipelago World Heritage Site](https://whc.unesco.org/en/list/1263/) · [Ron Perrier — Socotra field notes 2024](https://www.ronperrier.net/2024/07/06/socrata-yemen/)

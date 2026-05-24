@@ -94,6 +94,3 @@ These tips are designed to help you decide whether Anse Source d'Argent fits you
 
 10. **Plan your return ferry before you commit to a full day at the beach.** Ferry departures from La Digue back to Praslin and Mahé are not continuous — there are scheduled crossings and they can sell out or be weather-affected. If you need to catch a flight from Mahé, build a generous buffer between your last ferry and departure time. Missing the return crossing is a real inconvenience; check timetables and book the return leg when you book the outbound.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Cat Cocos — Mahé/Praslin/La Digue ferry bookings](https://cat-cocos.koek.sc/en) · [Cat Rose — Praslin–La Digue ferry](https://www.iif-catrose.com/) · [L'Union Estate — beach access and opening information](https://www.lunion.estate/) · [Seychelles Tourism Board](https://www.seychelles.travel/) · [UK FCDO — Seychelles travel advice](https://www.gov.uk/foreign-travel-advice/seychelles)

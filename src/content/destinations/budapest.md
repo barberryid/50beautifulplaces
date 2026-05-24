@@ -87,9 +87,6 @@ These tips are designed to help you decide whether Budapest fits your time, budg
 
 10. **The lit riverfront after dark is free — skip expensive dinner cruises.** The most dramatic Budapest experience costs nothing: walking the Pest embankment or taking tram 2 after dark, with Parliament, the bridges, and the Castle District lit against the river. Dinner cruises are expensive, have limited food quality, and block the views you came for. A tram ticket, a glass of wine from a ruin bar, and an evening embankment walk delivers the same visual experience at a fraction of the price.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Budapest tourism official site](https://visithungary.com/) · [BKK public transport — tickets and BudapestGO app](https://bkk.hu/en/) · [Hungarian Parliament — guided tour booking](https://latogatokozpont.parlament.hu/en) · [UK FCDO — Hungary travel advice](https://www.gov.uk/foreign-travel-advice/hungary)
 
 ### What to do there
 

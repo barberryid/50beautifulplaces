@@ -78,6 +78,3 @@ These tips are designed to help you decide whether Dominica fits your time, budg
 
 10. **Base in Calibishie or Portsmouth for the best overall position on the island.** Roseau is convenient for transport connections and the Boiling Lake trailhead, but it is the most urban part of the island. Calibishie on the north coast is quieter and centrally positioned for both north coast hikes and east coast villages. Portsmouth gives access to the Indian River sunset boat trips, Cabrits National Park, and is the best base for whale watching. For a single base, Calibishie offers the most flexibility with the most island character.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Discover Dominica — official tourism authority](https://discoverdominica.com/) · [L’Express des Îles — Guadeloupe–Dominica ferry](https://www.express-des-iles.com/) · [UK FCDO — Dominica travel advice](https://www.gov.uk/foreign-travel-advice/dominica) · [US State Dept — Dominica advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/dominica-travel-advisory.html)

@@ -74,6 +74,3 @@ These tips are designed to help you decide whether Naqsh-e Jahan Square fits you
 
 10. **The Isfahan bazaar is one of Iran's best and connects to the square directly.** The covered bazaar running north from the square is 3 km long, connects to the Friday Mosque (Jameh Mosque — 11 centuries of Islamic architecture in one building), and opens into craft workshops making copper, textiles, miniature paintings, and tilework. Prices are negotiable; bring cash. Allow a full afternoon rather than a rushed hour. The Jameh Mosque at the bazaar's far end is the architectural equal of anything on the square.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [UNESCO — Isfahan, Meidan Emam World Heritage listing](https://whc.unesco.org/en/list/115) · [UK FCDO — Iran travel advice (currently advises against all travel)](https://www.gov.uk/foreign-travel-advice/iran) · [US State Dept — Iran Level 4 Do Not Travel advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/iran-travel-advisory.html) · [Iran tourism — official visitor information](https://www.itto.org/)

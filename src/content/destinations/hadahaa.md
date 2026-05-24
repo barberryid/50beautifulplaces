@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Hadahaa fits your time, budge
 
 10. **Consider one or two nights in Malé for context before heading south.** Most travellers transit Malé without stopping, but the capital is one of the world's most densely populated cities and has a genuine urban energy quite different from the resort islands. The waterfront, the Friday Mosque (Masjid-al-Sultan Muhammad Thakurufaanu Al Auzam), the fish market, and local tearooms (huvahen cafés) give human context to the country. One night in Malé before or after Hadahaa costs a fraction of the resort rate.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Maldives Immigration — entry requirements](https://www.immigration.gov.mv/) · [Visit Maldives — official tourism board](https://visitmaldives.com/) · [UK FCDO — Maldives travel advice](https://www.gov.uk/foreign-travel-advice/maldives) · [Maldivian (domestic airline) — Malé–Kooddoo route schedules](https://www.maldivian.aero/)

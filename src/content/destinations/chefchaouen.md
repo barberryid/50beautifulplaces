@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Chefchaouen fits your time, b
 
 10. **Combine Chefchaouen with a wider northern Morocco route — it works poorly as a standalone long-haul destination.** Chefchaouen makes most sense as part of a northern Morocco circuit: Tangier (2 nights) → Chefchaouen (2 nights) → Fez (3 nights) is the most-travelled sequence and links by efficient CTM connections. If flying into Morocco, Fez (FEZ) gives the smoothest entry point for this loop in reverse. Combining the three cities gives very different Moroccan experiences — port city, mountain medina, imperial city — without excessive backtracking.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [CTM bus — Morocco long-distance schedules](https://www.ctm.ma/) · [Visit Morocco — official tourism site](https://www.visitmorocco.com/) · [UK FCDO — Morocco travel advice](https://www.gov.uk/foreign-travel-advice/morocco) · [US State Dept — Morocco advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/morocco-travel-advisory.html)

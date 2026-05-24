@@ -74,6 +74,3 @@ These tips are designed to help you decide whether Yangykala Canyon fits your ti
 
 10. **Combine Yangykala with the Darvaza Gas Crater for the most distinctive Turkmenistan circuit.** The Darvaza Gas Crater — a 30-metre-wide burning sinkhole in the Karakum Desert that has been on fire since Soviet drilling accidentally ignited an underground gas deposit in 1971 — is 3 hours north of Ashgabat. Spending a night camping at the crater's rim (seeing it at midnight is the classic experience) and then driving west to Yangykala over two to three days gives the two most extraordinary landscapes in Turkmenistan back to back. The Ustyurt Plateau between them is itself striking in its emptiness.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Caravanistan — Turkmenistan travel and visa guide](https://caravanistan.com/turkmenistan/) · [UK FCDO — Turkmenistan travel advice](https://www.gov.uk/foreign-travel-advice/turkmenistan) · [Owadan Tourism — licensed Turkmenistan operator](https://www.owadan.com/) · [Turkmenistan Ministry of Foreign Affairs — visa information](https://mfa.gov.tm/en)

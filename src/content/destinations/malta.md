@@ -75,6 +75,3 @@ These tips are designed to help you decide whether Malta fits your time, budget,
 
 10. **Take the Valletta–Three Cities ferry instead of the road for your best Grand Harbour view.** The short ferry crossing from Valletta's Lower Barrakka steps to Vittoriosa gives the best angle on Valletta's sea walls, Grand Harbour, and the Fort St Angelo fortifications — a view that no road approach replicates. The crossing runs regularly and costs a few euros. Combine it with a walk through Vittoriosa's quiet lanes and a meal at one of the waterfront restaurants that see a fraction of Valletta's tourist traffic.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Visit Malta — official tourism site](https://www.visitmalta.com/) · [Heritage Malta — Hypogeum and heritage site bookings](https://heritagemalta.mt/) · [UK FCDO — Malta travel advice](https://www.gov.uk/foreign-travel-advice/malta) · [Air Malta — direct flights to Malta](https://www.airmalta.com/)

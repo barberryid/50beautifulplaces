@@ -76,6 +76,3 @@ These tips are designed to help you decide whether Southern Patagonia fits your 
 
 10. **Use El Chaltén as the Argentina base for Fitz Roy — no park fees, free trails, no booking required.** El Chaltén is Argentina's trekking capital — a purpose-built village at the edge of Los Glaciares National Park north section with free trail access from the village itself (no entrance fee for El Chaltén sector). Laguna de los Tres (21 km round-trip, 1,200 m elevation gain) gives the closest view of Fitz Roy's vertical granite faces. Laguna Torre gives Cerro Torre views. Both are day hikes from the village with no booking requirement — the most accessible serious trekking in Southern Patagonia.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Torres del Paine National Park — official booking information](https://www.torresdelpaine.cl/en/) · [Los Glaciares National Park — Argentina (El Chaltén and El Calafate)](https://www.argentina.gob.ar/parquesnacionales) · [UK FCDO — Chile travel advice](https://www.gov.uk/foreign-travel-advice/chile) · [UK FCDO — Argentina travel advice](https://www.gov.uk/foreign-travel-advice/argentina)

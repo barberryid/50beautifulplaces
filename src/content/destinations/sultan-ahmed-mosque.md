@@ -75,6 +75,3 @@ These tips are designed to help you decide whether the Sultan Ahmed Mosque fits 
 
 10. **Take the Bosphorus ferry for the view that places both buildings in their city context.** A public Bosphorus commuter ferry from Eminönü or Kabataş to Üsküdar on the Asian side (30 minutes, a few lira) gives a view of the Sultan Ahmed Mosque and Hagia Sophia from the water — two domed buildings flanked by minarets rising above the old seawall of Constantinople. The longer Bosphorus cruise (IST. ferry or tourist boats from Eminönü) runs north past Dolmabahçe Palace, the Ottoman summer palaces, and the Rumeli Hisarı fortress. See both buildings from the water on the way out and on foot on the way back.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Istanbul tourism — official visitor information](https://www.istanbul.com/) · [Topkapi Palace — tickets and information](https://topkapisarayi.gov.tr/en) · [UK FCDO — Turkey travel advice](https://www.gov.uk/foreign-travel-advice/turkey) · [Istanbul public transport (IETT) — tram, metro, and ferry information](https://www.iett.istanbul/en)

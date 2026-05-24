@@ -106,6 +106,3 @@ These tips are designed to help you decide whether Mittenwald fits your time, bu
 
 10. **Combine Mittenwald with Neuschwanstein or the Zugspitze for a full Bavarian Alpine circuit.** Mittenwald sits at the southern end of a rail-accessible triangle: Garmisch-Partenkirchen (Zugspitze access, 20 minutes), Innsbruck in Austria (35 minutes, international connections), and Füssen for Neuschwanstein Castle (2.5 hours via train). A four-day circuit covering painted villages, Germany's highest peak, and the world's most photographed castle is achievable entirely by train — no car needed.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Mittenwald tourism — official visitor information](https://www.mittenwald.de/tourismus) · [Karwendelbahn — cable car to the Karwendel ridge](https://www.karwendelbahn.de/) · [Deutsche Bahn — train connections to Mittenwald](https://www.bahn.com/) · [UK FCDO — Germany travel advice](https://www.gov.uk/foreign-travel-advice/germany)

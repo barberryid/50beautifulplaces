@@ -105,6 +105,3 @@ These tips are designed to help you decide whether Zhangjiajie fits your time, b
 
 10. **Tianmen Mountain is a separate site near Zhangjiajie City worth a full day on its own.** Tianmen Mountain (Heaven's Gate Mountain) is distinct from Zhangjiajie National Forest Park — it has a different entrance, ticketing, and character. The 7.5 km cable car from Zhangjiajie City to the summit (the world's longest passenger cable car) rises 1,279 metres; the 99-bend Tongtian Road is driven by bus; Heaven's Gate (a natural 131-metre-high arch in the cliff face) is reached by 999 steps. The glass-floored cliff walkway on the mountain's western face is manageable for most visitors. Allow a full day.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [UNESCO — Wulingyuan Scenic and Historic Interest Area World Heritage listing](https://whc.unesco.org/en/list/640/) · [Chinese Ministry of Foreign Affairs — visa information](https://www.mfa.gov.cn/eng/) · [UK FCDO — China travel advice](https://www.gov.uk/foreign-travel-advice/china) · [Zhangjiajie National Forest Park — official information](http://www.zjjnfp.com/)

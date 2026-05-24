@@ -85,6 +85,3 @@ These tips are designed to help you decide whether Table Mountain fits your time
 
 10. **Combine Table Mountain with the Cape Peninsula drive for the full Cape Town experience.** The Cape Peninsula road south from Cape Town passes Chapman's Peak (a clifftop drive above the Atlantic), the Boulders African penguin colony near Simon's Town, and Cape Point — the dramatic clifftop at the tip of the peninsula where the Atlantic and Indian Ocean weather systems meet. Allow a full day. Drive south along the Atlantic side (Camps Bay, Hout Bay, Chapman's Peak) and return along the False Bay side (Simon's Town, Muizenberg). It is one of the world's great coastal drives.
 
-Practical information checked: May 2026. Always verify current rules before booking.
-
-**Check before booking:** [Table Mountain Aerial Cableway — tickets and conditions](https://www.tablemountain.net/) · [Cape Town tourism — official visitor guide](https://www.capetown.travel/) · [UK FCDO — South Africa travel advice](https://www.gov.uk/foreign-travel-advice/south-africa) · [South African National Parks — Table Mountain National Park](https://www.sanparks.org/parks/table_mountain/)
