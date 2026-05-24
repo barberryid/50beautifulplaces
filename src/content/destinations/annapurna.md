@@ -50,9 +50,35 @@ _A destination guide for the most accessible great-mountain trekking on the plan
 
 ## Why It Is Beautiful
 
-The Annapurna massif is a 55-km wall of seven peaks above 7,000 m, three of them over 8,000 m. Trails fan out from Pokhara into a horseshoe of villages, terraced rice paddies, rhododendron forest and high pastures, climbing eventually to glacier-rimmed amphitheatres. Compared to Everest, Annapurna treks are lower, greener, more cultural — you walk through working Gurung, Magar and Thakali villages — and cheaper.
+The Annapurna massif is a 55-kilometre wall of seven peaks above 7,000 m, three of them above 8,000 m. Trails fan out from Pokhara into a horseshoe of working Gurung, Magar, and Thakali villages, through rhododendron forest and terraced rice paddies, climbing eventually to glacier-rimmed amphitheatres at the base of the peaks. Compared to Everest, Annapurna treks are lower, greener, more cultural, and more accessible — without sacrificing the Himalayan scale.
 
-## Local Planning Notes
+## 10 Practical Tips to Help You Decide
+
+These tips are designed to help you decide whether Annapurna fits your time, budget, comfort level, and travel style.
+
+1. **For hikers and mountain lovers who want Himalayan scale with good trail infrastructure.** Annapurna suits anyone who wants to walk through working Himalayan villages and reach high-altitude viewpoints without the extreme commitment of Everest Base Camp. Skip it if multi-day walking holds no appeal, if altitude genuinely concerns you and you are unwilling to plan carefully, or if you cannot be flexible around mountain weather.
+
+2. **October–November is the prime window. March–April is the next best option.** October and November bring the clearest skies and the most stable conditions — the trails are at their busiest, but with good reason. March and April offer blooming rhododendrons and sharp mornings, though afternoon haze is common. Avoid the monsoon (June to early September): leeches, slippery paths, and persistent cloud. December to February is cold and quiet, with the high Thorong La pass on the Circuit often closed by snow.
+
+3. **All treks start from Pokhara — fly or bus from Kathmandu.** The standard gateway is Pokhara (30-minute flight or 7-hour bus from Kathmandu). Trailheads are 1–3 hours from Pokhara by local transport or jeep. Since April 2023, solo independent trekking in the Annapurna Conservation Area is officially no longer permitted — you must trek with a licensed guide. Porter-guides are available in Pokhara from around USD 25–35 per day and make practical sense for first-timers.
+
+4. **Match the route to your time and fitness before booking.** Poon Hill (4–5 days, 3,210 m) is the accessible option: suitable for families and those new to Himalayan walking. Mardi Himal (5–6 days, 4,500 m) is a quieter ridge route with outstanding views. Annapurna Base Camp (7–11 days, 4,130 m) is the classic full-experience choice. The Annapurna Circuit (12–18 days, 5,416 m Thorong La) is the full commitment. Choosing the wrong route for your fitness or time budget is the most common Annapurna mistake.
+
+5. **Use Pokhara as your trekking base, not just a transit stop.** Pokhara is the staging point for all Annapurna routes — permits, guides, gear hire, and final packing all happen here. It is also a soft landing after the trek: lakeside cafes, paragliding, and a relaxed pace. Budget two nights in Pokhara before and one night after. Kathmandu's Thamel district is the place for gear if you need it before travelling to Pokhara.
+
+6. **Budget USD 25–35 per day on trail, or USD 1,000–1,500 for a guided package.** Self-organised trekking costs roughly USD 25–35 per day in teahouse food and lodging, plus a guide fee. Organised ABC packages (guide, porter, permits, teahouse meals) typically run USD 1,000–1,500 for a 10–12 day programme. ATMs only work reliably in Pokhara and Kathmandu — bring Nepalese rupees for the entire trail before you leave town. Tip your guide and porter 10–15% at the end.
+
+7. **Two permits are required — and you must carry them at every checkpoint.** All Annapurna trekkers need the ACAP (Annapurna Conservation Area Permit, NPR 3,000) and the TIMS card (NPR 2,000). Both are checked at multiple gates on the trail. Arrange them in Pokhara or Kathmandu before setting out. Your travel insurance must cover helicopter evacuation to at least 6,000 m — non-negotiable in the mountains.
+
+8. **Altitude sickness is the main risk on ABC and the Circuit. Take it seriously.** AMS (Acute Mountain Sickness) can affect anyone above 3,000 m regardless of fitness. On the ABC route the maximum altitude is 4,130 m; on the Circuit the Thorong La pass reaches 5,416 m. The rule is simple: climb no more than 500 m of sleeping altitude per day above 3,000 m, build a rest day at Deurali (ABC) or Manang (Circuit), and descend immediately if symptoms worsen. Diamox (acetazolamide) is cheap in Kathmandu pharmacies and works as a prophylactic.
+
+9. **Don't underestimate Poon Hill.** Poon Hill (3,210 m) is widely dismissed as the "easy" Annapurna option, but the sunrise view over Dhaulagiri and Annapurna from the summit is genuinely extraordinary. For first-time Himalayan visitors, families, or anyone on a shorter trip, Poon Hill is often the right choice — better to do it properly than to rush the ABC and miss the point of being in the mountains.
+
+10. **A helicopter flight over the massif is a viable alternative to a full trek.** For visitors who cannot commit to a multi-day trek, a scenic helicopter flight (around one hour) from Pokhara over Annapurna and Machhapuchhare delivers the scale and photography in a fraction of the time. Buddha Air and private charter operators run these regularly. It is expensive (roughly USD 200–400 per person) but reframes the whole visit as a panoramic overflight rather than a compromise.
+
+Practical information checked: May 2026. Always verify current rules before booking.
+
+**Check before booking:** [Nepal Tourism Board — trekking permits](https://www.tourismdepartment.gov.np/) · [ACAP permit information](https://www.ntnc.org.np/project/annapurna-conservation-area-project) · [UK FCDO — Nepal travel advice](https://www.gov.uk/foreign-travel-advice/nepal) · [US State Dept — Nepal advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/nepal-travel-advisory.html)
 
 ### Pick a trek
 

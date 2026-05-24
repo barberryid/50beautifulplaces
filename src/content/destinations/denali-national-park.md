@@ -52,82 +52,32 @@ _Country guide for the United States routed through its biggest, wildest nationa
 
 ## Why It Is Beautiful
 
-Denali (6,190 m, the highest mountain in North America) is the centrepiece of a 24,000 km² sub-arctic wilderness so big it has only one road. The park hosts grizzly bears, wolves, moose, caribou, Dall sheep and a 12,000-foot mountain that famously hides in cloud most days — a clear view is called a "30% day". The pull is the sense of scale, not specific attractions.
+Denali National Park contains North America's highest mountain (6,190 m) at the centre of 24,000 square kilometres of sub-arctic wilderness — a space so vast it has only one road and is more than large enough to hold grizzly bears, wolves, moose, caribou, and Dall sheep in genuinely open country. Denali itself is covered in cloud roughly 70% of the time, which makes a clear day feel like something earned rather than simply observed. The park's single road goes further into wilderness than almost any equivalent road in North America, and the design of the whole place — limited vehicles, hop-on/hop-off buses, off-trail tundra walking — keeps the sense of scale intact. The pull here is the sense of wild scale, not a checklist of attractions.
 
-## Local Planning Notes
+## 10 Practical Tips to Help You Decide
 
-### When to go
+These tips are designed to help you decide whether Denali National Park fits your time, budget, comfort level, and travel style.
 
-Mid-May to mid-September is the operational season; outside this most services close.
+1. **For wildlife watchers, wilderness hikers, and mountain photographers — not those who need guaranteed views or predictable weather.** Denali suits travellers who want big Alaskan wilderness: grizzlies in open tundra, caribou herds, a mountain that changes every hour, and a park large enough to absorb every visitor. Skip it if you need a clear summit view to feel the trip was worth it — Denali is in cloud most days, and the park experience is far more than the peak. Cold, rain, and mosquitoes are part of the deal.
 
-Late June–July: 20+ hours of daylight, wildflowers, mosquitoes. Warmest weather.
+2. **June to late August for the main season. Late August–September for fall colours and wildlife photography.** Mid-May to mid-September is the operational window; outside that, most services and campgrounds close. Late June and July bring 20+ hours of daylight, warm temperatures, and wildflowers — also the peak mosquito season. Late August and early September deliver fall colours on the tundra, the bull moose rut, caribou herd movements, and the first possibility of aurora viewing. September also offers shorter queues and cheaper accommodation outside the park.
 
-Late August–early September: shorter days, fall colours on the tundra, northern lights possible. Best balance of weather and crowds.
+3. **Fly into Anchorage, then drive or take the Alaska Railroad to the park.** Anchorage (ANC) is the standard gateway — 4 hours north on the Parks Highway (AK-3). The Alaska Railroad's Denali Star (8 hours from Anchorage, glass-domed cars) is the scenic alternative for those without a rental car. Stop in Talkeetna, 2.5 hours south of the park, for flightseeing over Denali — on a clear day, glacier-landing packages from operators like K2 Aviation or Talkeetna Air Taxi (~USD 400–500 per person) deliver a view the road cannot match. Visa Waiver Program visitors need an [ESTA at esta.cbp.dhs.gov](https://esta.cbp.dhs.gov/) (USD 21, valid 2 years) — apply before departure.
 
-September is also when bull moose rut and caribou herds move — the wildlife photography window.
+4. **Two to four days is the recommended stay. Build in a buffer for weather.** Two full days gives a wildlife bus trip and one marked hike. Three to four days opens a backcountry overnight, a second bus day, and the flexibility to wait out cloud cover for a clear-sky morning. Denali's weather is genuinely variable — without a buffer day, the mountain may stay hidden your entire visit. Most visitors find three nights is the minimum for a satisfying experience.
 
-### Getting there
+5. **Book bus tickets and campground reservations early — both sell out well ahead of peak season.** Private vehicles are restricted to the first 15 miles of the park road (to Savage River). Beyond that, the park's transit buses (USD 39 round-trip, hop-on/hop-off) are the only access. The 2021 Pretty Rocks Landslide cut the road at Mile 43; check the [Denali NPS website](https://www.nps.gov/dena/) for the current road-access status before booking, as bridge replacement work is ongoing. Campground reservations open in February and fill for the peak summer months. Reservations are through [recreation.gov](https://www.recreation.gov/).
 
-Fly into Anchorage (ANC) or, less commonly, Fairbanks (FAI).
+6. **Campgrounds, entrance-strip lodges, and remote backcountry camps — choose by experience level.** Six campgrounds operate inside the park; only Riley Creek has electrical hookups. Backcountry permits are free (with required bear-canister rental) and are the deepest Denali experience. Grande Denali Lodge and McKinley Chalet near the entrance are reliable mid-range. Kantishna backcountry lodges (Camp Denali, Denali Backcountry Lodge) are currently fly-in only while road access beyond Mile 43 remains closed. Budget stays in Talkeetna are a good-value alternative base.
 
-Drive: 4 hours from Anchorage on the Parks Highway (AK-3). Stop in Talkeetna en route.
+7. **Park entry is USD 15 per person; total trip costs run higher.** The 7-day park pass is USD 15 per person; the America the Beautiful annual pass (USD 80) covers all US national parks for a year and pays off after two or three parks. Transit bus tickets, flightseeing, and accommodation push daily costs significantly. A 3-day budget including entrance, buses, one campground night, and meals runs USD 150–250 per person per day. Flightseeing is the highest single-value addition — save for it on a clear-sky day.
 
-Alaska Railroad: the Denali Star is the scenic option — 8 hours from Anchorage with glass-domed cars.
+8. **Bears are present throughout — backcountry regulations are mandatory, not optional.** Grizzly bears and black bears are both present. Bear canisters are required for all backcountry use and are available to rent at the visitor centre. Secure all food and scented items at frontcountry campgrounds too. Moose cause more NPS visitor injuries than bears — give them wide berth at all times. Wildlife viewing is usually from the bus or while off-trail tundra walking; keep the required 300-yard distance from bears and wolves and 25 yards from other animals.
 
-Park Connection bus: cheapest motorised option from Anchorage.
+9. **Off-trail tundra walking is the park's primary hiking mode — there are very few marked trails.** Denali intentionally has fewer marked trails than almost any comparable US national park. Hop off the transit bus at any stop and walk open tundra. The main marked routes near the entrance are Savage Alpine Trail, Mount Healy Overlook, and Triple Lakes Trail. For backcountry trips, register at the visitor centre, carry a bear canister, and download offline topo maps — cell coverage is non-existent beyond the entrance.
 
-### The Park Road and the 2021 landslide
+10. **Denali is the centrepiece of a two- to three-week Alaska circuit.** A practical Alaska sequence: Anchorage (1 day) → Kenai Peninsula and Kenai Fjords National Park (3–4 days, day cruise from Seward) → Talkeetna flightseeing (1–2 days) → Denali (3–4 days) → Fairbanks and optional Arctic Circle day trip (2–3 days). Fairbanks in September adds the strongest aurora-viewing window. The full circuit takes 12–16 days and covers Alaska's main zones: ocean, temperate rainforest, sub-arctic tundra, and mountain wilderness.
 
-Denali has one 92-mile road into the wilderness. In 2021, the Pretty Rocks Landslide cut the road at Mile 43 (Polychrome Pass). Through 2025 and into 2026, public access by bus has been limited to Mile 43; the National Park Service is building a permanent bridge replacement scheduled for completion in 2026–2027. Plan around two options:
+Practical information checked: May 2026. Always verify current rules before booking.
 
-Transit Bus to Mile 43: USD 39 round-trip from the visitor centre, hop on/hop off, multiple departures from 06:00.
-
-Tundra Wilderness Tour (narrated): 5–6 hours, currently turning at Mile 43 instead of the historic Mile 62.
-
-Private vehicles can only drive the first 15 miles to Savage River — still a good wildlife stretch.
-
-### Where to stay
-
-Inside the park: Six campgrounds, of which only Riley Creek is plug-in. Backcountry permits are free with bear-canister rental — wilderness camping is the great Denali experience.
-
-McKinley Park (Nenana Canyon): Strip of hotels and lodges just outside the entrance. Grande Denali Lodge and McKinley Chalet are reliable mid-range.
-
-Kantishna lodges (at the end of the road): Three remote backcountry lodges (Camp Denali, Kantishna Roadhouse, Denali Backcountry Lodge) — currently fly-in only while the road is closed beyond Mile 43.
-
-Talkeetna: The flightseeing base, 2.5 hours south, with much more character than the park entrance strip.
-
-### What to do
-
-Flightseeing from Talkeetna: K2 Aviation, Talkeetna Air Taxi and Sheldon Air Service offer hour-long flights around the south face of Denali, with glacier landings on the Ruth Amphitheatre. About USD 400–500 per person; absolutely worth it on a clear day.
-
-Wildlife bus trip to at least Eielson Visitor Center area / Mile 43 — binoculars essential.
-
-Hike: trails are limited inside the park, so off-trail tundra walking from any bus stop is the local style. Savage Alpine, Mt Healy and Triple Lakes are the marked trails near the entrance.
-
-Sled-dog kennel: the only national park to maintain a working sled-dog team. Free demos at the kennel several times a day.
-
-Rafting on the Nenana River canyon — Class III–IV near the park entrance.
-
-### Where Denali fits in an Alaska or USA trip
-
-A two- to three-week Alaska loop is the natural pairing. From the archive, the New York Times 52 Places list flagged Alaska in 2023; recommended skeleton:
-
-Anchorage (1 day) — Anchorage Museum and a meal at South.
-
-Kenai Peninsula (3–4 days) — day cruise out of Seward in Kenai Fjords NP (Major Marine and Kenai Fjords Tours), drive the Turnagain Arm.
-
-Talkeetna (1–2 days) — flightseeing on Denali.
-
-Denali NP (3–4 days) — transit-bus day, backcountry overnight, sled-dog demo.
-
-Fairbanks and Arctic add-on (2–3 days) — University of Alaska Museum, Chena Hot Springs, Dalton Highway day-trip to the Arctic Circle. In September, this is where the aurora is best.
-
-### Entry to the USA (2026)
-
-ESTA: Visa Waiver Program travellers from 41 countries still use ESTA — USD 21, valid 2 years, multiple entries. Apply at esta.cbp.dhs.gov. The archive flags a 2025 incident where a traveller was refused check-in at Heathrow for not having a printout: bring both a printed and digital copy.
-
-Visa: Non-VWP nationals need a B-2 visa. Interview wait times remain long in some countries — plan 3–6 months ahead.
-
-CBP One: Land-border crossings into Alaska from Canada at Beaver Creek and Skagway are quick; carry the I-94 confirmation.
-
-Park pass: USD 15 per person, 7-day. America the Beautiful annual pass at USD 80 pays off after three parks.
+**Check before booking:** [Denali National Park — NPS official site and road status](https://www.nps.gov/dena/) · [Recreation.gov — campground and bus reservations](https://www.recreation.gov/) · [ESTA — US Visa Waiver Program application](https://esta.cbp.dhs.gov/) · [Alaska Railroad — Denali Star timetables](https://www.alaskarailroad.com/) · [UK FCDO — USA travel advice](https://www.gov.uk/foreign-travel-advice/usa)

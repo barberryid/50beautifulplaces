@@ -50,30 +50,32 @@ seoDescription: "Floodwater spreads into desert and becomes a maze of reeds, cha
 
 ## Why It Is Beautiful
 
-The Okavango Delta is beautiful because it is an inland flood in a dry country. Water travels from the Angolan highlands into Botswana's Kalahari basin, then spreads into channels, islands, lagoons, floodplains, papyrus, reeds, and wildlife corridors. It never reaches the sea. It disappears into evaporation, sand, plants, animals, and light.
+The Okavango is an anomaly: a river that begins in the Angolan highlands, flows south-east for 1,000 kilometres, and then fans into the Kalahari desert — not reaching the sea but spreading into channels, lagoons, reed beds, and papyrus islands that cover up to 15,000 square kilometres at peak flood. The flood peak is counterintuitive — rain falls in Angola in December and January, but the water takes months to arrive, so the delta is at its fullest in the Botswana dry season (June to August) when the surrounding landscape is parched. Elephants wade between islands, hippos hold channels, and a mokoro (dugout canoe) at water level in a papyrus corridor in the early morning — surrounded by birdsong, floating lilies, and reflected sky — is one of the quietest and most complete experiences Africa offers.
 
-## Local Planning Notes
+## 10 Practical Tips to Help You Decide
 
-### How the delta works
+These tips are designed to help you decide whether the Okavango Delta fits your time, budget, comfort level, and travel style.
 
-The Okavango's rhythm is counterintuitive. Rain falls far away in Angola, then floodwater moves slowly south into Botswana. The flood spreads from roughly March to June and often peaks during the dry winter months, around June to August. That is why wildlife viewing can be strongest when the surrounding landscape is dry but the delta itself is full.
+1. **For safari travellers wanting a slower, water-based experience and wildlife photographers — not those on tight budgets or wanting fast-moving sightseeing.** The Okavango is not a typical game-drive safari destination. It is a place of stillness, mokoro channels, elephant-island crossings, and birdsong at dawn. It rewards visitors who are willing to slow down and stay several nights. It is also one of Africa's most expensive safari destinations — build budget expectations accordingly before planning.
 
-### Can I realistically visit this?
+2. **June to September for peak wildlife and flood levels; May and October as shoulder months.** The flood peaks in July to August, when water channels are full, islands are isolated, and wildlife concentrates on dry ground surrounded by water. This is the prime wildlife window. June and September are slightly less intense but still excellent. May sees the flood arriving; October has retreating water but good game concentrations. December to March is the green season — the delta is beautiful but wildlife is dispersed and some camps reduce operations.
 
-Maun is the main practical gateway. Many travellers either fly from Maun into a lodge or arrange a 4WD safari through a specialist operator. This is not a place where turning up casually always works, especially for the best camps and park campsites. Treat flights, transfers, water levels, and season as part of the trip.
+3. **Fly into Maun (MUB) — all Okavango Delta trips originate here.** Maun's airport connects to Johannesburg (2 hours, daily on SAA and Airlink), Kasane (for Chobe), and Windhoek. Most delta lodges arrange onward light-aircraft transfers from Maun (15–45 minute flights onto bush airstrips). Botswana gives 90-day visa-free entry to most Western nationals on arrival. Check the [UK FCDO Botswana travel advice](https://www.gov.uk/foreign-travel-advice/botswana) for current entry requirements.
 
-### What to see and do
+4. **Three to four nights minimum in the delta; five to seven for a full Botswana circuit.** Three nights at one camp gives a complete delta experience: morning mokoro, afternoon game drive, walking safari, and evening around the fire. Four nights allows a second camp with a different character (permanent water vs floodplain). Adding Chobe National Park (two nights, for elephant concentrations and river safaris) to a Maun–delta circuit makes a five to seven day trip that covers Botswana's best wildlife areas.
 
-- **Mokoro trips**: a quiet, water-level way to experience channels, reeds, and reflected sky.
-- **Moremi Game Reserve**: one of the key wildlife areas on the eastern side of the delta.
-- **Permanent lagoons and photo camps**: often the strongest areas for wildlife and photography.
-- **Guma Lagoon / Guma Pool area**: a northern or western access point for water-based experiences, birdlife, fishing, hippo trails, and mokoro excursions.
-- **Maun**: not the reason to come to Botswana, but the hub that makes the delta workable.
+5. **Book lodges months ahead for the June–September peak and arrange light-aircraft transfers through your lodge.** The best camps in the Okavango (Mombo, Little Vumbura, Chitabe, Xigera, and others) book out 6–12 months ahead for peak season. Book through a specialist southern Africa travel agent or directly with lodge operators. Lodge bookings typically include all meals, activities, and the local light-aircraft transfer from Maun — confirm what is included before comparing prices.
 
-### Best time and practical notes
+6. **The Okavango is expensive — budget USD 500–1,500+ per person per night for most camps.** Botswana deliberately positions itself as a high-value, low-volume destination, and Okavango camp prices reflect this. Mid-range permanent tented camps run USD 400–700 per person per night all-inclusive. Premium photographic camps and iconic lodges run USD 1,000–2,000. Budget operators using mobile camping run lower, but the delta is not a cheap-travel destination. Plan the total cost including flights to Maun before committing.
 
-For wildlife, May to October is usually the strongest period, with flood levels often highest from July to September. Wetter months can be greener and beautiful, but wildlife is more dispersed and access can be more variable.
+7. **Take malaria precautions — the delta is a malaria-risk area.** The Okavango Delta is in a malaria-endemic zone. Take a reputable prophylaxis (consult your GP or travel clinic for current recommendations), use DEET repellent, wear long sleeves and trousers at dusk and dawn, and sleep under mosquito nets where provided. The [UK FCDO Botswana travel advice](https://www.gov.uk/foreign-travel-advice/botswana) confirms the malaria risk and recommends precautions year-round, with highest risk during the wet season. Risk exists even in the dry season.
 
-The delta is a malaria-risk area, so get current travel health advice before going. Dry-season nights can be surprisingly cold. Distances are large, and map times can be misleading where sand tracks, park roads, or 4WD routes are involved. Botswana's best-known safari areas often follow a high-value, low-volume model; budget options exist, but the delta is rarely casual low-cost travel.
+8. **A mokoro trip at dawn is the single most immersive thing you can do in the delta.** A mokoro is a traditional dugout canoe poled through shallow channels by a guide standing at the stern. At water level among papyrus reeds, with hippos audible and kingfishers passing at eye height, the experience of the delta is completely different from a game vehicle. All quality camps include mokoro excursions; request a morning departure for the best light and the coolest temperatures. Expect 1.5–3 hours on the water.
 
-> Field-detail source: Ron Perrier, [Botswana - The Trip](https://www.ronperrier.net/2023/02/01/botswana-the-trip/).
+9. **Moremi Game Reserve on the eastern delta gives the best game-drive wildlife combination.** Moremi covers the eastern side of the Okavango and is one of Africa's most wildlife-rich conservation areas — lions, leopards, wild dogs, elephants, and hippos all present. Camps inside or bordering Moremi (such as Xakanaxa, Khwai, and Chief's Island) combine game drives with water access. The delta experience without Moremi is water-focused; Moremi brings the game-drive dimension. The combination in one trip is the ideal.
+
+10. **Combine the Okavango with Chobe for a complete Botswana trip.** Chobe National Park (4 hours from Maun by road or a short charter flight) has the world's largest elephant concentration — herds of several hundred on the Chobe River. A Maun–Okavango–Chobe–Victoria Falls circuit covers the best of Botswana and Zimbabwe in seven to ten days and is one of southern Africa's classic itineraries. Victoria Falls is 1.5 hours from Kasane by road or a short charter, making it a natural endpoint before flying home.
+
+Practical information checked: May 2026. Always verify current rules before booking.
+
+**Check before booking:** [Botswana Tourism — official visitor information](https://www.botswanatourism.co.bw/) · [Moremi Game Reserve — official information](https://www.moremagamereserve.com/) · [UK FCDO — Botswana travel advice](https://www.gov.uk/foreign-travel-advice/botswana) · [Maun Airport — gateway to the Okavango Delta](https://www.caab.co.bw/)

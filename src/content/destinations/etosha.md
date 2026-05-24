@@ -50,42 +50,32 @@ seoDescription: "Wildlife gathers at waterholes on the edge of a vast white pan,
 
 ## Why It Is Beautiful
 
-Etosha is beautiful because it is stark rather than lush. The pale pan, dry bush, flat horizons, and waterholes turn wildlife into theatre. Elephants, giraffes, zebra, springbok, lions, rhino, and sometimes leopard appear against a minimal background where every movement is visible.
+Etosha is beautiful because it is stark rather than lush: a vast white salt pan edging the horizon, low dry bush, and waterholes that turn wildlife observation into something almost theatrical. Elephants, lions, rhinos, giraffes, zebra, and springbok appear against an almost minimal backdrop where every movement stands out. The park works on the principle of waiting rather than driving — sitting at a waterhole at dusk as the light changes and animals arrive one by one is the defining Etosha experience. For self-drive travellers, it is one of the most accessible and rewarding safari parks in Africa.
 
-For budget travelers, Etosha is especially attractive because you can self-drive instead of paying for a fully guided luxury safari.
+## 10 Practical Tips to Help You Decide
 
-## Local Planning Notes
+These tips are designed to help you decide whether Etosha fits your time, budget, comfort level, and travel style.
 
-### What to do there
+1. **For self-drive safari travellers, wildlife photographers, and families wanting a practical first African safari — not those who need lush vegetation or East African predator density.** Etosha is the right choice for travellers who want elephants, lions, rhinos, and giraffes in a landscape they can navigate independently. Skip it if you expect Maasai Mara-style grassland and predator density: Etosha is dry bush and pan. Its advantage is that self-drive works extremely well, the sightings can be extraordinary, and the waterholes guarantee something to watch.
 
-Plan your days around waterholes. In the dry season, animals concentrate around water, and the best strategy is often to wait rather than drive constantly. Some of Etosha's strongest moments come from sitting still as the pan light changes and animals arrive one by one.
+2. **June to October for peak wildlife. July to September for the best dry-season waterhole concentration.** The dry season is when animals gather at waterholes — the park's signature experience. July to September gives the highest waterhole activity and the most reliable elephant and rhino sightings. October can reach 40°C+ but remains excellent for wildlife. November to April is the green season: more water disperses animals across the park, sightings become less predictable, but migratory birds arrive and the landscape looks entirely different.
 
-- **Okaukuejo**: especially useful for its camp waterhole, often memorable after dark and known for rhino sightings.
-- **Halali**: another important rest-camp base with a floodlit waterhole.
-- **Namutoni**: a distinctive eastern base with a white fort setting and nearby waterhole areas.
+3. **Rent a 2WD car in Windhoek and drive yourself — Etosha is Africa's most practical self-drive park.** Fly into Windhoek (WDH) and drive north to the Andersson Gate entry point (about 4.5 hours on the B1). Most of Etosha's main park roads are manageable in a standard 2WD sedan during the dry season. A higher-clearance vehicle gives more flexibility on minor tracks. Book your rental well ahead for July–September — vehicles are scarce during peak season. Namibia is visa-free for most Western nationalities (90 days on arrival).
 
-A good first visit is 3 nights: one near Okaukuejo, one around Halali, and one toward Namutoni or the eastern side. With only 2 nights, stay central and avoid over-driving.
+4. **Three nights minimum; spread across two rest camps for the best coverage.** Two nights gives one full day in the park — too rushed. Three nights allows a day near Okaukuejo (the western camp, known for rhino at the floodlit waterhole), a day toward Halali in the middle, and time to explore without over-driving. Four nights covers the eastern Namutoni area. A common mistake is spending too much time driving and too little time waiting at waterholes.
 
-### How to get there
+5. **Book NWR rest camps months in advance for peak season.** Okaukuejo, Halali, and Namutoni are managed by Namibia Wildlife Resorts (NWR) and range from campsites to simple chalets. In July and August, chalets fill months ahead. [Book directly at nwr.com.na](https://www.nwr.com.na/) rather than through third-party resellers. The Okaukuejo floodlit waterhole is productive after dark — rhinos drink here regularly in season. Private lodges outside the gates (Mushara, Anderssons at Etosha) are higher-end alternatives if NWR accommodation is full.
 
-Most travelers rent a car in Windhoek and drive north. A normal 2WD vehicle is usually enough for main park roads in dry conditions, but a higher-clearance vehicle is more comfortable. Book accommodation early in peak season.
+6. **Park entry (NAD 280 per foreign adult per day, from April 2026) plus vehicle and accommodation fees apply.** Verify the current fee structure at [the NWR website](https://www.nwr.com.na/) or [Namibia Tourism](https://www.namibiatourism.com.na/) before departure — fees changed in April 2026 and may change again. A 3-day self-drive visit for two people in a simple chalet typically runs NAD 3,000–5,000 total (roughly USD 150–250) including entry, accommodation, and vehicle. Self-catering from camp shops reduces food costs significantly. Etosha is one of Africa's better-value safari options; the international flight and car rental are the main cost drivers.
 
-### Best time to visit
+7. **Malaria prophylaxis is recommended for Etosha and northern Namibia — get current advice before travel.** Etosha sits in Namibia's malaria zone, and prophylaxis is generally recommended, particularly during and after the wet season. Consult a travel medicine clinic or your GP at least 4–6 weeks before departure. The [UK FCDO notes a malaria risk in northern Namibia including Etosha](https://www.gov.uk/foreign-travel-advice/namibia). Mosquito repellent and long sleeves at dusk are standard precautions year-round.
 
-The best wildlife viewing is usually the dry season, especially July to September, when animals gather at waterholes. June and October can also be good, though October is often very hot.
+8. **Book a guided night drive — self-driving after dark is not permitted.** Park gates close at dusk and self-drivers must be inside their camp by sundown. The only way to see nocturnal wildlife — aardwolf, brown hyena, porcupine, and predators on the move — is through guided night drives run from each camp daily. They cost approximately NAD 400–600 per person and are one of Etosha's genuinely distinctive experiences. Book through your camp office on arrival, not in advance.
 
-### Costs and budget tips
+9. **Sit at waterholes rather than driving constantly — patience is the Etosha skill.** Etosha rewards waiting over covering distance. Pick a productive waterhole — your rest camp's own waterhole is a natural anchor; Chudob, Rietfontein, and Klein Namutoni are other reliable sites — and sit for at least 60–90 minutes. Animals rarely arrive simultaneously; sequences of elephants, zebra, and predators at the water are the experiences that stay. Driving past 10 waterholes in a day produces far fewer memorable moments than waiting at two.
 
-Namibia increased national park fees from 1 April 2026. Current Etosha fee information lists foreign adult entry at NAD 280 per adult per day, with small vehicle fees also payable. Check official or NWR-linked sources before travel because fees can change.
+10. **Combine Etosha with a wider Namibia road trip for one of Africa's best self-drive experiences.** Etosha is best understood as part of a Namibia loop rather than a standalone destination. A classic 10–14 day circuit: Windhoek → Sossusvlei (red dunes of the Namib) → Swakopmund (Atlantic coast) → Damaraland (desert-adapted elephant) → Etosha → Windhoek. The drives are long but the landscapes are extraordinary, most roads are sealed or good gravel, and the circuit is doable in a standard 2WD rental for the majority of the route.
 
-To save money, rent a basic car, camp or use simple rest-camp accommodation, self-cater, and avoid unnecessary guided drives. The one guided activity that may be worth paying for is a night drive, because visitors cannot self-drive after gate closing.
+Practical information checked: May 2026. Always verify current rules before booking.
 
-### Practical notes
-
-Stay in your vehicle except at designated areas. Do not speed. Carry water and fuel when possible. After the major 2025 wildfire, reporting suggested that a large part of the park had been damaged and that recovery could take years, so expect some affected landscapes while wildlife viewing remains possible.
-
-### Namibia works best as a road trip
-
-Etosha is easier to understand as part of a wider Namibia loop rather than an isolated dot. Many visitors link Windhoek, desert lodges, Sossusvlei, Swakopmund / Walvis Bay, Damaraland, and Etosha by rental car or guided road trip. The drives are part of the experience, but they need planning: fuel, daylight, gravel-road conditions, tyre risk, and realistic daily distances matter.
-
-> Field-detail sources: Ron Perrier, [Namibia - The Trip](https://www.ronperrier.net/2017/04/03/namibia-the-trip/) and [Wildlife](https://www.ronperrier.net/2024/06/20/wildlife/); BucketListly, [2 Weeks in Namibia: A Road Trip Itinerary](https://www.bucketlistly.blog/posts/namibia-road-trip-backpacking-itinerary).
+**Check before booking:** [Namibia Wildlife Resorts — park bookings and current fees](https://www.nwr.com.na/) · [Namibia Tourism Board — official visitor information](https://www.namibiatourism.com.na/) · [UK FCDO — Namibia travel advice](https://www.gov.uk/foreign-travel-advice/namibia) · [US State Dept — Namibia advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/namibia-travel-advisory.html)

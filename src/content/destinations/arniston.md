@@ -64,9 +64,35 @@ _Country guide framed around a quiet whitewashed fishing village on the Cape Agu
 
 ## Why It Is Beautiful
 
-Arniston (officially Waenhuiskrans) sits two and a half hours south-east of Cape Town, past the wheat-fields of the Overberg, almost at the southern tip of Africa. The village is built around a 200-year-old fishing community at Kassiesbaai — limewashed cottages, no chain stores, southern right whales offshore between June and November. It is a perfect first or last stop on a Cape road trip.
+Arniston (officially Waenhuiskrans) sits two and a half hours south-east of Cape Town on the Cape Agulhas coast, past wheat-fields and sheep farms, very close to the actual southern tip of Africa. The village grew around a 200-year-old fishing community at Kassiesbaai — limewashed cottages, weathered boats, and no chain stores. A sea cave large enough to turn a wagon and oxen lies a short walk from the village, and southern right whales move through the offshore waters between June and November.
 
-## Local Planning Notes
+## 10 Practical Tips to Help You Decide
+
+These tips are designed to help you decide whether Arniston fits your time, budget, comfort level, and travel style.
+
+1. **For coastal walkers, photographers, and road-trippers who want quiet over activity.** Arniston is the right stop for travellers who want a genuine Cape fishing village, slow mornings, and landscape photography without a packed activity schedule. Skip it if you need nightlife, a restaurant scene, resort amenities, or a destination with multiple headline attractions — Arniston is deliberately and thoroughly quiet.
+
+2. **October to April for beach weather; June to November for whales.** October to April brings warm, dry coastal weather and is the most comfortable season for walking and swimming. June to August is cooler, sometimes wet, and dramatically quieter — but southern right whales calve offshore, making the coast between Arniston and De Hoop one of the best land-based whale-watching stretches in the world. The December–January school holiday period is the busiest and least peaceful; if quiet is the point, shoulder months (March–April, September–October) are better.
+
+3. **Self-drive only — fly to Cape Town and drive.** There is no public transport to Arniston. Fly into Cape Town (CPT) and hire a car — the drive is 220 km on good roads via the N2 east to Caledon, then south on the R316 through Bredasdorp, taking around 2.5–3 hours. Most rental cars (standard 2WD sedans) handle all Overberg and Arniston roads without difficulty. Arniston makes most sense as part of a Cape Agulhas circuit, not as a standalone fly-in destination.
+
+4. **Two nights minimum as a standalone stop; fits naturally into a Cape road trip circuit.** A single night in Arniston feels too brief — you will spend the first afternoon finding your feet and miss the early-morning quiet. Two nights gives time for the cave, Cape Agulhas, De Hoop, and a slow evening in Kassiesbaai. As part of a Cape road trip, it sits neatly in a loop from Cape Town through Hermanus and Arniston to the Garden Route.
+
+5. **The Arniston Spa Hotel for cliff views; self-catering cottages for a more local feel.** The Arniston Spa Hotel has cliff-edge rooms with direct views over the breakers and is the only hotel of note in the village. Self-catering cottages in Kassiesbaai and the new village are plentiful on Airbnb and TravelGround and give a more immersive experience of the fishing-village character. For whale-watching as the main reason for the trip, the De Hoop Collection inside the reserve (40 minutes away) is the most rewarding base.
+
+6. **Arniston is affordable by South African standards — but accommodation books up in peak season.** Self-catering cottages in Kassiesbaai are reasonably priced and easy to book independently. The Arniston Spa Hotel is a premium option but not outrageous relative to similar coastal hotels. Book accommodation 6–8 weeks ahead for December–January; shoulder-season bookings are usually straightforward.
+
+7. **Most Western passports get 90 days on arrival — but check the South Africa ETA before flying.** South Africa introduced an Electronic Travel Authorisation (ETA) trial in 2024; the status and requirements may have changed since then. Check your country's current entry requirements before booking. For the road trip itself: drive on the left, distances are large, fuel is widely available, and Cape Town is safe in tourist areas — avoid the city centre on foot at night.
+
+8. **The Waenhuiskrans cave is only accessible at low tide — check before you walk.** The sea cave that gives the village its official name (Waenhuiskrans — "wagon-house cliff") is large enough to stand inside, but the entry path floods at high tide. Check a local tide table or ask at your accommodation before heading out. The walk from the village takes around 15 minutes. Go early for the best light on the rock and before any day visitors arrive.
+
+9. **Cape Agulhas is 30 minutes away and worth the short detour.** The actual southernmost tip of Africa — where the Atlantic and Indian Oceans officially meet — is at Cape Agulhas, not the Cape of Good Hope. The lighthouse is candy-striped and climbable, the signpost marks the exact meeting point of the two oceans, and there is almost always a strong wind. It is an easy 30-minute drive from Arniston and makes a logical same-day stop.
+
+10. **De Hoop Nature Reserve is the whale-watching anchor for the whole region.** De Hoop, 40 minutes north-east of Arniston, is rated among the best land-based whale-watching sites on Earth during the June–November calving season. Southern right whales come within metres of the cliffs at Koppie Alleen. The reserve also has fynbos, endemic birdlife, and good self-drive game. If whale-watching is a priority, build your Overberg itinerary around De Hoop first and Arniston as the overnight base.
+
+Practical information checked: May 2026. Always verify current rules before booking.
+
+**Check before booking:** [Cape Agulhas Tourism — Arniston/Waenhuiskrans](https://discovercapeagulhas.co.za/destinations/arnistonwaenhuiskrans/) · [CapeNature — De Hoop Nature Reserve](https://www.capenature.co.za/reserves/de-hoop-nature-reserve) · [UK FCDO — South Africa travel advice](https://www.gov.uk/foreign-travel-advice/south-africa) · [South Africa Home Affairs — entry requirements](https://www.dha.gov.za/)
 
 ### When to go
 

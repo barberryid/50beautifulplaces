@@ -51,68 +51,32 @@ _Country guide built around the Philippines’ most famous beach island._
 
 ## Why It Is Beautiful
 
-Four kilometres of powder-fine White Beach face west into the Sulu Sea — so the sunsets are a feature, not an accident. Boracay was closed for a six-month environmental rehabilitation in 2018 (no overnight tourism, sewer system rebuilt) and the post-rehab island is meaningfully tidier: the beachfront is car-free, the laneways behind it have proper drainage, and a cap on daily arrivals limits the worst high-season crush.
+Four kilometres of powder-fine White Beach face west into the Sulu Sea — so the sunsets are a feature, not an accident. Boracay was closed for six months of environmental rehabilitation in 2018 and the post-rehab island is meaningfully tidier: the beachfront is now car-free, the drainage is proper, and a daily arrival cap limits the worst high-season crush. At its best this is polished tropical beach travel — paraw sails at dusk, reef just offshore, and cold drinks within reach of the water.
 
-## Local Planning Notes
+## 10 Practical Tips to Help You Decide
 
-### When to go
+These tips are designed to help you decide whether Boracay fits your time, budget, comfort level, and travel style.
 
-December–May: dry season, easy west-coast swimming, peak crowds at Christmas, Chinese New Year and Easter.
+1. **Choose Boracay for a polished beach holiday, not a wilderness escape.** Boracay suits beach lovers, couples, families, and soft adventure travellers who want a beautiful tropical beach with solid infrastructure nearby. Kitesurfers, snorkellers, and divers find specific reasons to come. Skip it if you want an undeveloped island atmosphere, wilderness solitude, or a place where crowds are never a factor — in peak season this is a busy resort island.
 
-June–October: wet season — short violent afternoon storms, half-price rooms, transfer to Bulabog Beach on the east side for kitesurfing.
+2. **Come December to May — and avoid Easter week entirely.** December to May is the dry season: reliable west-coast swimming, predictable conditions, and the sunsets that make Boracay’s reputation. June to October brings afternoon storms, rougher seas, and half-price rooms; committed kitesurfers transfer to Bulabog Beach on the east side for the wind. The sweet spot is late January to early March. Easter week and Christmas week bring intense crowds and prices that can double — arrive either side of those peaks instead.
 
-Sweet spot: late January–early March.
+3. **Two airports serve Boracay. Caticlan is closer; Kalibo is cheaper from Manila.** Caticlan (MPH) is ten minutes from the ferry pier — the better choice for most visitors. Kalibo (KLO) handles larger international flights and cheaper fares from Manila but adds 90 minutes of overland transfer. From the pier a 15-minute outrigger ferry crosses to Boracay, then a tricycle to your hotel zone. Have cash ready at the pier: you pay a terminal fee, environmental fee, and boat fare on arrival in pesos.
 
-### Getting there
+4. **Three nights is the realistic minimum. Four gives the island room to breathe.** Two nights is just enough to see White Beach and recover from the journey, but it will feel rushed. Three to four nights is the standard and gives time for a paraw sunset sail, snorkelling at Crocodile Island, a day at a quieter cove, and relaxed evening dining. Extend to five-plus days only if you plan to kitesurf, complete dive certifications, or island-hop to Puka Beach and Crystal Cove at leisure.
 
-Two airports serve Boracay: Caticlan (MPH) is closer — ten minutes to the ferry pier — and Kalibo (KLO) is an hour and a half away but takes wide-body international flights and is cheaper from Manila. From the pier it is a 15-minute outrigger ferry (P50–100) across to Cagban or Tabon on Boracay, then a tricycle to your hotel zone.
+5. **Station 1, 2, or 3 — the choice shapes the whole trip.** Station 1 is the widest beach with the smartest hotels and least noise — best for beach quality. Station 2 is the commercial heart: D’Mall, restaurants, nightlife, and the most crowded stretch of sand. Station 3 is quieter and cheapest. Bulabog Beach on the east side is the kitesurf and windsurf base, nearly empty outside the November–April wind season. Diniwid and Punta Bunga north of Station 1 are secluded boutique options.
 
-### Where to stay
+6. **Bring pesos. ATMs on the island are limited and charge high fees.** ATMs at D’Mall cap withdrawals at ₱10,000 and charge steep transaction fees. Withdraw or exchange pesos before leaving Manila or Cebu. Budget travellers can manage on ₱2,000–₱3,000 a day including modest accommodation; mid-range trips run ₱5,000–₱10,000; beachfront resort rates start at ₱10,000+ per night. Peak season (Christmas, Easter) pushes accommodation prices 20–30% above shoulder rates.
 
-Station 1: Widest beach, smartest hotels (Discovery Shores, Henann Regency).
+7. **Register at [etravel.gov.ph](https://etravel.gov.ph) before you fly — no QR code, no boarding.** All arriving passengers in the Philippines must register at etravel.gov.ph (free, takes five minutes) within 72 hours of arrival. The system issues a QR code that airlines and immigration both check — some carriers refuse boarding without it. Also carry proof of onward or return travel: airlines and Philippine immigration routinely ask for this, and overstaying without authorisation results in fines, detention, or deportation at your own expense.
 
-Station 2: D’Mall, mid-range hotels, busiest nightlife and restaurants.
+8. **Carry ₱500 in small bills for the pier — you pay cash before you reach your hotel.** On arrival at Caticlan pier you pay a terminal fee (₱100), environmental fee (approximately ₱300), and boat fare (₱25) in cash before boarding the outrigger to Boracay. There is no ATM at the ferry jetty. These pier fees are mandatory, non-negotiable, and cash-only — have pesos ready before you land at Caticlan.
 
-Station 3: Quieter, more local, better value (Frendz, Mad Monkey for hostels).
+9. **Bulabog is a different island in wind season — plan accordingly if you kitesurf.** Bulabog Beach runs consistent 10–20 knot winds from November to April, making it one of Southeast Asia’s most accessible kitesurf venues. Outside that window the wind drops and the beach empties. If kitesurfing is the main reason for coming, build your dates around the wind window and book east-side accommodation. If it is not, stay on White Beach and treat Bulabog as a curiosity.
 
-Bulabog (east side): Kitesurf and windsurf base November–April; otherwise quiet.
+10. **Boracay is mid-range by Southeast Asian standards — especially in peak season.** Compared to mainland Philippines and many other Southeast Asian beach destinations, Boracay runs meaningfully more expensive. Budget rooms exist at Station 3 but fill early in peak season. Booking accommodation 2–3 months ahead is sensible for Christmas and Easter; for shoulder months one month ahead is usually sufficient. The island is accessible but not genuinely cheap — factor this into any Philippines itinerary that includes cheaper destinations.
 
-Diniwid and Punta Bunga: North of Station 1, secluded coves with boutique hotels (Shangri-La, Nami).
+Practical information checked: May 2026. Always verify current rules before booking.
 
-### What to do
-
-Sunset cocktails on White Beach — the universal ritual.
-
-Island hop by paraw (the local outrigger sailboat) to Puka Beach, Crystal Cove and Magic Island cliff-jumps.
-
-Snorkel or dive at Crocodile Island and Yapak Wall — strong drift, big fish.
-
-Kitesurf at Bulabog with an IKO-certified school (Hangin and Funboard run good courses).
-
-Stand-up paddleboard at sunrise from Diniwid — the only time the water is mirror-flat.
-
-### Entry and practicalities for the Philippines (2026)
-
-Visa: Most Western and ASEAN passports get 30 days visa-free, extendable in-country.
-
-eTravel: Mandatory online registration via etravel.gov.ph within 72 hours of arrival (and again on departure). Immigration checks the QR code on entry. From the archive: "they check to make sure you’re registered."
-
-Onward ticket: Airlines (especially low-cost like Jetstar and Cebu Pacific) do check for proof of onward travel. Book a refundable or throwaway ticket if you don’t have one.
-
-Money: Cash is king on Boracay — there are ATMs at D’Mall but they cap at P10,000 per withdrawal with steep fees. Bring pesos.
-
-SIM/eSIM: Globe and Smart prepaid SIMs at the airport for around P500 for 7 days of data; Airalo eSIM works well too (one archive traveller paid USD 4.50 for 1 GB).
-
-Getting around: Grab works in Manila and Cebu, not Boracay. On the island use tricycles (around P150 between stations); the central road is one-way and traffic-controlled.
-
-Environmental fee: Boracay charges a P300 environmental fee on arrival; carry pesos at the pier.
-
-### Where Boracay fits in a Philippines trip
-
-Manila (1–2 days): a brisk dose of urban Asia. Intramuros tour by motorbike side-car was a highlight in the archive (around P340/hr).
-
-Boracay (3–4 days): beach reset.
-
-Cebu and Bohol (3–4 days): Chocolate Hills, whale-shark snorkelling at Oslob (ethically contested) or Donsol (better), waterfalls.
-
-Palawan — El Nido or Coron (4–5 days): see chapter 10.
+**Check before booking:** [Philippine DOT — Boracay information](https://tourism.gov.ph) · [eTravel registration](https://etravel.gov.ph) · [PAGASA — Philippine weather service](https://www.pagasa.dost.gov.ph) · [UK FCDO — Philippines travel advice](https://www.gov.uk/foreign-travel-advice/philippines) · [US State Dept — Philippines advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/philippines-travel-advisory.html)

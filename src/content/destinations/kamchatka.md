@@ -50,8 +50,32 @@ seoDescription: "Volcanoes, hot springs, bear country, and Pacific wilderness ma
 
 ## Why It Is Beautiful
 
-Volcanoes, hot springs, bear country, and Pacific wilderness make Kamchatka one of Earth's last big raw edges. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
+Kamchatka is a 1,200 km peninsula of active volcanoes, geysers, and brown bears on Russia's Pacific coast — a UNESCO World Heritage landscape where the terrestrial and volcanic meet in forms found almost nowhere else on Earth. The Valley of Geysers, Kronotsky Nature Reserve, and Kuril Lake's salmon runs attract the world's densest brown bear concentration. Moving between volcanoes, hot springs, and Pacific coastline requires helicopter charters and expedition-style logistics in a landscape that barely tolerates roads. This is the planet at its most geologically raw, and the same quality that makes Kamchatka extraordinary also makes it inaccessible for most of the year.
 
-## Local Planning Notes
+## 10 Practical Tips to Help You Decide
 
-Most trips start in Petropavlovsk-Kamchatsky and require guided logistics, permits, and flexible weather days. Helicopter trips, volcano hikes, hot springs, and bear-viewing excursions can be delayed by cloud or wind. Build a buffer into the itinerary and treat the remoteness as part of the thrill.
+These tips are designed to help you decide whether Kamchatka fits your time, budget, comfort level, and travel style.
+
+1. **Critical warning first: UK, US, and most Western governments advise against all travel to Russia.** Following the February 2022 invasion of Ukraine, the [UK FCDO advises against all travel to Russia](https://www.gov.uk/foreign-travel-advice/russia), and the [US State Dept has issued a Level 4: Do Not Travel advisory for Russia](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/russia-travel-advisory.html). Most Western airlines no longer fly to Russia, major international cards no longer work there, consular services are severely limited, and Western nationals face detention risk. This destination is currently inaccessible to most Western travellers. Read your government's current advisory in full before any planning.
+
+2. **For experienced wilderness travellers only, and subject to access being verified.** Even setting aside current political constraints, Kamchatka is a specialist expedition: expensive, weather-dependent, logistically complex, requiring local operator support throughout, and not suited to casual travellers or tight budgets. The volcanic landscapes, world-class bear viewing, and geysers are extraordinary — but the barriers to access are high even in normal circumstances.
+
+3. **July to September for the main window. The peninsula is largely inaccessible outside this period.** The short summer gives the most reliable volcano hiking, bear viewing, and helicopter access to remote areas. August and September bring the salmon run and peak bear concentration at Kuril Lake. October to May means snow, ice, and very limited access beyond Petropavlovsk-Kamchatsky. Build 2–3 weather buffer days into any summer itinerary — helicopter trips are routinely grounded by cloud and wind.
+
+4. **All access requires organised logistics from Petropavlovsk-Kamchatsky.** The city (PKC) is the gateway for all Kamchatka trips. The peninsula has almost no road access beyond it; reaching the Valley of Geysers, Avacha volcano, and Kuril Lake requires helicopter charters, guided expeditions, and advance operator bookings. Independent travel beyond the city is not practical. Local operators with current access knowledge are essential.
+
+5. **Plan seven to ten days minimum — the landscape does not compress well.** A five-day trip barely covers Avacha volcano and near-city hot springs. A full ten days covers Avacha, the Valley of Geysers, Kuril Lake bears, and Pacific coastline with weather flexibility built in. Fourteen days gives enough time for weather delays and a more complete picture of the peninsula's variety.
+
+6. **Kamchatka is expensive — helicopter costs dominate the budget.** A return helicopter flight to the Valley of Geysers typically runs USD 500–800 per person. Guided multi-day volcano treks cost USD 200–400 per day. Accommodation in Petropavlovsk is basic to mid-range; field accommodation is camping or expedition huts. Total per-person costs for a 10-day trip with helicopter excursions typically run USD 3,000–6,000 beyond airfare.
+
+7. **UK and US governments currently advise against all travel to Russia — verify the current position before any commitment.** The [UK FCDO](https://www.gov.uk/foreign-travel-advice/russia) and [US State Dept Level 4 advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/russia-travel-advisory.html) both cite ongoing conflict with Ukraine, detention risk for Western nationals, and the breakdown of normal banking and consular services. Most travel insurers will not cover Russia-based travel. Verify your government's current advisory, your insurer's position, and your bank's card functionality before making any booking.
+
+8. **The Valley of Geysers is the centrepiece — helicopter access is the only option, and slots are limited.** Dolina Geyzerov is one of the world's largest active geyser fields, in a steep volcanic canyon. Access is by helicopter only; day-visitor numbers are capped. Book through a licensed Kamchatka operator months ahead for peak season. Cloud and fog frequently force cancellations — flexibility in your itinerary is not optional.
+
+9. **Kuril Lake for brown bears — August and September is the salmon run window.** Kuril Lake in southern Kamchatka draws 800+ brown bears during the sockeye salmon migration. Bears fishing at close range make this one of the world's most extraordinary wildlife encounters. Access is by helicopter from Petropavlovsk; book through a licensed operator with dedicated Kuril Lake permits well in advance.
+
+10. **Avacha volcano is the most accessible Kamchatka experience for fit hikers.** Avacha (2,741 m) is 30 km from Petropavlovsk and climbable as a long day hike or overnight. The active crater smells of sulphur; the summit gives views over Avacha Bay and the surrounding volcanic complex. This is the most accessible Kamchatka hike, requiring only a guide and a good weather window, and can be arranged with much shorter lead time than helicopter excursions.
+
+Practical information checked: May 2026. Always verify current rules before booking.
+
+**Check before booking:** [UK FCDO — Russia travel advice (currently advises against all travel)](https://www.gov.uk/foreign-travel-advice/russia) · [US State Dept — Russia Level 4 Do Not Travel advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/russia-travel-advisory.html) · [UNESCO — Volcanoes of Kamchatka World Heritage listing](https://whc.unesco.org/en/list/765)

@@ -55,30 +55,32 @@ seoDescription: "Samarkand's tiled madrasas rise around a monumental square wher
 
 ## Why It Is Beautiful
 
-The Registan is beautiful because it is not a single monument. It is an urban stage framed by three madrasas, each with its own rhythm of tilework, portals, domes, inscriptions, and courtyards. From a distance it works as one grand composition; up close it becomes colour, geometry, glazed surface, and shadow.
+The Registan is not a single monument but an urban stage framed by three madrasas, each with its own rhythm of tilework, portals, domes, inscriptions, and courtyards. From a distance it works as one grand composition; up close it becomes colour, geometry, glazed surface, and shadow. Completed between 1420 and 1660, the ensemble survived Timurid decline, Soviet restoration, and earthquake damage — and still functions as a living square rather than a museum piece.
 
-## Local Planning Notes
+## 10 Practical Tips to Help You Decide
 
-### The three madrasas
+These tips are designed to help you decide whether the Registan fits your time, budget, comfort level, and travel style.
 
-- **Ulugbek Madrasa**: completed in 1420 and associated with Ulugbek, the Timurid ruler and astronomer. It gives the square its scholarly foundation.
-- **Sher-Dor Madrasa**: completed in 1636 and famous for bold animal imagery on its facade.
-- **Tilla-Kari Madrasa**: completed in 1660, with a richly decorated mosque interior where gold design creates a powerful domed effect.
+1. **For Silk Road history and architecture photography. Less rewarding for pure nature travellers.** The Registan rewards people who respond to human-made grandeur: Islamic geometry, tilework at monumental scale, and a public square with 600 years of layered history. Architecture photographers, history travellers, and anyone building a Central Asia circuit will find it worth a dedicated visit. Skip it only if you have no interest in urban heritage — the natural landscapes around Samarkand are limited and the city's appeal is almost entirely cultural.
 
-### How to experience it
+2. **April–May and September–October are the right months. Avoid the July–August heat.** Samarkand in July and August regularly reaches 38–42°C, making extended time outdoors genuinely tiring. April to May and September to October offer 18–28°C — comfortable for walking between monuments and spending time in the square at different times of day. Winter (December–February) is cold but possible: fewer tourists, sharp dramatic light, and the tiled facades read clearly against a pale sky.
 
-Do not treat the Registan as a five-minute photo stop or a single midday photograph. Arrive when it opens if you want the quietest architectural views, then return later for warmer light, local evening atmosphere, and the illuminated square. Morning is best for space and detail; sunset and evening are better for mood.
+3. **Tashkent to Samarkand by Afrosiyob train takes under two and a half hours. Book early.** The Afrosiyob high-speed train connects Tashkent (TAS) and Samarkand in approximately 2–2.5 hours. Tickets are affordable (typically $10–20 in first class) but popular departures in shoulder season and holiday periods sell out weeks in advance. [Book at railway.uz](https://railway.uz/en/) before you arrive in Uzbekistan. British nationals and many European passport holders get 30 days visa-free; hotels register you with the OVIR authorities automatically on check-in.
 
-### Extend the visit in Samarkand
+4. **Half a day for the Registan; two full days for Samarkand.** The Registan itself takes two to three hours done properly — the three madrasas, the mosque interior, and a return after the morning tour groups thin out. Samarkand's full circuit (Registan, Shah-i-Zinda, Gur-e-Amir, Bibi-Khanym, Siyob Bazaar) fills at least one full day and is better spread across two. Stay overnight so you can return to the Registan at blue hour and early morning — both are genuinely different experiences from the midday visit.
 
-- **Gur-e-Amir**: Timur's mausoleum and essential context for Samarkand's imperial history.
-- **Bibi-Khanym Mosque**: monumental scale from Timur's era, with restoration and ruin sitting side by side.
-- **Siyob / Siab Bazaar**: a good way to ground the city in daily life rather than only monuments.
-- **Hazrat-Hizr Mosque**: useful for views and the city's layered religious landscape.
-- **Shah-i-Zinda**: one of Samarkand's strongest tilework experiences and an obvious companion to the Registan.
+5. **Base yourself in the old city, within walking distance of the Registan.** Hotels in Samarkand's Afrosiyob district within walking distance of the Registan let you arrive when it opens and return at blue hour without a taxi each time. The new town to the north is cheaper but adds 10–15 minutes by taxi to every monument visit. For a 1–2 night stay, old-city proximity is worth the small premium. Guesthouses near the Registan typically run $30–80 per night for a clean, well-reviewed room.
 
-The Registan itself can be seen in a few hours, but Samarkand deserves at least 1 to 2 full days. Stay overnight if you can, so you can return after tour groups leave and see how the square changes from hard daylight to blue hour.
+6. **Samarkand is inexpensive. The train tickets and international flights are where the cost lands.** The Registan entry fee is approximately UZS 50,000 (around $4–5 USD); other major monuments cost $2–4 each. Accommodation in the old city runs $30–80 per night; meals at local restaurants cost $3–8. The expensive part of the trip is getting there — international flights to Tashkent plus the train. Budget for those first, then plan everything else around them.
 
-Samarkand is easy to combine with the rest of Uzbekistan by train, but popular train routes can sell out. If you want to link Samarkand with Bukhara, Khiva, or Tashkent, book rail tickets early rather than assuming the best departures will be available at the last minute.
+7. **Uzbekistan is generally safe for tourists — but carry your passport at all times.** Uzbekistan has no specific danger warnings for Samarkand or tourist areas. The [UK FCDO](https://www.gov.uk/foreign-travel-advice/uzbekistan/safety-and-security) notes that terrorism cannot be ruled out nationally, but the practical risk for tourists is petty theft in crowded areas. Carrying your passport is a legal requirement — police may ask to see it. Avoid photographing near government buildings, military facilities, or security sites: this can attract unwanted attention or lead to equipment checks.
 
-> Field-detail sources: Ron Perrier, [Uzbekistan](https://www.ronperrier.net/2024/06/28/uzbekistan/) and [Uzbekistan - The Trip](https://www.ronperrier.net/2015/11/08/uzbekistan-the-trip-2/); Anna Round the World, [Best Uzbekistan Itinerary](https://www.annaroundtheworld.com/blog/best-uzbekistan-itinerary); BucketListly, [Explore Uzbekistan in 2 Weeks](https://www.bucketlistly.blog/posts/two-weeks-itinerary-uzbekistan) and [One Month in Central Asia](https://www.bucketlistly.blog/posts/central-asia-one-month-backpacking-itinerary).
+8. **Arrive early. Return at sunset. They are completely different visits.** The Registan at 9am is quiet enough to stand in the centre of the square and absorb the geometry without a crowd. By midday it fills with tour groups. Late afternoon empties slightly, and sunset turns the tiled facades from blue to amber. The illuminated square after dark is a third experience entirely. A visitor spending only midday hours here sees only one-third of what makes the place worth the journey.
+
+9. **Cover shoulders and knees inside the Tilla-Kari Madrasa — it is an active mosque.** The Tilla-Kari Madrasa contains a working mosque and is an active religious site. Visitors are expected to dress modestly: shoulders and knees covered for both men and women. Scarves are available at the entrance but bringing your own avoids the queue. The requirement applies inside the mosque interior; the courtyard and exterior facade have no restrictions. The Sher-Dor and Ulugbek Madrasas are monument-only and have no dress codes.
+
+10. **Combine Samarkand with Bukhara and Khiva by train — but plan the rail tickets first.** Samarkand alone is worth the trip, but the Uzbekistan Silk Road circuit — Tashkent, Samarkand, Bukhara, Khiva — is one of the most coherent heritage routes in Central Asia. All three cities are connected by train or shared taxi. Popular Afrosiyob and regional departures sell out in shoulder season. Plan and book the full train sequence before building any other part of the itinerary. Allow at least 7–10 days for the three-city circuit.
+
+Practical information checked: May 2026. Always verify current rules before booking.
+
+**Check before booking:** [Uzbekistan Railways — Afrosiyob train booking](https://railway.uz/en/) · [Uzbekistan Tourism official site](https://www.uzbekistan.travel/en/) · [UK FCDO — Uzbekistan travel advice](https://www.gov.uk/foreign-travel-advice/uzbekistan) · [UNESCO — Samarkand World Heritage Sites](https://whc.unesco.org/en/list/603/) · [US State Dept — Uzbekistan advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/uzbekistan-travel-advisory.html)

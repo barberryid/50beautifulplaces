@@ -52,86 +52,32 @@ _Built directly from the December 2021 and March 2024 trip reports in the archiv
 
 ## Why It Is Beautiful
 
-Dominica (not the Dominican Republic) is the Caribbean island the cruise crowd mostly skips — mountainous, volcanic, rainforested, with nine active volcanoes, hundreds of waterfalls, a boiling lake and the only intact pre-Columbian Carib (Kalinago) territory left in the Antilles. There are no all-inclusives. The selling line "the Nature Island" turns out to be accurate.
+Dominica is the Caribbean island that chose volcanoes and rainforest over resort development: nine active volcanoes, a boiling lake in the Valley of Desolation, hundreds of waterfalls, and the only intact pre-Columbian Kalinago territory in the Antilles. There are no all-inclusives and almost no white-sand beach tourism — the island’s interior and underwater world are the point, and the hiking trails, diving sites, and whale-watching waters are among the best in the Caribbean. Sperm whales are present year-round in the deep water offshore, making Dominica one of the world’s most reliable whale-watching destinations. The "Nature Island" tagline is rare in Caribbean marketing in that it turns out to be accurate.
 
-## Local Planning Notes
+## 10 Practical Tips to Help You Decide
 
-### When to go
+These tips are designed to help you decide whether Dominica fits your time, budget, comfort level, and travel style.
 
-December–April: dry season, best for hiking. February is peak.
+1. **For hikers, divers, whale watchers, and nature-first travellers — not those seeking white-sand beaches or all-inclusive ease.** Dominica is the right Caribbean island for travellers who want volcanic geology, dense rainforest, extraordinary diving, and a genuinely unhurried pace. Skip it if you want resort comfort, nightlife, or a beach-and-pool holiday — the island is mountainous, roads are winding, and the weather is tropical and often wet regardless of season.
 
-June–November: official hurricane season. Major storms have struck Dominica multiple times (Erika 2015, Maria 2017), but most weeks pass without incident.
+2. **December to April for drier hiking conditions. Be cautious about June to November.** The dry season (December–April) gives the most reliable conditions for the Boiling Lake hike, waterfall trails, and whale watching. February is the driest month. June to November is Atlantic hurricane season; Dominica has been hit by major storms including Hurricane Maria in 2017. Most weeks pass without incident, but the risk is real. Sperm whale watching is strongest November to March, overlapping with the dry season start.
 
-Whale-watching season for sperm whales: November–March, one of the best in the world.
+3. **No direct European flights — connect via Miami, Barbados, Antigua, or the Guadeloupe ferry.** American Airlines connects Miami (MIA) to Douglas-Charles Airport (DOM). InterCaribbean and Winair serve Dominica from Antigua, Barbados, and Sint Maarten. The cheapest and most scenic option is the L’Express des Îles fast ferry from Guadeloupe (Pointe-à-Pitre to Roseau). No visa is required for most Western and Commonwealth passport holders for stays up to 21 days. Check [current entry requirements at the Discover Dominica tourism site](https://discoverdominica.com/) before booking.
 
-### Getting there
+4. **Three to five days is the minimum. One week gives the island its proper due.** Three days allows the Boiling Lake hike, Trafalgar Falls, and Champagne Reef snorkelling. Five days adds the Indian River boat trip, Kalinago Territory on the east coast, and a second hiking day. A full week includes whale watching, Middleham Falls, and the slower pace the island genuinely rewards. Roads are slow and winding — don’t overplan daily distances.
 
-There is no direct service from Europe. Standard entry points are:
+5. **Hire a car in advance — availability is limited and taxis are scarce outside Roseau.** A rental car is the only practical way to explore Dominica independently. Travellers consistently report that availability is limited and should be booked before arrival. A temporary local driving licence (around EC$30) is required and arranged by the rental agency. Roads are narrow, steep, and signposted; drive on the left. If you prefer not to drive, local minibuses run along coast roads but require asking locals for timing and routes.
 
-American Airlines (MIA-DOM) — the route flagged in the archive as the new direct from Miami.
+6. **Dominica is affordable by Caribbean standards — but book accommodation 2–3 months ahead.** Guesthouses in Calibishie, Roseau, and Portsmouth run USD 60–120 per night. The high-end option, Secret Bay in Portsmouth, is one of the Caribbean’s best boutique stays but priced accordingly. Local roadside food is very cheap; restaurants are modest. Budget around USD 100–180 per person per day including accommodation, meals, and activities. January to March is the peak booking window — don’t leave accommodation until the week before.
 
-InterCaribbean and Winair from neighbouring islands (Antigua, Barbados, Sint Maarten, San Juan).
+7. **No visa for most Western passports, but buy travel insurance that covers hurricane disruption if going June–November.** EU, UK, US, Canadian, and most Commonwealth passport holders enter visa-free for up to 21 days. No health forms are currently required. The [UK FCDO advises monitoring Atlantic hurricane forecasts](https://www.gov.uk/foreign-travel-advice/dominica) for travel June to November. Travel insurance covering weather disruption is strongly advised for that period. Dominica is otherwise one of the safer Caribbean islands.
 
-Caribbean Airlines from Trinidad once a week on Thursdays — useful if connecting from South America.
+8. **The Boiling Lake hike is the headline — confirm it is active before paying for a guide.** The Boiling Lake sits in the Valley of Desolation, a 12 km, 8-hour round-trip. A licensed guide is required. The lake occasionally stops boiling after seismic activity and closes for weeks or months — confirm it is currently active with the [Discover Dominica Tourism Authority](https://discoverdominica.com/) before booking a guide. Guides charge around USD 60–80; arrange through your accommodation or the tourism office in Roseau.
 
-L’Express des Îles fast ferry from Guadeloupe (Pointe-à-Pitre to Roseau): cheapest and most scenic.
+9. **Champagne Reef and sperm whale watching are among the Caribbean’s best underwater experiences.** Champagne Reef generates volcanic gas bubbles rising through the sand, creating a carbonated snorkelling experience found nowhere else in the region. Dominica’s deep offshore water supports one of the Caribbean’s most reliable year-round sperm whale populations. Half-day whale-watching tours run from Roseau, with the best sightings window November to March.
 
-### Where to stay
+10. **Base in Calibishie or Portsmouth for the best overall position on the island.** Roseau is convenient for transport connections and the Boiling Lake trailhead, but it is the most urban part of the island. Calibishie on the north coast is quieter and centrally positioned for both north coast hikes and east coast villages. Portsmouth gives access to the Indian River sunset boat trips, Cabrits National Park, and is the best base for whale watching. For a single base, Calibishie offers the most flexibility with the most island character.
 
-Calibishie (north coast): Quiet, central for both north and east coast hikes. Veranda View Hotel is recommended in the archive for its central location.
+Practical information checked: May 2026. Always verify current rules before booking.
 
-Roseau (capital): Useful for transport, restaurants, and proximity to Trafalgar Falls and Boiling Lake trailhead.
-
-Portsmouth (north-west): Indian River boat trips, Cabrits National Park, Secret Bay (one of the Caribbean’s top boutique stays).
-
-Soufrière (south-west): Volcanic black-sand beaches and the sulphur springs. Rosalie Bay and Jungle Bay on the east coast.
-
-### What to do
-
-Boiling Lake hike: 12 km round-trip, 8 hours, through the Valley of Desolation. Note from the archive (Dec 2021) — "Sadly it had stopped boiling during my stay, so was closed." It usually starts again within months; check with the Tourism Authority before paying for a guide.
-
-Champagne Reef: snorkel over volcanic gas bubbles that rise through the sand. Best easy snorkel on the island.
-
-Indian River boat trip from Portsmouth at sunset — the setting for Pirates of the Caribbean.
-
-Cabrits National Park: Fort Shirley, the British colonial garrison overlooking Prince Rupert Bay.
-
-Middleham Falls: 90-minute hike to a 200 ft waterfall in primary rainforest.
-
-Trafalgar Falls and Titou Gorge: 20 minutes from Roseau, easy half-day.
-
-Kalinago Territory: Salybia and the Kalinago Barana Autê cultural village on the east coast.
-
-### Getting around
-
-Rent a car — the archive is unambiguous:
-
-"Definitely rent a car. Would recommend this in advance, as availability is limited. I saw only a handful of taxis during my whole stay."
-
-A temporary local driving permit (around EC$30) is required; the rental agency arranges it.
-
-Roads are narrow and steep but signposted. Drive on the left.
-
-If you don’t drive, the local "transport" minibuses run along the coast roads for a few EC dollars; expect to ask around.
-
-Guide Wendy (+1 767 245 3089) is recommended in the archive — cruise-line approved, USD 60/day if you provide a car, more with vehicle.
-
-### Eating
-
-Zeb & Zepis Bistro in Calibishie — the standout from the archive; the local fish is "a winner".
-
-Cocorico Café in Roseau for French-Creole pastries and coffee.
-
-Country roadside stalls: callaloo soup, ti-lélé (cornmeal dumplings) and grilled saltfish bakes.
-
-Practicalities (current to 2026)
-
-Visa: No visa required for most Western and Commonwealth passports for stays up to 21 days.
-
-Entry health forms: The 2021 COVID PCR/antigen requirements in the archive have long since been dropped — there is no health entry form in 2026.
-
-Currency: Eastern Caribbean dollar (EC$), pegged at EC$2.70 to USD 1. USD widely accepted but at poor rates — use EC for taxis and small shops.
-
-SIM: Digicel and Flow both sell tourist SIMs at Douglas-Charles Airport for about USD 20 / week with data.
-
-Airport: Douglas-Charles (DOM) is 45 minutes from Roseau. Pre-arrange transfer (about USD 30 share). The archive notes an USD 80 one-off taxi from Roseau — share-rides are the workaround.
+**Check before booking:** [Discover Dominica — official tourism authority](https://discoverdominica.com/) · [L’Express des Îles — Guadeloupe–Dominica ferry](https://www.express-des-iles.com/) · [UK FCDO — Dominica travel advice](https://www.gov.uk/foreign-travel-advice/dominica) · [US State Dept — Dominica advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/dominica-travel-advisory.html)

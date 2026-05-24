@@ -49,8 +49,32 @@ seoDescription: "Between Phuket and Krabi, this Thai island keeps the limestone 
 
 ## Why It Is Beautiful
 
-Between Phuket and Krabi, this Thai island keeps the limestone views but trades the rush for rice fields and slow mornings. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
+Koh Yao Noi sits in the middle of Phang Nga Bay between Phuket and Krabi, with the bay's famous limestone karst towers visible from its east coast and rice fields and fishing villages covering its interior. The island has a largely Muslim fishing community that gives it a quieter and more settled atmosphere than Thailand's tourist-facing islands — no beach clubs, no full-moon parties, and a pace built around boat schedules and tide tables. Long-tail trips from the island reach Phang Nga Bay's most spectacular formations in under an hour. The combination of karst bay views, local village life, and deliberate absence of mass tourism infrastructure is what makes Koh Yao Noi worth choosing over its more famous neighbours.
 
-## Local Planning Notes
+## 10 Practical Tips to Help You Decide
 
-Reach the island by boat from Phuket or Krabi, then slow down. Rent a scooter only if you are confident, choose the east coast for limestone-island views, and use long-tail boat trips for Phang Nga Bay. This is a place for hammocks, seafood, and soft mornings rather than a packed party schedule.
+These tips are designed to help you decide whether Koh Yao Noi fits your time, budget, comfort level, and travel style.
+
+1. **For travellers wanting a calmer Thai island — not those seeking nightlife, crowds, or a packed beach scene.** Koh Yao Noi suits visitors who want to slow down: kayaking, cycling, local seafood, and Phang Nga Bay views without resort-town energy. Skip it if you want bars, late evenings, or entertainment — Phuket and Koh Phi Phi are nearby. Koh Yao Noi is specifically the choice of people who know what they are avoiding.
+
+2. **November to April for calm seas and settled weather. May to October is rainy season.** The Andaman dry season (November–April) gives the most reliable weather, calm bay conditions, and clear views of the limestone towers. December to March is the prime window. May to October brings the southwest monsoon — daily rain, stronger seas, and some ferry services reduce frequency. The island is still beautiful in the wet season but logistics become less predictable.
+
+3. **Take the boat from Phuket (Bang Rong Pier) or from Krabi — either crossing is around 30–45 minutes.** Boats depart from Phuket's Bang Rong Pier (~30 minutes) and from Krabi's Klong Jilad Pier (~45 minutes). Frequency reduces outside peak season; confirm the schedule with your accommodation before planning your arrival day. On the island, bicycle and motorbike rental give the most freedom. Thailand's 30-day visa exemption applies to most Western nationals on arrival; check the [Thai e-Visa portal](https://www.thaievisa.go.th/) for the current 60-day option available for many nationalities since 2024.
+
+4. **Two to four days is the right duration — longer suits those who specifically want to stop moving.** Two days gives east coast views, a Phang Nga Bay long-tail trip, and a cycle around the island. Three to four days opens relaxed exploration, a second bay excursion, and time to find favourite spots without an agenda. A full week is only for those who genuinely want stillness for its own sake.
+
+5. **Stay on the east coast for the Phang Nga Bay limestone tower views.** The east coast faces the bay's karst formations and has the most scenic guesthouses and resorts. The west coast is lower-key and more agricultural. A handful of boutique properties sit on this east-facing shoreline, ranging from simple guesthouses to Six Senses Yao Noi at the top end. Most accommodation is mid-range, simple, and good value.
+
+6. **Koh Yao Noi is very affordable — one of Thailand's better-value island options.** Simple guesthouses run THB 600–1,500 per night; mid-range resorts THB 2,000–5,000. Local seafood restaurants are cheap. Private long-tail bay trips cost approximately THB 1,500–2,500 split between 4–6 people. Budget around USD 50–100 per person per day including accommodation, food, and a bay excursion. Six Senses Yao Noi is at a different price point entirely for those who want it.
+
+7. **No visa required for most Western nationals — Thailand gives 30 days on arrival, with a 60-day e-Visa option.** Most Western passport holders get a 30-day visa exemption on arrival. Since 2024, Thailand has offered a 60-day e-Visa for many nationalities — check the [official portal](https://www.thaievisa.go.th/) before departure. The [UK FCDO describes Thailand as broadly safe](https://www.gov.uk/foreign-travel-advice/thailand) with standard urban precautions; Koh Yao Noi is one of the most relaxed and low-risk islands in the country.
+
+8. **Rent a bicycle or motorbike to explore the interior — there is more to the island than the shoreline.** The roads are mostly flat to gently hilly and manageable on a bicycle in the dry season. A circuit of the island takes 2–3 hours by bicycle. The interior has rice paddies, rubber plantations, mosques, and fishing piers that the beachside experience alone misses. Motorbike gives more range on the longer roads but requires some confidence on narrow village lanes.
+
+9. **Book a long-tail boat trip into Phang Nga Bay — the limestone towers are the wider landscape.** A half-day long-tail from Koh Yao Noi reaches James Bond Island (Khao Phing Kan), mangrove channels, sea caves, and deserted beaches among the karst formations. Book through your guesthouse or at the local pier; agree on itinerary and price before departing. Morning trips have calmer water and better photography light.
+
+10. **Combine Koh Yao Noi with Phuket or Krabi for a well-rounded Andaman trip.** Koh Yao Noi works well as a deliberate pause between Phuket (30 minutes, international airport) and Krabi (45 minutes, with access to Railay Beach and Koh Lanta). A combination of one busier base and two or three nights on Koh Yao Noi is more satisfying than spending an entire trip in either place.
+
+Practical information checked: May 2026. Always verify current rules before booking.
+
+**Check before booking:** [Thai e-Visa — official application portal](https://www.thaievisa.go.th/) · [Tourism Authority of Thailand — official visitor information](https://www.tourismthailand.org/) · [UK FCDO — Thailand travel advice](https://www.gov.uk/foreign-travel-advice/thailand) · [Bang Rong Pier Phuket — boat schedules to Koh Yao Noi](https://www.bangrongpier.com/)

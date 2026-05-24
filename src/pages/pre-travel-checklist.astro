@@ -1,0 +1,419 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+type ChecklistSection = {
+  title: string;
+  intro?: string;
+  items: string[];
+};
+
+const sections: ChecklistSection[] = [
+  {
+    title: "1. Before you book",
+    intro: "Check the irreversible or expensive decisions first, before paying for flights or non-refundable hotels.",
+    items: [
+      "Check passport validity rules for every destination and transit country.",
+      "Check whether blank passport pages are required.",
+      "Check visa, eVisa, ETA, arrival card, customs declaration, health declaration, and proof-of-onward-travel rules.",
+      "Check whether any transit visa is required.",
+      "Check vaccination and travel-health recommendations.",
+      "Check travel insurance options and exclusions.",
+      "Check the safety situation for your destination.",
+      "Check the best time to visit and whether your dates are realistic.",
+      "Check public holidays, election periods, major festivals, or closures that could affect your plans.",
+      "Check whether the main attraction is accessible during your dates.",
+      "Check whether permits, guides, advance bookings, 4x4 transport, boat transfers, or special access arrangements are needed."
+    ]
+  },
+  {
+    title: "2. Flights, hotels, and transport",
+    items: [
+      "Compare and book flights early if prices are likely to rise.",
+      "Download the airline apps and log in before departure.",
+      "Check baggage allowance for every airline, especially on separate tickets or low-cost carriers.",
+      "Check airport terminal and transfer requirements.",
+      "Check whether checked baggage is transferred automatically or must be collected and rechecked.",
+      "Check whether your connection is protected or self-transfer.",
+      "Save flight bookings offline.",
+      "Compare hotel options and book accommodation.",
+      "Save hotel bookings offline.",
+      "Save each hotel's address, phone number, and GPS coordinates.",
+      "Save the hotel name in the local language if relevant.",
+      "Plan exactly how you will get from the airport to the hotel.",
+      "Check whether airport taxis are regulated or whether scams are common.",
+      "Check whether Uber works at the destination and what the local alternatives are.",
+      "Check local transport options, including metro, bus, train, taxi, ride-hailing, and private transfer.",
+      "Learn how to buy metro, bus, or train tickets before arrival.",
+      "Check late-night or early-morning transport options if arriving outside normal hours."
+    ]
+  },
+  {
+    title: "3. Documents and backups",
+    items: [
+      "Save digital copies of your passport, visa, travel insurance, prescriptions, vaccination certificates, flight bookings, hotel bookings, and important receipts.",
+      "Keep one offline copy on your phone.",
+      "Keep one cloud copy.",
+      "Carry one printed copy of the most important documents.",
+      "Leave a copy of key documents with someone you trust.",
+      "Save your travel insurer's emergency assistance number.",
+      "Save local emergency numbers.",
+      "Save your embassy or consulate contact details.",
+      "Write key emergency contacts on paper, not only in your phone.",
+      "Keep passport, cards, cash, and backup documents separated where practical."
+    ]
+  },
+  {
+    title: "4. Money and payments",
+    items: [
+      "Check the destination currency.",
+      "Download a currency app such as XE or Currency Plus and add the currencies before departure.",
+      "Check whether cash or card is more commonly used.",
+      "Carry at least two payment cards stored separately.",
+      "Check foreign transaction fees and ATM withdrawal fees.",
+      "Check whether ATMs are reliable outside the capital or main tourist areas.",
+      "Check whether contactless payment is common.",
+      "Keep emergency cash in euros, US dollars, or your home currency.",
+      "Keep emergency cash separate from your wallet.",
+      "Save your bank's card-blocking phone number.",
+      "Consider exchanging a small amount of money on arrival if airport transport or food may require cash."
+    ]
+  },
+  {
+    title: "5. Phone, internet, maps, and digital setup",
+    items: [
+      "Check whether your phone is unlocked before buying an eSIM.",
+      "Check whether eSIM works in your destination.",
+      "Install and test your eSIM before departure where possible.",
+      "Check roaming costs and coverage.",
+      "Check WiFi availability at your hotel.",
+      "Check whether a VPN is useful or necessary.",
+      "Download offline Google Maps for the destination.",
+      "Save hotel, airport, restaurant, supermarket, and attraction pins in Google Maps.",
+      "Download offline translation languages if needed.",
+      "Download booking confirmations into airline, hotel, and travel apps.",
+      "Install Flightradar24 or a similar flight-tracking app.",
+      "Set up two-factor authentication backup codes before travel.",
+      "Avoid relying only on SMS codes if your home SIM may not work abroad.",
+      "Charge devices before departure.",
+      "Pack charging cables, power bank, plug adapter, and any voltage converter if needed."
+    ]
+  },
+  {
+    title: "6. Health, medication, and insurance",
+    items: [
+      "Check recommended vaccinations.",
+      "Schedule vaccination or travel-clinic appointments early.",
+      "Check whether malaria prevention, altitude medication, motion-sickness medication, or water-purification tablets are relevant.",
+      "Check whether your prescription and over-the-counter medicines are legal in destination and transit countries.",
+      "Carry medicines in original packaging.",
+      "Carry prescriptions and, where useful, a doctor's letter listing the medicine name, generic name, dose, and reason for use.",
+      "Keep essential medication in hand luggage.",
+      "Check rules for controlled medicines, ADHD medication, strong painkillers, sleep medication, injections, and refrigerated medication.",
+      "Prepare a small travel health kit.",
+      "Include basic pain relief, stomach medicine, oral rehydration salts, plasters, blister care, antiseptic wipes, sunscreen, insect repellent, and any destination-specific medication.",
+      "Check whether tap water is drinkable.",
+      "Check food hygiene risks and basic precautions."
+    ]
+  },
+  {
+    title: "7. Food, routine, and local practicalities",
+    items: [
+      "Research restaurants near your hotel.",
+      "Research local food specialities.",
+      "Research bakeries in the area, especially if you like sourdough or fresh bread.",
+      "Research coffee shops, supermarkets, and health food stores.",
+      "Check vegan, vegetarian, gluten-free, or other dietary options if relevant.",
+      "Save a few reliable restaurants for arrival day.",
+      "Check tipping and service-charge customs.",
+      "Check local customs and respectful behaviour.",
+      "Check dress codes for religious sites or conservative regions.",
+      "Check whether head coverings, covered shoulders, or long trousers/skirts are required.",
+      "Check local laws that may surprise visitors.",
+      "Check whether photography is restricted at religious, military, border, drone, or government sites."
+    ]
+  },
+  {
+    title: "8. Weather, packing, and local conditions",
+    items: [
+      "Check the weather forecast for your travel dates.",
+      "Check temperature ranges, rainfall, wind, humidity, and storm risk.",
+      "Understand the general climate, not only the short-term forecast.",
+      "Check whether roads, trails, ferries, passes, or viewpoints can close because of weather.",
+      "Check sunrise and sunset times if photography or hiking matters.",
+      "Pack clothing for the real conditions, not only the average climate.",
+      "Pack appropriate footwear for walking, hiking, wet streets, sand, snow, or rough ground.",
+      "Check power outlets and voltage.",
+      "Pack the correct adapters and converters if needed.",
+      "Check whether laundry is available if packing light."
+    ]
+  },
+  {
+    title: "9. Day-by-day plan",
+    items: [
+      "Prepare a realistic day-by-day plan.",
+      "List the attractions you want to visit.",
+      "Check opening hours, closed days, admission fees, and booking requirements.",
+      "Check travel times between places, not just distances.",
+      "Check whether roads are slow, rough, seasonal, or require a 4x4.",
+      "Build in rest time and bad-weather alternatives.",
+      "Avoid planning the most important activity immediately after a long overnight flight.",
+      "Check whether guided tours, permits, or local fixers are required.",
+      "Save backup activities for bad weather or transport delays."
+    ]
+  },
+  {
+    title: "10. One week before travel",
+    items: [
+      "Re-check visa, entry, arrival-card, and health rules.",
+      "Re-check weather and access conditions.",
+      "Re-check flight times and terminal details.",
+      "Re-check hotel bookings.",
+      "Re-check airport transfer or arrival transport.",
+      "Download offline maps.",
+      "Download offline translation languages.",
+      "Confirm eSIM, roaming, or WiFi plan.",
+      "Prepare travel documents and copies.",
+      "Prepare medication and travel health kit.",
+      "Check public holidays or closures during your stay.",
+      "Check cash/card plan.",
+      "Check luggage allowance and packing list."
+    ]
+  },
+  {
+    title: "11. Day before departure",
+    items: [
+      "Complete online check-in.",
+      "Download or screenshot boarding passes.",
+      "Charge phone, power bank, headphones, watch, camera, and other devices.",
+      "Screenshot hotel address, hotel phone number, and GPS coordinates.",
+      "Confirm airport transfer or route to your first hotel.",
+      "Pack passport, visa, travel insurance, cards, cash, medication, adapters, chargers, and essential documents.",
+      "Download maps and bookings for offline use.",
+      "Fill in any required arrival or customs form.",
+      "Prepare snacks or food for the travel day.",
+      "Put essential items in hand luggage.",
+      "Set out clothes for departure day.",
+      "Check departure airport, terminal, and journey time to airport."
+    ]
+  },
+  {
+    title: "12. Arrival day",
+    items: [
+      "Know what to say if border control asks for hotel address, onward ticket, or travel purpose.",
+      "Have your hotel address and GPS coordinates ready.",
+      "Have enough cash or working card access for taxi, SIM/eSIM problem, food, and water.",
+      "Use official taxi, regulated transport, or a trusted ride-hailing app.",
+      "Check the route to your hotel before getting into a taxi.",
+      "Avoid changing large amounts of money at poor airport rates unless necessary.",
+      "Buy water or basic supplies if arriving late.",
+      "Message someone that you have arrived safely if appropriate."
+    ]
+  },
+  {
+    title: "Nice-to-have extras",
+    items: [
+      "Chocolate or a small gift for airline crew.",
+      "A few good bakeries near your hotel.",
+      "Good coffee shops near your first morning route.",
+      "Health food stores or supermarkets.",
+      "Local speciality foods to try.",
+      "Sunrise and sunset viewpoints.",
+      "Backup plans for bad weather.",
+      "A quiet place near the hotel for the first morning."
+    ]
+  }
+];
+
+const doNotForget = [
+  "Passport / ID",
+  "Visa / eVisa / ETA",
+  "Arrival or customs form",
+  "Travel insurance",
+  "Prescription medication",
+  "Bank cards and backup cash",
+  "Offline maps",
+  "Hotel GPS coordinates",
+  "Airport transfer plan",
+  "eSIM / roaming / VPN",
+  "Power adapter",
+  "Emergency contacts",
+  "Copies of key documents"
+];
+
+const beforePayingText =
+  "Before paying for flights or non-refundable hotels, check passport validity, visa rules, transit visa rules, vaccination requirements, travel insurance exclusions, local safety advice, public holidays, weather risks, and whether the main attraction is accessible during your dates.";
+
+const siteUrl = "https://50beautifulplaces.com";
+const checklistUrl = `${siteUrl}/pre-travel-checklist/`;
+const pageTitle = "Pre-Travel Checklist: What to Check Before You Travel Abroad";
+const pageDescription =
+  "A practical pre-travel checklist for visas, flights, hotels, offline maps, money, insurance, transport, health, weather, customs, and arrival forms before an international trip.";
+const copyText = [
+  pageTitle,
+  "",
+  "Before paying",
+  beforePayingText,
+  "",
+  ...sections.flatMap((section) => [
+    section.title,
+    ...(section.intro ? [section.intro] : []),
+    ...section.items.map((item) => `[ ] ${item}`),
+    ""
+  ]),
+  "Do not forget",
+  ...doNotForget.map((item) => `[ ] ${item}`)
+].join("\n");
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${checklistUrl}#article`,
+    headline: pageTitle,
+    description: pageDescription,
+    url: checklistUrl,
+    image: `${siteUrl}/og-default.png`,
+    inLanguage: "en",
+    isPartOf: { "@type": "WebSite", "@id": `${siteUrl}/#website` },
+    author: { "@type": "Organization", "@id": `${siteUrl}/#organization`, name: "50 Beautiful Places" },
+    publisher: { "@type": "Organization", "@id": `${siteUrl}/#organization`, name: "50 Beautiful Places" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+      { "@type": "ListItem", position: 2, name: "Pre-Travel Checklist", item: checklistUrl }
+    ]
+  }
+];
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  image="/og-default.png"
+  imageAlt="50 Beautiful Places pre-travel checklist"
+  ogType="article"
+  jsonLd={jsonLd}
+>
+  <section class="mx-auto w-full max-w-[1180px] px-4 pb-8 pt-[clamp(3rem,8vw,7rem)]">
+    <div class="max-w-[820px]">
+      <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Travel planning</p>
+      <h1 class="max-w-[12ch]">Pre-Travel Checklist</h1>
+      <p class="mt-5 max-w-[52rem] text-lg leading-relaxed text-muted">
+        A practical checklist for visas, flights, hotels, money, health, maps, transport, insurance, documents, and arrival-day details before an international trip.
+      </p>
+      <div class="mt-5 max-w-[52rem] space-y-4 text-[1.05rem] leading-relaxed text-muted">
+        <p>Beautiful places are easier to enjoy when the practical details are already handled. Use this checklist before booking, after booking, one week before travel, and the day before departure.</p>
+        <p class="rounded-xl border border-line bg-cream p-4 font-bold text-forest">This checklist is designed for international trips, multi-country itineraries, and destinations where transport, entry rules, internet access, or local logistics may need extra planning.</p>
+      </div>
+      <div class="mt-6 flex flex-wrap gap-3 print:hidden">
+        <button id="print-checklist" class="inline-flex min-h-[2.7rem] items-center rounded-full bg-clay px-5 text-sm font-extrabold text-cream transition-opacity hover:opacity-90" type="button">
+          Print this checklist
+        </button>
+        <button id="copy-checklist" class="inline-flex min-h-[2.7rem] items-center rounded-full border border-line bg-surface px-5 text-sm font-extrabold text-forest transition-colors hover:bg-tag-bg" type="button">
+          Copy checklist
+        </button>
+        <span id="copy-status" class="self-center text-sm font-bold text-clay-text" role="status" aria-live="polite"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto grid w-full max-w-[1180px] gap-6 px-4 pb-[clamp(3rem,7vw,6rem)] lg:grid-cols-[minmax(0,1fr)_minmax(17rem,22rem)] lg:items-start">
+    <article class="grid gap-6">
+      {sections.map((section, sectionIndex) => (
+        <>
+          {sectionIndex === 1 && (
+            <aside class="rounded-xl border border-amber-200 bg-amber-50 p-5 shadow-card" aria-labelledby="before-paying-heading">
+              <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.1em] text-clay-text">Before paying</p>
+              <h2 id="before-paying-heading" class="max-w-none text-[clamp(1.55rem,3vw,2.3rem)]">Before paying</h2>
+              <p class="mt-3 text-sm font-bold leading-relaxed text-ink">{beforePayingText}</p>
+            </aside>
+          )}
+          <section class="rounded-xl border border-line bg-surface p-5 shadow-card sm:p-6" aria-labelledby={`section-${sectionIndex}`}>
+            <div class="mb-5">
+              <h2 id={`section-${sectionIndex}`} class="max-w-none text-[clamp(1.55rem,3vw,2.35rem)]">{section.title}</h2>
+              {section.intro && <p class="mt-3 max-w-[720px] text-[1.02rem] leading-relaxed text-muted">{section.intro}</p>}
+            </div>
+            <ul class="grid list-none gap-2 p-0">
+              {section.items.map((item) => (
+                <li>
+                  <label class="checklist-row flex min-h-[3rem] gap-3 rounded-lg border border-line bg-paper px-3 py-3 text-sm font-bold leading-relaxed text-ink sm:text-[0.96rem]">
+                    <input class="mt-1 h-4 w-4 shrink-0 accent-clay" type="checkbox" aria-label={`Mark complete: ${item}`} />
+                    <span>{item}</span>
+                  </label>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </>
+      ))}
+    </article>
+
+    <aside class="sticky top-24 grid gap-5 print:static">
+      <section class="rounded-xl border border-clay/30 bg-cream p-5 shadow-card" aria-labelledby="do-not-forget-heading">
+        <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.1em] text-clay-text">Final sweep</p>
+        <h2 id="do-not-forget-heading" class="max-w-none text-[clamp(1.45rem,3vw,2rem)]">Do not forget</h2>
+        <ul class="mt-4 grid list-none gap-2 p-0">
+          {doNotForget.map((item) => (
+            <li>
+              <label class="flex gap-3 rounded-lg border border-line bg-surface px-3 py-2 text-sm font-bold text-forest">
+                <input class="mt-1 h-4 w-4 shrink-0 accent-clay" type="checkbox" aria-label={`Mark complete: ${item}`} />
+                <span>{item}</span>
+              </label>
+            </li>
+          ))}
+        </ul>
+      </section>
+      <section class="rounded-xl border border-line bg-surface p-5" aria-label="Official source reminder">
+        <p class="text-sm font-bold leading-relaxed text-muted">
+          Rules can change. Use official government, airline, embassy, consulate, insurer, and health sources before booking or departing. Ask a travel clinic or doctor where relevant.
+        </p>
+      </section>
+    </aside>
+  </section>
+
+  <script is:inline define:vars={{ copyText }}>
+    const printButton = document.getElementById("print-checklist");
+    const copyButton = document.getElementById("copy-checklist");
+    const copyStatus = document.getElementById("copy-status");
+
+    printButton?.addEventListener("click", () => {
+      window.print();
+    });
+
+    copyButton?.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(copyText);
+        if (copyStatus) copyStatus.textContent = "Copied.";
+      } catch {
+        if (copyStatus) copyStatus.textContent = "Copy failed. Select and copy the page text instead.";
+      }
+    });
+  </script>
+
+  <style>
+    @media print {
+      header,
+      footer,
+      .skip-link {
+        display: none !important;
+      }
+
+      body {
+        background: #fff;
+      }
+
+      section,
+      article,
+      aside {
+        box-shadow: none !important;
+      }
+
+      input[type="checkbox"] {
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</BaseLayout>

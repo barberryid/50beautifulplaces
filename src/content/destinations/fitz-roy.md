@@ -49,8 +49,32 @@ seoDescription: "Jagged granite spires explode above Patagonian lakes and wind-s
 
 ## Why It Is Beautiful
 
-Jagged granite spires explode above Patagonian lakes and wind-scoured trails, especially electric at first light. It rewards travelers who arrive with time, curiosity, and enough patience to let the place build slowly.
+Fitz Roy is a jagged granite massif rising from Patagonia's wind-scoured plateau — the serrated spires best known from the Patagonia clothing brand logo, and even more dramatic in person at scale. The main hike from El Chaltén climbs through lenga beech forests to Laguna de los Tres, where the lake surface reflects the granite towers in the right conditions. Patagonian weather is the defining variable: clear mornings can turn to whiteout in minutes, and the mountain can stay invisible for days. The reward for a clear sunrise at the lagoon — the full massif lit pink and mirrored in still water — is one of the most photographed mountain views in South America.
 
-## Local Planning Notes
+## 10 Practical Tips to Help You Decide
 
-Use El Chalten as your base and plan around weather rather than a rigid itinerary. The Laguna de los Tres hike is the classic sunrise effort, but wind, snow, and cloud can erase the mountain in minutes. Carry layers, start early, and keep a spare day for the moment the granite spires finally clear.
+These tips are designed to help you decide whether Fitz Roy fits your time, budget, comfort level, and travel style.
+
+1. **For mountain hikers and photographers who can wait for weather windows — not for visitors who need guaranteed views or settled conditions.** Fitz Roy suits travellers who want a world-class mountain landscape and are prepared to build in spare days for weather. Skip it if you need guaranteed summit views, dislike cold and wind, or cannot tolerate a trip where the mountain is hidden in cloud for your entire stay — this genuinely happens. The reward for patience is one of the most dramatic mountain panoramas in South America.
+
+2. **November to March for the main hiking season. December is often the sweet spot.** The Patagonian summer runs November to March. January and February bring the longest daylight and the most visitors. December offers long days with slightly fewer hikers. November and March are shoulder months — possible but windier and shorter. June to September is effectively closed for most hiking: cold, short days, and icy trails.
+
+3. **Fly to El Calafate, then take a 3-hour bus to El Chaltén.** International visitors fly to Buenos Aires (EZE or AEP), then connect domestically to El Calafate (FTE) with Aerolíneas Argentinas (~2.5 hours). From El Calafate, Cal Tur and Chaltén Travel run daily buses to El Chaltén (3 hours on paved road). Most Western nationals do not need a visa for Argentina for stays under 90 days — check current requirements as rules have changed. No park entry fee is charged at the El Chaltén sector of Los Glaciares National Park.
+
+4. **Allow four to five days minimum. Weather needs buffer days built in.** Three days leaves almost no contingency if the mountain is in cloud on arrival. Four days gives two hiking attempts and covers both the Laguna de los Tres (Fitz Roy) and Laguna Torre (Cerro Torre) circuits. Five days opens additional routes with a comfortable weather buffer. Many experienced hikers plan 6–7 days to be confident of at least two clear windows.
+
+5. **El Chaltén is your base — a small village entirely built around trekking.** All main trails start from the village; no car is needed once you arrive. Accommodation ranges from campsites and bunkhouses to guesthouses and mid-range hotels. Book 2–3 months ahead for January and February. Camping inside the park is available at designated sites; open fires are prohibited throughout the national park due to wind and fire risk.
+
+6. **Fitz Roy is relatively affordable by Patagonia standards.** The absence of park entry fees for the El Chaltén sector keeps costs lower than many comparable wilderness destinations. Guesthouses run USD 40–90 per night; campsite pitches much less. Local restaurants are reasonably priced. Budget around USD 80–130 per person per day including accommodation, food, and activities. The main cost is the international flight to Buenos Aires and the domestic connection to El Calafate.
+
+7. **No visa for most Western passports — but register at the park office before major hikes.** EU, UK, and US passport holders enter Argentina visa-free for 90 days. Check the [UK FCDO Argentina travel advice](https://www.gov.uk/foreign-travel-advice/argentina) for current entry conditions. At the national park visitor centre on the northern edge of El Chaltén, rangers give free daily weather briefings and ask trekkers heading to remote campsites to register. This briefing is genuinely useful — attend it.
+
+8. **The Laguna de los Tres hike is the essential circuit — plan for a pre-dawn start.** At 21 km round-trip with ~1,200 m of elevation gain, this is moderately strenuous. The famous early-morning alpenglow on the towers lasts 30–60 minutes; most hikers leave El Chaltén by 6am to reach the lagoon by sunrise. Bring layers, wind protection, and trekking poles for the steep final approach. In poor weather, the mountain disappears entirely and the view is gone regardless of effort.
+
+9. **Laguna Torre is the second essential hike — different in character from Laguna de los Tres.** Laguna Torre (18 km round-trip, 6–7 hours) gives views of Cerro Torre, a needle-like granite spire with a famous ice mushroom on its summit. The hike is gentler and often less crowded than Laguna de los Tres. Both can be done on separate days from El Chaltén without additional transport. Together they give the full Fitz Roy massif experience.
+
+10. **Combine Fitz Roy with Torres del Paine in Chile for the classic Southern Patagonia circuit.** Most serious Patagonia travellers combine El Chaltén with Torres del Paine National Park in Chile, reached via El Calafate and the Cerro Castillo border crossing. Torres del Paine has the W Trek and O Circuit, with mountain huts and camps bookable through CONAF-approved operators. The combination of Fitz Roy and Torres del Paine in 12–14 days is one of the world's great hiking itineraries.
+
+Practical information checked: May 2026. Always verify current rules before booking.
+
+**Check before booking:** [Argentina National Parks — Los Glaciares / El Chaltén sector](https://www.argentina.gob.ar/parquesnacionales/losglaciares) · [Visit Argentina — official tourism site](https://www.argentina.travel/) · [UK FCDO — Argentina travel advice](https://www.gov.uk/foreign-travel-advice/argentina) · [Aerolíneas Argentinas — Buenos Aires–El Calafate domestic flights](https://www.aerolineas.com.ar/)

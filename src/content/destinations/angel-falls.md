@@ -51,9 +51,35 @@ _A country guide built around the world’s tallest uninterrupted waterfall and 
 
 ## Why It Is Beautiful
 
-Angel Falls (Salto Ángel, locally Kerepakupai Merú) plunges 979 metres off the side of Auyán-tepui, the second-largest of Venezuela’s flat-topped sandstone plateaus. The setting is the bigger story: Canaima National Park is roughly the size of Belgium, a green carpet of rainforest punctuated by tepuis that look as if continents were cut out and lifted into the sky. Roraima, the most famous tepui, sits further east near Santa Elena de Uairén and is climbable on a 6–7 day trek.
+Angel Falls (Salto Ángel) plunges 979 metres off the edge of Auyán-tepui — the vertical drop is so extreme that the water atomises before reaching the ground, trailing a permanent mist for hundreds of metres around the base. The setting amplifies the scale: Canaima National Park covers an area roughly the size of Belgium, its forest floor punctuated by flat-topped tepuis that look as if sections of ancient plateau were lifted clean out of the continent. You reach the base by a 4–6 hour canoe journey up storm-lit jungle rivers, which is half the experience.
 
-## Local Planning Notes
+## 10 Practical Tips to Help You Decide
+
+These tips are designed to help you decide whether Angel Falls fits your time, budget, comfort level, and travel style.
+
+1. **Worth the journey for a singular natural sight — not for easy travel.** Angel Falls suits adventure travellers, waterfall enthusiasts, and anyone willing to invest serious time and logistics for something that has no close equivalent. Skip it if you need reliable comfort, last-minute flexibility, or are uncomfortable with current Venezuela safety conditions — this is not a destination you can approach casually.
+
+2. **Come June to November. January to April and the falls may be a mist.** The rainy season (June–November) runs the falls at full force. In the dry season (January–April) river levels drop so sharply that Angel Falls can thin to a trickle or disappear into haze. The sweet spot is late June, July, and August: the cataract is full, canoe journeys are still feasible, and skies clear between storms. November is reliable but often overcast.
+
+3. **Getting there requires two flights and a canoe — plan for a minimum of three days.** The standard route is a flight from Caracas (CCS) or Ciudad Bolívar to Canaima airstrip, then a 4–6 hour motorised canoe up the Río Carrao and Churun to a camp near the base. Most operators bundle flights, canoe transfer, guide, and camp accommodation into a package. Allow at least two nights at Canaima; the canoe journey and morning hike to the viewpoint cannot be compressed into a day trip.
+
+4. **Three days minimum at Canaima; five-plus for the fuller experience.** A two-night, three-day trip covers the canoe journey and the hike to Ratoncito viewpoint at the base — enough to absorb the scale. Two additional days allow a Canaima lagoon visit, better chances of clear morning light at the falls, and more time in the tepui landscape. A week opens the Gran Sabana extension or a start on the Roraima trek.
+
+5. **Base at a Canaima lodge — Caracas is only a transit point.** Lodges near Canaima airstrip (Waku, Tapui, Bernal, Ucaima) are close to each other and organise all canoe departures. Hammock camps near the falls base are part of most overnight itineraries. For the falls visit, build accommodation around the Canaima lodges, not the capital — Caracas serves only as the entry and exit airport.
+
+6. **Bring USD cash. Cards are unreliable and the exchange rate strongly favours physical dollars.** Venezuela’s banking infrastructure is unreliable for foreign cards. USD cash is the practical currency for hotels, guides, and independent transactions. Operators exchange dollars at parallel-market rates that are significantly better than the official rate. Bring more than you estimate and carry it securely across your person, not in one place.
+
+7. **Check Venezuela’s current safety situation and e-visa requirement before booking.** Venezuela requires a [tourist e-visa](https://www.mppre.gob.ve/) (currently free, multiple-entry, applied online — apply 2–4 weeks ahead and bring a printed copy). The overall safety situation in Venezuela is volatile: [check your government’s current travel advisory](https://www.gov.uk/foreign-travel-advice/venezuela) before committing money. In Caracas, use airport-arranged hotel transfers and stay in Altamira or La Castellana.
+
+8. **Yellow fever vaccination is required for countries you may transit through.** Yellow fever vaccination is required for entry to Colombia, Brazil, and Panama — all commonly used for onward travel after Venezuela. Get a printed International Certificate of Vaccination before departure. Airline check-in desks at Caracas and at connecting airports may ask to see it, not just border officials at the final destination.
+
+9. **Roraima is a natural extension — but needs its own separate 6–7 days.** Roraima, the most iconic tepui and one of South America’s most distinctive treks, sits near Santa Elena de Uairén in the Gran Sabana. A Roraima trip requires 6–7 days with a guide and cannot be combined with the Angel Falls canoe trip in the same itinerary block. If you want both, plan a 12–14 day Venezuela trip with separate logistics for each.
+
+10. **English is not widely spoken outside hotels — basic Spanish changes the experience.** Outside major Caracas hotels, English is uncommon across Venezuela. Canaima guides may have some English, but most operators and drivers communicate in Spanish only. Basic phrases covering travel days, food preferences, and directions make a significant practical difference. A brief Spanish refresher before departure is worth the effort.
+
+Practical information checked: May 2026. Always verify current rules before booking.
+
+**Check before booking:** [UK FCDO — Venezuela travel advice](https://www.gov.uk/foreign-travel-advice/venezuela) · [US State Dept — Venezuela advisory](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/venezuela-travel-advisory.html) · [Venezuela e-visa portal — Ministry of Foreign Affairs](https://www.mppre.gob.ve/) · [WHO — yellow fever vaccination requirements](https://www.who.int/travel-advice/yellow-fever)
 
 ### When to go
 
