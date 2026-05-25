@@ -3,11 +3,11 @@ title: "Mittenwald"
 country: "Germany"
 region: "Europe"
 summary: "Painted Bavarian houses sit below Alpine walls, with violin-making history, mountain trails, and storybook streets in every direction."
-mainImage: "https://live.staticflickr.com/53/142635655_113e3ec5fe_b.jpg"
-imageAlt: "Mittenwald in Germany"
-imageCredit: "Mittenwald, Germany, 1963 by In Memoriam: PhillipC (BY 2.0) via Openverse"
-imageCreditUrl: "https://www.flickr.com/photos/42033648@N00/142635655"
-imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
+mainImage: "/images/destinations/mittenwald-cover.jpg"
+imageAlt: "Colourful painted houses and Alpine scenery in Mittenwald, Germany"
+imageCredit: "Mittenwald cover image supplied by 50 Beautiful Places"
+imageCreditUrl: "https://50beautifulplaces.com/places/mittenwald/"
+imageLicenseUrl: "https://50beautifulplaces.com/places/mittenwald/"
 galleryImages:
   - src: "/images/destinations/mittenwald-1.jpg"
     alt: "Panoramic view of snow-covered Alpine peaks above forests near Mittenwald"
@@ -105,4 +105,3 @@ These tips are designed to help you decide whether Mittenwald fits your time, bu
 9. **Take the Karwendelbahn cable car for the view and the ridge walk above the tree line.** The Karwendelbahn gondola rises from behind the train station to the Karwendel summit station at 2,244 metres in under 10 minutes. From the top, the limestone Karwendel peaks extend east into Austria and the Isar Valley drops below. A ridge-line walk to Scharnitzjoch and back is manageable for fit walkers; the summit area is accessible even for families. Go in the morning for clearer views before cloud builds.
 
 10. **Combine Mittenwald with Neuschwanstein or the Zugspitze for a full Bavarian Alpine circuit.** Mittenwald sits at the southern end of a rail-accessible triangle: Garmisch-Partenkirchen (Zugspitze access, 20 minutes), Innsbruck in Austria (35 minutes, international connections), and Füssen for Neuschwanstein Castle (2.5 hours via train). A four-day circuit covering painted villages, Germany's highest peak, and the world's most photographed castle is achievable entirely by train — no car needed.
-
