@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const heroImage = "/images/about-hero.jpg";
-const canyonPortraitImage = "/images/about-canyon-portrait.jpg";
+const aboutAnimationImage = "/images/about-animation.png";
 const travelSceneImage = "/images/about-travel-scene.jpg";
 
 const siteUrl = "https://50beautifulplaces.com";
@@ -76,17 +76,16 @@ const jsonLd = [
     </p>
   </section>
 
-  <!-- Personal landscape portrait -->
+  <!-- About animation -->
   <figure class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(2rem,5vw,4rem)]">
     <img
-      src={canyonPortraitImage}
-      alt="Traveler standing above a calm canyon lake in a desert landscape"
+      src={aboutAnimationImage}
+      alt="Animated travel scene for 50 Beautiful Places"
       width="1600" height="900"
       loading="lazy"
       decoding="async"
       class="aspect-[2.25/1] w-full rounded-xl object-cover shadow-card"
     />
-    <figcaption class="mt-2 text-xs text-muted">Band-e Amir Lake, Afghanistan</figcaption>
   </figure>
 
   <!-- Feature band -->
