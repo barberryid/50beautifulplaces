@@ -1,0 +1,808 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const siteUrl = "https://50beautifulplaces.com";
+const pageUrl = `${siteUrl}/why-do-you-travel/`;
+const pageDescription =
+  "Before choosing your next destination, understand why you travel. Use this guide to identify your travel style, avoid the wrong trips, and choose places that match what you really want.";
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${pageUrl}#article`,
+    headline: "Why Do You Travel? A Simple Guide to Choosing the Right Destination",
+    description: pageDescription,
+    url: pageUrl,
+    author: {
+      "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
+      name: "50 Beautiful Places",
+      url: siteUrl,
+    },
+    publisher: {
+      "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
+      name: "50 Beautiful Places",
+      url: siteUrl,
+    },
+    isPartOf: { "@type": "WebSite", "@id": `${siteUrl}/#website` },
+    inLanguage: "en-US",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+      { "@type": "ListItem", position: 2, name: "Why Do You Travel?", item: pageUrl },
+    ],
+  },
+];
+
+const travelerTypes = [
+  {
+    number: "01",
+    name: "The Beauty Seeker",
+    question: "Will this place move me visually?",
+    description:
+      "The Beauty Seeker travels for landscapes, light, atmosphere, architecture, colour, scale, and wonder. This is the person who wants to stand in front of a mountain, desert, canyon, temple, coastline, or old city and feel awe. This kind of travel is not shallow. Beauty can be a serious reason to travel. A place can change your mood, your memory, and even your sense of what the world contains.",
+    goodFit:
+      "Mountains, deserts, coastlines, old cities, sacred sites, dramatic viewpoints, islands, forests, ancient architecture.",
+    watchOut:
+      "Choosing a place only because it looks good in photographs. Some beautiful places are overcrowded, expensive, difficult to reach, or disappointing in bad weather.",
+    bestQuestion: "Would I still want to go here if the photos were not perfect?",
+  },
+  {
+    number: "02",
+    name: "The Achiever",
+    question: "What goal am I completing?",
+    description:
+      "The Achiever travels with a target. That target might be visiting every country, climbing the highest mountain on each continent, crossing a region by bicycle, reaching a remote island, or completing a personal list. For this traveller, the destination matters, but the goal matters even more. The trip has a shape. It has rules. It has a finish line. This can be deeply motivating. It can also turn travel into administration if the goal becomes more important than the experience.",
+    goodFit:
+      "Country-counting trips, long-distance trails, mountain objectives, remote destinations, overland routes, personal travel challenges.",
+    watchOut: "Moving so fast that the trip becomes only a tick on a list.",
+    bestQuestion: "Am I excited by the place itself, or only by completing the goal?",
+  },
+  {
+    number: "03",
+    name: "The Pleasure Traveller",
+    question: "Will I enjoy this?",
+    description:
+      "The Pleasure Traveller wants travel to feel good. This can mean food, wine, beaches, comfort, hotels, spas, warm weather, music, dancing, romance, sport, yoga, massage, or simply doing very little in a beautiful place. There is no need to apologise for this. Pleasure is a valid reason to travel. Not every trip has to be difficult, educational, or transformative.",
+    goodFit:
+      "Beach destinations, food cities, wine regions, comfortable hotels, warm islands, spa towns, relaxed road trips, easy nature escapes.",
+    watchOut: "Choosing only comfort and then feeling that the trip lacked depth or memorability.",
+    bestQuestion: "Do I want this trip to restore me, stimulate me, or both?",
+  },
+  {
+    number: "04",
+    name: "The Culture Learner",
+    question: "What will I understand better?",
+    description:
+      "The Culture Learner travels to know more. This person wants history, politics, language, religion, food culture, transport systems, social life, architecture, and local stories. They often enjoy local guides, museums, walking tours, long conversations, markets, books, maps, and background reading. For this traveller, a destination is not only something to look at. It is something to understand.",
+    goodFit:
+      "Historic cities, culturally complex countries, guided trips, language-learning stays, food regions, places with strong local identity.",
+    watchOut: "Trying to understand everything too quickly. Some places need time.",
+    bestQuestion: "What do I want to understand better after this trip?",
+  },
+  {
+    number: "05",
+    name: "The Adventure Traveller",
+    question: "Will this feel exciting?",
+    description:
+      "The Adventure Traveller wants energy, uncertainty, movement, and challenge. This might mean hiking, cycling, climbing, diving, crossing deserts, taking difficult roads, visiting remote regions, or going somewhere that requires more planning than usual. Adventure does not have to mean danger. The best adventure travel has challenge, but also judgement.",
+    goodFit:
+      "Mountains, deserts, wild coastlines, remote regions, multi-day hikes, difficult road trips, expedition-style travel.",
+    watchOut: "Confusing discomfort, risk, or bad planning with meaningful adventure.",
+    bestQuestion: "Is this a good challenge, or just an avoidable problem?",
+  },
+  {
+    number: "06",
+    name: "The Deep-Stay Traveller",
+    question: "Could I stay here for weeks, months, or years?",
+    description:
+      "The Deep-Stay Traveller is less interested in rushing. This person may want to live somewhere, work there, study there, volunteer there, return many times, or stay long enough to understand everyday life. This is the opposite of fast list-based travel. The Deep-Stay Traveller may see fewer places, but often understands them more deeply.",
+    goodFit:
+      "Long stays, language learning, volunteering, remote work, repeated visits, slow regional travel, living abroad.",
+    watchOut: "Assuming that longer always means deeper. It depends how you spend the time.",
+    bestQuestion: "Do I want to see this place, or do I want to live inside it for a while?",
+  },
+  {
+    number: "07",
+    name: "The Emotional Traveller",
+    question: "How do I want to feel?",
+    description:
+      "Some people choose trips based on the emotion they hope to experience. They want awe, peace, freedom, romance, intensity, nostalgia, pride, healing, solitude, connection, or joy. This is often how people really choose destinations, even when they explain the choice in practical terms. A trip to Antarctica may be about awe. A solo mountain walk may be about freedom. A beach trip may be about recovery. A return to an old place may be about memory.",
+    goodFit:
+      "Places with strong atmosphere, personally meaningful destinations, solo trips, romantic trips, wilderness, pilgrimage routes, dramatic landscapes.",
+    watchOut:
+      "Expecting a destination to guarantee a feeling. Places can invite emotions, but they cannot promise them.",
+    bestQuestion: "What feeling am I hoping this trip will give me?",
+  },
+  {
+    number: "08",
+    name: "The Meaning Seeker",
+    question: "What does this teach me about life?",
+    description:
+      "The Meaning Seeker travels to think, reflect, test ideas, or understand the world more deeply. This person may be drawn to pilgrimage, meditation, history, difficult places, borders, conflict zones, sacred landscapes, or journeys that raise big questions. For this traveller, comfort is not always the main aim. A difficult trip can be worthwhile if it produces insight.",
+    goodFit:
+      "Pilgrimage routes, meditation centres, historically important places, difficult destinations, social or political travel, long reflective journeys.",
+    watchOut: "Expecting every trip to be profound. Some trips are just trips.",
+    bestQuestion: "What question am I bringing with me?",
+  },
+];
+
+const quizWants = [
+  "Beauty", "Rest", "Food", "Culture", "Adventure", "Achievement",
+  "Romance", "Solitude", "Social connection", "Photography",
+  "Physical challenge", "Meaning", "Learning", "Comfort", "Status",
+  "Escape", "Fun",
+];
+
+const quizPace = ["Fast and efficient", "Balanced", "Slow and immersive", "Open-ended"];
+
+const quizMemories = [
+  "That was beautiful.",
+  "That was delicious.",
+  "That was hard, but I am proud I did it.",
+  "That helped me understand the world.",
+  "That changed how I see things.",
+  "That was exactly what I needed.",
+  "That was fun.",
+  "That was peaceful.",
+  "That was wild.",
+];
+
+const quizAvoid = [
+  "Boredom", "Discomfort", "Crowds", "Difficulty", "Superficial sightseeing",
+  "Too much planning", "Too little planning", "Expensive mistakes",
+  "Physical risk", "Emotional flatness", "A trip that looks good online but feels wrong in real life",
+];
+
+const matchRows = [
+  {
+    reason: "Beauty",
+    lookFor: "Landscapes, architecture, light, atmosphere, dramatic views",
+    careful: "Places that are photogenic but stressful or overcrowded",
+  },
+  {
+    reason: "Achievement",
+    lookFor: "Clear goals, routes, milestones, lists, challenges",
+    careful: "Turning the trip into a checklist only",
+  },
+  {
+    reason: "Pleasure",
+    lookFor: "Food, comfort, beaches, hotels, nightlife, ease",
+    careful: "Choosing comfort and then feeling unstimulated",
+  },
+  {
+    reason: "Culture",
+    lookFor: "History, guides, language, museums, local traditions",
+    careful: "Trying to understand too much in too little time",
+  },
+  {
+    reason: "Adventure",
+    lookFor: "Mountains, deserts, remote regions, physical challenge",
+    careful: "Mistaking poor planning for adventure",
+  },
+  {
+    reason: "Meaning",
+    lookFor: "Pilgrimage, meditation, history, difficult places, reflective journeys",
+    careful: "Expecting every trip to transform you",
+  },
+  {
+    reason: "Love or connection",
+    lookFor: "Group trips, festivals, language schools, long stays, social places",
+    careful: "Projecting fantasy onto a destination",
+  },
+  {
+    reason: "Work or creativity",
+    lookFor: "Calm places, good internet, routine, inspiring surroundings",
+    careful: "Confusing movement with productivity",
+  },
+  {
+    reason: "Photography",
+    lookFor: "Strong light, visual variety, access, weather patterns",
+    careful: "Visiting only for images rather than experience",
+  },
+  {
+    reason: "Rest",
+    lookFor: "Comfort, nature, warmth, simplicity, low friction",
+    careful: "Overloading the itinerary",
+  },
+];
+
+const howToUseSteps = [
+  "Is this place beautiful in a way that matters to me?",
+  "Is it easy, difficult, or somewhere in between?",
+  "Would this be Type 1, Type 2, or Type 3 travel for me?",
+  "Does it match my current travel mood?",
+  "Am I choosing it because I want it, or because I feel I should go?",
+  "Does it belong near the top of my list now, or later?",
+];
+---
+
+<BaseLayout
+  title="Why Do You Travel? How to Choose the Right Destination for Your Travel Style"
+  description={pageDescription}
+  ogType="article"
+  jsonLd={jsonLd}
+>
+
+  <!-- ── Hero ─────────────────────────────────────────────────────────── -->
+  <section class="bg-forest px-[clamp(1rem,4vw,3rem)] py-[clamp(4rem,12vw,8rem)]">
+    <div class="mx-auto max-w-[1180px]">
+      <p class="mb-4 text-[0.76rem] font-black uppercase tracking-[0.1em] text-sun">Travel Guide</p>
+      <h1 class="text-cream">Why Do You Travel?</h1>
+      <p class="mt-5 max-w-[52rem] text-[clamp(1.05rem,2vw,1.3rem)] leading-relaxed text-cream/80">
+        Before choosing where to go next, it helps to ask a more basic question. Understanding why you
+        travel makes choosing the right destination much easier — and helps you avoid the wrong ones.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a
+          href="/places/"
+          class="inline-flex min-h-[2.9rem] items-center justify-center rounded-full bg-cream px-6 text-sm font-extrabold text-forest transition-opacity hover:opacity-90"
+        >Browse destinations</a>
+        <a
+          href="#quiz"
+          class="inline-flex min-h-[2.9rem] items-center justify-center rounded-full border border-cream/30 px-6 text-sm font-extrabold text-cream transition-colors hover:bg-cream/10"
+        >Start the quiz</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Intro ─────────────────────────────────────────────────────────── -->
+  <section class="mx-auto w-full max-w-[760px] px-4 py-[clamp(3rem,7vw,5rem)]">
+    <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">Why this guide exists</p>
+    <h2 class="mb-6 max-w-none text-[clamp(1.6rem,3vw,2.4rem)]">Choosing a destination is the easy part</h2>
+    <div class="space-y-4 text-[1.05rem] leading-[1.78] text-muted">
+      <p>
+        There are many possible answers to why you travel. Some people travel for beauty. Some travel for
+        food, culture, adventure, love, work, achievement, photography, sport, meditation, or meaning.
+        Some people want comfort. Some want challenge. Some want to tick places off a list. Others want to
+        stay somewhere long enough for it to become part of their life.
+      </p>
+      <p>None of these reasons is more "real" than the others.</p>
+      <p>
+        The useful question is not whether your travel style is valid. The useful question is whether your
+        next trip matches what you actually want from travel.
+      </p>
+      <p>
+        I started thinking about this because I choose many of my travel destinations using lists. I write
+        down the places I want to visit, compare them, rank them, and think about which ones are most worth
+        the time, money, effort, and discomfort. Over time, I realised that the list itself was not the
+        most important thing. The real question was: <strong class="text-ink">what am I hoping this trip will give me?</strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Why this matters callout ──────────────────────────────────────── -->
+  <section class="mx-auto w-full max-w-[760px] px-4 pb-[clamp(3rem,7vw,5rem)]">
+    <div class="rounded-xl border border-line bg-surface p-6 shadow-card">
+      <p class="mb-3 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">Why this matters</p>
+      <p class="mb-5 font-serif text-[clamp(1.15rem,2vw,1.4rem)] leading-snug text-forest">
+        A destination can be wonderful and still be wrong for you right now.
+      </p>
+      <ul class="space-y-3 text-sm text-muted">
+        <li class="flex gap-3">
+          <span class="mt-0.5 shrink-0 font-bold text-clay">→</span>
+          <span>A remote mountain region might be perfect if you want beauty, solitude, and physical challenge. It might be a terrible choice if you need rest, comfort, and easy logistics.</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="mt-0.5 shrink-0 font-bold text-clay">→</span>
+          <span>A famous city might be ideal if you want museums, food, architecture, and nightlife. It might disappoint you if what you really want is silence, nature, and open space.</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="mt-0.5 shrink-0 font-bold text-clay">→</span>
+          <span>A difficult country might become one of your most meaningful trips. It might also become an expensive mistake if you choose it only because it sounds impressive.</span>
+        </li>
+      </ul>
+      <p class="mt-5 text-sm font-bold text-ink">
+        The better you understand your reason for travelling, the easier it becomes to choose the right destination.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Traveller Types ────────────────────────────────────────────────── -->
+  <section
+    class="mx-auto w-full max-w-[1180px] px-4 pb-[clamp(2rem,5vw,4rem)]"
+    aria-labelledby="traveller-types-heading"
+  >
+    <div class="mb-8">
+      <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">The eight types</p>
+      <h2 id="traveller-types-heading" class="max-w-none text-[clamp(1.6rem,3vw,2.4rem)]">
+        What kind of traveller are you?
+      </h2>
+      <p class="mt-3 max-w-[52rem] text-[1.05rem] leading-relaxed text-muted">
+        Most travellers are a mix of several types — and the mix changes depending on the trip. Use these
+        as a lens, not a label.
+      </p>
+    </div>
+
+    <div class="grid gap-6 sm:grid-cols-2">
+      {travelerTypes.map((type) => (
+        <article class="flex flex-col rounded-xl border border-line bg-surface p-6 shadow-card">
+          <div class="mb-4 flex items-center gap-3">
+            <span class="font-mono text-3xl font-black leading-none text-line">{type.number}</span>
+            <h3 class="text-[1.15rem] font-bold text-forest">{type.name}</h3>
+          </div>
+
+          <p class="mb-4 font-serif text-[1.05rem] italic leading-snug text-clay-text">
+            {type.question}
+          </p>
+
+          <p class="mb-5 flex-1 text-sm leading-relaxed text-muted">{type.description}</p>
+
+          <div class="space-y-3 border-t border-line pt-4">
+            <div>
+              <p class="mb-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-clay-text">
+                Good fit
+              </p>
+              <p class="text-sm text-muted">{type.goodFit}</p>
+            </div>
+            <div>
+              <p class="mb-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-clay-text">
+                Watch out for
+              </p>
+              <p class="text-sm text-muted">{type.watchOut}</p>
+            </div>
+            <div class="rounded-lg bg-tag-bg px-4 py-3">
+              <p class="mb-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-clay-text">
+                Best question to ask before booking
+              </p>
+              <p class="text-sm font-bold text-forest">{type.bestQuestion}</p>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <!-- ── List vs Direction ──────────────────────────────────────────────── -->
+  <section
+    class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(2rem,5vw,4rem)]"
+    aria-labelledby="list-direction-heading"
+  >
+    <div class="mb-8">
+      <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">
+        Another useful distinction
+      </p>
+      <h2 id="list-direction-heading" class="max-w-none text-[clamp(1.6rem,3vw,2.4rem)]">
+        List-oriented vs direction-oriented travellers
+      </h2>
+    </div>
+
+    <div class="mb-8 grid gap-6 sm:grid-cols-2">
+      <div class="rounded-xl border border-line bg-surface p-6 shadow-card">
+        <h3 class="mb-3 text-[1.1rem] font-bold text-forest">List-oriented travellers</h3>
+        <p class="mb-5 text-sm leading-relaxed text-muted">
+          List-oriented travellers have a set of places they want to visit. The list gives structure,
+          motivation, and momentum. They may want to visit every country, every region, every national
+          park, every major mountain range, or every destination on a personal "most beautiful places"
+          list. They often travel faster and more efficiently. They enjoy progress. They like knowing
+          what remains.
+        </p>
+        <div class="space-y-3 border-t border-line pt-4">
+          <div>
+            <p class="mb-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-clay-text">
+              Strengths
+            </p>
+            <p class="text-sm text-muted">
+              Clear goals, motivation, structure, strong memories, efficient planning.
+            </p>
+          </div>
+          <div>
+            <p class="mb-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-clay-text">
+              Risks
+            </p>
+            <p class="text-sm text-muted">
+              Moving too quickly, postponing difficult places, treating destinations as tasks.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rounded-xl border border-line bg-surface p-6 shadow-card">
+        <h3 class="mb-3 text-[1.1rem] font-bold text-forest">Direction-oriented travellers</h3>
+        <p class="mb-5 text-sm leading-relaxed text-muted">
+          Direction-oriented travellers do not necessarily have a fixed list. They follow curiosity.
+          One place leads to another. They may spend weeks, months, or years in a region if it feels
+          right. They often travel more slowly and deeply.
+        </p>
+        <div class="space-y-3 border-t border-line pt-4">
+          <div>
+            <p class="mb-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-clay-text">
+              Strengths
+            </p>
+            <p class="text-sm text-muted">
+              Immersion, flexibility, depth, openness, local connection.
+            </p>
+          </div>
+          <div>
+            <p class="mb-1 text-[0.68rem] font-black uppercase tracking-[0.12em] text-clay-text">
+              Risks
+            </p>
+            <p class="text-sm text-muted">
+              Lack of structure, unfinished dreams, difficulty choosing where to go next.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="mb-4 text-[1.1rem] font-bold text-ink">Which one are you?</h3>
+    <div class="overflow-x-auto rounded-xl border border-line">
+      <table class="w-full min-w-[560px] text-sm">
+        <thead>
+          <tr class="bg-tag-bg">
+            <th class="px-4 py-3 text-left text-[0.7rem] font-black uppercase tracking-[0.1em] text-clay-text">
+              If you are…
+            </th>
+            <th class="px-4 py-3 text-left text-[0.7rem] font-black uppercase tracking-[0.1em] text-clay-text">
+              You may prefer…
+            </th>
+            <th class="px-4 py-3 text-left text-[0.7rem] font-black uppercase tracking-[0.1em] text-clay-text">
+              Be careful with…
+            </th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-line">
+          <tr>
+            <td class="px-4 py-3 font-bold text-ink">List-oriented</td>
+            <td class="px-4 py-3 text-muted">Ranked lists, country goals, efficient routes, "best of" trips</td>
+            <td class="px-4 py-3 text-muted">Leaving all the difficult places until the end</td>
+          </tr>
+          <tr class="bg-paper/40">
+            <td class="px-4 py-3 font-bold text-ink">Direction-oriented</td>
+            <td class="px-4 py-3 text-muted">Slow travel, long stays, regional depth, open-ended routes</td>
+            <td class="px-4 py-3 text-muted">Never making firm choices</td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3 font-bold text-ink">A mix of both</td>
+            <td class="px-4 py-3 text-muted">A clear list with flexible time inside each trip</td>
+            <td class="px-4 py-3 text-muted">Overplanning the trip before it has room to breathe</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ── Fun Scale ──────────────────────────────────────────────────────── -->
+  <section
+    class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(2rem,5vw,4rem)]"
+    aria-labelledby="fun-scale-heading"
+  >
+    <div class="mb-6">
+      <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">
+        A useful framework
+      </p>
+      <h2 id="fun-scale-heading" class="max-w-none text-[clamp(1.6rem,3vw,2.4rem)]">
+        The fun scale for travel
+      </h2>
+      <p class="mt-3 max-w-[52rem] text-[1.05rem] leading-relaxed text-muted">
+        Not all good trips are enjoyable in the same way. A useful idea from outdoor adventure is the
+        fun scale. It can also help with travel decisions.
+      </p>
+    </div>
+
+    <div class="overflow-x-auto rounded-xl border border-line">
+      <table class="w-full min-w-[600px] text-sm">
+        <thead>
+          <tr class="bg-tag-bg">
+            <th class="px-4 py-3 text-left text-[0.7rem] font-black uppercase tracking-[0.1em] text-clay-text">
+              Type of travel
+            </th>
+            <th class="px-4 py-3 text-left text-[0.7rem] font-black uppercase tracking-[0.1em] text-clay-text">
+              How it feels during the trip
+            </th>
+            <th class="px-4 py-3 text-left text-[0.7rem] font-black uppercase tracking-[0.1em] text-clay-text">
+              How it feels afterwards
+            </th>
+            <th class="px-4 py-3 text-left text-[0.7rem] font-black uppercase tracking-[0.1em] text-clay-text">
+              Example
+            </th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-line">
+          <tr>
+            <td class="px-4 py-3">
+              <span class="inline-block rounded-full bg-[#d4edda] px-2.5 py-0.5 text-xs font-black text-[#1a5e2e]">
+                Type 1 travel
+              </span>
+            </td>
+            <td class="px-4 py-3 text-muted">Enjoyable while it is happening</td>
+            <td class="px-4 py-3 text-muted">Enjoyable afterwards</td>
+            <td class="px-4 py-3 text-muted">A beautiful hotel, great food, easy logistics, warm weather</td>
+          </tr>
+          <tr class="bg-paper/40">
+            <td class="px-4 py-3">
+              <span class="inline-block rounded-full bg-[#fff3cd] px-2.5 py-0.5 text-xs font-black text-[#7a5a00]">
+                Type 2 travel
+              </span>
+            </td>
+            <td class="px-4 py-3 text-muted">Difficult while it is happening</td>
+            <td class="px-4 py-3 text-muted">Rewarding afterwards</td>
+            <td class="px-4 py-3 text-muted">A hard hike, remote journey, uncomfortable but meaningful trip</td>
+          </tr>
+          <tr>
+            <td class="px-4 py-3">
+              <span class="inline-block rounded-full bg-[#ffe4cc] px-2.5 py-0.5 text-xs font-black text-[#7a3a10]">
+                Type 3 travel
+              </span>
+            </td>
+            <td class="px-4 py-3 text-muted">Bad while it is happening</td>
+            <td class="px-4 py-3 text-muted">Still bad afterwards</td>
+            <td class="px-4 py-3 text-muted">Unsafe, badly planned, unnecessarily miserable travel</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="mt-6 rounded-xl border border-line bg-surface p-6 shadow-card">
+      <p class="mb-4 text-sm leading-relaxed text-muted">
+        This matters because many travellers confuse Type 2 and Type 3 travel. A difficult trip is not
+        automatically meaningful. A comfortable trip is not automatically shallow. The best question is:
+      </p>
+      <p class="font-serif text-[clamp(1.1rem,2vw,1.35rem)] text-forest">
+        Will this difficulty become a good memory, or is it just unnecessary suffering?
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Quiz ───────────────────────────────────────────────────────────── -->
+  <section
+    id="quiz"
+    class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(2rem,5vw,4rem)]"
+    aria-labelledby="quiz-heading"
+  >
+    <div class="mb-8">
+      <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">Before you book</p>
+      <h2 id="quiz-heading" class="max-w-none text-[clamp(1.6rem,3vw,2.4rem)]">
+        A simple quiz for your next destination
+      </h2>
+      <p class="mt-3 max-w-[52rem] text-[1.05rem] leading-relaxed text-muted">
+        Use these questions as a reflection exercise. There are no scores — only clearer thinking.
+      </p>
+    </div>
+
+    <div class="grid gap-6 sm:grid-cols-2">
+      <div class="rounded-xl border border-line bg-surface p-6 shadow-card">
+        <h3 class="mb-1 text-[1rem] font-bold text-ink">What do I want most from this trip?</h3>
+        <p class="mb-4 text-xs text-muted">Choose up to three.</p>
+        <div class="flex flex-wrap gap-2">
+          {quizWants.map((w) => (
+            <span class="rounded-full border border-line bg-tag-bg px-3 py-1 text-xs font-bold text-muted">
+              {w}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div class="rounded-xl border border-line bg-surface p-6 shadow-card">
+        <h3 class="mb-4 text-[1rem] font-bold text-ink">What do I want the pace to feel like?</h3>
+        <div class="space-y-2">
+          {quizPace.map((p) => (
+            <div class="flex items-center gap-3 rounded-lg border border-line bg-paper/60 px-4 py-2.5 text-sm text-muted">
+              <span class="h-4 w-4 shrink-0 rounded-full border-2 border-line"></span>
+              {p}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div class="rounded-xl border border-line bg-surface p-6 shadow-card">
+        <h3 class="mb-4 text-[1rem] font-bold text-ink">What kind of memory do I want?</h3>
+        <div class="space-y-2">
+          {quizMemories.map((m) => (
+            <div class="flex items-center gap-3 rounded-lg border border-line bg-paper/60 px-4 py-2.5 text-sm text-muted">
+              <span class="h-4 w-4 shrink-0 rounded-full border-2 border-line"></span>
+              {m}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div class="rounded-xl border border-line bg-surface p-6 shadow-card">
+        <h3 class="mb-4 text-[1rem] font-bold text-ink">What am I trying to avoid?</h3>
+        <div class="flex flex-wrap gap-2">
+          {quizAvoid.map((a) => (
+            <span class="rounded-full border border-line bg-tag-bg px-3 py-1 text-xs font-bold text-muted">
+              {a}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-6 rounded-xl border border-line bg-surface p-8 shadow-card">
+      <p class="mb-3 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">
+        The most important question
+      </p>
+      <p class="font-serif text-[clamp(1.25rem,2.5vw,1.75rem)] leading-snug text-forest">
+        Would I still choose this destination if nobody else knew I had been there?
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Match table ────────────────────────────────────────────────────── -->
+  <section
+    class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(2rem,5vw,4rem)]"
+    aria-labelledby="match-heading"
+  >
+    <div class="mb-6">
+      <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">
+        Decision guide
+      </p>
+      <h2 id="match-heading" class="max-w-none text-[clamp(1.6rem,3vw,2.4rem)]">
+        Match your reason to the right destination
+      </h2>
+    </div>
+
+    <div class="overflow-x-auto rounded-xl border border-line">
+      <table class="w-full min-w-[560px] text-sm">
+        <thead>
+          <tr class="bg-tag-bg">
+            <th class="px-4 py-3 text-left text-[0.7rem] font-black uppercase tracking-[0.1em] text-clay-text">
+              Your main reason for travel
+            </th>
+            <th class="px-4 py-3 text-left text-[0.7rem] font-black uppercase tracking-[0.1em] text-clay-text">
+              Look for destinations with…
+            </th>
+            <th class="px-4 py-3 text-left text-[0.7rem] font-black uppercase tracking-[0.1em] text-clay-text">
+              Be careful with…
+            </th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-line">
+          {matchRows.map((row, i) => (
+            <tr class={i % 2 === 1 ? "bg-paper/40" : ""}>
+              <td class="px-4 py-3 font-bold text-ink">{row.reason}</td>
+              <td class="px-4 py-3 text-muted">{row.lookFor}</td>
+              <td class="px-4 py-3 text-muted">{row.careful}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ── How to use on 50BP ─────────────────────────────────────────────── -->
+  <section class="mx-auto w-full max-w-[760px] px-4 py-[clamp(2rem,5vw,4rem)]">
+    <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">
+      Putting it into practice
+    </p>
+    <h2 class="mb-6 max-w-none text-[clamp(1.6rem,3vw,2.4rem)]">
+      How to use this on 50 Beautiful Places
+    </h2>
+    <div class="mb-6 space-y-4 text-[1.05rem] leading-[1.78] text-muted">
+      <p>
+        This website is built around beautiful destinations, but beauty is only one reason to travel.
+        A place can be beautiful and still not be right for your next trip.
+      </p>
+      <p>
+        When looking through the <a href="/places/" class="font-bold text-clay underline underline-offset-4 hover:text-clay-text">destinations</a>
+        or the <a href="/all-destinations/" class="font-bold text-clay underline underline-offset-4 hover:text-clay-text">full list</a>,
+        try asking:
+      </p>
+    </div>
+
+    <ol class="space-y-4">
+      {howToUseSteps.map((step, i) => (
+        <li class="flex gap-4">
+          <span class="shrink-0 font-mono text-2xl font-black leading-tight text-clay-text opacity-40">
+            {String(i + 1).padStart(2, "0")}
+          </span>
+          <p class="text-[1.05rem] leading-relaxed text-muted">{step}</p>
+        </li>
+      ))}
+    </ol>
+
+    <div class="mt-8 rounded-lg border-l-4 border-clay bg-[#f8f1e8] px-5 py-4">
+      <p class="text-[1rem] leading-relaxed text-ink">
+        The aim is not to find the objectively best destination. The aim is to find the destination that
+        best matches your reason for travelling.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── No single real traveller ───────────────────────────────────────── -->
+  <section class="mx-auto w-full max-w-[760px] px-4 py-[clamp(2rem,5vw,4rem)]">
+    <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">
+      A note on tolerance
+    </p>
+    <h2 class="mb-6 max-w-none text-[clamp(1.6rem,3vw,2.4rem)]">
+      There is no single real traveller
+    </h2>
+
+    <div class="space-y-4 text-[1.05rem] leading-[1.78] text-muted">
+      <p>People often argue about what "real travel" means.</p>
+
+      <ul class="space-y-1 pl-0 text-muted">
+        {[
+          "Some say real travel means staying a long time.",
+          "Some say it means avoiding tourist places.",
+          "Some say it means going somewhere difficult.",
+          "Some say it means learning the language.",
+          "Some say it means travelling overland.",
+          "Some say it means visiting every country.",
+          "Some say it means not counting countries at all.",
+        ].map((line) => (
+          <li class="flex gap-3">
+            <span class="mt-[0.4em] h-1.5 w-1.5 shrink-0 rounded-full bg-muted opacity-50"></span>
+            <span>{line}</span>
+          </li>
+        ))}
+      </ul>
+
+      <p>
+        Travel is not one thing. It is many different things that share the same outward form: leaving
+        home and going somewhere else.
+      </p>
+      <p>
+        The person eating their way through Italy, the person climbing a mountain, the person meditating
+        in a monastery, the person visiting every country, the person lying on a beach, the person staying
+        in one foreign city for ten years, and the person photographing desert light at sunrise may all be
+        travelling for different reasons. That is fine.
+      </p>
+    </div>
+
+    <div class="mt-8 rounded-xl border border-line bg-surface p-6 shadow-card">
+      <p class="mb-3 text-sm text-muted">The better question is not:</p>
+      <p class="mb-5 font-serif text-[1.2rem] text-muted line-through decoration-2">
+        Am I a real traveller?
+      </p>
+      <p class="mb-3 text-sm text-muted">The better question is:</p>
+      <p class="font-serif text-[clamp(1.15rem,2.5vw,1.5rem)] text-forest">
+        Is this trip honest about what I really want from travel?
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Final thought ──────────────────────────────────────────────────── -->
+  <section class="mx-auto w-full max-w-[760px] px-4 pb-[clamp(2rem,5vw,4rem)]">
+    <p class="mb-2 text-[0.72rem] font-black uppercase tracking-[0.12em] text-clay-text">
+      Final thought
+    </p>
+    <div class="space-y-4">
+      <p class="font-serif text-[clamp(1.2rem,2.5vw,1.55rem)] leading-snug text-ink">
+        A good travel list is not just a list of places. It is a list of possible experiences.
+      </p>
+      <p class="text-[1.05rem] leading-[1.78] text-muted">
+        Some places offer beauty. Some offer pleasure. Some offer challenge. Some offer knowledge. Some
+        offer meaning. Some offer status. Some offer peace. Some offer discomfort that later becomes a
+        treasured memory.
+      </p>
+      <p class="text-[1.05rem] font-bold leading-[1.78] text-ink">
+        Before choosing the next place, ask why you want to go. Then choose the destination that fits
+        the answer.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── CTA ────────────────────────────────────────────────────────────── -->
+  <section class="mx-auto w-full max-w-[1180px] px-4 pb-[clamp(3rem,7vw,6rem)]">
+    <div class="rounded-2xl bg-forest px-[clamp(2rem,6vw,4rem)] py-[clamp(2rem,5vw,3.5rem)] text-cream">
+      <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-sun">
+        Ready to choose your next place?
+      </p>
+      <h2 class="max-w-none text-[clamp(1.6rem,3vw,2.4rem)] text-cream">
+        Browse the destination guides
+      </h2>
+      <p class="mt-3 max-w-[46rem] text-[1.05rem] text-cream/80">
+        Use this page to decide what kind of trip you want next. Then explore the destinations and find
+        the place that matches your reason for travelling.
+      </p>
+      <div class="mt-7 flex flex-wrap gap-4">
+        <a
+          href="/places/"
+          class="inline-flex min-h-[2.9rem] items-center justify-center rounded-full bg-cream px-6 text-sm font-extrabold text-forest transition-opacity hover:opacity-90"
+        >Explore Places</a>
+        <a
+          href="/all-destinations/"
+          class="inline-flex min-h-[2.9rem] items-center justify-center rounded-full border border-cream/30 px-6 text-sm font-extrabold text-cream transition-colors hover:bg-cream/10"
+        >All Destinations</a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>

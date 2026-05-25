@@ -25,6 +25,9 @@ export default defineConfig({
         } else if (item.url.includes("/places/")) {
           item.changefreq = ChangeFreqEnum.MONTHLY;
           item.priority = 0.8;
+        } else if (item.url === `${siteUrl}/why-do-you-travel/`) {
+          item.changefreq = ChangeFreqEnum.MONTHLY;
+          item.priority = 0.7;
         } else {
           item.changefreq = ChangeFreqEnum.MONTHLY;
           item.priority = 0.6;
