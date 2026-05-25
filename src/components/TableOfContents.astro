@@ -1,0 +1,232 @@
+---
+interface Props {
+  variant: 'strip' | 'drawer' | 'desktop';
+}
+const { variant } = Astro.props;
+
+const sections = [
+  { id: 'why-this-guide-exists',      label: 'Why this guide exists' },
+  { id: 'the-eight-types',             label: 'The eight types' },
+  { id: 'another-useful-distinction',  label: 'Another useful distinction' },
+  { id: 'a-useful-framework',          label: 'A useful framework' },
+  { id: 'before-you-book',             label: 'Before you book' },
+  { id: 'the-most-important-question', label: 'The most important question' },
+  { id: 'decision-guide',              label: 'Decision guide' },
+  { id: 'putting-it-into-practice',    label: 'Putting it into practice' },
+  { id: 'a-note-on-tolerance',         label: 'A note on tolerance' },
+  { id: 'final-thought',               label: 'Final thought' },
+];
+---
+
+{/* ── Mobile sticky strip ─────────────────────────────────────────────── */}
+{variant === 'strip' && (
+  <div
+    id="toc-strip"
+    class="sticky z-20 flex items-center justify-between border-b border-line bg-surface/95 px-4 py-2.5 backdrop-blur-sm lg:hidden"
+    style="top: 4.6rem"
+  >
+    <p
+      id="toc-strip-label"
+      class="min-w-0 truncate text-[0.78rem] font-bold text-ink"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      Why this guide exists
+    </p>
+    <button
+      id="toc-strip-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="toc-mobile-drawer"
+      aria-label="Open table of contents"
+      class="ml-3 shrink-0 rounded-md p-1.5 text-muted transition-colors hover:bg-tag-bg"
+    >
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+)}
+
+{/* ── Mobile drawer overlay ────────────────────────────────────────────── */}
+{variant === 'drawer' && (
+  <div
+    id="toc-mobile-drawer"
+    class="fixed inset-0 z-30 hidden"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Table of contents"
+  >
+    <div id="toc-backdrop" class="absolute inset-0 bg-ink/40"></div>
+    <nav class="absolute left-0 right-0 top-0 max-h-[85vh] overflow-y-auto bg-surface shadow-card">
+      <div class="flex items-center justify-between border-b border-line px-4 py-3.5">
+        <p class="text-[0.68rem] font-black uppercase tracking-[0.14em] text-clay-text">Contents</p>
+        <button
+          id="toc-drawer-close"
+          type="button"
+          aria-label="Close table of contents"
+          class="rounded-md p-1.5 text-muted transition-colors hover:bg-tag-bg"
+        >
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <ol class="px-3 py-3">
+        {sections.map((s, i) => (
+          <li>
+            <a
+              href={`#${s.id}`}
+              class="toc-drawer-link flex items-center gap-3 rounded-md px-3 py-2.5 text-sm text-muted transition-colors hover:bg-tag-bg hover:text-ink"
+              data-toc-drawer-id={s.id}
+            >
+              <span class="shrink-0 font-mono text-[0.68rem] font-black text-clay-text/50">
+                {String(i + 1).padStart(2, '0')}
+              </span>
+              <span>{s.label}</span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </nav>
+  </div>
+)}
+
+{/* ── Desktop sidebar nav ─────────────────────────────────────────────── */}
+{variant === 'desktop' && (
+  <nav aria-label="Table of contents">
+    <p class="mb-4 text-[0.65rem] font-black uppercase tracking-[0.16em] text-clay-text/70">Contents</p>
+    <ol class="space-y-0.5">
+      {sections.map((s, i) => (
+        <li>
+          <a
+            href={`#${s.id}`}
+            data-toc-id={s.id}
+            data-active="false"
+            class="toc-desktop-link group flex items-start gap-2 rounded-md px-2 py-1.5 text-[0.72rem] text-muted transition-colors hover:bg-tag-bg hover:text-ink"
+          >
+            <span class="toc-num mt-[0.15em] shrink-0 font-mono text-[0.62rem] font-black text-clay-text/40 group-hover:text-clay-text">
+              {String(i + 1).padStart(2, '0')}
+            </span>
+            <span>{s.label}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}
+
+{/* ── Script (rendered once with strip variant; waits for full DOM) ───── */}
+{variant === 'strip' && (
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', function () {
+      var sectionIds = [
+        'why-this-guide-exists',
+        'the-eight-types',
+        'another-useful-distinction',
+        'a-useful-framework',
+        'before-you-book',
+        'the-most-important-question',
+        'decision-guide',
+        'putting-it-into-practice',
+        'a-note-on-tolerance',
+        'final-thought'
+      ];
+      var labels = [
+        'Why this guide exists',
+        'The eight types',
+        'Another useful distinction',
+        'A useful framework',
+        'Before you book',
+        'The most important question',
+        'Decision guide',
+        'Putting it into practice',
+        'A note on tolerance',
+        'Final thought'
+      ];
+
+      var stripLabel = document.getElementById('toc-strip-label');
+      var toggle    = document.getElementById('toc-strip-toggle');
+      var drawer    = document.getElementById('toc-mobile-drawer');
+      var backdrop  = document.getElementById('toc-backdrop');
+      var closeBtn  = document.getElementById('toc-drawer-close');
+      var activeId  = sectionIds[0];
+
+      // Set first item active on load
+      var firstLink = document.querySelector('[data-toc-id="' + sectionIds[0] + '"]');
+      if (firstLink) firstLink.setAttribute('data-active', 'true');
+
+      function setActive(id) {
+        if (!id || id === activeId) return;
+        activeId = id;
+        var idx = sectionIds.indexOf(id);
+        if (stripLabel && idx >= 0) stripLabel.textContent = labels[idx];
+        document.querySelectorAll('[data-toc-id]').forEach(function (link) {
+          link.setAttribute('data-active', link.dataset.tocId === id ? 'true' : 'false');
+        });
+      }
+
+      // Scroll-spy via IntersectionObserver
+      var sections = sectionIds.map(function (id) {
+        return document.getElementById(id);
+      }).filter(Boolean);
+
+      if (window.IntersectionObserver) {
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) setActive(entry.target.id);
+          });
+        }, { rootMargin: '-10% 0px -78% 0px', threshold: 0 });
+        sections.forEach(function (el) { observer.observe(el); });
+      }
+
+      function scrollToSection(id) {
+        var el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+
+      // Desktop link clicks
+      document.querySelectorAll('[data-toc-id]').forEach(function (link) {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          scrollToSection(link.dataset.tocId);
+        });
+      });
+
+      // Drawer open / close
+      function openDrawer() {
+        if (!drawer) return;
+        drawer.classList.remove('hidden');
+        if (toggle) toggle.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+        if (closeBtn) closeBtn.focus();
+      }
+
+      function closeDrawer() {
+        if (!drawer) return;
+        drawer.classList.add('hidden');
+        if (toggle) toggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+        if (toggle) toggle.focus();
+      }
+
+      if (toggle)   toggle.addEventListener('click', openDrawer);
+      if (backdrop) backdrop.addEventListener('click', closeDrawer);
+      if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && drawer && !drawer.classList.contains('hidden')) closeDrawer();
+      });
+
+      // Drawer link clicks
+      document.querySelectorAll('.toc-drawer-link').forEach(function (link) {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          var id = link.dataset.tocDrawerId;
+          closeDrawer();
+          setTimeout(function () { scrollToSection(id); }, 50);
+        });
+      });
+    });
+  </script>
+)}

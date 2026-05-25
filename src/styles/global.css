@@ -271,6 +271,27 @@
   font-weight: 700;
 }
 
+/* ── Section number gradient (why-do-you-travel page) ──────────────── */
+/* Sun → clay → forest: warm, earthy, matches site palette.             */
+/* Same clip-text technique used by destination tip numbers.            */
+.section-num-gradient {
+  background: linear-gradient(160deg, var(--color-sun) 0%, var(--color-clay) 45%, var(--color-forest) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--color-clay); /* fallback */
+}
+
+/* ── TOC desktop sidebar active state ───────────────────────────────── */
+.toc-desktop-link[data-active="true"] {
+  background-color: var(--color-tag-bg);
+  color: var(--color-ink);
+  font-weight: 700;
+}
+.toc-desktop-link[data-active="true"] .toc-num {
+  color: var(--color-clay);
+}
+
 /* ── Protected email ────────────────────────────────────────────────── */
 .protected-email {
   display: inline-block;
