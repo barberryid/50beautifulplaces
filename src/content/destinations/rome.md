@@ -3,11 +3,23 @@ title: "Rome"
 country: "Italy"
 region: "Europe"
 summary: "Ancient ruins, baroque fountains, sun-baked piazzas, and layered street life make Rome feel endlessly inhabited by history."
-mainImage: "https://live.staticflickr.com/4080/4819936081_5b24d10bc7_m.jpg"
-imageAlt: "Rome in Italy"
-imageCredit: "Rome, Italy by melenama (BY SA 2.0) via Openverse"
-imageCreditUrl: "https://www.flickr.com/photos/21856521@N07/4819936081"
-imageLicenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/"
+mainImage: "/images/destinations/rome-cover.jpg"
+imageAlt: "Historic Roman architecture and city streets in Rome"
+imageCredit: "Rome image supplied by 50 Beautiful Places"
+imageCreditUrl: "https://50beautifulplaces.com/places/rome/"
+galleryImages:
+  - src: "/images/destinations/rome-2.jpg"
+    alt: "Ancient Roman architecture and stonework in Rome"
+    caption: "Rome's layers are visible in ruins, churches, piazzas, and everyday streets."
+  - src: "/images/destinations/rome-3.jpg"
+    alt: "Historic street scene in Rome"
+    caption: "The city rewards walking between monuments rather than treating each sight in isolation."
+  - src: "/images/destinations/rome-4.jpg"
+    alt: "Architectural detail in Rome"
+    caption: "Small details often carry as much atmosphere as the famous landmarks."
+  - src: "/images/destinations/rome-5.jpg"
+    alt: "Rome city view with historic buildings"
+    caption: "A good Rome visit leaves room for views, detours, and slower neighbourhood time."
 hotelName: "8+ rated stays for Rome"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Rome%2C%20Italy&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
@@ -74,4 +86,3 @@ These tips are designed to help you decide whether Rome fits your time, budget, 
 9. **The Pantheon charges €5 entry since 2023 — the best €5 in Rome.** The Pantheon has been a free entry site for most of its accessible history, but a €5 admission charge was introduced in 2023 (free for under-18s). It remains one of the world's most extraordinary buildings: an unreinforced concrete dome, 43 metres in diameter, built in AD 125 and still intact. The oculus (open hole at the dome's apex) lets rain fall directly to the floor, which drains through original Roman gutters. Arrive early morning on a clear day to see the light cylinder move across the interior.
 
 10. **Eat cacio e pepe, carbonara, and supplì in Testaccio — the neighbourhood where Roman food came from.** Testaccio, built over Monte Testaccio (a hill composed of broken Roman amphora shards), was Rome's meat-packing and food processing district and remains its most food-serious neighbourhood. The Testaccio market (covered, open morning) has Rome's best daily produce stalls and several excellent ready-to-eat counters. Trattoria Da Remo for pizza al taglio, Volpetti for cured meats and cheese. Roman pasta dishes (carbonara, cacio e pepe, amatriciana) should not be ordered with cream, peas, or additions anywhere serious.
-

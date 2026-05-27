@@ -3,17 +3,20 @@ title: "Registan"
 country: "Uzbekistan"
 region: "Asia"
 summary: "Samarkand's tiled madrasas rise around a monumental square where Silk Road history still feels theatrical and alive."
-mainImage: "/images/destinations/registan-1.png"
+mainImage: "/images/destinations/registan-1.jpg"
 imageAlt: "A traveler standing in Registan Square between the tiled madrasas of Samarkand"
 imageCredit: "Registan image supplied by 50 Beautiful Places"
 imageCreditUrl: "https://50beautifulplaces.com/places/registan/"
 galleryImages:
-  - src: "/images/destinations/registan-2.png"
-    alt: "Registan Square seen through a richly tiled archway"
-    caption: "The square framed through one of its decorated archways."
-  - src: "/images/destinations/registan-3.png"
+  - src: "/images/destinations/registan-2.jpg"
+    alt: "Blue-tiled madrasa facade at Registan Square"
+    caption: "Tilework and scale are the square's strongest close-up impressions."
+  - src: "/images/destinations/registan-3.jpg"
     alt: "Registan Square at sunset with glowing clouds above the madrasas"
     caption: "Sunset light across the madrasas of Samarkand."
+  - src: "/images/destinations/registan-4.jpg"
+    alt: "Registan Square in Samarkand with monumental tiled architecture"
+    caption: "The ensemble is strongest when seen from multiple angles and times of day."
 hotelName: "8+ rated stays for Registan"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Registan%2C%20Uzbekistan&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
@@ -80,4 +83,3 @@ These tips are designed to help you decide whether the Registan fits your time, 
 9. **Cover shoulders and knees inside the Tilla-Kari Madrasa — it is an active mosque.** The Tilla-Kari Madrasa contains a working mosque and is an active religious site. Visitors are expected to dress modestly: shoulders and knees covered for both men and women. Scarves are available at the entrance but bringing your own avoids the queue. The requirement applies inside the mosque interior; the courtyard and exterior facade have no restrictions. The Sher-Dor and Ulugbek Madrasas are monument-only and have no dress codes.
 
 10. **Combine Samarkand with Bukhara and Khiva by train — but plan the rail tickets first.** Samarkand alone is worth the trip, but the Uzbekistan Silk Road circuit — Tashkent, Samarkand, Bukhara, Khiva — is one of the most coherent heritage routes in Central Asia. All three cities are connected by train or shared taxi. Popular Afrosiyob and regional departures sell out in shoulder season. Plan and book the full train sequence before building any other part of the itinerary. Allow at least 7–10 days for the three-city circuit.
-

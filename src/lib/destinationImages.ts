@@ -45,7 +45,10 @@ const localImageBySource: Record<string, string> = {
   "/images/destinations/fig-tree-beach-cover.jpg": "../assets/destinations/fig-tree-beach-cover.jpg",
   "/images/destinations/malta-3.jpg": "../assets/destinations/malta-3.jpg",
   "/images/destinations/mittenwald-cover.jpg": "../assets/destinations/mittenwald-cover.jpg",
+  "/images/destinations/qatar-cover.jpg": "../assets/destinations/qatar-cover.jpg",
+  "/images/destinations/registan-1.jpg": "../assets/destinations/registan-1.jpg",
   "/images/destinations/registan-1.png": "../assets/destinations/registan-1.png",
+  "/images/destinations/rome-cover.jpg": "../assets/destinations/rome-cover.jpg",
   "/images/destinations/table-mountain-1.png": "../assets/destinations/table-mountain-1.png",
   "/images/destinations/yangykala-canyon.png": "../assets/destinations/yangykala-canyon.png",
   "https://upload.wikimedia.org/wikipedia/commons/4/48/Volcano_eruption_at_the_Danakil_depression%2C_Ethiopia..jpg":

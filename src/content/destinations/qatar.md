@@ -3,11 +3,23 @@ title: "Qatar"
 country: "Qatar"
 region: "Middle East"
 summary: "Desert dunes, sculptural museums, souqs, mangroves, and a futuristic skyline meet on a compact Gulf peninsula."
-mainImage: "https://live.staticflickr.com/3823/11434184726_3aacbaeaed.jpg"
-imageAlt: "Qatar in Qatar"
-imageCredit: "Facebook page surfcasting QATAR #qatar#doha#sealine#sea#surf#surfcasting#fish#fishing#instaqatar #instadoha #instasealine#instasurf#instasurfcasting#pecheur#pecher#peche#صيد#مصيد#صيادون#قطر#الدوحة#سيلاين#سيلين#بحر#سنارة#صنارة#صيد# by D@LY3D (BY 2.0) via Openverse"
-imageCreditUrl: "https://www.flickr.com/photos/11912988@N02/11434184726"
-imageLicenseUrl: "https://creativecommons.org/licenses/by/2.0/"
+mainImage: "/images/destinations/qatar-cover.jpg"
+imageAlt: "Doha skyline and waterfront architecture in Qatar"
+imageCredit: "Qatar image supplied by 50 Beautiful Places"
+imageCreditUrl: "https://50beautifulplaces.com/places/qatar/"
+galleryImages:
+  - src: "/images/destinations/qatar-1.jpg"
+    alt: "Modern architecture and skyline views in Qatar"
+    caption: "Doha's modern architecture is one of Qatar's clearest first impressions."
+  - src: "/images/destinations/qatar-2.jpg"
+    alt: "Qatar waterfront and city details"
+    caption: "Waterfront walks and city views shape the easiest Doha days."
+  - src: "/images/destinations/qatar-4.jpg"
+    alt: "Qatar desert and coastal landscape"
+    caption: "Desert and coast sit close enough for a short stopover itinerary."
+  - src: "/images/destinations/qatar-5.jpg"
+    alt: "Architectural detail in Qatar"
+    caption: "Qatar rewards slow looking at museums, souqs, and contemporary design."
 hotelName: "8+ rated stays for Qatar"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Qatar%2C%20Qatar&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
@@ -75,4 +87,3 @@ These tips are designed to help you decide whether Qatar fits your time, budget,
 9. **Take the Khor Al Adaid (Inland Sea) desert trip for the one experience unique to Qatar.** The Inland Sea at Qatar's southern tip is a branch of the Arabian Gulf that penetrates 10 km into the desert, accessible only through dunes. 4WD convoy trips from Doha (2.5 hours each way) cross high dunes to reach the shoreline where flamingos wade in the shallows and the desert rolls directly into still water. Book through a reputable Doha operator rather than attempting to drive independently — the dune entry requires experience with sand driving. Sunset trips are the most photogenic.
 
 10. **The Souq Waqif is the most atmospheric place in Doha for food, coffee, and evening watching.** The restored traditional souq in central Doha has spice merchants, falcon shops, Arabic coffee houses, and dozens of restaurants ranging from Qatari to Indian to Lebanese on outdoor terraces. It is most alive at night — especially in winter, when the alley heat is replaced by a warm breeze and the entire place fills with Qatari families and visitors. Walk slowly, take tea, and avoid rushing it.
-
