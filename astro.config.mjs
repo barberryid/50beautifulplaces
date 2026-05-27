@@ -9,6 +9,13 @@ const lastmod = new Date().toISOString();
 export default defineConfig({
   site: "https://50beautifulplaces.com",
   output: "static",
+  image: {
+    domains: [
+      "live.staticflickr.com",
+      "upload.wikimedia.org",
+      "inaturalist-open-data.s3.amazonaws.com",
+    ],
+  },
   integrations: [
     sitemap({
       serialize(item) {
