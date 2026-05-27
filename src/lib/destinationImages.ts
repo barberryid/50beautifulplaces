@@ -50,6 +50,8 @@ const localImageBySource: Record<string, string> = {
   "/images/destinations/registan-1.png": "../assets/destinations/registan-1.png",
   "/images/destinations/rome-cover.jpg": "../assets/destinations/rome-cover.jpg",
   "/images/destinations/table-mountain-1.png": "../assets/destinations/table-mountain-1.png",
+  "/images/destinations/valley-of-the-gods-cover.jpg": "../assets/destinations/valley-of-the-gods-cover.jpg",
+  "/images/destinations/venice-cover.jpg": "../assets/destinations/venice-cover.jpg",
   "/images/destinations/yangykala-canyon.png": "../assets/destinations/yangykala-canyon.png",
   "https://upload.wikimedia.org/wikipedia/commons/4/48/Volcano_eruption_at_the_Danakil_depression%2C_Ethiopia..jpg":
     "../assets/destinations/danakil-depression-local.jpg",
