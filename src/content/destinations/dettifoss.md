@@ -72,11 +72,11 @@ seoTitle: "Dettifoss Travel Guide"
 seoDescription: "A glacial river hurls itself into a basalt canyon with a force you feel in your chest before you reach the edge. Includes timing, access, stay-length, and practical planning notes for Dettifoss."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Dettifoss is Europe's most powerful waterfall by volume: a 45-metre drop of glacial water from the Jökulsá á Fjöllum river, wide enough to generate spray visible from a kilometre away and loud enough to feel through your boots before you reach the edge. The water is grey-brown with glacial sediment, the canyon below is black basalt, and the contrast between the raw force of the fall and the silence of the surrounding lava plateau gives the place an elemental quality that more picturesque waterfalls simply don't have. Two companion falls — Selfoss upstream and Hafragilsfoss downstream — mean the area rewards more than a single viewpoint stop. This is not a decorative landscape; it is geology in motion, and the physical sensation of standing close is the point.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Dettifoss fits your time, budget, comfort level, and travel style.
 

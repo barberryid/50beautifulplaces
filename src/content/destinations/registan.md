@@ -53,11 +53,11 @@ seoTitle: "Registan Travel Guide"
 seoDescription: "Samarkand's tiled madrasas rise around a monumental square where Silk Road history still feels theatrical and alive. Includes timing, access, stay-length, and practical planning notes for Registan."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Registan is not a single monument but an urban stage framed by three madrasas, each with its own rhythm of tilework, portals, domes, inscriptions, and courtyards. From a distance it works as one grand composition; up close it becomes colour, geometry, glazed surface, and shadow. Completed between 1420 and 1660, the ensemble survived Timurid decline, Soviet restoration, and earthquake damage — and still functions as a living square rather than a museum piece.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Registan fits your time, budget, comfort level, and travel style.
 

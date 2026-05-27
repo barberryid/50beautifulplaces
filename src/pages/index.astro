@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import DestinationCard from "../components/DestinationCard.astro";
+import { getDestinationImageMetadata } from "../lib/destinationImages";
 
 const destinations = await getCollection("destinations");
 const featured = destinations.filter((place) => place.data.featured);
@@ -71,7 +72,7 @@ const jsonLd = [organizationJsonLd, websiteJsonLd];
 
   <!-- Intro -->
   <section class="mx-auto w-full max-w-[760px] px-4 py-[clamp(3rem,8vw,7rem)]">
-    <h2>Built for dreaming first, planning second.</h2>
+    <h2>Built for dreaming first, planning second</h2>
     <p class="mt-4 max-w-[48rem] text-lg text-muted">
       Each guide keeps the essentials close: why the place is beautiful, when to go,
       how long to stay, and what to know before you commit the miles.
@@ -94,8 +95,7 @@ const jsonLd = [organizationJsonLd, websiteJsonLd];
           country={place.data.country}
           region={place.data.region}
           summary={place.data.summary}
-          image={place.data.mainImage}
-          alt={place.data.imageAlt}
+          image={getDestinationImageMetadata(place.id, place.data)}
           tags={place.data.tags}
           bestTime={place.data.bestTime}
           bestFor={place.data.bestFor}
@@ -111,7 +111,7 @@ const jsonLd = [organizationJsonLd, websiteJsonLd];
       <div class="grid gap-8 lg:grid-cols-[1.1fr_1fr] lg:items-center">
         <div>
           <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Browse by region</p>
-          <h2>Find a landscape that matches the trip.</h2>
+          <h2>Find a landscape that matches the trip</h2>
         </div>
         <div class="flex flex-wrap gap-2">
           {regions.map((region) => (

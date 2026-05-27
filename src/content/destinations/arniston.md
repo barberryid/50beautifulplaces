@@ -62,11 +62,11 @@ seoDescription: "A whitewashed fishing village near Africa's southern tip, with 
 
 _Country guide framed around a quiet whitewashed fishing village on the Cape Agulhas coast._
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Arniston (officially Waenhuiskrans) sits two and a half hours south-east of Cape Town on the Cape Agulhas coast, past wheat-fields and sheep farms, very close to the actual southern tip of Africa. The village grew around a 200-year-old fishing community at Kassiesbaai — limewashed cottages, weathered boats, and no chain stores. A sea cave large enough to turn a wagon and oxen lies a short walk from the village, and southern right whales move through the offshore waters between June and November.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Arniston fits your time, budget, comfort level, and travel style.
 

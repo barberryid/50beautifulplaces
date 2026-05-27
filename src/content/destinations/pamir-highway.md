@@ -47,11 +47,11 @@ seoTitle: "Pamir Highway Travel Guide"
 seoDescription: "One of the world's great high roads crosses lunar plateaus, Afghan-border valleys, and mountain silence in Tajikistan. Includes timing, access, stay-length, and practical planning notes for Pamir Highway."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Pamir Highway (M41) runs 1,200 kilometres from Dushanbe in Tajikistan to Osh in Kyrgyzstan, crossing the Pamir plateau at an average altitude of 3,500–4,600 metres — the second-highest road in the world after the Karakoram Highway. The Wakhan Corridor section runs along the Afghan border, with the Hindu Kush visible across the Panj River and Wakhi villages on both banks. The Murghab plateau north of Ishkashim is lunar in character: a flat, ochre-and-grey high-altitude desert ringed by 6,000-metre peaks, crossed by a road that was a Soviet military supply route. Karakul Lake, at 3,900 metres, reflects the surrounding mountains in deep blue-grey water. The combination of extreme altitude, border-edge geography, central Asian village life, and genuinely remote driving is found nowhere else on Earth.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Pamir Highway fits your time, budget, comfort level, and travel style.
 

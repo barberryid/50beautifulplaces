@@ -47,11 +47,11 @@ seoTitle: "Santorini Travel Guide"
 seoDescription: "White villages cling to a volcanic caldera above Aegean blue, with sunset light turning the cliffs almost unreal. Includes timing, access, stay-length, and practical planning notes for Santorini."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Santorini is the collapsed remnant of a Minoan-era supervolcano whose eruption around 1600 BC was one of the largest in recorded geological history, leaving a deep, flooded caldera surrounded by crescent-shaped cliffs that drop 300 metres to the sea. The whitewashed villages of Oia and Fira — built on the cliff-edge in blue-domed Cycladic clusters — face west across the caldera, which is why the sunset turns them from brilliant white to deep amber and pink before the light fades over the sea. The Aegean in the caldera is a shade of blue that photographs struggle to render accurately. The combination of volcanic cliff, Cycladic white and blue, and the specific quality of Aegean light in the late afternoon is genuinely unlike anywhere else in the Mediterranean, which is why it is also one of the world's most photographed places.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Santorini fits your time, budget, comfort level, and travel style.
 

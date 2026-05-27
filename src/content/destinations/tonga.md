@@ -47,11 +47,11 @@ seoTitle: "Tonga Travel Guide"
 seoDescription: "South Pacific islands of limestone caves, blue water, whale encounters, and Polynesian calm spread far beyond the usual routes. Includes timing, access, stay-length, and practical planning notes for Tonga."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Tonga is an archipelago of 170 islands in the South Pacific, the last Polynesian kingdom, and one of the few places in the world where swimming with humpback whales is a regular seasonal experience rather than an exceptional one. Between July and October, humpbacks migrate to Tonga's warm waters to give birth and nurse calves before returning south — the Vava'u island group in the north is the main whale-season hub, where licensed operators run daily boat trips to find and snorkel with mother-calf pairs. Away from the whale season, the limestone caves of the Ha'apai group, the coral reefs around Vava'u, the blowholes at Houma on Tongatapu, and the simplicity of village Polynesian life give Tonga a character that distinguishes it entirely from the developed Pacific resort circuit.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Tonga fits your time, budget, comfort level, and travel style.
 

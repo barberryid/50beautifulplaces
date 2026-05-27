@@ -48,11 +48,11 @@ seoTitle: "Hundred step beach Travel Guide"
 seoDescription: "A quiet Trinidad and Tobago escape where the reward is surf, sand, and the feeling of finding a coast before the crowd. Includes timing, access, stay-length, and practical planning notes for Hundred step beach."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Hundred Step Beach sits on Tobago's Atlantic coast, reached by descending a staircase cut through the cliff — the steps that give it its name leading down to a sweep of sand that sees a fraction of Tobago's regular visitors. The Atlantic side of the island is wilder and windier than the sheltered Caribbean coast, with stronger surf and a more untamed character. Tobago's forested interior rises steeply behind, and the beach sits in a natural amphitheatre of tropical vegetation with nothing but open ocean ahead. This is the kind of beach that rewards the effort of getting there.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Hundred Step Beach fits your time, budget, comfort level, and travel style.
 

@@ -47,11 +47,11 @@ seoTitle: "Medellín Travel Guide"
 seoDescription: "A mountain-ringed city of cable cars, spring weather, public art, and restless reinvention high in Colombia's Aburra Valley. Includes timing, access, stay-length, and practical planning notes for Medellín."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Medellín sits at 1,495 metres in the Aburrá Valley, a narrow canyon in Colombia's central Andes, its neighbourhoods stacked in tiers up the valley walls and connected by a metro system that extends into the barrios above by cable car. The city experiences spring-like weather year-round — the "City of Eternal Spring" label is earned — with warm days, cool evenings, and a green landscape that makes it feel less like a city than a mountain settlement that grew to fill its valley. Pablo Escobar's Medellín and the transformed city of today coexist in the same streets, and the tension between that history and the urban renewal visible in the library parks, cable gondolas, and public sculpture of the intervening decades gives Medellín an energy that few South American cities match.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Medellín fits your time, budget, comfort level, and travel style.
 

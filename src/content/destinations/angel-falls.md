@@ -49,11 +49,11 @@ seoDescription: "A 979-metre waterfall drops from a lost-world tepui into rainfo
 
 _A country guide built around the world’s tallest uninterrupted waterfall and the tepuis of the Gran Sabana._
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Angel Falls (Salto Ángel) plunges 979 metres off the edge of Auyán-tepui — the vertical drop is so extreme that the water atomises before reaching the ground, trailing a permanent mist for hundreds of metres around the base. The setting amplifies the scale: Canaima National Park covers an area roughly the size of Belgium, its forest floor punctuated by flat-topped tepuis that look as if sections of ancient plateau were lifted clean out of the continent. You reach the base by a 4–6 hour canoe journey up storm-lit jungle rivers, which is half the experience.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Angel Falls fits your time, budget, comfort level, and travel style.
 

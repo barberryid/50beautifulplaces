@@ -50,11 +50,11 @@ seoDescription: "The Caribbean's nature island rises in volcanoes, rainforest, b
 
 _Built directly from the December 2021 and March 2024 trip reports in the archive._
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Dominica is the Caribbean island that chose volcanoes and rainforest over resort development: nine active volcanoes, a boiling lake in the Valley of Desolation, hundreds of waterfalls, and the only intact pre-Columbian Kalinago territory in the Antilles. There are no all-inclusives and almost no white-sand beach tourism — the island’s interior and underwater world are the point, and the hiking trails, diving sites, and whale-watching waters are among the best in the Caribbean. Sperm whales are present year-round in the deep water offshore, making Dominica one of the world’s most reliable whale-watching destinations. The "Nature Island" tagline is rare in Caribbean marketing in that it turns out to be accurate.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Dominica fits your time, budget, comfort level, and travel style.
 

@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import DestinationCard from "../../components/DestinationCard.astro";
+import { getDestinationImageMetadata } from "../../lib/destinationImages";
 
 const destinations = (await getCollection("destinations")).sort((a, b) => a.data.title.localeCompare(b.data.title));
 const regions = [...new Set(destinations.map((place) => place.data.region))].sort();
@@ -106,8 +107,7 @@ const jsonLd = [collectionJsonLd, breadcrumbJsonLd];
           country={place.data.country}
           region={place.data.region}
           summary={place.data.summary}
-          image={place.data.mainImage}
-          alt={place.data.imageAlt}
+          image={getDestinationImageMetadata(place.id, place.data)}
           tags={place.data.tags}
           bestTime={place.data.bestTime}
           bestFor={place.data.bestFor}

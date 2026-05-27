@@ -47,11 +47,11 @@ seoTitle: "Luxembourg Travel Guide"
 seoDescription: "Fortress cliffs, old bridges, forested valleys, and compact European elegance make tiny Luxembourg feel far larger than its map. Includes timing, access, stay-length, and practical planning notes for Luxembourg."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Luxembourg City sits on rocky promontories above the Alzette and Pétrusse valleys, its UNESCO World Heritage old town held up by fortress walls and medieval casemates that tunnel for kilometres beneath the rock. The Grund district in the valley below looks up at the cliffs and bridges from the riverside, giving the city a vertical drama that its modest size doesn't suggest. Beyond the capital, the Mullerthal region in the east has sandstone gorges and beech forest trails; Vianden Castle on the German border is one of the finest medieval fortresses in the Benelux. Luxembourg is tiny, but the concentration of quality within it is unusual.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Luxembourg fits your time, budget, comfort level, and travel style.
 

@@ -48,11 +48,11 @@ seoTitle: "Victoria Falls Travel Guide"
 seoDescription: "The Zambezi drops into a roaring chasm of spray, rainbows, and thunder you hear long before you see it. Includes timing, access, stay-length, and practical planning notes for Victoria Falls."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Victoria Falls is 1,708 metres wide and up to 108 metres deep — the largest curtain of falling water in the world by combined width and height, audible from 40 kilometres away and generating spray visible from 20. The Zambezi, having collected water from most of Zambia, pours into a narrow basalt chasm at the border of Zambia and Zimbabwe, and the spray creates a permanent rain forest on the clifftop that gets water even in the dry season. In high water months (March to May), the falls are completely obscured from some viewpoints by spray — you hear and feel them more than see them. In low water months (October to November), individual cataracts and the gorge geology become visible. Walking the Zimbabwean side's rainforest cliff path with the roar building as you approach the first viewpoint is one of Africa's defining natural encounters.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Victoria Falls fits your time, budget, comfort level, and travel style.
 

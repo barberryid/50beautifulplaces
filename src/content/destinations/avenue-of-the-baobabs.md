@@ -47,11 +47,13 @@ seoTitle: "Avenue of the Baobabs Travel Guide"
 seoDescription: "Ancient baobabs rise like living towers from a dusty Madagascar road, turning sunset into a prehistoric silhouette. Includes timing, access, stay-length, and practical planning notes for Avenue of the Baobabs."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
-The Avenue of the Baobabs is one of Madagascar's great visual moments: a dusty road lined with towering Grandidier's baobabs, their thick trunks rising out of rice fields and dry western landscape like pillars from a much older forest. It is not a large site in the conventional sense — around 20–25 trees line the road, with more scattered in the surrounding landscape — but the concentration and scale of the trunks, especially in golden-hour light, creates an image that stays. The experience is simple: a road, ancient trees, local traffic moving past, and light that turns the whole scene prehistoric.
+The Avenue of the Baobabs is one of Madagascar's great visual moments: a dusty road lined with towering Grandidier's baobabs, their thick trunks rising out of rice fields and dry western landscape like pillars from a much older forest.
 
-## 10 Practical Tips to Help You Decide
+It is not a large site in the conventional sense — around 20–25 trees line the road, with more scattered in the surrounding landscape — but the concentration and scale of the trunks, especially in golden-hour light, creates an image that stays. The experience is simple: a road, ancient trees, local traffic moving past, and light that turns the whole scene prehistoric.
+
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Avenue of the Baobabs fits your time, budget, comfort level, and travel style.
 

@@ -68,11 +68,11 @@ seoTitle: "Chinguetti Travel Guide"
 seoDescription: "A sand-blown Saharan library town where stone lanes, old manuscripts, and encroaching dunes hold the memory of caravan routes. Includes timing, access, stay-length, and practical planning notes for Chinguetti."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Chinguetti is one of Islam's seven holy cities and was once the principal staging post for Saharan pilgrimages — its stone lanes, ancient mosque, and manuscript libraries holding hundreds of thousands of medieval pages still making it a functioning town. The old quarter has been slowly absorbed by dunes for centuries, and the tension between the built town and the advancing sand gives Chinguetti a fragility that more polished destinations never have. The surrounding Adrar plateau stretches to the horizon in every direction, and the desert silence after dark is absolute. This is not a place that rewards conventional sightseeing; it rewards slowness, attention, and acceptance of discomfort.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Chinguetti fits your time, budget, comfort level, and travel style.
 

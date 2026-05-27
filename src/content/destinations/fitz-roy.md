@@ -47,11 +47,11 @@ seoTitle: "Fitz Roy Travel Guide"
 seoDescription: "Jagged granite spires explode above Patagonian lakes and wind-scoured trails, especially electric at first light. Includes timing, access, stay-length, and practical planning notes for Fitz Roy."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Fitz Roy is a jagged granite massif rising from Patagonia's wind-scoured plateau — the serrated spires best known from the Patagonia clothing brand logo, and even more dramatic in person at scale. The main hike from El Chaltén climbs through lenga beech forests to Laguna de los Tres, where the lake surface reflects the granite towers in the right conditions. Patagonian weather is the defining variable: clear mornings can turn to whiteout in minutes, and the mountain can stay invisible for days. The reward for a clear sunrise at the lagoon — the full massif lit pink and mirrored in still water — is one of the most photographed mountain views in South America.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Fitz Roy fits your time, budget, comfort level, and travel style.
 

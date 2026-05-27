@@ -48,11 +48,11 @@ seoTitle: "Socotra Travel Guide"
 seoDescription: "Dragon's blood trees, empty beaches, alien limestone, and remote Arabian Sea isolation make Socotra feel biologically impossible. Includes timing, access, stay-length, and practical planning notes for Socotra."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Socotra is not one striking view but a whole island system: dragon's blood trees, white beaches, limestone plateaus, marine reserves, wadis, dunes, caves, and dry mountains above turquoise water. The awe comes from the contrasts — one hour can feel like Arabia, the next like an oceanic wilderness that evolved on its own private timetable. Roughly 37% of the island's plant species exist nowhere else on Earth, and the dragon's blood tree has no close relatives anywhere in the world.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Socotra fits your time, budget, comfort level, and travel style.
 

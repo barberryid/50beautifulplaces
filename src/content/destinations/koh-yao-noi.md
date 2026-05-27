@@ -47,11 +47,11 @@ seoTitle: "Koh Yao Noi Travel Guide"
 seoDescription: "Between Phuket and Krabi, this Thai island keeps the limestone views but trades the rush for rice fields and slow mornings. Includes timing, access, stay-length, and practical planning notes for Koh Yao Noi."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Koh Yao Noi sits in the middle of Phang Nga Bay between Phuket and Krabi, with the bay's famous limestone karst towers visible from its east coast and rice fields and fishing villages covering its interior. The island has a largely Muslim fishing community that gives it a quieter and more settled atmosphere than Thailand's tourist-facing islands — no beach clubs, no full-moon parties, and a pace built around boat schedules and tide tables. Long-tail trips from the island reach Phang Nga Bay's most spectacular formations in under an hour. The combination of karst bay views, local village life, and deliberate absence of mass tourism infrastructure is what makes Koh Yao Noi worth choosing over its more famous neighbours.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Koh Yao Noi fits your time, budget, comfort level, and travel style.
 

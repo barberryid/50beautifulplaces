@@ -50,11 +50,11 @@ seoDescription: "One road enters an immense Alaskan wilderness of grizzlies, car
 
 _Country guide for the United States routed through its biggest, wildest national park._
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Denali National Park contains North America's highest mountain (6,190 m) at the centre of 24,000 square kilometres of sub-arctic wilderness — a space so vast it has only one road and is more than large enough to hold grizzly bears, wolves, moose, caribou, and Dall sheep in genuinely open country. Denali itself is covered in cloud roughly 70% of the time, which makes a clear day feel like something earned rather than simply observed. The park's single road goes further into wilderness than almost any equivalent road in North America, and the design of the whole place — limited vehicles, hop-on/hop-off buses, off-trail tundra walking — keeps the sense of scale intact. The pull here is the sense of wild scale, not a checklist of attractions.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Denali National Park fits your time, budget, comfort level, and travel style.
 

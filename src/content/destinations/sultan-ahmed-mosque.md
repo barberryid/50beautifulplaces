@@ -47,11 +47,11 @@ seoTitle: "Sultan Ahmed Mosque Travel Guide"
 seoDescription: "Istanbul's Blue Mosque gathers domes, minarets, Iznik tiles, and call-to-prayer atmosphere across from Hagia Sophia. Includes timing, access, stay-length, and practical planning notes for Sultan Ahmed Mosque."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Sultan Ahmed Mosque — the Blue Mosque — was completed in 1616 under Sultan Ahmed I and is the only Ottoman imperial mosque built with six minarets, a number that was considered a challenge to Mecca's haram at the time. The exterior is a cascade of domes in descending tiers, each half-dome preparing the eye for the central dome; the interior is lined with over 20,000 hand-painted Iznik tiles in pale blue and white floral patterns, which give the mosque its popular name. It faces Hagia Sophia across the Hippodrome — a symbolic confrontation between the greatest church in Christendom and one of the greatest mosques of the Ottoman Empire, two buildings that represent 1,500 years of the same city's history. At the call to prayer, when the muezzin broadcasts simultaneously from all six minarets, the courtyard fills with sound in a way that no other Istanbul experience replicates.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Sultan Ahmed Mosque fits your time, budget, comfort level, and travel style.
 

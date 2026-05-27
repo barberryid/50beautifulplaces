@@ -47,11 +47,11 @@ seoTitle: "Sydney Opera House Travel Guide"
 seoDescription: "White sails rise over Sydney Harbour, turning a working performance hall into one of the world's great waterfront icons. Includes timing, access, stay-length, and practical planning notes for Sydney Opera House."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Sydney Opera House was designed by Danish architect Jørn Utzon and completed in 1973 after a 16-year construction involving structural problems that weren't solved until the geometry was discovered by computer — the interlocking shell vaults are sections of a sphere 75 metres in diameter. The building sits on Bennelong Point jutting into Sydney Harbour, visible from every ferry crossing, from the Harbour Bridge walkway, and from the Royal Botanic Garden promontory — an arresting white form that photographs from every angle and looks different at every hour of the day. It is also a working concert hall, opera house, and performance venue with more than 1,500 performances annually; attending a performance in the Concert Hall gives the interior what the exterior already possesses outside. The relationship between the building, the harbour, and the Sydney CBD behind it is one of the world's great pieces of urban geography.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Sydney Opera House fits your time, budget, comfort level, and travel style.
 

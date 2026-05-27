@@ -48,11 +48,11 @@ seoTitle: "Ngorongoro Crater Travel Guide"
 seoDescription: "A collapsed volcanic world shelters lions, elephants, flamingos, and grassland drama inside one immense Tanzanian bowl. Includes timing, access, stay-length, and practical planning notes for Ngorongoro Crater."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Ngorongoro is a caldera — a collapsed volcanic crater — roughly 20 km across and 600 metres deep, forming a self-contained ecosystem that has never been enclosed by fences yet holds approximately 25,000 large animals on its flat floor, including one of Africa's densest lion populations and a permanent resident black rhino population. The rim sits at 2,300 metres and is usually in cloud in the morning; descending the crater wall through the mist and emerging into grassland, soda lake, and forest below is one of East Africa's most cinematic moments. The alkaline Lake Magadi at the crater floor attracts flamingos in the thousands during the right season. Ngorongoro is not wilderness in the traditional sense — it is managed, fee-intensive, and busy with vehicles — but the concentration of wildlife in a single dramatic bowl makes it arguably the easiest place on Earth to see the African Big Five in a single day.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Ngorongoro Crater fits your time, budget, comfort level, and travel style.
 

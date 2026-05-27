@@ -47,11 +47,11 @@ seoTitle: "Fairy Meadows Travel Guide"
 seoDescription: "A green Himalayan meadow opens to the colossal face of Nanga Parbat after a road-and-trail approach you never forget. Includes timing, access, stay-length, and practical planning notes for Fairy Meadows."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Fairy Meadows is a green alpine meadow at around 3,300 metres facing the enormous south face of Nanga Parbat, the world's ninth-highest mountain. The approach is part of the experience: Karakoram Highway through the Indus gorge, then a vertiginous jeep track up a cliffside road to Tato village, then a 3–4 hour hike through pine forest that opens suddenly to the meadow and the full mountain wall. In good weather the view is continuous — the same face of ice and rock from early morning until dark, changing colour with the light. The combination of extreme mountain drama and relative accessibility makes Fairy Meadows unlike anything else in the Himalayas.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Fairy Meadows fits your time, budget, comfort level, and travel style.
 

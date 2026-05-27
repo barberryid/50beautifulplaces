@@ -65,11 +65,11 @@ seoTitle: "Fig Tree Beach Travel Guide"
 seoDescription: "Clear Cypriot water, soft sand, and easy Mediterranean swimming make this one of Protaras' most inviting beaches. Includes timing, access, stay-length, and practical planning notes for Fig Tree Beach."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Fig Tree Beach is a sheltered bay on Cyprus's southeast Protaras coast where the water runs clear turquoise over pale sand, the bay is shallow enough for confident family swimming, and Blue Flag water-quality standards are reliably maintained. The beach is backed by the low rocky Protaras headland rather than heavy resort development, giving it a calmer visual frame than most beaches of this standard. Nearby Cape Greco National Forest Park adds sea caves and coastal trails for days away from the sunbeds. It is the right Mediterranean beach choice for visitors who want clear, warm water and uncomplicated facilities without flying as far as Southeast Asia.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Fig Tree Beach fits your time, budget, comfort level, and travel style.
 

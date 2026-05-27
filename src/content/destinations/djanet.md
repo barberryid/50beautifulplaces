@@ -47,11 +47,11 @@ seoTitle: "Djanet Travel Guide"
 seoDescription: "Tuareg desert camps, rock arches, prehistoric art, and star-heavy Sahara nights make Djanet feel like another planet. Includes timing, access, stay-length, and practical planning notes for Djanet."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Djanet is the gateway to Tassili n'Ajjer, one of the largest concentrations of prehistoric rock art in the world — tens of thousands of engravings and paintings spread across a sandstone plateau the size of Scotland. The landscape ranges from stone forests and natural rock arches to sand seas and canyon systems, all inhabited by Tuareg communities whose connection to this desert runs back thousands of years. Desert nights here have almost no light pollution; the Milky Way is architectural. This is expedition travel rather than sightseeing — the reward is immersion in one of Earth's great ancient landscapes.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Djanet fits your time, budget, comfort level, and travel style.
 

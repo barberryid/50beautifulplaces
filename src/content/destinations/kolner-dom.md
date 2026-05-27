@@ -47,11 +47,11 @@ seoTitle: "Kölner Dom Travel Guide"
 seoDescription: "Cologne's cathedral rises like black lace over the Rhine, a Gothic landmark that still startles from every angle. Includes timing, access, stay-length, and practical planning notes for Kölner Dom."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Kölner Dom is one of Gothic architecture's most ambitious achievements: twin spires rising 157 metres above the Rhine, a facade dense with carved stone that took 632 years to complete from foundation (1248) to the final pinnacle (1880). Stepping out of Cologne Hauptbahnhof directly beneath the towers is one of Europe's great arrival moments — the scale is immediately overwhelming in a way that photographs do not capture. The interior holds the Shrine of the Three Kings, the most elaborate medieval reliquary in Europe, alongside medieval and modern stained glass that fills the nave with layered colour. The cathedral survived largely intact while the city around it was devastated in the Second World War, which gives the whole structure an additional resonance.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Kölner Dom fits your time, budget, comfort level, and travel style.
 

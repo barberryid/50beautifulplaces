@@ -47,11 +47,13 @@ seoTitle: "Zhangye Danxia Landform Travel Guide"
 seoDescription: "China's rainbow mountains ripple in bands of red, gold, and green, like geology painted at impossible scale. Includes timing, access, stay-length, and practical planning notes for Zhangye Danxia Landform."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
-The Zhangye Danxia Landform in Gansu Province is a series of eroded sandstone hills coloured by iron oxides and minerals deposited in alternating sediment layers over 24 million years — deep red, burnt orange, pale yellow, dusty green, and white, in horizontal bands that follow the hill contours and change shade dramatically with the angle of the sun and the presence of moisture after rain. The Chinese term danxia refers specifically to this type of reddish banded sandstone landform; Zhangye has the most vivid and largest-scale example. The colours are at their strongest in the 30 minutes after sunrise and the hour before sunset, and for a brief window after summer rain, when water saturates the surface minerals and the landscape looks almost artificially saturated. Boardwalk viewpoints overlook the hills from elevated positions that give the full panorama of banded geology rolling across the landscape.
+The Zhangye Danxia Landform in Gansu Province is a series of eroded sandstone hills coloured by iron oxides and minerals deposited in alternating sediment layers over 24 million years — deep red, burnt orange, pale yellow, dusty green, and white, in horizontal bands that follow the hill contours and change shade dramatically with the angle of the sun and the presence of moisture after rain.
 
-## 10 Practical Tips to Help You Decide
+The Chinese term danxia refers specifically to this type of reddish banded sandstone landform; Zhangye has the most vivid and largest-scale example. The colours are at their strongest in the 30 minutes after sunrise and the hour before sunset, and for a brief window after summer rain, when water saturates the surface minerals and the landscape looks almost artificially saturated. Boardwalk viewpoints overlook the hills from elevated positions that give the full panorama of banded geology rolling across the landscape.
+
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Zhangye Danxia fits your time, budget, comfort level, and travel style.
 
@@ -74,4 +76,3 @@ These tips are designed to help you decide whether Zhangye Danxia fits your time
 9. **Carry a wide-angle lens and a tripod for the sunrise and sunset windows.** The boardwalk viewpoints are at elevation and give wide compositions across multiple hill ridges — a wide-angle or ultra-wide lens captures the layered scale better than a standard zoom. A tripod is useful for long exposures in the low-light morning and evening windows and for keeping compositions steady on the elevated platforms. The geopark does not restrict tripod use. Rain after hot weather intensifies the colours — if rain falls on the morning of your visit, go anyway: the saturated surface is the best photography condition.
 
 10. **Combine Zhangye with Jiayuguan and Dunhuang for a complete Gansu Silk Road circuit.** Zhangye sits on the historic Silk Road corridor across Gansu Province. Jiayuguan (1 hour west by high-speed rail) has the westernmost gate of the Great Wall — a Ming-dynasty fortress in a desert setting unlike any Wall section near Beijing. Dunhuang (3 hours further west, with a flight or long train) has the Mogao Caves (world-class Buddhist cave paintings, UNESCO listed, advance booking essential) and the Singing Sand Dunes. A Lanzhou–Zhangye–Jiayuguan–Dunhuang itinerary of seven to ten days is one of China's most distinctive overland routes.
-

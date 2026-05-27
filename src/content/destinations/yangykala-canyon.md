@@ -46,11 +46,11 @@ seoTitle: "Yangykala Canyon Travel Guide"
 seoDescription: "Red, white, and pink canyon walls blaze in the Turkmen desert, especially when low sun turns the cliffs molten. Includes timing, access, stay-length, and practical planning notes for Yangykala Canyon."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Yangykala Canyon cuts through the Balkan Region of western Turkmenistan — a 40-kilometre series of escarpments and canyon walls layered in horizontal bands of deep red, cream, and pink sandstone that glow molten at sunset. The canyon was formed by ancient Tethys Sea sediments exposed by erosion, and the alternating bands of iron-rich red and white limestone give it a colour palette that looks painted rather than geological. It sits in the Ustyurt Plateau, a semi-desert tableland between the Caspian Sea and the Aral Sea depression, with no facilities, few visitors, and the specific quality of silence that comes with extreme remoteness. The canyon is one of Central Asia's great geological spectacles and almost entirely unknown outside the overlander and specialist photography community.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Yangykala Canyon fits your time, budget, comfort level, and travel style.
 

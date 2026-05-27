@@ -46,11 +46,11 @@ seoTitle: "Venice Travel Guide"
 seoDescription: "Canals, palaces, stone bridges, and lagoon light make Venice feel like a city floating between history and dream. Includes timing, access, stay-length, and practical planning notes for Venice."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Venice was built on 118 islands in a saltwater lagoon in the northern Adriatic, connected by 400 bridges across 150 canals, with no roads — only water and stone. The city's survival over 1,500 years is a structural improbability matched by the quality of what was built inside it: the Doge's Palace, the Basilica di San Marco with its Byzantine mosaics, the Ca' d'Oro, the Frari church, and the Grand Canal's unbroken sequence of Gothic and Renaissance palaces. In the early morning, before the day-tripper ferries arrive from the mainland, the stone streets and canal reflections produce a silence that makes the city feel suspended — and the light on the lagoon at any hour justifies every painting ever made of it.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Venice fits your time, budget, comfort level, and travel style.
 

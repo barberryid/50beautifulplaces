@@ -47,11 +47,13 @@ seoTitle: "Whitehaven Beach Travel Guide"
 seoDescription: "Silica sand swirls through turquoise shallows in the Whitsundays, creating one of Australia's most dazzling shorelines. Includes timing, access, stay-length, and practical planning notes for Whitehaven Beach."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
-Whitehaven Beach on Whitsunday Island is 7 kilometres of 98% pure silica sand — among the whitest in the world — which doesn't retain heat and squeaks underfoot. The sand is too fine to absorb water and too white to photograph accurately on a clear day. At Hill Inlet at the northern end, tidal movement swirls the fine-grained sand through shallow turquoise channels in patterns that change with every tide and are visible in their full geometry only from the Tongue Point lookout above. There is no development on the beach — no cafes, facilities, or permanent structures — and access is by boat, seaplane, or helicopter only. The Whitsundays sit inside the Great Barrier Reef Marine Park, so the water surrounding the beach is also a protected coral ecosystem.
+Whitehaven Beach on Whitsunday Island is 7 kilometres of 98% pure silica sand — among the whitest in the world — which doesn't retain heat and squeaks underfoot. The sand is too fine to absorb water and too white to photograph accurately on a clear day.
 
-## 10 Practical Tips to Help You Decide
+At Hill Inlet at the northern end, tidal movement swirls the fine-grained sand through shallow turquoise channels in patterns that change with every tide and are visible in their full geometry only from the Tongue Point lookout above. There is no development on the beach — no cafes, facilities, or permanent structures — and access is by boat, seaplane, or helicopter only. The Whitsundays sit inside the Great Barrier Reef Marine Park, so the water surrounding the beach is also a protected coral ecosystem.
+
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Whitehaven Beach fits your time, budget, comfort level, and travel style.
 
@@ -74,4 +76,3 @@ These tips are designed to help you decide whether Whitehaven Beach fits your ti
 9. **The Hill Inlet lookout is the essential viewpoint — timing with the tide matters.** The Tongue Point lookout above Hill Inlet gives the view of swirling white sand channels through turquoise water that defines Whitehaven Beach photography. The sand pattern shifts with the tide — the clearest swirl patterns are typically visible 2–3 hours before or after high tide. Ask your tour operator what time you will reach Hill Inlet on your booking — departure time affects which tidal state you see. Morning light from the lookout is generally better than afternoon.
 
 10. **Combine Whitehaven with a Great Barrier Reef snorkelling or diving day for a complete Whitsundays trip.** The Whitsundays sit on the inner edge of the Great Barrier Reef; dedicated reef pontoons at Hardy Reef and Heart Reef (the famously heart-shaped coral formation) are 1–2 hours by fast boat from Airlie Beach. Most multi-day liveaboard trips combine Whitehaven with reef snorkelling. A seaplane from Airlie Beach or Hamilton Island flies over Heart Reef before landing near Whitehaven — the most expensive but most photographed single trip available in the Whitsundays.
-

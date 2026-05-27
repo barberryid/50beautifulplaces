@@ -59,11 +59,11 @@ seoTitle: "Budapest Travel Guide"
 seoDescription: "The Danube splits a city of glowing bridges, thermal baths, grand cafes, ruin bars, and castle-lit evening walks. Includes timing, access, stay-length, and practical planning notes for Budapest."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Budapest is one of Europe's most generous grand cities: imperial architecture, thermal baths, ruin bars, a serious sense of history, and all of it significantly cheaper than Paris, Vienna, or Amsterdam. The Danube cuts between hilly Buda and flatter Pest, with Parliament, the Castle District, and a sequence of grand bridges creating one of Europe's most dramatic city panoramas. The combination of a river-split setting, a Habsburg-scale built environment, and functioning 19th-century thermal bathhouses in the city centre puts Budapest in a category of its own.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Budapest fits your time, budget, comfort level, and travel style.
 

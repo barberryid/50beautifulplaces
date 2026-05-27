@@ -48,11 +48,11 @@ seoTitle: "Okavango Delta Travel Guide"
 seoDescription: "Floodwater spreads into desert and becomes a maze of reeds, channels, elephants, mokoros, and impossible green life. Includes timing, access, stay-length, and practical planning notes for Okavango Delta."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Okavango is an anomaly: a river that begins in the Angolan highlands, flows south-east for 1,000 kilometres, and then fans into the Kalahari desert — not reaching the sea but spreading into channels, lagoons, reed beds, and papyrus islands that cover up to 15,000 square kilometres at peak flood. The flood peak is counterintuitive — rain falls in Angola in December and January, but the water takes months to arrive, so the delta is at its fullest in the Botswana dry season (June to August) when the surrounding landscape is parched. Elephants wade between islands, hippos hold channels, and a mokoro (dugout canoe) at water level in a papyrus corridor in the early morning — surrounded by birdsong, floating lilies, and reflected sky — is one of the quietest and most complete experiences Africa offers.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Okavango Delta fits your time, budget, comfort level, and travel style.
 

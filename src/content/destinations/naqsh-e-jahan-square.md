@@ -46,11 +46,11 @@ seoTitle: "Naqsh-e Jahan Square Travel Guide"
 seoDescription: "Isfahan's great square gathers turquoise domes, arcades, mosques, and palace facades into one of the world's grandest urban rooms. Includes timing, access, stay-length, and practical planning notes for Naqsh-e Jahan Square."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Naqsh-e Jahan Square — "Image of the World" in Persian — was laid out by Shah Abbas I in the early 17th century as the centrepiece of his new capital, and at 512 by 163 metres it remains one of the largest public squares ever built. The Sheikh Lotfollah Mosque on the east side has no minarets and no courtyard — it was built as Shah Abbas's private royal chapel, its dome covered in cream and buff tiles that glow amber at dusk — while the Imam Mosque on the south closes the axis with a facade of cobalt, turquoise, and gold tilework that took 18 years to complete. The Ali Qapu Palace on the west is six storeys of carved plasterwork stucco, its music room ceiling cut with negative vase shapes to improve resonance. Walk the arcades at evening when Isfahan's families fill the square, and the whole composition — domes, arcades, garden, and chai houses — becomes clear in a way no photograph prepares you for.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Naqsh-e Jahan Square fits your time, budget, comfort level, and travel style.
 

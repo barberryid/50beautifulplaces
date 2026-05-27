@@ -49,11 +49,11 @@ seoDescription: "Beyond Punta Cana, Hispaniola opens into colonial streets, whal
 
 _Country guide with one sharp practical warning, taken straight from the archive._
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Dominican Republic has, by some distance, the Caribbean’s most varied geography: the highest peak in the region (Pico Duarte, 3,098 m), the western hemisphere’s first European colonial city (Santo Domingo, founded 1496), world-class humpback whale breeding grounds in Samaná Bay, and the best kitesurfing on the Caribbean’s north coast. The package-tourist version — the all-inclusive belt around Punta Cana — co-exists with a much richer independent Dominican Republic of deserted south-western beaches, pine-forested mountains, and colonial streets that most visitors never discover. The contrast between the two versions of the country is part of what makes it interesting. This is the Caribbean destination with the most range.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Dominican Republic fits your time, budget, comfort level, and travel style.
 

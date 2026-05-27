@@ -48,11 +48,11 @@ seoTitle: "Southern Patagonia Travel Guide"
 seoDescription: "Glaciers, granite towers, blue lakes, and ferocious wind give the far south a raw end-of-the-world beauty. Includes timing, access, stay-length, and practical planning notes for Southern Patagonia."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Southern Patagonia straddles the southern Andes across Chile and Argentina south of latitude 50°, where glaciers calve into turquoise lakes, granite towers rise directly from the pampas, and the wind is strong enough to knock hikers off their feet in exposed sections. Torres del Paine National Park in Chile anchors the Chilean side — the Torres (granite pillars), Grey Glacier, and Los Cuernos ridgeline visible from almost any point in the circuit. El Chaltén in Argentina is the trekking capital for Fitz Roy and Cerro Torre, two of the most technically challenging peaks in the Andes and two of the world's most photographed mountains. Perito Moreno Glacier, accessible from El Calafate, is one of the few advancing glaciers in the world and can be watched for hours from a boardwalk as sections collapse into Lago Argentina. The distances are immense, the weather is brutal, and the landscape justifies every kilometre of it.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Southern Patagonia fits your time, budget, comfort level, and travel style.
 

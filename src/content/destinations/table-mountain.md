@@ -57,11 +57,11 @@ seoTitle: "Table Mountain Travel Guide"
 seoDescription: "Cape Town unfolds below a flat-topped mountain of cliffs, cloud, fynbos, ocean, and sunset city views. Includes timing, access, stay-length, and practical planning notes for Table Mountain."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Table Mountain rises 1,086 metres directly above Cape Town's city bowl, its flat summit a 3-kilometre-wide sandstone platform visible from ships 200 kilometres out to sea and from virtually every part of the Cape Peninsula. The tablecloth cloud — a thick roll of orographic mist that forms when south-easterly winds pass over the summit — is a weather phenomenon unique to the mountain, appearing and disappearing within minutes. The summit itself holds 1,470 plant species, more than in the entire United Kingdom, many of which exist nowhere else on Earth. From the top, Cape Town spreads below between the mountain, Table Bay, and the Atlantic — Robben Island visible in the bay, the Twelve Apostles ridgeline extending south, and Camps Bay's white beach directly below the western escarpment. The combination of accessible wild summit, botanical rarity, and one of the world's great city-and-ocean views makes Table Mountain unlike any other urban mountain.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Table Mountain fits your time, budget, comfort level, and travel style.
 

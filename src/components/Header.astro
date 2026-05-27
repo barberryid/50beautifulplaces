@@ -31,7 +31,7 @@ const isActive = (item: typeof navItems[number]) => {
       <a
         href={item.href}
         aria-current={isActive(item) ? "page" : undefined}
-        class="rounded-full px-3 py-1.5 text-sm font-bold text-muted transition-colors duration-150 hover:bg-tag-bg hover:text-ink aria-[current=page]:bg-tag-bg aria-[current=page]:text-forest"
+        class="rounded-full border-b-2 border-transparent px-3 py-1.5 text-sm font-bold text-muted transition-colors duration-150 hover:bg-tag-bg hover:text-ink aria-[current=page]:border-sun aria-[current=page]:bg-tag-bg aria-[current=page]:font-extrabold aria-[current=page]:text-ink"
       >
         {item.label}
       </a>

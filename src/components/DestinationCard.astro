@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import type { ImageMetadata } from "astro";
+import type { DestinationImageMetadata } from "../lib/destinationImages";
 
 interface Props {
   href: string;
@@ -8,47 +8,19 @@ interface Props {
   country: string;
   region: string;
   summary: string;
-  image: string;
-  alt: string;
+  image: DestinationImageMetadata;
   tags: string[];
   bestTime: string;
   bestFor?: string[];
   priority?: boolean;
 }
 
-const { href, title, country, region, summary, image, alt, tags, bestTime, bestFor = [], priority = false } = Astro.props;
+const { href, title, country, region, summary, image, tags, bestTime, bestFor = [], priority = false } = Astro.props;
 const chips = (bestFor.length ? bestFor : tags).slice(0, 3);
 const hiddenCount = Math.max((bestFor.length ? bestFor : tags).length - chips.length, 0);
-const localDestinationImages = import.meta.glob<{ default: ImageMetadata }>(
-  "../assets/destinations/*.{jpg,jpeg,png,webp,avif}",
-  { eager: true }
-);
-const localDestinationImageBySource: Record<string, string> = {
-  "https://upload.wikimedia.org/wikipedia/commons/4/48/Volcano_eruption_at_the_Danakil_depression%2C_Ethiopia..jpg":
-    "../assets/destinations/danakil-depression-local.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/8/8e/Djanet-Algeria.jpg":
-    "../assets/destinations/djanet-local.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/c/c1/Fairy_Meadows%2C_Pakistan.jpg":
-    "../assets/destinations/fairy-meadows-local.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/c/c4/Cepphus_columba_columba%2C_Avachinskiy_Zaliv%2C_Kamchatka%2C_Russia_1.jpg":
-    "../assets/destinations/kamchatka-local.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/3/39/Hermit_crab_in_a_seashell%2C_Koh_Yao_Noi%2C_Thailand.jpg":
-    "../assets/destinations/koh-yao-noi-local.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/e/e6/Stade_de_Luxembourg%2C_Luxembourg_vs_Azebaidjan_2021-09-01_%28101%29.jpg":
-    "../assets/destinations/luxembourg-local.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/2/20/Border_Pamir_highway_China.jpg":
-    "../assets/destinations/pamir-highway-local.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/5/56/Sultan_Ahmed_Mosque_Istanbul_Turkey_retouched.jpg":
-    "../assets/destinations/sultan-ahmed-mosque-local.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/7/70/HKBP_Tonga_Tonga%2C_Res._Pangaribuan_Tonga.jpg":
-    "../assets/destinations/tonga-local.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/6/61/Zhangjiajie_National_Forest_Park_%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%2C_Hunan%2C_2023_%2852669865292%29.jpg":
-    "../assets/destinations/zhangjiajie-local.jpg",
-};
-const localImageKey = image.startsWith("/images/destinations/")
-  ? image.replace("/images/destinations/", "../assets/destinations/")
-  : localDestinationImageBySource[image] ?? "";
-const imageSource = localDestinationImages[localImageKey]?.default ?? image;
+const thumbnail = image.image.thumbnail;
+const thumbnailSrc = thumbnail.src as any;
+const showSubtitle = country && country.toLowerCase().trim() !== title.toLowerCase().trim();
 ---
 
 <article
@@ -59,8 +31,8 @@ const imageSource = localDestinationImages[localImageKey]?.default ?? image;
   <a class="destination-card-link group grid h-full" href={href} aria-label={`Read the ${title} guide`}>
     <div class="destination-image-frame overflow-hidden">
       <Image
-        src={imageSource}
-        alt={alt}
+        src={thumbnailSrc}
+        alt={thumbnail.alt}
         width={768}
         height={512}
         widths={[320, 480, 640, 768]}
@@ -81,7 +53,7 @@ const imageSource = localDestinationImages[localImageKey]?.default ?? image;
       <div class="grid gap-1">
         <p class="text-[0.72rem] font-black uppercase tracking-[0.14em] text-clay-text">{region}</p>
         <h3 class="text-xl font-bold leading-snug text-ink">{title}</h3>
-        <p class="text-sm font-semibold text-forest">{country}</p>
+        {showSubtitle && <p class="text-sm font-semibold text-forest">{country}</p>}
       </div>
       <p class="text-sm leading-relaxed text-muted">{summary}</p>
       <div class="destination-when-card" aria-label={`Best time to visit ${title}`}>

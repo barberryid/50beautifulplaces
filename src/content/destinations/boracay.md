@@ -49,11 +49,11 @@ seoDescription: "Four kilometres of powder-white sand face west into blazing sun
 
 _Country guide built around the Philippines’ most famous beach island._
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Four kilometres of powder-fine White Beach face west into the Sulu Sea — so the sunsets are a feature, not an accident. Boracay was closed for six months of environmental rehabilitation in 2018 and the post-rehab island is meaningfully tidier: the beachfront is now car-free, the drainage is proper, and a daily arrival cap limits the worst high-season crush. At its best this is polished tropical beach travel — paraw sails at dusk, reef just offshore, and cold drinks within reach of the water.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Boracay fits your time, budget, comfort level, and travel style.
 

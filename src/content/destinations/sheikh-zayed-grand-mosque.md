@@ -47,11 +47,11 @@ seoTitle: "Sheikh Zayed Grand Mosque Travel Guide"
 seoDescription: "Marble courtyards, domes, columns, and reflective pools make Abu Dhabi's great mosque glow with serene scale. Includes timing, access, stay-length, and practical planning notes for Sheikh Zayed Grand Mosque."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Sheikh Zayed Grand Mosque was completed in 2007 after 12 years of construction and is one of the largest mosques in the world — the main prayer hall alone holds 7,000 worshippers, with the broader complex accommodating 41,000. It was built from white Macedonian marble inlaid with semi-precious stones, its 82 domes rising above a courtyard floor that is itself the world's largest marble mosaic. The reflective pools around the courtyard mirror the white domes in still blue water, and at blue hour — the 20 minutes after sunset — the illuminated marble turns from cream to a warm gold before the colour-changing LED exterior lighting shifts through pale blues and greens. The mosque is an active place of worship and a public architectural landmark simultaneously, and the combination of extraordinary building and genuine religious function gives it a weight that purely tourist monuments lack.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Sheikh Zayed Grand Mosque fits your time, budget, comfort level, and travel style.
 

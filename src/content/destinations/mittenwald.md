@@ -78,11 +78,11 @@ seoTitle: "Mittenwald Travel Guide"
 seoDescription: "Painted Bavarian houses sit below Alpine walls, with violin-making history, mountain trails, and storybook streets in every direction. Includes timing, access, stay-length, and practical planning notes for Mittenwald."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Mittenwald sits on the Austrian border at the foot of the Karwendel massif, one of the Northern Alps' most dramatic limestone walls, which rises to over 2,300 metres directly behind the village. The town's painted façades — Lüftlmalerei murals covering entire house fronts with saints, hunting scenes, and trompe-l'oeil architecture — are a Bavarian tradition taken to its most concentrated expression here. Mittenwald has been a violin-making centre since the 17th century, when Matthias Klotz brought the craft back from Cremona, and the workshops and museum behind the main church form a second layer to the painted-street appeal. The combination of mountain scale, craft heritage, and architectural colour in a single compact village is unlike anywhere else in the Alps.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Mittenwald fits your time, budget, comfort level, and travel style.
 

@@ -46,11 +46,11 @@ seoTitle: "Saint Petersburg Travel Guide"
 seoDescription: "Imperial canals, pastel palaces, vast museums, and northern light give Russia's old capital a dramatic, melancholy grandeur. Includes timing, access, stay-length, and practical planning notes for Saint Petersburg."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Saint Petersburg was built on a swamp by Peter the Great between 1703 and 1725 as a European city carved from Russian will, its canals modelled on Amsterdam and its Baroque palaces designed by Italian and Dutch architects. The Hermitage Museum occupies the Winter Palace and four adjoining buildings on Palace Embankment, holding 3 million objects across 350 rooms of gilded halls, Flemish masters, and Scythian gold. In June, the city sits far enough north that the sun barely sets — the White Nights, when the sky holds a long blue dusk from 11pm to 2am and the Neva bridges open at midnight to let shipping through — give Saint Petersburg a quality of light and atmosphere that no other major European city possesses. The city's architectural and cultural scale is extraordinary; the current barriers to access are equally significant.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Saint Petersburg fits your time, budget, comfort level, and travel style.
 

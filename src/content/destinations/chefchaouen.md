@@ -47,11 +47,11 @@ seoTitle: "Chefchaouen Travel Guide"
 seoDescription: "Blue lanes climb through the Rif Mountains, where morning light, tiled doorways, and quiet rooftops make Morocco feel hushed. Includes timing, access, stay-length, and practical planning notes for Chefchaouen."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Chefchaouen is a compact Moroccan medina painted almost entirely in shades of blue and white, set in a sheltered hollow of the Rif Mountains a few hours south of Tangier. The painted walls, tiled doorways, and stepped alleys create a visual coherence unlike any other Moroccan city — blues ranging from pale chalky washes to deep indigo in the same lane. Morning light hits the alleys before the day-trip crowds arrive, and the view from the Spanish Mosque above town looks back over the whole painted hillside. The surrounding mountains give it a cooler, quieter energy than Marrakesh or Fez.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Chefchaouen fits your time, budget, comfort level, and travel style.
 

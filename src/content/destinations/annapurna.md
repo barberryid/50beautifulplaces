@@ -48,11 +48,11 @@ seoDescription: "Village trails climb from rice terraces to glacier amphitheatre
 
 _A destination guide for the most accessible great-mountain trekking on the planet._
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Annapurna massif is a 55-kilometre wall of seven peaks above 7,000 m, three of them above 8,000 m. Trails fan out from Pokhara into a horseshoe of working Gurung, Magar, and Thakali villages, through rhododendron forest and terraced rice paddies, climbing eventually to glacier-rimmed amphitheatres at the base of the peaks. Compared to Everest, Annapurna treks are lower, greener, more cultural, and more accessible — without sacrificing the Himalayan scale.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Annapurna fits your time, budget, comfort level, and travel style.
 

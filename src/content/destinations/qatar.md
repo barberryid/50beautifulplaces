@@ -48,11 +48,11 @@ seoTitle: "Qatar Travel Guide"
 seoDescription: "Desert dunes, sculptural museums, souqs, mangroves, and a futuristic skyline meet on a compact Gulf peninsula. Includes timing, access, stay-length, and practical planning notes for Qatar."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Qatar is a flat peninsula of desert jutting into the Persian Gulf, a country smaller than Connecticut that has spent the past two decades building one of the Arab world's most concentrated collections of museums and architecture alongside its existing souqs, desert dunes, and mangrove coastline. The Museum of Islamic Art — designed by I.M. Pei on its own island in Doha harbour — houses one of the world's finest collections of Islamic ceramics, metalwork, and textiles. The Sealine Beach area in the south gives access to the Khor Al Adaid (Inland Sea), where desert dunes roll directly into the Gulf and flamingos wade in the shallows. The Corniche at dusk, with the West Bay glass-tower skyline reflected in the harbour and dhows moving in front of it, is one of the Gulf's best urban views.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Qatar fits your time, budget, comfort level, and travel style.
 

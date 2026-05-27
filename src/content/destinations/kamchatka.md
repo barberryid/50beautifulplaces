@@ -48,11 +48,11 @@ seoTitle: "Kamchatka Travel Guide"
 seoDescription: "Volcanoes, hot springs, bear country, and Pacific wilderness make Kamchatka one of Earth's last big raw edges. Includes timing, access, stay-length, and practical planning notes for Kamchatka."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Kamchatka is a 1,200 km peninsula of active volcanoes, geysers, and brown bears on Russia's Pacific coast — a UNESCO World Heritage landscape where the terrestrial and volcanic meet in forms found almost nowhere else on Earth. The Valley of Geysers, Kronotsky Nature Reserve, and Kuril Lake's salmon runs attract the world's densest brown bear concentration. Moving between volcanoes, hot springs, and Pacific coastline requires helicopter charters and expedition-style logistics in a landscape that barely tolerates roads. This is the planet at its most geologically raw, and the same quality that makes Kamchatka extraordinary also makes it inaccessible for most of the year.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Kamchatka fits your time, budget, comfort level, and travel style.
 

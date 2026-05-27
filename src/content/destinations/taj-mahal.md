@@ -47,11 +47,11 @@ seoTitle: "Taj Mahal Travel Guide"
 seoDescription: "White marble, river mist, perfect symmetry, and changing light make the Taj Mahal feel both intimate and monumental. Includes timing, access, stay-length, and practical planning notes for Taj Mahal."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Taj Mahal was built between 1632 and 1653 by Mughal Emperor Shah Jahan as a mausoleum for his wife Mumtaz Mahal, and its construction employed 20,000 artisans from across the Islamic world — Samarkand stonemasons, Bukharan tile-setters, Persian calligraphers. The white Makrana marble inlaid with semi-precious stones changes colour with the light: pearl-white at dawn, warm gold in the midday sun, pink-orange at dusk, and blue-grey in moonlight. The symmetry is absolute — the garden, the reflecting pool, the minarets, the gate — and yet the main dome and the tomb within it carry a quality of grief that the formal perfection somehow amplifies rather than conceals. The Yamuna River forms the northern boundary; from Mehtab Bagh across the river, the building is seen in a completely different relation to the sky. It is one of a small number of buildings in the world that consistently exceeds the expectations set by every photograph of it.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Taj Mahal fits your time, budget, comfort level, and travel style.
 

@@ -77,11 +77,11 @@ seoDescription: "A practical travel guide to Zhangjiajie National Forest Park an
 
 _A mountain-forest landscape of thousands of sandstone pillars rising from mist, forest and ravines in Hunan, China._
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Zhangjiajie's Wulingyuan Scenic Area contains more than 3,000 narrow quartz-sandstone pillars rising from ravines, streams, and broadleaf forest — many over 200 metres tall, with pines and shrubs rooted into their ledges and summits. The pillars are the result of hundreds of millions of years of erosion on an elevated sandstone plateau, with softer rock between resistant columns gradually removed by water. On a misty morning, the valley floor disappears and the pillars appear to float above cloud in the way that made this landscape the visual reference for the floating mountains of Avatar — though the real place is stranger and more varied than the film reference, with macaques, waterfalls, caves, and natural stone bridges threading through the same geography. In clear autumn light the same landscape becomes architectural and golden.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Zhangjiajie fits your time, budget, comfort level, and travel style.
 

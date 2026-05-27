@@ -47,11 +47,11 @@ seoTitle: "Hadahaa Travel Guide"
 seoDescription: "A tiny Maldives island wrapped in reef water, where the horizon, lagoon, and house reef do almost all the talking. Includes timing, access, stay-length, and practical planning notes for Hadahaa."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Hadahaa sits in Gaafu Alifu Atoll in the far south of the Maldives — more isolated than the central tourist atolls and surrounded by reef that sees considerably fewer visitors as a result. The island is tiny enough to walk the perimeter in 20 minutes, but the house reef wraps the entire shoreline with coral and fish immediately accessible from the beach. The lagoon runs through graduated turquoise to deep blue within a few metres, and the horizon in every direction is open Indian Ocean. This is the Maldives for people who want the full version — the silence, the reef access, and the sense of genuine remoteness — rather than a resort backdrop.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Hadahaa fits your time, budget, comfort level, and travel style.
 

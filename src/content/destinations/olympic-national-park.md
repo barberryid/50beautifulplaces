@@ -48,11 +48,11 @@ seoTitle: "Olympic National Park Travel Guide"
 seoDescription: "Rainforest, glacier peaks, moss valleys, driftwood beaches, and stormy Pacific edges all collide in one Washington wilderness. Includes timing, access, stay-length, and practical planning notes for Olympic National Park."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Olympic National Park on Washington's Olympic Peninsula contains three completely separate ecosystems within one park boundary: a temperate rainforest receiving up to 3.7 metres of rain per year, a spine of glaciated alpine peaks rising to 2,428 metres at Mount Olympus, and 130 kilometres of wild Pacific coastline covered in sea stacks, driftwood, and tidal pools. The Hoh Rain Forest — where bigleaf maple trees are draped in hanging moss and the forest floor is a continuous carpet of club moss and fern — looks unlike any landscape in the continental United States. The park's isolation on a peninsula with no through-road forcing visitors to circle rather than cut across adds to the sense that this is genuinely separate terrain from the rest of the Pacific Northwest.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Olympic National Park fits your time, budget, comfort level, and travel style.
 

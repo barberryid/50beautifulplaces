@@ -48,11 +48,11 @@ seoTitle: "Etosha Travel Guide"
 seoDescription: "Wildlife gathers at waterholes on the edge of a vast white pan, turning Namibia's dry season into theatre. Includes timing, access, stay-length, and practical planning notes for Etosha."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Etosha is beautiful because it is stark rather than lush: a vast white salt pan edging the horizon, low dry bush, and waterholes that turn wildlife observation into something almost theatrical. Elephants, lions, rhinos, giraffes, zebra, and springbok appear against an almost minimal backdrop where every movement stands out. The park works on the principle of waiting rather than driving — sitting at a waterhole at dusk as the light changes and animals arrive one by one is the defining Etosha experience. For self-drive travellers, it is one of the most accessible and rewarding safari parks in Africa.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Etosha fits your time, budget, comfort level, and travel style.
 

@@ -47,11 +47,11 @@ seoTitle: "Florence Travel Guide"
 seoDescription: "Renaissance domes, river bridges, marble churches, and honeyed evening streets make Florence feel like art turned into a city. Includes timing, access, stay-length, and practical planning notes for Florence."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Florence is the world's highest concentration of Renaissance art and architecture: Brunelleschi's dome visible from every hill, Michelangelo's David in the Accademia, Botticelli's Primavera in the Uffizi, all within a compact medieval street grid that Dante walked. The stone city along the Arno has a density of beauty that builds rather than overwhelms — streets lined with artisan workshops, palaces, and churches without the theme-park quality of Venice. Evening light on the Arno from the Ponte Vecchio and the view from San Miniato al Monte at dusk give Florence a warmth that its art-history reputation sometimes obscures. It is one of the easier great cities to visit and one of the few where four days is genuinely not enough.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Florence fits your time, budget, comfort level, and travel style.
 

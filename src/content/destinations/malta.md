@@ -68,11 +68,11 @@ seoTitle: "Malta Travel Guide"
 seoDescription: "Honey-stone cities, blue coves, ancient temples, and sea walls stack Mediterranean history into one bright island chain. Includes timing, access, stay-length, and practical planning notes for Malta."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Malta's three main islands are built from the same pale golden limestone — the same stone used in fortified city walls, Baroque churches, sea-front auberges, and 5,000-year-old temple complexes that predate Stonehenge. Valletta, the European Capital of Culture in 2018, packs a UNESCO-listed Baroque capital into one square kilometre of bastioned streets above Grand Harbour. Gozo to the north is quieter and more agricultural, with the Azure Window gone but the Inland Sea and Ggantija temples still standing. The combination of deep-blue sea, warm winter light, and six thousand years of layered history in a place you can cross in under an hour is what makes Malta addictive for return visitors.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Malta fits your time, budget, comfort level, and travel style.
 

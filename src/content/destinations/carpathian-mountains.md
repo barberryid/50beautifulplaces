@@ -47,11 +47,11 @@ seoTitle: "Carpathian Mountains Travel Guide"
 seoDescription: "Romania's wild mountain spine folds castles, bear forests, shepherd ridges, and sharp limestone trails into one cinematic escape. Includes timing, access, stay-length, and practical planning notes for Carpathian Mountains."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Romanian Carpathians hold forested valleys, limestone ridges, shepherd landscapes, ancient wooden villages, medieval castles, and Europe's largest population of brown bears — and the hiking costs a fraction of what it would in the Alps. The range is diverse: Bucegi offers easy access from Bucharest and Brașov, Piatra Craiului gives sharper ridge walks above limestone cliffs, and the Făgăraș ridge runs for 75 kilometres at altitude. The combination of mountain scenery, living cultural landscape, and genuine affordability makes the Carpathians one of Europe's most underrated week-long destinations.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Carpathian Mountains fit your time, budget, comfort level, and travel style.
 

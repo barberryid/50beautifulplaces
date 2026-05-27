@@ -47,11 +47,11 @@ seoTitle: "Pantanal Travel Guide"
 seoDescription: "Brazil's great wetland turns wildlife watching into a daily spectacle of jaguars, caimans, capybaras, birds, and open sky. Includes timing, access, stay-length, and practical planning notes for Pantanal."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Pantanal is the world's largest tropical wetland — roughly 150,000 square kilometres straddling western Brazil, eastern Bolivia, and a corner of Paraguay — and it holds the densest concentration of wildlife in the Americas. Unlike the Amazon, where animals are difficult to spot through dense forest canopy, the Pantanal's open floodplain and river system makes large mammals visible in a way that feels almost African. Jaguars hunt caimans on the river banks of the Cuiabá River in the northern sector; hyacinth macaws — the world's largest flying parrot — nest in the Carandá palms along the Transpantaneira road; giant river otters fish in clear channels while hundreds of jabiru storks circle above. In the dry season, when water concentrates, the density of wildlife around diminishing pools is extraordinary.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Pantanal fits your time, budget, comfort level, and travel style.
 

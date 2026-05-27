@@ -240,7 +240,7 @@
 
 /* ── Guide / markdown prose (rendered from MDX; can't use utilities) ── */
 .guide-content,
-.prose { width: min(720px, 100%); }
+.prose { width: min(68ch, 100%); }
 
 .guide-content h2,
 .prose h2 {
@@ -305,6 +305,13 @@
   border-color: var(--color-forest) !important;
   background: var(--color-forest) !important;
   color: var(--color-cream) !important;
+}
+
+@media (max-width: 560px) {
+  .factor-chip {
+    min-height: 36px;
+    padding: 8px 12px;
+  }
 }
 
 /* Editorial destination detail polish */
@@ -426,7 +433,7 @@
 
 .guide-content,
 .prose {
-  width: min(740px, 100%);
+  width: min(68ch, 100%);
 }
 
 .guide-content h2,

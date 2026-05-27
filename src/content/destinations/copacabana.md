@@ -49,11 +49,11 @@ seoDescription: "Rio's legendary urban beach pulses between granite headlands, s
 
 _A destination guide for the world’s most famous urban beach, set inside a country guide for Brazil._
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Copacabana is Rio de Janeiro’s four-kilometre beach: a crescent of sand between granite headlands, backed by a Roberto Burle Marx-designed mosaic promenade and bookended by Sugarloaf mountain at one end. The beach is a functioning public square for Cariocas — football, futevolei, capoeira, and beach-bar kiosks running from first light until after dark in a rhythm that belongs entirely to Rio. Inland, Copacabana grades into Ipanema and Santa Teresa, making it a natural base for the city’s broader geography of mountains, neighbourhoods, and water. It is the most urban beach on this list, and the contrast between open sea and the city pressed right up behind the sand is the whole point.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Copacabana fits your time, budget, comfort level, and travel style.
 

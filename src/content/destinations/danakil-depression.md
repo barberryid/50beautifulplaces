@@ -50,11 +50,11 @@ seoDescription: "A volcanic rift below sea level where salt caravans, sulphur sp
 
 _A destination guide built directly from trip reports in the archive._
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Danakil Depression is a tectonic spreading rift where Africa is pulling apart — mostly below sea level, with the continent’s lowest dry point at Dallol (−125 m), an active lava lake at Erta Ale visible from the crater rim after dark, and neon-yellow and green sulphur springs that look almost digital against the black rock. Salt-mining camel caravans still cross Lake Karum using methods unchanged for centuries, and the Afar people who live and work in this landscape are one of the most distinct cultures in East Africa. The combination of active volcanic geology, extreme heat, and a functioning desert economy produces an environment that genuinely feels unlike anywhere else on the planet. This is not comfortable travel — it is one of the most extreme accessible landscapes on Earth, and that is the reason to go.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Danakil Depression fits your time, budget, comfort level, and travel style.
 

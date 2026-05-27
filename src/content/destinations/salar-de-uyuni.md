@@ -47,11 +47,11 @@ seoTitle: "Salar de Uyuni Travel Guide"
 seoDescription: "Bolivia's salt flats become a white infinity by day and a mirror of sky after rain, stretching beyond belief. Includes timing, access, stay-length, and practical planning notes for Salar de Uyuni."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 The Salar de Uyuni is 10,582 square kilometres of salt crust at 3,656 metres on the Bolivian altiplano — the world's largest salt flat, deposited when a prehistoric lake evaporated across the high plateau. The surface is so geometrically flat that satellite altimeters use it for calibration; the polygonal salt patterns are visible from above as a perfect tessellated grid. After rain, a shallow film of water covering the crust creates a reflection so precise that sky and ground merge at the horizon and the mountains appear to float. In the dry season, the white-on-white expanse with Isla Incahuasi's cactus columns rising from it is a different kind of extremity. The Salar is the centrepiece of a wider southwest Bolivian landscape that includes coloured volcanic lagoons, flamingos at 4,300 metres, and geysers at Sol de Mañana — one of South America's most concentrated and surreal high-altitude environments.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether the Salar de Uyuni fits your time, budget, comfort level, and travel style.
 

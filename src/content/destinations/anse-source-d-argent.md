@@ -66,11 +66,11 @@ seoTitle: "Anse Source d'Argent Travel Guide"
 seoDescription: "Shallow turquoise water curls around rose-grey granite boulders on La Digue's dreamiest, slowest, most photographed shore. Includes timing, access, stay-length, and practical planning notes for Anse Source d'Argent."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Anse Source d'Argent is the Seychelles beach that looks almost unreal: pale sand, shallow turquoise water, leaning palms, and enormous rose-grey granite boulders arranged like sculpture along the shore. It sits on La Digue, the most relaxed of the main Seychelles islands, where most visitors get around by bicycle and the pace matches the pace of the water. The beach isn't wild or empty, but it is among the most photogenic coastlines in the Indian Ocean — and the island's unhurried tempo makes the whole visit more than just a photographic stop.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Anse Source d'Argent fits your time, budget, comfort level, and travel style.
 

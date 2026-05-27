@@ -49,11 +49,11 @@ seoDescription: "Bacuit Bay is a maze of limestone towers, secret lagoons, reef 
 
 _Destination guide for one of the most photographed coastlines in Southeast Asia._
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 El Nido sits on the north-west tip of Palawan, fringing Bacuit Bay — 30 kilometres of limestone karst islands, hidden lagoons, white-sand beaches, and shallow reefs that have made it one of the most photographed coastlines in Southeast Asia. The four standard island-hopping circuits give access to successive discoveries: Big Lagoon through a narrow karst entrance, Secret Beach behind a cliff wall, Snake Island sandbar extending into open water. The scale and variety of the bay mean four days of boat days still leaves coves unexplored. The town itself is small and mildly chaotic — appropriate framing for a place built around going out on the water.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether El Nido fits your time, budget, comfort level, and travel style.
 

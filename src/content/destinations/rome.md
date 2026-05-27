@@ -47,11 +47,11 @@ seoTitle: "Rome Travel Guide"
 seoDescription: "Ancient ruins, baroque fountains, sun-baked piazzas, and layered street life make Rome feel endlessly inhabited by history. Includes timing, access, stay-length, and practical planning notes for Rome."
 ---
 
-## Why It Is Beautiful
+## Why it is beautiful
 
 Rome has been continuously inhabited for 2,800 years, and its streets show it — a Baroque fountain placed in the centre of a Piazza built over a Roman circus, above a medieval floor, beside a church with a 1st-century column embedded in its façade. The Colosseum stands in an open urban space and can be walked around for free; the Forum beside it runs the length of several city blocks and required the destruction of Renaissance palaces to excavate. Every neighbourhood adds another layer: Trastevere's medieval lanes, the Baroque piazzas of Navona and Campo de' Fiori, the Testaccio market quarter built over an ancient waste mound. The sheer density of architectural and historical material within walking distance of a central hotel makes Rome unlike any other city in the world.
 
-## 10 Practical Tips to Help You Decide
+## 10 practical tips to help you decide
 
 These tips are designed to help you decide whether Rome fits your time, budget, comfort level, and travel style.
 
