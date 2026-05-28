@@ -38,6 +38,7 @@ const localDestinationImages = import.meta.glob<{ default: ImageMetadata }>(
 const localImageBySource: Record<string, string> = {
   "/images/destinations/annapurna.png": "../assets/destinations/annapurna.png",
   "/images/destinations/anse-source-d-argent-1.jpg": "../assets/destinations/anse-source-d-argent-1.jpg",
+  "/images/destinations/arniston-cover.jpg": "../assets/destinations/arniston-cover.jpg",
   "/images/destinations/budapest-cover.png": "../assets/destinations/budapest-cover.png",
   "/images/destinations/carpathian-mountains-cover.jpg": "../assets/destinations/carpathian-mountains-cover.jpg",
   "/images/destinations/chinguetti-5.jpg": "../assets/destinations/chinguetti-5.jpg",
