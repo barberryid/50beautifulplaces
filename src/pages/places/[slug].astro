@@ -446,7 +446,16 @@ const jsonLd = [attractionJsonLd, articleJsonLd, breadcrumbJsonLd];
                 loading="lazy" decoding="async"
                 class={`${image.featured ? "aspect-[2/1]" : "aspect-[3/2]"} w-full rounded-xl object-cover`}
               />
-              {image.caption && <figcaption class="mt-2 text-sm text-muted">{image.caption}</figcaption>}
+              {(image.caption || image.credit) && (
+                <figcaption class="mt-2 text-sm text-muted">
+                  {image.caption}
+                  {image.caption && image.credit && <span> </span>}
+                  {image.credit && image.creditUrl && (
+                    <a class="underline underline-offset-2" href={image.creditUrl} rel="noopener noreferrer">{image.credit}</a>
+                  )}
+                  {image.credit && !image.creditUrl && image.credit}
+                </figcaption>
+              )}
             </figure>
           ))}
         </div>
