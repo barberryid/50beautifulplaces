@@ -43,7 +43,7 @@ bestFor:
   - "Photography"
   - "Road trips"
   - "Family-friendly natural beauty"
-realisticVisit: "Yes. Copacabana is a practical base for Lake Titicaca, but altitude, bus routes, border logistics, and boat schedules should be checked before planning a tight itinerary."
+realisticVisit: "Yes. Copacabana is one of the most accessible beaches on this list, with frequent international flights into Rio, a wide range of hotels, and easy transport — but check entry requirements, book Christ the Redeemer and Sugarloaf ahead, and keep sensible city-safety habits in mind."
 whenToGo:
   summary: "Best: May-Oct. Good: Apr, Nov. Rainy: Dec-Mar."
   jan: "Rainy"
@@ -58,13 +58,13 @@ whenToGo:
   oct: "Best"
   nov: "Good"
   dec: "Rainy"
-comparisonGroup: "Copacabana vs Luxor vs Chinguetti - historic and cultural settings shaped by intense landscape."
-physicalDifficulty: "Easy to moderate because of altitude"
+comparisonGroup: "Copacabana vs Venice vs Budapest - iconic urban settings where a famous city presses right up against the water."
+physicalDifficulty: "Easy on the beach and promenade; moderate only if you add the Sugarloaf or Dois Irmãos trails"
 logisticalDifficulty: "Needs some planning"
 perfectFor:
-  - "Travellers combining Bolivia and Peru, lake views, island trips, churches, markets, and high-altitude atmosphere"
+  - "Travellers who want Rio's full energy: beach life, the promenade, Sugarloaf, Christ the Redeemer, samba nights, and a properly Carioca city experience"
 notIdealFor:
-  - "Visitors sensitive to altitude or expecting a polished lakeside resort"
+  - "Visitors after a quiet, palm-shaded resort beach with no crowds or city noise"
 tags: ["Beach","Cities","Culture"]
 featured: false
 seoTitle: "Copacabana Travel Guide"
