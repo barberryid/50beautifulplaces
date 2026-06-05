@@ -41,7 +41,7 @@ duration: "2 to 5 days"
 bestFor:
   - "Culture and architecture"
   - "Photography"
-  - "Road trips"
+  - "Easy luxury trips"
   - "Family-friendly natural beauty"
 realisticVisit: "Yes. Copacabana is one of the most accessible beaches on this list, with frequent international flights into Rio, a wide range of hotels, and easy transport — but check entry requirements, book Christ the Redeemer and Sugarloaf ahead, and keep sensible city-safety habits in mind."
 whenToGo:
