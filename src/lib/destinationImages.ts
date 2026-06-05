@@ -45,6 +45,7 @@ const localImageBySource: Record<string, string> = {
   "/images/destinations/copacabana-cover.jpg": "../assets/destinations/copacabana-cover.jpg",
   "/images/destinations/danakil-depression-cover.jpg": "../assets/destinations/danakil-depression-cover.jpg",
   "/images/destinations/dettifoss-1.jpg": "../assets/destinations/dettifoss-1.jpg",
+  "/images/destinations/fairy-meadows-cover.jpg": "../assets/destinations/fairy-meadows-cover.jpg",
   "/images/destinations/fig-tree-beach-cover.jpg": "../assets/destinations/fig-tree-beach-cover.jpg",
   "/images/destinations/malta-3.jpg": "../assets/destinations/malta-3.jpg",
   "/images/destinations/mittenwald-cover.jpg": "../assets/destinations/mittenwald-cover.jpg",
