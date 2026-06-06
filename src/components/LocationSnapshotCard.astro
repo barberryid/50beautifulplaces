@@ -10,6 +10,7 @@ type LocationSnapshot = {
   locationVerdict?: string;
   bestFor?: string[];
   nearbyAnchors?: NearbyAnchor[];
+  neighboringCountries?: string[];
   regionLabel?: string;
   googleMapsUrl?: string;
   mapPreview?: {
@@ -55,6 +56,68 @@ const formatList = (items: string[]) => {
   if (items.length === 2) return `${items[0]} and ${items[1]}`;
   return `${items.slice(0, -1).join(", ")} and ${items.at(-1)}`;
 };
+const countryAliases: Record<string, string> = {
+  "Cape Town, South Africa": "South Africa",
+  "Chile and Argentina": "Chile / Argentina",
+  "Isfahan, Iran": "Iran",
+  "Istanbul, Turkey": "Turkey",
+  "Utah, USA": "USA",
+  "Washington State, USA": "USA",
+  "Zambia and Zimbabwe": "Zambia / Zimbabwe"
+};
+const neighboringCountryLabels: Record<string, string[]> = {
+  Algeria: ["Morocco", "Tunisia", "Niger"],
+  Argentina: ["Chile", "Bolivia", "Uruguay"],
+  Australia: ["Indonesia", "Papua New Guinea", "New Zealand"],
+  Bolivia: ["Peru", "Chile", "Brazil"],
+  Botswana: ["Namibia", "Zambia", "South Africa"],
+  Brazil: ["Argentina", "Bolivia", "Peru"],
+  "Chile and Argentina": ["Bolivia", "Brazil", "Uruguay"],
+  China: ["Mongolia", "Kazakhstan", "Vietnam"],
+  Colombia: ["Panama", "Ecuador", "Venezuela"],
+  Cyprus: ["Turkey", "Syria", "Lebanon"],
+  Dominica: ["Guadeloupe", "Martinique", "St Lucia"],
+  "Dominican Republic": ["Haiti", "Puerto Rico", "Cuba"],
+  Ethiopia: ["Eritrea", "Djibouti", "Kenya"],
+  Germany: ["France", "Austria", "Poland"],
+  Greece: ["Albania", "Turkey", "Bulgaria"],
+  Hungary: ["Austria", "Slovakia", "Romania"],
+  Iceland: ["Greenland", "Faroe Islands", "Norway"],
+  India: ["Pakistan", "Nepal", "Bangladesh"],
+  "Isfahan, Iran": ["Iraq", "Turkmenistan", "Pakistan"],
+  "Istanbul, Turkey": ["Greece", "Bulgaria", "Georgia"],
+  Italy: ["France", "Switzerland", "Austria"],
+  Luxembourg: ["Belgium", "France", "Germany"],
+  Madagascar: ["Mozambique", "Tanzania", "Seychelles"],
+  Maldives: ["India", "Sri Lanka", "Seychelles"],
+  Malta: ["Italy", "Tunisia", "Libya"],
+  Mauritania: ["Morocco", "Senegal", "Mali"],
+  Morocco: ["Spain", "Algeria", "Mauritania"],
+  Namibia: ["Angola", "Botswana", "South Africa"],
+  Nepal: ["India", "China", "Bhutan"],
+  Pakistan: ["India", "Afghanistan", "China"],
+  Philippines: ["Taiwan", "Malaysia", "Indonesia"],
+  Qatar: ["Saudi Arabia", "Bahrain", "UAE"],
+  Romania: ["Hungary", "Bulgaria", "Ukraine"],
+  Russia: ["Finland", "Estonia", "Kazakhstan"],
+  Seychelles: ["Kenya", "Tanzania", "Madagascar"],
+  "South Africa": ["Namibia", "Botswana", "Mozambique"],
+  "Cape Town, South Africa": ["Namibia", "Botswana", "Mozambique"],
+  Tajikistan: ["Uzbekistan", "Kyrgyzstan", "Afghanistan"],
+  Tanzania: ["Kenya", "Uganda", "Mozambique"],
+  Thailand: ["Myanmar", "Laos", "Cambodia"],
+  Tonga: ["Fiji", "Samoa", "New Zealand"],
+  "Trinidad & Tobago": ["Venezuela", "Grenada", "Guyana"],
+  Turkmenistan: ["Iran", "Uzbekistan", "Kazakhstan"],
+  "United Arab Emirates": ["Oman", "Saudi Arabia", "Qatar"],
+  USA: ["Canada", "Mexico", "Caribbean"],
+  "Utah, USA": ["Canada", "Mexico", "Pacific"],
+  "Washington State, USA": ["Canada", "Mexico", "Pacific"],
+  Uzbekistan: ["Kazakhstan", "Kyrgyzstan", "Tajikistan"],
+  Venezuela: ["Colombia", "Brazil", "Guyana"],
+  Yemen: ["Saudi Arabia", "Oman", "Djibouti"],
+  "Zambia and Zimbabwe": ["Botswana", "Mozambique", "Namibia"]
+};
 
 const regionLabel = clean(locationSnapshot?.regionLabel)
   ?? clean(locationSnapshot?.area)
@@ -76,11 +139,11 @@ const nearbyAnchors = (locationSnapshot?.nearbyAnchors ?? [])
   .filter((anchor) => clean(anchor.name))
   .slice(0, 3);
 
+const countryDisplay = clean(countryAliases[country]) ?? country;
 const mapLabels = unique([
-  ...(locationSnapshot?.fallbackMap?.nearby ?? []),
-  ...nearbyAnchors.map((anchor) => anchor.name ?? ""),
-  clean(locationSnapshot?.area) ?? "",
-  country
+  ...(locationSnapshot?.neighboringCountries ?? []),
+  ...(neighboringCountryLabels[country] ?? neighboringCountryLabels[countryDisplay] ?? []),
+  region
 ]).slice(0, 3);
 
 const fallbackMapLabel = clean(locationSnapshot?.fallbackMap?.label)
@@ -151,35 +214,44 @@ const shouldRender = Boolean(locationVerdict && googleMapsUrl);
       ) : (
         <div class="fallback-map relative h-full min-h-[18rem] overflow-hidden bg-[#efe6d5]">
           <svg class="absolute inset-0 h-full w-full" viewBox="0 0 520 360" aria-hidden="true">
-            <path d="M-30 90 C80 30 145 125 235 102 C335 76 386 10 550 58" fill="none" stroke="#d4c5ad" stroke-width="18" stroke-linecap="round" opacity="0.75" />
-            <path d="M-15 270 C92 205 158 282 246 238 C336 194 414 232 540 168" fill="none" stroke="#d8c9b2" stroke-width="14" stroke-linecap="round" opacity="0.82" />
-            <path d="M60 335 C164 268 216 303 294 254 C372 205 397 117 514 96" fill="none" stroke="#b88a44" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 16" opacity="0.68" />
-            <path d="M52 52 L132 34 L184 78 L278 42 L356 82 L452 58 L540 102 L540 360 L0 360 L0 86 Z" fill="#f7f1e6" opacity="0.62" />
+            <rect width="520" height="360" fill="#efe6d5" />
+            <path d="M-28 38 L112 16 L174 108 L88 178 L-26 152 Z" fill="#ddd0bb" opacity="0.7" />
+            <path d="M404 8 L550 40 L532 172 L412 146 L356 72 Z" fill="#ddd0bb" opacity="0.72" />
+            <path d="M-20 250 L116 210 L188 278 L120 378 L-28 360 Z" fill="#d8cab2" opacity="0.72" />
+            <path d="M346 238 L536 206 L540 370 L322 370 Z" fill="#d8cab2" opacity="0.68" />
+            <path d="M110 92 L238 46 L356 96 L402 205 L314 300 L168 278 L88 178 Z" fill="#f7f1e6" stroke="#cbbca3" stroke-width="3" />
+            <path d="M158 130 C222 101 292 111 360 84" fill="none" stroke="#d4c5ad" stroke-width="12" stroke-linecap="round" opacity="0.7" />
+            <path d="M118 224 C194 192 260 230 358 188" fill="none" stroke="#d4c5ad" stroke-width="11" stroke-linecap="round" opacity="0.72" />
+            <path d="M126 294 C208 242 278 258 392 204" fill="none" stroke="#b88a44" stroke-width="4" stroke-linecap="round" stroke-dasharray="9 15" opacity="0.64" />
           </svg>
 
-          <div class="absolute left-[50%] top-[47%] z-10 grid -translate-x-1/2 -translate-y-1/2 place-items-center text-center">
+          <span class="absolute left-[50%] top-[16%] z-10 max-w-[12rem] -translate-x-1/2 rounded-full border border-clay/25 bg-surface/95 px-4 py-1.5 text-center text-xs font-black uppercase leading-tight tracking-[0.08em] text-clay-text shadow-sm">
+            {countryDisplay}
+          </span>
+
+          <div class="absolute left-[50%] top-[52%] z-10 grid -translate-x-1/2 -translate-y-1/2 place-items-center text-center">
             <span class="grid h-14 w-14 place-items-center rounded-full bg-clay text-xl font-black text-cream shadow-[0_12px_24px_rgba(20,33,29,0.2)]" aria-hidden="true">&bull;</span>
-            <strong class="mt-3 max-w-[11rem] rounded-full bg-surface/95 px-4 py-1.5 text-sm font-black leading-tight text-forest shadow-[0_8px_18px_rgba(20,33,29,0.12)]">{fallbackMapLabel}</strong>
+            <strong class="mt-3 max-w-[12rem] rounded-full bg-surface/95 px-4 py-1.5 text-sm font-black leading-tight text-forest shadow-[0_8px_18px_rgba(20,33,29,0.12)]">{fallbackMapLabel}</strong>
           </div>
 
           {mapLabels[0] && (
-            <span class="absolute left-[9%] top-[17%] z-10 max-w-[8rem] rounded-full border border-line bg-surface/90 px-3 py-1 text-center text-xs font-black leading-tight text-forest shadow-sm">
+            <span class="absolute left-[7%] top-[15%] z-10 max-w-[8rem] rounded-full border border-line bg-surface/90 px-3 py-1 text-center text-xs font-black leading-tight text-forest shadow-sm">
               {mapLabels[0]}
             </span>
           )}
           {mapLabels[1] && (
-            <span class="absolute right-[4%] top-[25%] z-10 max-w-[8rem] rounded-full border border-line bg-surface/90 px-3 py-1 text-center text-xs font-black leading-tight text-forest shadow-sm">
+            <span class="absolute right-[6%] top-[22%] z-10 max-w-[8rem] rounded-full border border-line bg-surface/90 px-3 py-1 text-center text-xs font-black leading-tight text-forest shadow-sm">
               {mapLabels[1]}
             </span>
           )}
           {mapLabels[2] && (
-            <span class="absolute bottom-[18%] left-[13%] z-10 max-w-[8rem] rounded-full border border-line bg-surface/90 px-3 py-1 text-center text-xs font-black leading-tight text-forest shadow-sm">
+            <span class="absolute bottom-[20%] left-[10%] z-10 max-w-[8rem] rounded-full border border-line bg-surface/90 px-3 py-1 text-center text-xs font-black leading-tight text-forest shadow-sm">
               {mapLabels[2]}
             </span>
           )}
 
           <p class="absolute inset-x-4 bottom-4 z-10 rounded-lg bg-ink/80 px-3 py-2 text-xs font-semibold leading-snug text-cream">
-            Illustrative location snapshot. Open Google Maps for exact location.
+            Regional orientation only. Open Google Maps for exact location.
           </p>
         </div>
       )}

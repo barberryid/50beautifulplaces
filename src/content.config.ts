@@ -79,6 +79,7 @@ const destinations = defineCollection({
         type: z.string().optional(),
         distance: z.string().optional()
       })).optional(),
+      neighboringCountries: z.array(z.string()).optional(),
       regionLabel: z.string().optional(),
       googleMapsUrl: z.string().url().optional(),
       coordinates: z.object({
