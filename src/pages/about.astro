@@ -1,7 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const heroImage = "/images/about-garmisch-panorama.jpg";
 const aboutAnimationImage = "/images/about-animation.png";
 const travelSceneImage = "/images/about-travel-scene.jpg";
 
@@ -34,31 +33,32 @@ const jsonLd = [
 <BaseLayout
   title="About Me | 50 Beautiful Places"
   description="Learn why 50 Beautiful Places was created: a personal travel project focused on awe-inspiring landscapes, meaningful travel experiences, cultural depth, and practical destination guidance."
-  image={heroImage}
-  imageAlt="Panoramic Alpine landscape near Garmisch-Partenkirchen, Germany"
+  image={aboutAnimationImage}
+  imageAlt="Animated travel scene for 50 Beautiful Places"
   preloadImage
   jsonLd={jsonLd}
 >
-  <!-- About hero -->
-  <section class="about-hero grid min-h-[min(74svh,680px)] items-end bg-forest">
+  <!-- Top artwork -->
+  <figure class="grid min-h-[calc(100svh-4.6rem)] w-full items-start justify-items-center bg-[#f5f0e8] px-4 py-6">
     <img
-      src={heroImage}
-      alt="Panoramic Alpine landscape near Garmisch-Partenkirchen, Germany"
-      width="1600" height="1000"
+      src={aboutAnimationImage}
+      alt="Animated travel scene for 50 Beautiful Places"
+      width="1024" height="1536"
       fetchpriority="high"
-      class="absolute inset-0 h-full w-full object-cover"
+      class="h-auto max-h-[calc(100svh-7rem)] w-auto max-w-full object-contain shadow-card"
     />
-    <div class="relative z-10 mx-auto w-full max-w-[1180px] px-4 pb-[clamp(3rem,10vw,7rem)] text-cream [text-shadow:0_2px_18px_rgba(0,0,0,0.62)]">
-      <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-sun">About Me</p>
-      <h1 class="max-w-[11ch] text-cream">Why I created 50 Beautiful Places</h1>
-      <p class="mt-5 max-w-[42rem] text-[clamp(1.1rem,2vw,1.35rem)] text-cream/85">
-        I created 50 Beautiful Places because I have spent much of my life searching for places that create a genuine sense of awe.
-      </p>
-    </div>
-  </section>
+  </figure>
 
   <!-- Intro prose -->
-  <section class="prose mx-auto w-full max-w-[760px] px-4 pt-[clamp(3rem,7vw,5rem)]">
+  <section class="mx-auto w-full max-w-[1180px] px-4 pt-[clamp(3rem,7vw,5rem)]">
+    <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">About Me</p>
+    <h1 class="max-w-[11ch] text-forest">Why I created 50 Beautiful Places</h1>
+    <p class="mt-5 max-w-[42rem] text-[clamp(1.1rem,2vw,1.35rem)] text-muted">
+      I created 50 Beautiful Places because I have spent much of my life searching for places that create a genuine sense of awe.
+    </p>
+  </section>
+
+  <section class="prose mx-auto w-full max-w-[760px] px-4 pt-[clamp(2rem,5vw,4rem)]">
     <h2>A Life Shaped by Travel</h2>
     <p>
       Not just famous landmarks or luxury resorts, but the kinds of places that stay in your memory for years.
@@ -75,18 +75,6 @@ const jsonLd = [
       and deeply connected to nature or history.
     </p>
   </section>
-
-  <!-- About animation -->
-  <figure class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(2rem,5vw,4rem)]">
-    <img
-      src={aboutAnimationImage}
-      alt="Animated travel scene for 50 Beautiful Places"
-      width="1600" height="900"
-      loading="lazy"
-      decoding="async"
-      class="aspect-[2.25/1] w-full rounded-xl object-cover shadow-card"
-    />
-  </figure>
 
   <!-- Feature band -->
   <section class="mx-auto w-full max-w-[1180px] px-4 py-[clamp(2rem,5vw,4rem)]" aria-label="What 50 Beautiful Places values">
