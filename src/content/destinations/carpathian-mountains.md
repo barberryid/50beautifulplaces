@@ -7,6 +7,32 @@ mainImage: "/images/destinations/carpathian-mountains-cover.jpg"
 imageAlt: "Mountain house above forested Carpathian ridges in Romania"
 imageCredit: "Photo by Bogdan Vlad on Unsplash"
 imageCreditUrl: "https://unsplash.com/photos/a-house-on-top-of-a-mountain-surrounded-by-trees-82rA_OaVFkg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+locationSnapshot:
+  area: "Romanian Carpathians"
+  locationVerdict: "Across Romania's mountain arc, useful for forested ridges, bear-country landscapes, castles and traditional villages."
+  bestFor:
+    - "Mountain scenery"
+    - "Forest trails"
+    - "Castles"
+    - "Village stays"
+  nearbyAnchors:
+    - name: "Brasov"
+      type: "city base"
+      distance: "common access point"
+    - name: "Bran / Rasnov area"
+      type: "castle country"
+      distance: "regional anchor"
+    - name: "Piatra Craiului"
+      type: "mountain park"
+      distance: "hiking area"
+  regionLabel: "Romania"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Carpathian%20Mountains%20Romania"
+  fallbackMap:
+    label: "Mountain region"
+    nearby:
+      - "Brasov"
+      - "Castles"
+      - "National parks"
 galleryImages:
   - src: "/images/destinations/carpathian-mountains-2.jpg"
     alt: "Green fields and forested hills in the Carpathian Mountains under a blue sky"

@@ -7,6 +7,32 @@ mainImage: "/images/destinations/fairy-meadows-cover.jpg"
 imageAlt: "Two travellers with arms raised on the green Fairy Meadows alpine meadow, with the snow face of Nanga Parbat behind and a pond reflection in front"
 imageCredit: "Fairy Meadows images supplied by 50 Beautiful Places"
 imageCreditUrl: "https://50beautifulplaces.com/places/fairy-meadows/"
+locationSnapshot:
+  area: "Nanga Parbat / Gilgit-Baltistan"
+  locationVerdict: "Below Nanga Parbat in northern Pakistan, useful for huge mountain views, meadow walks and a dramatic but demanding approach journey."
+  bestFor:
+    - "Mountain views"
+    - "Remote meadows"
+    - "Nanga Parbat"
+    - "Adventure travel"
+  nearbyAnchors:
+    - name: "Raikot Bridge"
+      type: "road access point"
+      distance: "start of the jeep approach"
+    - name: "Tato village"
+      type: "trailhead village"
+      distance: "before the final walk"
+    - name: "Nanga Parbat viewpoint"
+      type: "mountain view"
+      distance: "main reason to visit"
+  regionLabel: "Gilgit-Baltistan, Pakistan"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Fairy%20Meadows%20Pakistan"
+  fallbackMap:
+    label: "Mountain meadow base"
+    nearby:
+      - "Raikot Bridge"
+      - "Tato village"
+      - "Nanga Parbat"
 galleryImages:
   - src: "/images/destinations/fairy-meadows-1.jpg"
     alt: "Travellers on a dusty mountain trail looking toward the snow-covered face of Nanga Parbat across a glacial valley"
@@ -86,4 +112,3 @@ These tips are designed to help you decide whether Fairy Meadows fits your time,
 9. **Altitude at 3,300 m requires basic acclimatisation — don't rush upward on arrival.** Fairy Meadows sits at around 3,300 m — high enough for headaches and fatigue in travellers arriving from low altitude. Spend the first day at the meadow, drink water, and walk slowly. Beyal Camp at 3,700 m and the base camp approach at ~4,200 m require additional acclimatisation time and a local guide for anyone not already altitude-adapted. Diamox is widely available in Islamabad pharmacies if you want prophylactic coverage.
 
 10. **Combine Fairy Meadows with Hunza Valley and the wider Karakoram for a complete northern Pakistan trip.** Fairy Meadows is one highlight in a region full of them. Hunza Valley (Karimabad, Baltit Fort, Rakaposhi views) is one of the most beautiful valleys in Asia and easily combined with the same Gilgit base. The Attabad Lake and Khunjerab Pass at the Chinese border (5,000 m) round out a 10–14 day Karakoram circuit that ranks among Asia's great mountain road trips.
-

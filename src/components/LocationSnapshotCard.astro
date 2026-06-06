@@ -1,0 +1,188 @@
+---
+type NearbyAnchor = {
+  name?: string;
+  type?: string;
+  distance?: string;
+};
+
+type LocationSnapshot = {
+  area?: string;
+  locationVerdict?: string;
+  bestFor?: string[];
+  nearbyAnchors?: NearbyAnchor[];
+  regionLabel?: string;
+  googleMapsUrl?: string;
+  mapPreview?: {
+    image?: string;
+    alt?: string;
+  };
+  fallbackMap?: {
+    label?: string;
+    nearby?: string[];
+  };
+};
+
+type Props = {
+  locationSnapshot?: LocationSnapshot;
+  title: string;
+  shortTitle?: string;
+  country: string;
+  region: string;
+  countryRegionLabel?: string;
+  googleMapsQuery?: string;
+  summary?: string;
+  bestFor?: string[];
+  tags?: string[];
+};
+
+const {
+  locationSnapshot,
+  title,
+  shortTitle = title,
+  country,
+  region,
+  countryRegionLabel,
+  googleMapsQuery,
+  summary,
+  bestFor = [],
+  tags = []
+} = Astro.props;
+
+const clean = (value?: string) => value?.trim();
+const unique = (items: string[]) => [...new Set(items.map((item) => item.trim()).filter(Boolean))];
+const formatList = (items: string[]) => {
+  if (items.length <= 1) return items[0] ?? "";
+  if (items.length === 2) return `${items[0]} and ${items[1]}`;
+  return `${items.slice(0, -1).join(", ")} and ${items.at(-1)}`;
+};
+
+const regionLabel = clean(locationSnapshot?.regionLabel)
+  ?? clean(locationSnapshot?.area)
+  ?? clean(countryRegionLabel)
+  ?? `${country} / ${region}`;
+
+const chips = unique([...(locationSnapshot?.bestFor ?? []), ...bestFor, ...tags]).slice(0, 4);
+const fallbackTheme = formatList(chips.slice(0, 3).map((item) => item.toLowerCase()));
+const generatedVerdict = fallbackTheme
+  ? `${shortTitle} is in ${regionLabel}, useful for ${fallbackTheme} before you choose routes, bases, and timing.`
+  : summary;
+const locationVerdict = clean(locationSnapshot?.locationVerdict) ?? clean(generatedVerdict);
+
+const mapQuery = clean(googleMapsQuery) ?? `${shortTitle}, ${country}`;
+const googleMapsUrl = clean(locationSnapshot?.googleMapsUrl)
+  ?? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery)}`;
+
+const nearbyAnchors = (locationSnapshot?.nearbyAnchors ?? [])
+  .filter((anchor) => clean(anchor.name))
+  .slice(0, 3);
+
+const mapLabels = unique([
+  ...(locationSnapshot?.fallbackMap?.nearby ?? []),
+  ...nearbyAnchors.map((anchor) => anchor.name ?? ""),
+  clean(locationSnapshot?.area) ?? "",
+  country
+]).slice(0, 3);
+
+const fallbackMapLabel = clean(locationSnapshot?.fallbackMap?.label)
+  ?? clean(locationSnapshot?.area)
+  ?? shortTitle;
+
+const mapPreview = locationSnapshot?.mapPreview;
+const hasMapPreview = Boolean(clean(mapPreview?.image) && clean(mapPreview?.alt));
+const shouldRender = Boolean(locationVerdict && googleMapsUrl);
+---
+
+{shouldRender && (
+  <section class="location-snapshot-card mt-8 grid gap-5 rounded-2xl border border-clay/25 bg-[#f8f5ef] p-[clamp(1rem,3vw,1.5rem)] shadow-[0_18px_48px_rgba(20,33,29,0.08)] lg:grid-cols-[minmax(0,1.05fr)_minmax(18rem,0.95fr)] lg:items-stretch" aria-labelledby="location-snapshot-heading">
+    <div class="location-copy grid gap-4 rounded-xl bg-surface p-[clamp(1rem,3vw,1.35rem)]">
+      <div>
+        <p class="eyebrow mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Location</p>
+        <h2 id="location-snapshot-heading" class="max-w-none text-[clamp(1.45rem,3vw,2.2rem)]">Where this place is</h2>
+      </div>
+
+      <p class="location-verdict text-[1.02rem] font-semibold leading-relaxed text-ink">{locationVerdict}</p>
+
+      {chips.length > 0 && (
+        <div class="location-chips flex flex-wrap gap-2" aria-label="Best for">
+          {chips.map((chip) => (
+            <span class="rounded-full border border-line bg-tag-bg px-3 py-1 text-[0.78rem] font-black leading-tight text-forest">{chip}</span>
+          ))}
+        </div>
+      )}
+
+      {nearbyAnchors.length > 0 && (
+        <div class="nearby-anchors rounded-lg border border-line bg-paper/70 p-4">
+          <h3 class="mb-2 text-base font-black text-forest">Nearby</h3>
+          <ul class="m-0 grid gap-2 p-0">
+            {nearbyAnchors.map((anchor) => (
+              <li class="grid gap-0.5 border-l-2 border-clay/55 pl-3 text-sm">
+                <strong class="font-black text-ink">{anchor.name}</strong>
+                {(clean(anchor.type) || clean(anchor.distance)) && (
+                  <span class="text-muted">
+                    {[clean(anchor.type), clean(anchor.distance)].filter(Boolean).join(" / ")}
+                  </span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {regionLabel && (
+        <p class="address-or-region text-sm font-black text-clay-text">{regionLabel}</p>
+      )}
+
+      <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" class="maps-button inline-flex min-h-[2.9rem] w-full items-center justify-center rounded-full bg-forest px-5 text-center text-sm font-black text-cream transition-opacity hover:opacity-90 sm:w-max">
+        Open location on Google Maps <span class="sr-only">opens in a new tab</span>
+      </a>
+    </div>
+
+    <div class="mini-map-preview relative min-h-[18rem] overflow-hidden rounded-xl border border-line bg-[#eee7da]" aria-label={`Illustrative location snapshot for ${shortTitle}; open Google Maps for exact location`}>
+      {hasMapPreview ? (
+        <img
+          src={mapPreview?.image}
+          alt={mapPreview?.alt}
+          width="900"
+          height="650"
+          loading="lazy"
+          decoding="async"
+          class="h-full min-h-[18rem] w-full object-cover"
+        />
+      ) : (
+        <div class="fallback-map relative h-full min-h-[18rem] overflow-hidden bg-[#efe6d5]">
+          <svg class="absolute inset-0 h-full w-full" viewBox="0 0 520 360" aria-hidden="true">
+            <path d="M-30 90 C80 30 145 125 235 102 C335 76 386 10 550 58" fill="none" stroke="#d4c5ad" stroke-width="18" stroke-linecap="round" opacity="0.75" />
+            <path d="M-15 270 C92 205 158 282 246 238 C336 194 414 232 540 168" fill="none" stroke="#d8c9b2" stroke-width="14" stroke-linecap="round" opacity="0.82" />
+            <path d="M60 335 C164 268 216 303 294 254 C372 205 397 117 514 96" fill="none" stroke="#b88a44" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 16" opacity="0.68" />
+            <path d="M52 52 L132 34 L184 78 L278 42 L356 82 L452 58 L540 102 L540 360 L0 360 L0 86 Z" fill="#f7f1e6" opacity="0.62" />
+          </svg>
+
+          <div class="absolute left-[50%] top-[47%] z-10 grid -translate-x-1/2 -translate-y-1/2 place-items-center text-center">
+            <span class="grid h-14 w-14 place-items-center rounded-full bg-clay text-xl font-black text-cream shadow-[0_12px_24px_rgba(20,33,29,0.2)]" aria-hidden="true">&bull;</span>
+            <strong class="mt-3 max-w-[11rem] rounded-full bg-surface/95 px-4 py-1.5 text-sm font-black leading-tight text-forest shadow-[0_8px_18px_rgba(20,33,29,0.12)]">{fallbackMapLabel}</strong>
+          </div>
+
+          {mapLabels[0] && (
+            <span class="absolute left-[9%] top-[17%] z-10 max-w-[8rem] rounded-full border border-line bg-surface/90 px-3 py-1 text-center text-xs font-black leading-tight text-forest shadow-sm">
+              {mapLabels[0]}
+            </span>
+          )}
+          {mapLabels[1] && (
+            <span class="absolute right-[4%] top-[25%] z-10 max-w-[8rem] rounded-full border border-line bg-surface/90 px-3 py-1 text-center text-xs font-black leading-tight text-forest shadow-sm">
+              {mapLabels[1]}
+            </span>
+          )}
+          {mapLabels[2] && (
+            <span class="absolute bottom-[18%] left-[13%] z-10 max-w-[8rem] rounded-full border border-line bg-surface/90 px-3 py-1 text-center text-xs font-black leading-tight text-forest shadow-sm">
+              {mapLabels[2]}
+            </span>
+          )}
+
+          <p class="absolute inset-x-4 bottom-4 z-10 rounded-lg bg-ink/80 px-3 py-2 text-xs font-semibold leading-snug text-cream">
+            Illustrative location snapshot. Open Google Maps for exact location.
+          </p>
+        </div>
+      )}
+    </div>
+  </section>
+)}

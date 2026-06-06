@@ -7,6 +7,32 @@ mainImage: "/images/destinations/table-mountain-1.png"
 imageAlt: "Table Mountain rising above Cape Town and the Atlantic coast"
 imageCredit: "Table Mountain image supplied by 50 Beautiful Places"
 imageCreditUrl: "https://50beautifulplaces.com/places/table-mountain/"
+locationSnapshot:
+  area: "Cape Town / Table Mountain National Park"
+  locationVerdict: "Above Cape Town, useful for dramatic city-and-ocean views, short hikes and one of the world's most recognisable mountain skylines."
+  bestFor:
+    - "City views"
+    - "Short hikes"
+    - "Cable car"
+    - "Ocean backdrop"
+  nearbyAnchors:
+    - name: "Cape Town city bowl"
+      type: "city base"
+      distance: "below the mountain"
+    - name: "Table Mountain cableway"
+      type: "main access"
+      distance: "classic route up"
+    - name: "Lion's Head"
+      type: "nearby hike"
+      distance: "nearby mountain"
+  regionLabel: "Cape Town, South Africa"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Table%20Mountain%20Cape%20Town%20South%20Africa"
+  fallbackMap:
+    label: "Mountain above the city"
+    nearby:
+      - "Cape Town"
+      - "Cableway"
+      - "Lion's Head"
 galleryImages:
   - src: "/images/destinations/table-mountain-1a.jpg"
     alt: "Table Mountain seen above Cape Town with the city spread along the coastline"
@@ -84,4 +110,3 @@ These tips are designed to help you decide whether Table Mountain fits your time
 9. **Hike Lion's Head for the best view back to Table Mountain — a completely different perspective.** Lion's Head (669 m) is the conical peak beside Signal Hill, connected to the cableway area by a scenic path. The circuit trail (3 km, 2 hours) has chains and ladders at two sections but is manageable for fit visitors with good footwear. The summit gives an unobstructed view of Table Mountain's full flat top and the Atlantic coastline that no other easily accessible point provides. Go at sunrise for the best light on the mountain face and considerably fewer people.
 
 10. **Combine Table Mountain with the Cape Peninsula drive for the full Cape Town experience.** The Cape Peninsula road south from Cape Town passes Chapman's Peak (a clifftop drive above the Atlantic), the Boulders African penguin colony near Simon's Town, and Cape Point — the dramatic clifftop at the tip of the peninsula where the Atlantic and Indian Ocean weather systems meet. Allow a full day. Drive south along the Atlantic side (Camps Bay, Hout Bay, Chapman's Peak) and return along the False Bay side (Simon's Town, Muizenberg). It is one of the world's great coastal drives.
-

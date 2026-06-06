@@ -70,6 +70,30 @@ const destinations = defineCollection({
     imageCreditUrl: z.string().url(),
     imageLicenseUrl: z.string().url().optional(),
     googleMapsQuery: z.string().optional(),
+    locationSnapshot: z.object({
+      area: z.string().optional(),
+      locationVerdict: z.string().optional(),
+      bestFor: z.array(z.string()).optional(),
+      nearbyAnchors: z.array(z.object({
+        name: z.string(),
+        type: z.string().optional(),
+        distance: z.string().optional()
+      })).optional(),
+      regionLabel: z.string().optional(),
+      googleMapsUrl: z.string().url().optional(),
+      coordinates: z.object({
+        lat: z.number(),
+        lng: z.number()
+      }).optional(),
+      mapPreview: z.object({
+        image: imagePath,
+        alt: z.string()
+      }).optional(),
+      fallbackMap: z.object({
+        label: z.string().optional(),
+        nearby: z.array(z.string()).optional()
+      }).optional()
+    }).optional(),
     visaIntro: z.string().optional(),
     visaVerificationNote: z.string().optional(),
     galleryImages: z.array(z.object({

@@ -4,6 +4,7 @@ import { Image } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import DestinationCard from "../../components/DestinationCard.astro";
 import CurrencyPlannerCard from "../../components/CurrencyPlannerCard.astro";
+import LocationSnapshotCard from "../../components/LocationSnapshotCard.astro";
 import { currencyData } from "../../data/currencies";
 import { burgerBenchmarks } from "../../data/burgerBenchmarks";
 import { getExchangeRates } from "../../lib/exchangeRates";
@@ -50,8 +51,6 @@ const visaLinks = visaCountries.map((country) => ({
   title: visaPolicyTitles[country] ?? `Visa policy of ${country}`,
   href: wikipediaUrl(visaPolicyTitles[country] ?? `Visa policy of ${country}`)
 }));
-const mapQuery = place.data.googleMapsQuery ?? `${shortTitle}, ${place.data.country}`;
-const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery)}`;
 const monthLabels = [
   ["jan","Jan"],["feb","Feb"],["mar","Mar"],["apr","Apr"],["may","May"],["jun","Jun"],
   ["jul","Jul"],["aug","Aug"],["sep","Sep"],["oct","Oct"],["nov","Nov"],["dec","Dec"]
@@ -290,12 +289,25 @@ const jsonLd = [attractionJsonLd, articleJsonLd, breadcrumbJsonLd];
       </div>
     </section>
 
+    <LocationSnapshotCard
+      locationSnapshot={place.data.locationSnapshot}
+      title={place.data.title}
+      shortTitle={shortTitle}
+      country={place.data.country}
+      region={place.data.region}
+      countryRegionLabel={countryRegionLabel}
+      googleMapsQuery={place.data.googleMapsQuery}
+      summary={place.data.summary}
+      bestFor={place.data.bestFor}
+      tags={place.data.tags}
+    />
+
     <!-- Travel essentials -->
     <section class="mt-8 border-b border-line pb-8" aria-labelledby="travel-tools-heading">
       <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">Travel essentials</p>
       <h2 id="travel-tools-heading" class="mb-6 max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">Before you book the flight</h2>
 
-      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="grid gap-4 sm:grid-cols-2">
         <!-- Visa -->
         <div class="grid content-start gap-3 rounded-xl border border-line bg-surface p-4">
           <h3 class="font-bold text-forest">
@@ -320,15 +332,6 @@ const jsonLd = [attractionJsonLd, articleJsonLd, breadcrumbJsonLd];
           <p class="text-sm text-muted">If using a visa service, compare processing times, fees, refund rules, and whether they cover your nationality.</p>
           <a class="text-sm font-black text-clay underline underline-offset-2" href="https://www.ivisa.com/" target="_blank" rel="sponsored noopener noreferrer">
             Optional visa service comparison <span class="sr-only">opens in a new tab</span>
-          </a>
-        </div>
-
-        <!-- Maps -->
-        <div class="grid content-start gap-3 rounded-xl border border-line bg-surface p-4">
-          <h3 class="font-bold text-forest">Open {shortTitle} on Google Maps.</h3>
-          <p class="text-sm text-muted">This opens Google Maps in a new tab and can hand off to the iOS or Android app when your device supports it.</p>
-          <a class="font-black text-clay underline underline-offset-2" href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
-            View location on Google Maps <span class="sr-only">opens in a new tab</span>
           </a>
         </div>
       </div>

@@ -7,6 +7,32 @@ mainImage: "/images/destinations/budapest-cover.png"
 imageAlt: "Hungarian Parliament Building in Budapest glowing at sunset"
 imageCredit: "Budapest Parliament cover image supplied by 50 Beautiful Places"
 imageCreditUrl: "https://50beautifulplaces.com/places/budapest/"
+locationSnapshot:
+  area: "Danube / central Budapest"
+  locationVerdict: "On both sides of the Danube, useful for architecture, thermal baths, river views and an easy first visit to Central Europe."
+  bestFor:
+    - "River city"
+    - "Thermal baths"
+    - "Architecture"
+    - "Easy city break"
+  nearbyAnchors:
+    - name: "Buda Castle"
+      type: "historic district"
+      distance: "central sight"
+    - name: "Parliament and Danube embankment"
+      type: "riverfront"
+      distance: "central sight"
+    - name: "Szechenyi / Gellert baths"
+      type: "thermal baths"
+      distance: "classic experience"
+  regionLabel: "Hungary"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Budapest%20Hungary"
+  fallbackMap:
+    label: "Danube city base"
+    nearby:
+      - "Buda Castle"
+      - "Danube"
+      - "Thermal baths"
 galleryImages:
   - src: "/images/destinations/budapest-1.jpg"
     alt: "Historic domed thermal bath building in Budapest with people gathered outside"
