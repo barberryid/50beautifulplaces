@@ -7,8 +7,10 @@ import { getDestinationImageMetadata } from "../lib/destinationImages";
 const destinations = await getCollection("destinations");
 const featured = destinations.filter((place) => place.data.featured);
 const regions = [...new Set(destinations.map((place) => place.data.region))].sort();
-const homeHeroImage = "/images/home-hero-anse-source-dargent-cover.jpg";
-const homeHeroAlt = "Granite boulders and turquoise water at Anse Source d'Argent in Seychelles";
+const homeHeroImage = "/images/home-hero-tropical-glassmorphism.webp";
+const homeHeroImageFallback = "/images/home-hero-tropical-glassmorphism.jpg";
+const homeHeroAlt =
+  "Aerial view of turquoise water, white sand, and palm forest along a tropical coastline";
 
 const siteUrl = "https://50beautifulplaces.com";
 const organizationJsonLd = {
@@ -44,32 +46,31 @@ const jsonLd = [organizationJsonLd, websiteJsonLd];
   jsonLd={jsonLd}
 >
   <!-- Hero -->
-  <section class="hero grid min-h-[calc(100svh-4.6rem)] items-end bg-forest">
-    <img
-      src={homeHeroImage}
-      alt={homeHeroAlt}
-      width="1600" height="1000"
-      fetchpriority="high"
-      class="absolute inset-0 h-full w-full object-cover"
-    />
-    <p class="absolute bottom-4 right-4 z-10 max-w-[min(24rem,calc(100%-2rem))] rounded bg-ink/60 px-3 py-2 text-xs font-semibold text-cream/90 backdrop-blur-sm">
-      Anse Source d'Argent image supplied by 50 Beautiful Places
-    </p>
-    <div class="relative z-10 w-full max-w-[1180px] px-[clamp(1rem,5vw,5rem)] pb-[14vh] text-cream [text-shadow:0_2px_18px_rgba(0,0,0,0.55)]">
-      <p class="mb-3 text-[0.76rem] font-black uppercase tracking-[0.1em] text-sun">Curated travel inspiration</p>
-      <h1 class="text-cream">50 Beautiful Places</h1>
-      <p class="mt-5 max-w-[42rem] text-[clamp(1.05rem,2vw,1.35rem)] text-cream/85">
-        Field-guide style stories for landscapes worth planning a trip around: coastlines, mountain lakes, forests, villages, deserts, and long roads.
-      </p>
-      <div class="mt-8 flex flex-wrap items-center gap-4">
-        <a
-          class="inline-flex min-h-[2.9rem] items-center justify-center rounded-full bg-cream px-6 text-sm font-extrabold text-forest transition-opacity hover:opacity-90"
-          href="/places/"
-        >Explore places</a>
-        <a
-          class="inline-flex min-h-[2.9rem] items-center border-b border-cream/40 px-1 text-sm font-extrabold text-cream transition-all hover:border-cream/80"
-          href="#featured"
-        >Featured guides &rarr;</a>
+  <section class="home-hero grid min-h-[clamp(34rem,78vh,52rem)] items-center">
+    <picture>
+      <source srcset={homeHeroImage} type="image/webp" />
+      <img
+        src={homeHeroImageFallback}
+        alt=""
+        width="1600" height="900"
+        fetchpriority="high"
+        decoding="async"
+        loading="eager"
+        class="absolute inset-0 h-full w-full object-cover"
+      />
+    </picture>
+    <div class="hero-soft-overlay absolute inset-0" aria-hidden="true"></div>
+    <div class="relative z-10 w-full max-w-[1180px] px-[clamp(1rem,5vw,5rem)] py-[clamp(2rem,6vw,4rem)]">
+      <div class="hero-glass-card max-w-[640px]">
+        <p class="hero-eyebrow">Curated travel inspiration</p>
+        <h1>50 Beautiful Places</h1>
+        <p class="hero-lede">
+          Field-guide style stories for landscapes worth planning a trip around: coastlines, mountain lakes, forests, villages, deserts, and long roads.
+        </p>
+        <div class="hero-actions">
+          <a class="hero-primary-button" href="/places/">Explore places</a>
+          <a class="hero-secondary-button" href="#featured">Featured guides &rarr;</a>
+        </div>
       </div>
     </div>
   </section>
