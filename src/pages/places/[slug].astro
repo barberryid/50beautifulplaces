@@ -2,7 +2,6 @@
 import { getCollection, render } from "astro:content";
 import { Image } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import DestinationCard from "../../components/DestinationCard.astro";
 import CurrencyPlannerCard from "../../components/CurrencyPlannerCard.astro";
 import LocationSnapshotCard from "../../components/LocationSnapshotCard.astro";
 import { currencyData } from "../../data/currencies";
@@ -23,10 +22,6 @@ const { place, rates, usingFallback, lastUpdated } = Astro.props;
 const currency = currencyData[place.id];
 const burgerBenchmark = burgerBenchmarks[place.id];
 const { Content } = await render(place);
-const related = (await getCollection("destinations"))
-  .filter((item) => item.id !== place.id && item.data.region === place.data.region)
-  .sort((a, b) => a.data.title.localeCompare(b.data.title))
-  .slice(0, 3);
 const placeUrl = new URL(`/places/${place.id}/`, Astro.site).toString();
 const shortTitle = place.data.shortTitle ?? place.data.title;
 const countryRegionLabel = place.data.countryRegionLabel ?? `${place.data.country} / ${place.data.region}`;
@@ -460,29 +455,6 @@ const jsonLd = [attractionJsonLd, articleJsonLd, breadcrumbJsonLd];
                 </figcaption>
               )}
             </figure>
-          ))}
-        </div>
-      </section>
-    )}
-
-    <!-- Related guides -->
-    {related.length > 0 && (
-      <section class="mt-[clamp(3rem,7vw,5rem)] border-t border-line pt-[clamp(2rem,5vw,3rem)]" aria-labelledby="related-heading">
-        <p class="mb-2 text-[0.76rem] font-black uppercase tracking-[0.1em] text-clay-text">More in {place.data.region}</p>
-        <h2 id="related-heading" class="mb-6 max-w-none text-[clamp(1.5rem,3vw,2.5rem)]">Keep exploring nearby ideas</h2>
-        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {related.map((item) => (
-            <DestinationCard
-              href={`/places/${item.id}/`}
-              title={item.data.title}
-              country={item.data.country}
-              region={item.data.region}
-              summary={item.data.summary}
-              image={getDestinationImageMetadata(item.id, item.data)}
-              tags={item.data.tags}
-              bestTime={item.data.bestTime}
-              bestFor={item.data.bestFor}
-            />
           ))}
         </div>
       </section>
