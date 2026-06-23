@@ -59,7 +59,7 @@ notIdealFor:
 tags: ["Desert","Road trip","Canyons"]
 featured: false
 seoTitle: "Valley of the Gods Travel Guide"
-seoDescription: "Red sandstone buttes stand over a lonely Utah road, delivering Monument Valley drama with far more silence. Includes timing, access, stay-length, and practical planning notes for Valley of the Gods."
+seoDescription: "Red sandstone buttes stand over a lonely Utah road, delivering Monument Valley drama with far more silence. Plus when to go, how long to stay, and how to plan."
 ---
 
 ## Why it is beautiful

@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Wildlife","Wetlands","Nature"]
 featured: false
 seoTitle: "Pantanal Travel Guide"
-seoDescription: "Brazil's great wetland turns wildlife watching into a daily spectacle of jaguars, caimans, capybaras, birds, and open sky. Includes timing, access, stay-length, and practical planning notes for Pantanal."
+seoDescription: "Brazil's great wetland turns wildlife watching into a daily spectacle of jaguars, caimans, capybaras, birds, and open sky. A practical travel guide."
 ---
 
 ## Why it is beautiful

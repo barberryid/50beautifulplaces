@@ -45,7 +45,7 @@ notIdealFor:
 tags: ["Wildlife","Safari","Landscape"]
 featured: false
 seoTitle: "Ngorongoro Crater Travel Guide"
-seoDescription: "A collapsed volcanic world shelters lions, elephants, flamingos, and grassland drama inside one immense Tanzanian bowl. Includes timing, access, stay-length, and practical planning notes for Ngorongoro Crater."
+seoDescription: "A collapsed volcanic world shelters lions, elephants, flamingos, and grassland drama inside one immense Tanzanian bowl. A practical travel guide."
 ---
 
 ## Why it is beautiful

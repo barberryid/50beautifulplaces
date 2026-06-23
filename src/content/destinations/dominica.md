@@ -45,7 +45,7 @@ notIdealFor:
 tags: ["Rainforest","Waterfalls","Islands"]
 featured: false
 seoTitle: "Dominica Travel Guide"
-seoDescription: "The Caribbean's nature island rises in volcanoes, rainforest, boiling lakes, whale water, and waterfall trails without resort gloss. Includes timing, access, stay-length, and practical planning notes for Dominica."
+seoDescription: "The Caribbean's nature island rises in volcanoes, rainforest, boiling lakes, whale water, and waterfall trails without resort gloss. A practical travel guide."
 ---
 
 _Built directly from the December 2021 and March 2024 trip reports in the archive._

@@ -82,7 +82,7 @@ notIdealFor:
 tags: ["Mountains","Trekking","Views"]
 featured: true
 seoTitle: "Fairy Meadows Travel Guide"
-seoDescription: "A green Himalayan meadow opens to the colossal face of Nanga Parbat after a road-and-trail approach you never forget. Includes timing, access, stay-length, and practical planning notes for Fairy Meadows."
+seoDescription: "A green Himalayan meadow opens to the colossal face of Nanga Parbat after a road-and-trail approach you never forget. A practical travel guide."
 ---
 
 ## Why it is beautiful

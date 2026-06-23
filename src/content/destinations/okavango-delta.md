@@ -45,7 +45,7 @@ notIdealFor:
 tags: ["Wildlife","Wetlands","Safari"]
 featured: false
 seoTitle: "Okavango Delta Travel Guide"
-seoDescription: "Floodwater spreads into desert and becomes a maze of reeds, channels, elephants, mokoros, and impossible green life. Includes timing, access, stay-length, and practical planning notes for Okavango Delta."
+seoDescription: "Floodwater spreads into desert and becomes a maze of reeds, channels, elephants, mokoros, and impossible green life. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

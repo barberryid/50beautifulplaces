@@ -82,7 +82,7 @@ notIdealFor:
 tags: ["Cities","Architecture","Thermal baths"]
 featured: false
 seoTitle: "Budapest Travel Guide"
-seoDescription: "The Danube splits a city of glowing bridges, thermal baths, grand cafes, ruin bars, and castle-lit evening walks. Includes timing, access, stay-length, and practical planning notes for Budapest."
+seoDescription: "The Danube splits a city of glowing bridges, thermal baths, grand cafes, ruin bars, and castle-lit evening walks. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

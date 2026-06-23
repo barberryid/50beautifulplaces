@@ -53,7 +53,7 @@ notIdealFor:
 tags: ["Architecture","History","Silk Road"]
 featured: true
 seoTitle: "Registan Travel Guide"
-seoDescription: "Samarkand's tiled madrasas rise around a monumental square where Silk Road history still feels theatrical and alive. Includes timing, access, stay-length, and practical planning notes for Registan."
+seoDescription: "Samarkand's tiled madrasas rise around a monumental square where Silk Road history still feels theatrical and alive. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

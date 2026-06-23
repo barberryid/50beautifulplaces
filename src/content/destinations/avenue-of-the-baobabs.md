@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Trees","Road trip","Sunset"]
 featured: false
 seoTitle: "Avenue of the Baobabs Travel Guide"
-seoDescription: "Ancient baobabs rise like living towers from a dusty Madagascar road, turning sunset into a prehistoric silhouette. Includes timing, access, stay-length, and practical planning notes for Avenue of the Baobabs."
+seoDescription: "Ancient baobabs rise like living towers from a dusty Madagascar road, turning sunset into a prehistoric silhouette. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

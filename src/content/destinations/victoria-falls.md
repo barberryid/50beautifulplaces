@@ -63,7 +63,7 @@ notIdealFor:
 tags: ["Waterfalls","Nature","Adventure"]
 featured: true
 seoTitle: "Victoria Falls Travel Guide"
-seoDescription: "The Zambezi drops into a roaring chasm of spray, rainbows, and thunder you hear long before you see it. Includes timing, access, stay-length, and practical planning notes for Victoria Falls."
+seoDescription: "The Zambezi drops into a roaring chasm of spray, rainbows, and thunder you hear long before you see it. Plus when to go, how long to stay, and how to plan."
 ---
 
 ## Why it is beautiful

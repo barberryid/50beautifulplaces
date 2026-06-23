@@ -56,7 +56,7 @@ notIdealFor:
 tags: ["Art","Architecture","Cities"]
 featured: false
 seoTitle: "Florence Travel Guide"
-seoDescription: "Renaissance domes, river bridges, marble churches, and honeyed evening streets make Florence feel like art turned into a city. Includes timing, access, stay-length, and practical planning notes for Florence."
+seoDescription: "Renaissance domes, river bridges, marble churches, and honeyed evening streets make Florence feel like art turned into a city. A practical travel guide."
 ---
 
 ## Why it is beautiful

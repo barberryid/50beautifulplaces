@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Road trip","Mountains","Remote"]
 featured: false
 seoTitle: "Pamir Highway Travel Guide"
-seoDescription: "One of the world's great high roads crosses lunar plateaus, Afghan-border valleys, and mountain silence in Tajikistan. Includes timing, access, stay-length, and practical planning notes for Pamir Highway."
+seoDescription: "One of the world's great high roads crosses lunar plateaus, Afghan-border valleys, and mountain silence in Tajikistan. A practical travel guide."
 ---
 
 ## Why it is beautiful

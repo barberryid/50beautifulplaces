@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Islands","Ocean","Culture"]
 featured: false
 seoTitle: "Tonga Travel Guide"
-seoDescription: "South Pacific islands of limestone caves, blue water, whale encounters, and Polynesian calm spread far beyond the usual routes. Includes timing, access, stay-length, and practical planning notes for Tonga."
+seoDescription: "South Pacific islands of limestone caves, blue water, whale encounters, and Polynesian calm spread far beyond the usual routes. A practical travel guide."
 ---
 
 ## Why it is beautiful

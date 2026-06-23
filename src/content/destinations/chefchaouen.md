@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Cities","Color","Culture"]
 featured: false
 seoTitle: "Chefchaouen Travel Guide"
-seoDescription: "Blue lanes climb through the Rif Mountains, where morning light, tiled doorways, and quiet rooftops make Morocco feel hushed. Includes timing, access, stay-length, and practical planning notes for Chefchaouen."
+seoDescription: "Blue lanes climb through the Rif Mountains, where morning light, tiled doorways, and quiet rooftops make Morocco feel hushed. A practical travel guide."
 ---
 
 ## Why it is beautiful

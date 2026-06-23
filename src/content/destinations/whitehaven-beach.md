@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Beach","Islands","Sailing"]
 featured: false
 seoTitle: "Whitehaven Beach Travel Guide"
-seoDescription: "Silica sand swirls through turquoise shallows in the Whitsundays, creating one of Australia's most dazzling shorelines. Includes timing, access, stay-length, and practical planning notes for Whitehaven Beach."
+seoDescription: "Silica sand swirls through turquoise shallows in the Whitsundays, creating one of Australia's most dazzling shorelines. A practical travel guide."
 ---
 
 ## Why it is beautiful

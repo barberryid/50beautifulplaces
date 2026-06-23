@@ -71,7 +71,7 @@ notIdealFor:
 tags: ["Culture","Castles","Weekend"]
 featured: false
 seoTitle: "Luxembourg Travel Guide"
-seoDescription: "Fortress cliffs, old bridges, forested valleys, and compact European elegance make tiny Luxembourg feel far larger than its map. Includes timing, access, stay-length, and practical planning notes for Luxembourg."
+seoDescription: "Fortress cliffs, old bridges, forested valleys, and compact European elegance make tiny Luxembourg feel far larger than its map. A practical travel guide."
 ---
 
 ## Why it is beautiful

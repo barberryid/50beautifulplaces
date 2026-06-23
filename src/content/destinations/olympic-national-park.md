@@ -45,7 +45,7 @@ notIdealFor:
 tags: ["Forest","Coast","Mountains"]
 featured: false
 seoTitle: "Olympic National Park Travel Guide"
-seoDescription: "Rainforest, glacier peaks, moss valleys, driftwood beaches, and stormy Pacific edges all collide in one Washington wilderness. Includes timing, access, stay-length, and practical planning notes for Olympic National Park."
+seoDescription: "Rainforest, glacier peaks, moss valleys, driftwood beaches, and stormy Pacific edges all collide in one Washington wilderness. A practical travel guide."
 ---
 
 ## Why it is beautiful

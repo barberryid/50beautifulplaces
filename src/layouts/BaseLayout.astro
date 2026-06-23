@@ -8,6 +8,7 @@ interface Props {
   title: string;
   description: string;
   image?: string;
+  ogImage?: string;
   imageAlt?: string;
   ogType?: string;
   publishedTime?: string;
@@ -22,6 +23,7 @@ const {
   title,
   description,
   image,
+  ogImage,
   imageAlt,
   ogType,
   publishedTime,
@@ -51,6 +53,7 @@ const {
       title={title}
       description={description}
       image={image}
+      ogImage={ogImage}
       imageAlt={imageAlt}
       ogType={ogType}
       publishedTime={publishedTime}

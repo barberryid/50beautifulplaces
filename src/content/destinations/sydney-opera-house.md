@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Architecture","Harbor","Cities"]
 featured: false
 seoTitle: "Sydney Opera House Travel Guide"
-seoDescription: "White sails rise over Sydney Harbour, turning a working performance hall into one of the world's great waterfront icons. Includes timing, access, stay-length, and practical planning notes for Sydney Opera House."
+seoDescription: "White sails rise over Sydney Harbour, turning a working performance hall into one of the world's great waterfront icons. A practical travel guide."
 ---
 
 ## Why it is beautiful

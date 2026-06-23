@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Islands","Villages","Coast"]
 featured: true
 seoTitle: "Santorini Travel Guide"
-seoDescription: "White villages cling to a volcanic caldera above Aegean blue, with sunset light turning the cliffs almost unreal. Includes timing, access, stay-length, and practical planning notes for Santorini."
+seoDescription: "White villages cling to a volcanic caldera above Aegean blue, with sunset light turning the cliffs almost unreal. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

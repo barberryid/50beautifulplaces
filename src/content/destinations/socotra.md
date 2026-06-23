@@ -45,7 +45,7 @@ notIdealFor:
 tags: ["Islands","Endemic species","Adventure"]
 featured: true
 seoTitle: "Socotra Travel Guide"
-seoDescription: "Dragon's blood trees, empty beaches, alien limestone, and remote Arabian Sea isolation make Socotra feel biologically impossible. Includes timing, access, stay-length, and practical planning notes for Socotra."
+seoDescription: "Dragon's blood trees, empty beaches, alien limestone, and remote Arabian Sea isolation make Socotra feel biologically impossible. A practical travel guide."
 ---
 
 ## Why it is beautiful

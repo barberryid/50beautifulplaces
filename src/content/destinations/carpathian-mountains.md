@@ -80,7 +80,7 @@ notIdealFor:
 tags: ["Mountains","Forest","Villages"]
 featured: false
 seoTitle: "Carpathian Mountains Travel Guide"
-seoDescription: "Romania's wild mountain spine folds castles, bear forests, shepherd ridges, and sharp limestone trails into one cinematic escape. Includes timing, access, stay-length, and practical planning notes for Carpathian Mountains."
+seoDescription: "Romania's wild mountain spine folds castles, bear forests, shepherd ridges, and sharp limestone trails into one cinematic escape. A practical travel guide."
 ---
 
 ## Why it is beautiful

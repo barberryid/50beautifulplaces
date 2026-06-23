@@ -68,7 +68,7 @@ notIdealFor:
 tags: ["Architecture","Cathedral","Cities"]
 featured: false
 seoTitle: "Kölner Dom Travel Guide"
-seoDescription: "Cologne's cathedral rises like black lace over the Rhine, a Gothic landmark that still startles from every angle. Includes timing, access, stay-length, and practical planning notes for Kölner Dom."
+seoDescription: "Cologne's cathedral rises like black lace over the Rhine, a Gothic landmark that still startles from every angle. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

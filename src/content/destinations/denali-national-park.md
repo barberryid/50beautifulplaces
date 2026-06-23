@@ -45,7 +45,7 @@ notIdealFor:
 tags: ["Mountains","Wildlife","Wilderness"]
 featured: false
 seoTitle: "Denali National Park Travel Guide"
-seoDescription: "One road enters an immense Alaskan wilderness of grizzlies, caribou, tundra, glaciers, and North America's highest mountain. Includes timing, access, stay-length, and practical planning notes for Denali National Park."
+seoDescription: "One road enters an immense Alaskan wilderness of grizzlies, caribou, tundra, glaciers, and North America's highest mountain. A practical travel guide."
 ---
 
 _Country guide for the United States routed through its biggest, wildest national park._

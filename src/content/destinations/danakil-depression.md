@@ -69,7 +69,7 @@ notIdealFor:
 tags: ["Desert","Geology","Expedition"]
 featured: false
 seoTitle: "Danakil Depression Travel Guide"
-seoDescription: "A volcanic rift below sea level where salt caravans, sulphur springs, lava, and Afar desert camps feel almost extraterrestrial. Includes timing, access, stay-length, and practical planning notes for Danakil Depression."
+seoDescription: "A volcanic rift below sea level where salt caravans, sulphur springs, lava, and Afar desert camps feel almost extraterrestrial. A practical travel guide."
 ---
 
 _A destination guide built directly from trip reports in the archive._

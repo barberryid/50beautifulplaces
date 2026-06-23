@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Islands","Local life","Beach"]
 featured: false
 seoTitle: "Koh Yao Noi Travel Guide"
-seoDescription: "Between Phuket and Krabi, this Thai island keeps the limestone views but trades the rush for rice fields and slow mornings. Includes timing, access, stay-length, and practical planning notes for Koh Yao Noi."
+seoDescription: "Between Phuket and Krabi, this Thai island keeps the limestone views but trades the rush for rice fields and slow mornings. A practical travel guide."
 ---
 
 ## Why it is beautiful

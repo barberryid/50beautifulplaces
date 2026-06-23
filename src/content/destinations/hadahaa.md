@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Islands","Reef","Luxury"]
 featured: false
 seoTitle: "Hadahaa Travel Guide"
-seoDescription: "A tiny Maldives island wrapped in reef water, where the horizon, lagoon, and house reef do almost all the talking. Includes timing, access, stay-length, and practical planning notes for Hadahaa."
+seoDescription: "A tiny Maldives island wrapped in reef water, where the horizon, lagoon, and house reef do almost all the talking. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

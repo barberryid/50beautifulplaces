@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Beach","Islands","Relaxation"]
 featured: false
 seoTitle: "Boracay Travel Guide"
-seoDescription: "Four kilometres of powder-white sand face west into blazing sunsets, with paraw sails, reef water, and island energy after dark. Includes timing, access, stay-length, and practical planning notes for Boracay."
+seoDescription: "Four kilometres of powder-white sand face west into blazing sunsets, with paraw sails, reef water, and island energy after dark. A practical travel guide."
 ---
 
 _Country guide built around the Philippines’ most famous beach island._

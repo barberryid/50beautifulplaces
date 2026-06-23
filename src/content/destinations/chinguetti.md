@@ -65,7 +65,7 @@ notIdealFor:
 tags: ["Desert","History","Architecture"]
 featured: false
 seoTitle: "Chinguetti Travel Guide"
-seoDescription: "A sand-blown Saharan library town where stone lanes, old manuscripts, and encroaching dunes hold the memory of caravan routes. Includes timing, access, stay-length, and practical planning notes for Chinguetti."
+seoDescription: "A sand-blown Saharan library town where stone lanes, old manuscripts, and encroaching dunes hold the memory of caravan routes. A practical travel guide."
 ---
 
 ## Why it is beautiful

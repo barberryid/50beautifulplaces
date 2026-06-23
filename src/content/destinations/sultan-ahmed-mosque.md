@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Architecture","Culture","Landmark"]
 featured: false
 seoTitle: "Sultan Ahmed Mosque Travel Guide"
-seoDescription: "Istanbul's Blue Mosque gathers domes, minarets, Iznik tiles, and call-to-prayer atmosphere across from Hagia Sophia. Includes timing, access, stay-length, and practical planning notes for Sultan Ahmed Mosque."
+seoDescription: "Istanbul's Blue Mosque gathers domes, minarets, Iznik tiles, and call-to-prayer atmosphere across from Hagia Sophia. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

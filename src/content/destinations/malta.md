@@ -65,7 +65,7 @@ notIdealFor:
 tags: ["Islands","History","Coast"]
 featured: false
 seoTitle: "Malta Travel Guide"
-seoDescription: "Honey-stone cities, blue coves, ancient temples, and sea walls stack Mediterranean history into one bright island chain. Includes timing, access, stay-length, and practical planning notes for Malta."
+seoDescription: "Honey-stone cities, blue coves, ancient temples, and sea walls stack Mediterranean history into one bright island chain. A practical travel guide."
 ---
 
 ## Why it is beautiful

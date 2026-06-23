@@ -80,7 +80,7 @@ notIdealFor:
 tags: ["Mountains","Cities","Coast"]
 featured: true
 seoTitle: "Table Mountain Travel Guide"
-seoDescription: "Cape Town unfolds below a flat-topped mountain of cliffs, cloud, fynbos, ocean, and sunset city views. Includes timing, access, stay-length, and practical planning notes for Table Mountain."
+seoDescription: "Cape Town unfolds below a flat-topped mountain of cliffs, cloud, fynbos, ocean, and sunset city views. Plus when to go, how long to stay, and how to plan."
 ---
 
 ## Why it is beautiful

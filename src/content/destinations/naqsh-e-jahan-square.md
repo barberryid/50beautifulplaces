@@ -43,7 +43,7 @@ notIdealFor:
 tags: ["Architecture","Culture","History"]
 featured: false
 seoTitle: "Naqsh-e Jahan Square Travel Guide"
-seoDescription: "Isfahan's great square gathers turquoise domes, arcades, mosques, and palace facades into one of the world's grandest urban rooms. Includes timing, access, stay-length, and practical planning notes for Naqsh-e Jahan Square."
+seoDescription: "Isfahan's great square gathers turquoise domes, arcades, mosques, and palace facades into one of the world's grandest urban rooms. A practical travel guide."
 ---
 
 ## Why it is beautiful

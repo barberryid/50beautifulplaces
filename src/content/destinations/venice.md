@@ -58,7 +58,7 @@ notIdealFor:
 tags: ["Canals","Culture","Architecture"]
 featured: false
 seoTitle: "Venice Travel Guide"
-seoDescription: "Canals, palaces, stone bridges, and lagoon light make Venice feel like a city floating between history and dream. Includes timing, access, stay-length, and practical planning notes for Venice."
+seoDescription: "Canals, palaces, stone bridges, and lagoon light make Venice feel like a city floating between history and dream. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

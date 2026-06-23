@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Geology","Color","Landscape"]
 featured: false
 seoTitle: "Zhangye Danxia Landform Travel Guide"
-seoDescription: "China's rainbow mountains ripple in bands of red, gold, and green, like geology painted at impossible scale. Includes timing, access, stay-length, and practical planning notes for Zhangye Danxia Landform."
+seoDescription: "China's rainbow mountains ripple in bands of red, gold, and green, like geology painted at impossible scale. Plus when to go, how long to stay, and how to plan."
 ---
 
 ## Why it is beautiful

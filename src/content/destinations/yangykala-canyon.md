@@ -43,7 +43,7 @@ notIdealFor:
 tags: ["Canyons","Desert","Road trip"]
 featured: false
 seoTitle: "Yangykala Canyon Travel Guide"
-seoDescription: "Red, white, and pink canyon walls blaze in the Turkmen desert, especially when low sun turns the cliffs molten. Includes timing, access, stay-length, and practical planning notes for Yangykala Canyon."
+seoDescription: "Red, white, and pink canyon walls blaze in the Turkmen desert, especially when low sun turns the cliffs molten. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Salt flats","Photography","Road trip"]
 featured: true
 seoTitle: "Salar de Uyuni Travel Guide"
-seoDescription: "Bolivia's salt flats become a white infinity by day and a mirror of sky after rain, stretching beyond belief. Includes timing, access, stay-length, and practical planning notes for Salar de Uyuni."
+seoDescription: "Bolivia's salt flats become a white infinity by day and a mirror of sky after rain, stretching beyond belief. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

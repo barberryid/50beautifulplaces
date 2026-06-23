@@ -68,7 +68,7 @@ notIdealFor:
 tags: ["Beach","Cities","Culture"]
 featured: false
 seoTitle: "Copacabana Travel Guide"
-seoDescription: "Rio's legendary urban beach pulses between granite headlands, samba nights, mosaic promenades, football, surf, and Sugarloaf views. Includes timing, access, stay-length, and practical planning notes for Copacabana."
+seoDescription: "Rio's legendary urban beach pulses between granite headlands, samba nights, mosaic promenades, football, surf, and Sugarloaf views. A practical travel guide."
 ---
 
 _A destination guide for the world’s most famous urban beach, set inside a country guide for Brazil._

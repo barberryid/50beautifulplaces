@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Waterfalls","Jungle","Adventure"]
 featured: false
 seoTitle: "Angel Falls Travel Guide"
-seoDescription: "A 979-metre waterfall drops from a lost-world tepui into rainforest, reached by canoe through Canaima's storm-lit rivers. Includes timing, access, stay-length, and practical planning notes for Angel Falls."
+seoDescription: "A 979-metre waterfall drops from a lost-world tepui into rainforest, reached by canoe through Canaima's storm-lit rivers. A practical travel guide."
 ---
 
 _A country guide built around the world’s tallest uninterrupted waterfall and the tepuis of the Gran Sabana._

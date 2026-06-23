@@ -71,8 +71,8 @@ planningResources:
     official: true
 tags: ["Dramatic landscapes","Photography","Mountains","Forests","Hiking","Views","UNESCO","Asia","Remote/adventurous travel","Nature"]
 featured: false
-seoTitle: "Zhangjiajie | 50 Beautiful Places"
-seoDescription: "A practical travel guide to Zhangjiajie National Forest Park and Wulingyuan, China's dreamlike landscape of sandstone pillars, misty valleys, forest trails, cableways, and Avatar-like viewpoints."
+seoTitle: "Zhangjiajie Travel Guide"
+seoDescription: "Plan a trip to Zhangjiajie and Wulingyuan: China's Avatar-like sandstone pillars, misty valleys, forest trails, and cableways, plus when to go and how long to stay."
 ---
 
 _A mountain-forest landscape of thousands of sandstone pillars rising from mist, forest and ravines in Hunan, China._

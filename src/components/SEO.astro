@@ -3,6 +3,7 @@ interface Props {
   title: string;
   description: string;
   image?: string;
+  ogImage?: string;
   imageAlt?: string;
   canonical?: string;
   ogType?: string;
@@ -16,6 +17,7 @@ const {
   title,
   description,
   image = "/og-default.png",
+  ogImage,
   imageAlt,
   canonical,
   ogType = "website",
@@ -31,7 +33,22 @@ const pageTitle =
 const canonicalUrl = canonical
   ? new URL(canonical, Astro.site).toString()
   : new URL(Astro.url.pathname, Astro.site).toString();
-const imageUrl = image.startsWith("http") ? image : new URL(image, Astro.site).toString();
+// The social-share image may differ from the on-page/preload image (e.g. the home
+// page preloads a WebP hero for speed but shares a JPEG that every scraper renders).
+const socialImage = ogImage ?? image;
+const imageUrl = socialImage.startsWith("http") ? socialImage : new URL(socialImage, Astro.site).toString();
+const imageExtension = imageUrl.split("?")[0].split(".").pop()?.toLowerCase();
+const imageMimeTypes: Record<string, string> = {
+  png: "image/png",
+  jpg: "image/jpeg",
+  jpeg: "image/jpeg",
+  webp: "image/webp",
+  gif: "image/gif",
+  avif: "image/avif"
+};
+const imageType = imageExtension ? imageMimeTypes[imageExtension] : undefined;
+// og-default.png is the only social image whose dimensions are known at build time (1200x630).
+const isDefaultImage = socialImage === "/og-default.png";
 const resolvedImageAlt =
   imageAlt ?? "50 Beautiful Places — image-led travel inspiration and destination guides";
 const robotsContent = robots ?? (noindex
@@ -53,6 +70,9 @@ const robotsContent = robots ?? (noindex
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonicalUrl} />
 <meta property="og:image" content={imageUrl} />
+{imageType && <meta property="og:image:type" content={imageType} />}
+{isDefaultImage && <meta property="og:image:width" content="1200" />}
+{isDefaultImage && <meta property="og:image:height" content="630" />}
 <meta property="og:image:alt" content={resolvedImageAlt} />
 {publishedTime && <meta property="article:published_time" content={publishedTime} />}
 {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}

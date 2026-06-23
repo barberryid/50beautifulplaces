@@ -45,7 +45,7 @@ notIdealFor:
 tags: ["Wildlife","Desert","Safari"]
 featured: false
 seoTitle: "Etosha Travel Guide"
-seoDescription: "Wildlife gathers at waterholes on the edge of a vast white pan, turning Namibia's dry season into theatre. Includes timing, access, stay-length, and practical planning notes for Etosha."
+seoDescription: "Wildlife gathers at waterholes on the edge of a vast white pan, turning Namibia's dry season into theatre. Plus when to go, how long to stay, and how to plan."
 ---
 
 ## Why it is beautiful

@@ -45,7 +45,7 @@ notIdealFor:
 tags: ["Mountains","Glaciers","Wilderness"]
 featured: true
 seoTitle: "Southern Patagonia Travel Guide"
-seoDescription: "Glaciers, granite towers, blue lakes, and ferocious wind give the far south a raw end-of-the-world beauty. Includes timing, access, stay-length, and practical planning notes for Southern Patagonia."
+seoDescription: "Glaciers, granite towers, blue lakes, and ferocious wind give the far south a raw end-of-the-world beauty. Plus when to go, how long to stay, and how to plan."
 ---
 
 ## Why it is beautiful

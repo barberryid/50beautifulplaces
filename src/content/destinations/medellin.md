@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Cities","Mountains","Culture"]
 featured: false
 seoTitle: "Medellín Travel Guide"
-seoDescription: "A mountain-ringed city of cable cars, spring weather, public art, and restless reinvention high in Colombia's Aburra Valley. Includes timing, access, stay-length, and practical planning notes for Medellín."
+seoDescription: "A mountain-ringed city of cable cars, spring weather, public art, and restless reinvention high in Colombia's Aburra Valley. A practical travel guide."
 ---
 
 ## Why it is beautiful

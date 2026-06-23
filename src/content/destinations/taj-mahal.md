@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Architecture","History","Landmark"]
 featured: false
 seoTitle: "Taj Mahal Travel Guide"
-seoDescription: "White marble, river mist, perfect symmetry, and changing light make the Taj Mahal feel both intimate and monumental. Includes timing, access, stay-length, and practical planning notes for Taj Mahal."
+seoDescription: "White marble, river mist, perfect symmetry, and changing light make the Taj Mahal feel both intimate and monumental. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

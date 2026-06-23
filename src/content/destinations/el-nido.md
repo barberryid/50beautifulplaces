@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Islands","Lagoons","Beach"]
 featured: false
 seoTitle: "El Nido Travel Guide"
-seoDescription: "Bacuit Bay is a maze of limestone towers, secret lagoons, reef shallows, and white beaches made for boat days. Includes timing, access, stay-length, and practical planning notes for El Nido."
+seoDescription: "Bacuit Bay is a maze of limestone towers, secret lagoons, reef shallows, and white beaches made for boat days. Plus when to go and how to plan your visit."
 ---
 
 _Destination guide for one of the most photographed coastlines in Southeast Asia._

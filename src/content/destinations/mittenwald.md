@@ -75,7 +75,7 @@ notIdealFor:
 tags: ["Villages","Mountains","Culture"]
 featured: false
 seoTitle: "Mittenwald Travel Guide"
-seoDescription: "Painted Bavarian houses sit below Alpine walls, with violin-making history, mountain trails, and storybook streets in every direction. Includes timing, access, stay-length, and practical planning notes for Mittenwald."
+seoDescription: "Painted Bavarian houses sit below Alpine walls, with violin-making history, mountain trails, and storybook streets in every direction. A practical travel guide."
 ---
 
 ## Why it is beautiful

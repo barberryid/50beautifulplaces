@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Beach","Islands","Culture"]
 featured: false
 seoTitle: "Dominican Republic Travel Guide"
-seoDescription: "Beyond Punta Cana, Hispaniola opens into colonial streets, whale bays, kite beaches, mountain forests, and the Caribbean's highest peak. Includes timing, access, stay-length, and practical planning notes for Dominican Republic."
+seoDescription: "Beyond Punta Cana, Hispaniola opens into colonial streets, whale bays, kite beaches, mountain forests, and the Caribbean's highest peak."
 ---
 
 _Country guide with one sharp practical warning, taken straight from the archive._

@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Desert","Rock art","Expedition"]
 featured: false
 seoTitle: "Djanet Travel Guide"
-seoDescription: "Tuareg desert camps, rock arches, prehistoric art, and star-heavy Sahara nights make Djanet feel like another planet. Includes timing, access, stay-length, and practical planning notes for Djanet."
+seoDescription: "Tuareg desert camps, rock arches, prehistoric art, and star-heavy Sahara nights make Djanet feel like another planet. A practical travel guide."
 ---
 
 ## Why it is beautiful

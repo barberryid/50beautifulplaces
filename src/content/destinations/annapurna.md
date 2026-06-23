@@ -43,7 +43,7 @@ notIdealFor:
 tags: ["Mountains","Trekking","Culture"]
 featured: false
 seoTitle: "Annapurna Travel Guide"
-seoDescription: "Village trails climb from rice terraces to glacier amphitheatres beneath some of the Himalaya's most overwhelming peaks. Includes timing, access, stay-length, and practical planning notes for Annapurna."
+seoDescription: "Village trails climb from rice terraces to glacier amphitheatres beneath some of the Himalaya's most overwhelming peaks. A practical travel guide."
 ---
 
 _A destination guide for the most accessible great-mountain trekking on the planet._

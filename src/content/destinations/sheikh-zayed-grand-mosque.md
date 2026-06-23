@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Architecture","Culture","Landmark"]
 featured: false
 seoTitle: "Sheikh Zayed Grand Mosque Travel Guide"
-seoDescription: "Marble courtyards, domes, columns, and reflective pools make Abu Dhabi's great mosque glow with serene scale. Includes timing, access, stay-length, and practical planning notes for Sheikh Zayed Grand Mosque."
+seoDescription: "Marble courtyards, domes, columns, and reflective pools make Abu Dhabi's great mosque glow with serene scale. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

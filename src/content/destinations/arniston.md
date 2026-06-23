@@ -75,7 +75,7 @@ notIdealFor:
 tags: ["Coast","Villages","Beach"]
 featured: false
 seoTitle: "Arniston Travel Guide"
-seoDescription: "A whitewashed fishing village near Africa's southern tip, with sea caves, whale cliffs, and salt-bright Cape coast silence. Includes timing, access, stay-length, and practical planning notes for Arniston."
+seoDescription: "A whitewashed fishing village near Africa's southern tip, with sea caves, whale cliffs, and salt-bright Cape coast silence. A practical travel guide."
 ---
 
 _Country guide framed around a quiet whitewashed fishing village on the Cape Agulhas coast._

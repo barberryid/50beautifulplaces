@@ -69,7 +69,7 @@ notIdealFor:
 tags: ["Waterfalls","Geology","Nature"]
 featured: false
 seoTitle: "Dettifoss Travel Guide"
-seoDescription: "A glacial river hurls itself into a basalt canyon with a force you feel in your chest before you reach the edge. Includes timing, access, stay-length, and practical planning notes for Dettifoss."
+seoDescription: "A glacial river hurls itself into a basalt canyon with a force you feel in your chest before you reach the edge. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

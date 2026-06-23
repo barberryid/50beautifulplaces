@@ -56,7 +56,7 @@ notIdealFor:
 tags: ["Cities","History","Architecture"]
 featured: false
 seoTitle: "Rome Travel Guide"
-seoDescription: "Ancient ruins, baroque fountains, sun-baked piazzas, and layered street life make Rome feel endlessly inhabited by history. Includes timing, access, stay-length, and practical planning notes for Rome."
+seoDescription: "Ancient ruins, baroque fountains, sun-baked piazzas, and layered street life make Rome feel endlessly inhabited by history. A practical travel guide."
 ---
 
 ## Why it is beautiful

@@ -43,7 +43,7 @@ notIdealFor:
 tags: ["Cities","Architecture","Museums"]
 featured: false
 seoTitle: "Saint Petersburg Travel Guide"
-seoDescription: "Imperial canals, pastel palaces, vast museums, and northern light give Russia's old capital a dramatic, melancholy grandeur. Includes timing, access, stay-length, and practical planning notes for Saint Petersburg."
+seoDescription: "Imperial canals, pastel palaces, vast museums, and northern light give Russia's old capital a dramatic, melancholy grandeur. A practical travel guide."
 ---
 
 ## Why it is beautiful

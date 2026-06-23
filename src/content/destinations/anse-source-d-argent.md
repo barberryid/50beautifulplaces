@@ -63,7 +63,7 @@ notIdealFor:
 tags: ["Beach","Islands","Photography"]
 featured: true
 seoTitle: "Anse Source d'Argent Travel Guide"
-seoDescription: "Shallow turquoise water curls around rose-grey granite boulders on La Digue's dreamiest, slowest, most photographed shore. Includes timing, access, stay-length, and practical planning notes for Anse Source d'Argent."
+seoDescription: "Shallow turquoise water curls around rose-grey granite boulders on La Digue's dreamiest, slowest, most photographed shore. A practical travel guide."
 ---
 
 ## Why it is beautiful

@@ -44,7 +44,7 @@ notIdealFor:
 tags: ["Mountains","Trekking","Wilderness"]
 featured: false
 seoTitle: "Fitz Roy Travel Guide"
-seoDescription: "Jagged granite spires explode above Patagonian lakes and wind-scoured trails, especially electric at first light. Includes timing, access, stay-length, and practical planning notes for Fitz Roy."
+seoDescription: "Jagged granite spires explode above Patagonian lakes and wind-scoured trails, especially electric at first light. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

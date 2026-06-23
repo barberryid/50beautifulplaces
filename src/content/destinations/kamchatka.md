@@ -45,7 +45,7 @@ notIdealFor:
 tags: ["Volcanoes","Wilderness","Hot springs"]
 featured: false
 seoTitle: "Kamchatka Travel Guide"
-seoDescription: "Volcanoes, hot springs, bear country, and Pacific wilderness make Kamchatka one of Earth's last big raw edges. Includes timing, access, stay-length, and practical planning notes for Kamchatka."
+seoDescription: "Volcanoes, hot springs, bear country, and Pacific wilderness make Kamchatka one of Earth's last big raw edges. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

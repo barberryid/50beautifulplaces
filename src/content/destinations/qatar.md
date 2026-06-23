@@ -57,7 +57,7 @@ notIdealFor:
 tags: ["Desert","Architecture","Culture"]
 featured: false
 seoTitle: "Qatar Travel Guide"
-seoDescription: "Desert dunes, sculptural museums, souqs, mangroves, and a futuristic skyline meet on a compact Gulf peninsula. Includes timing, access, stay-length, and practical planning notes for Qatar."
+seoDescription: "Desert dunes, sculptural museums, souqs, mangroves, and a futuristic skyline meet on a compact Gulf peninsula. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful

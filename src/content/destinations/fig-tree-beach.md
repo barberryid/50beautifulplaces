@@ -62,7 +62,7 @@ notIdealFor:
 tags: ["Beach","Swimming","Family"]
 featured: false
 seoTitle: "Fig Tree Beach Travel Guide"
-seoDescription: "Clear Cypriot water, soft sand, and easy Mediterranean swimming make this one of Protaras' most inviting beaches. Includes timing, access, stay-length, and practical planning notes for Fig Tree Beach."
+seoDescription: "Clear Cypriot water, soft sand, and easy Mediterranean swimming make this one of Protaras' most inviting beaches. Plus when to go and how to plan your visit."
 ---
 
 ## Why it is beautiful
