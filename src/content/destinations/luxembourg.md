@@ -32,6 +32,9 @@ galleryImages:
   - src: "/images/destinations/luxembourg-8.jpg"
     alt: "Red, white and blue Luxembourg national flags flying on poles in a city square under a grey sky"
     caption: "Luxembourg's red-white-and-light-blue flag flies over the squares of the capital."
+  - src: "/images/destinations/luxembourg-9.jpg"
+    alt: "View over Luxembourg City's old quarter with sandstone cliffs, the Alzette river, and historic buildings"
+    caption: "The old main view now sits in the gallery, showing the city's cliffs, river, and layered historic quarter."
 hotelName: "8+ rated stays for Luxembourg"
 hotelBookingUrl: "https://www.booking.com/searchresults.html?ss=Luxembourg%2C%20Luxembourg&nflt=review_score%3D80"
 hotelRating: "8+ guest review score on Booking.com"
@@ -98,4 +101,3 @@ These tips are designed to help you decide whether Luxembourg fits your time, bu
 9. **The Mullerthal is Luxembourg's most distinctive natural landscape — easy by free bus from the city.** The Mullerthal region in the east ("Little Switzerland of Luxembourg") has sandstone gorges, mossy boulders, and beech forest trails that look unlike anywhere else in the country. Free regional buses run from Luxembourg City to the Echternach trailheads. The Mullerthal Trail offers sections from 2 km to full-day hikes. Combine the trail with Beaufort Castle ruins and the town of Echternach itself.
 
 10. **Vianden Castle is the best single day trip — one of the Benelux's finest medieval fortresses.** Vianden Castle overlooks a steep gorge on the Our river at the German border, 1.5 hours by public transport from Luxembourg City (free bus to Diekirch, then local service to Vianden). The Romanesque and Gothic castle has been extensively restored and is worth visiting even in winter. Victor Hugo lived in Vianden during exile — his house is now a museum in the town.
-
