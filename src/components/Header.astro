@@ -14,27 +14,99 @@ const isActive = (item: typeof navItems[number]) => {
 };
 ---
 
-<header class="sticky top-0 z-10 flex items-center justify-between gap-4 border-b border-line/70 bg-paper/[0.93] px-[clamp(1rem,4vw,3rem)] py-4 backdrop-blur-[18px]">
-  <a class="inline-flex items-center gap-3 font-extrabold text-ink hover:text-forest" href="/" aria-label="50 Beautiful Places home">
-    <img
-      class="h-10 w-10 shrink-0 object-contain"
-      src="/sun-with-face-svgrepo-com.svg"
-      alt="50 Beautiful Places sun logo"
-      width="40"
-      height="40"
-    />
-    <span class="text-[0.97rem] tracking-tight">Beautiful Places</span>
-  </a>
+<header class="sticky top-0 z-20 border-b border-line/70 bg-paper/[0.93] backdrop-blur-[18px]">
+  <div class="flex items-center justify-between gap-4 px-[clamp(1rem,4vw,3rem)] py-4">
+    <a class="inline-flex items-center gap-3 font-extrabold text-ink hover:text-forest" href="/" aria-label="50 Beautiful Places home">
+      <img
+        class="h-10 w-10 shrink-0 object-contain"
+        src="/sun-with-face-svgrepo-com.svg"
+        alt="50 Beautiful Places sun logo"
+        width="40"
+        height="40"
+      />
+      <span class="text-[0.97rem] tracking-tight">Beautiful Places</span>
+    </a>
 
-  <nav class="flex flex-wrap items-center gap-1" aria-label="Primary navigation">
-    {navItems.map((item) => (
-      <a
-        href={item.href}
-        aria-current={isActive(item) ? "page" : undefined}
-        class="rounded-full border-b-2 border-transparent px-3 py-1.5 text-sm font-bold text-muted transition-colors duration-150 hover:bg-tag-bg hover:text-ink aria-[current=page]:border-sun aria-[current=page]:bg-tag-bg aria-[current=page]:font-extrabold aria-[current=page]:text-ink"
-      >
-        {item.label}
-      </a>
-    ))}
+    <!-- Desktop navigation -->
+    <nav class="hidden flex-wrap items-center gap-1 md:flex" aria-label="Primary navigation">
+      {navItems.map((item) => (
+        <a
+          href={item.href}
+          aria-current={isActive(item) ? "page" : undefined}
+          class="rounded-full border-b-2 border-transparent px-3 py-1.5 text-sm font-bold text-muted transition-colors duration-150 hover:bg-tag-bg hover:text-ink aria-[current=page]:border-sun aria-[current=page]:bg-tag-bg aria-[current=page]:font-extrabold aria-[current=page]:text-ink"
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+
+    <!-- Mobile hamburger toggle -->
+    <button
+      type="button"
+      id="nav-toggle"
+      class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-line text-ink transition-colors duration-150 hover:bg-tag-bg md:hidden"
+      aria-label="Open menu"
+      aria-controls="mobile-nav"
+      aria-expanded="false"
+    >
+      <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <line class="nav-icon-line" x1="3" y1="6" x2="21" y2="6"></line>
+        <line class="nav-icon-line" x1="3" y1="12" x2="21" y2="12"></line>
+        <line class="nav-icon-line" x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile navigation panel -->
+  <nav
+    id="mobile-nav"
+    class="hidden border-t border-line/70 px-[clamp(1rem,4vw,3rem)] pb-4 pt-2 md:hidden"
+    aria-label="Primary navigation"
+  >
+    <ul class="flex flex-col gap-1">
+      {navItems.map((item) => (
+        <li>
+          <a
+            href={item.href}
+            aria-current={isActive(item) ? "page" : undefined}
+            class="block rounded-xl px-3 py-2.5 text-base font-bold text-muted transition-colors duration-150 hover:bg-tag-bg hover:text-ink aria-[current=page]:bg-tag-bg aria-[current=page]:font-extrabold aria-[current=page]:text-ink"
+          >
+            {item.label}
+          </a>
+        </li>
+      ))}
+    </ul>
   </nav>
 </header>
+
+<script>
+  const toggle = document.getElementById("nav-toggle");
+  const panel = document.getElementById("mobile-nav");
+
+  if (toggle && panel) {
+    toggle.addEventListener("click", () => {
+      const open = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!open));
+      toggle.setAttribute("aria-label", open ? "Open menu" : "Close menu");
+      panel.classList.toggle("hidden", open);
+      toggle.classList.toggle("nav-open", !open);
+    });
+  }
+</script>
+
+<style>
+  /* Morph the hamburger into an X when the menu is open */
+  #nav-toggle.nav-open .nav-icon-line:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+  #nav-toggle.nav-open .nav-icon-line:nth-child(2) {
+    opacity: 0;
+  }
+  #nav-toggle.nav-open .nav-icon-line:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+  .nav-icon-line {
+    transform-origin: center;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+</style>
